@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "royalrealms:telosteel_block"
+    }
+  ],
+  "result": {
+    "item": "royalrealms:telosteel_ingot",
+    "count": 9
+  }
+}

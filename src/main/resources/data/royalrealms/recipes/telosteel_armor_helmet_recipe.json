@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "aaa",
+    "a a"
+  ],
+  "key": {
+    "a": {
+      "item": "royalrealms:telosteel_ingot"
+    }
+  },
+  "result": {
+    "item": "royalrealms:telosteel_armor_helmet",
+    "count": 1
+  }
+}

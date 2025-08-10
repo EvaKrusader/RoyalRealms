@@ -1,0 +1,433 @@
+{
+  "mod_elements": [
+    {
+      "name": "TelosteelIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "telosteel_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/royalrealms/models/item/telosteel_ingot.json",
+          "src/main/java/net/mcreator/royalrealms/item/TelosteelIngotItem.java"
+        ]
+      },
+      "path": "~/Telosteel"
+    },
+    {
+      "name": "TelosteelOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "telosteel_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/royalrealms/models/block/telosteel_ore.json",
+          "src/main/resources/data/royalrealms/loot_tables/blocks/telosteel_ore.json",
+          "src/main/resources/data/royalrealms/worldgen/configured_feature/telosteel_ore.json",
+          "src/main/java/net/mcreator/royalrealms/block/TelosteelOreBlock.java",
+          "src/main/resources/assets/royalrealms/blockstates/telosteel_ore.json",
+          "src/main/resources/data/royalrealms/forge/biome_modifier/telosteel_ore_biome_modifier.json",
+          "src/main/resources/assets/royalrealms/models/item/telosteel_ore.json",
+          "src/main/resources/data/royalrealms/worldgen/placed_feature/telosteel_ore.json"
+        ]
+      },
+      "path": "~/Telosteel"
+    },
+    {
+      "name": "TelosteelBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "telosteel_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/royalrealms/models/block/telosteel_block.json",
+          "src/main/resources/data/royalrealms/loot_tables/blocks/telosteel_block.json",
+          "src/main/resources/assets/royalrealms/models/item/telosteel_block.json",
+          "src/main/resources/assets/royalrealms/blockstates/telosteel_block.json",
+          "src/main/java/net/mcreator/royalrealms/block/TelosteelBlockBlock.java"
+        ]
+      },
+      "path": "~/Telosteel"
+    },
+    {
+      "name": "TelosteelOreBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "telosteel_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/royalrealms/recipes/telosteel_ore_block_recipe.json"
+        ]
+      },
+      "path": "~/Telosteel"
+    },
+    {
+      "name": "TelosteelBlockOreRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "telosteel_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/royalrealms/recipes/telosteel_block_ore_recipe.json"
+        ]
+      },
+      "path": "~/Telosteel"
+    },
+    {
+      "name": "TelosteelOreSmelting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "telosteel_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/royalrealms/recipes/telosteel_ore_smelting.json"
+        ]
+      },
+      "path": "~/Telosteel"
+    },
+    {
+      "name": "TelosteelPickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "telosteel_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/royalrealms/item/TelosteelPickaxeItem.java",
+          "src/main/resources/assets/royalrealms/models/item/telosteel_pickaxe.json"
+        ]
+      },
+      "path": "~/Telosteel"
+    },
+    {
+      "name": "TelosteelAxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "telosteel_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/royalrealms/item/TelosteelAxeItem.java",
+          "src/main/resources/assets/royalrealms/models/item/telosteel_axe.json"
+        ]
+      },
+      "path": "~/Telosteel"
+    },
+    {
+      "name": "TelosteelSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "telosteel_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/royalrealms/models/item/telosteel_sword.json",
+          "src/main/java/net/mcreator/royalrealms/item/TelosteelSwordItem.java"
+        ]
+      },
+      "path": "~/Telosteel"
+    },
+    {
+      "name": "TelosteelShovel",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "telosteel_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/royalrealms/models/item/telosteel_shovel.json",
+          "src/main/java/net/mcreator/royalrealms/item/TelosteelShovelItem.java"
+        ]
+      },
+      "path": "~/Telosteel"
+    },
+    {
+      "name": "TelosteelHoe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "telosteel_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/royalrealms/models/item/telosteel_hoe.json",
+          "src/main/java/net/mcreator/royalrealms/item/TelosteelHoeItem.java"
+        ]
+      },
+      "path": "~/Telosteel"
+    },
+    {
+      "name": "TelosteelPickaxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "telosteel_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/royalrealms/recipes/telosteel_pickaxe_recipe.json"
+        ]
+      },
+      "path": "~/Telosteel"
+    },
+    {
+      "name": "TelosteelAxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "telosteel_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/royalrealms/recipes/telosteel_axe_recipe.json"
+        ]
+      },
+      "path": "~/Telosteel"
+    },
+    {
+      "name": "TelosteelSwordRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "telosteel_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/royalrealms/recipes/telosteel_sword_recipe.json"
+        ]
+      },
+      "path": "~/Telosteel"
+    },
+    {
+      "name": "TelosteelShovelRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "telosteel_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/royalrealms/recipes/telosteel_shovel_recipe.json"
+        ]
+      },
+      "path": "~/Telosteel"
+    },
+    {
+      "name": "TelosteelHoeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "telosteel_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/royalrealms/recipes/telosteel_hoe_recipe.json"
+        ]
+      },
+      "path": "~/Telosteel"
+    },
+    {
+      "name": "TelosteelArmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "telosteel_armor",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/royalrealms/item/TelosteelArmorItem.java",
+          "src/main/resources/assets/royalrealms/models/item/telosteel_armor_chestplate.json",
+          "src/main/resources/assets/royalrealms/models/item/telosteel_armor_leggings.json",
+          "src/main/resources/assets/royalrealms/models/item/telosteel_armor_helmet.json",
+          "src/main/resources/assets/royalrealms/models/item/telosteel_armor_boots.json"
+        ]
+      },
+      "path": "~/Telosteel"
+    },
+    {
+      "name": "TelosteelArmorHelmetRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "telosteel_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/royalrealms/recipes/telosteel_armor_helmet_recipe.json"
+        ]
+      },
+      "path": "~/Telosteel"
+    },
+    {
+      "name": "TelosteelArmorChestplateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "telosteel_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/royalrealms/recipes/telosteel_armor_chestplate_recipe.json"
+        ]
+      },
+      "path": "~/Telosteel"
+    },
+    {
+      "name": "TelosteelArmorLeggingsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "telosteel_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/royalrealms/recipes/telosteel_armor_leggings_recipe.json"
+        ]
+      },
+      "path": "~/Telosteel"
+    },
+    {
+      "name": "TelosteelArmorBootsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "telosteel_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/royalrealms/recipes/telosteel_armor_boots_recipe.json"
+        ]
+      },
+      "path": "~/Telosteel"
+    },
+    {
+      "name": "WheatBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wheat_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/royalrealms/recipes/wheat_block_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "WheatBlockRecipeTop",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wheat_block_recipe_top",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/royalrealms/recipes/wheat_block_recipe_top.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "WheatBlockRecipeBottom",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wheat_block_recipe_bottom",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/royalrealms/recipes/wheat_block_recipe_bottom.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Enderlink",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderlink",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/royalrealms/item/EnderlinkItem.java",
+          "src/main/resources/assets/royalrealms/models/item/enderlink.json"
+        ]
+      },
+      "path": "~/Enderlink"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "BLOCKS:minecraft:needs_iron_tool": [
+      "~CUSTOM:TelosteelBlock",
+      "~CUSTOM:TelosteelOre"
+    ],
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:TelosteelBlock",
+      "~CUSTOM:TelosteelOre"
+    ],
+    "ITEMS:minecraft:pickaxes": [
+      "~CUSTOM:TelosteelPickaxe"
+    ],
+    "ITEMS:minecraft:axes": [
+      "~CUSTOM:TelosteelAxe"
+    ],
+    "ITEMS:minecraft:swords": [
+      "~CUSTOM:TelosteelSword"
+    ],
+    "ITEMS:minecraft:hoes": [
+      "~CUSTOM:TelosteelHoe"
+    ],
+    "ITEMS:minecraft:shovels": [
+      "~CUSTOM:TelosteelShovel"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item.royalrealms.telosteel_armor_boots": "Telosteel Boots",
+      "item.royalrealms.telosteel_armor_chestplate": "Telosteel Chestplate",
+      "item.royalrealms.telosteel_armor_leggings": "Telosteel Leggings",
+      "item.royalrealms.telosteel_sword": "Telosteel Sword",
+      "block.royalrealms.telosteel_block": "Block of Telosteel",
+      "item.royalrealms.telosteel_ingot": "Telosteel",
+      "item.royalrealms.telosteel_armor_helmet": "Telosteel Helmet",
+      "item.royalrealms.enderlink": "Enderlink",
+      "item.royalrealms.telosteel_axe": "Telosteel Axe",
+      "item.royalrealms.telosteel_hoe": "Telosteel Hoe",
+      "item.royalrealms.telosteel_pickaxe": "Telosteel Pickaxe",
+      "block.royalrealms.telosteel_ore": "Telosteel Ore",
+      "item.royalrealms.telosteel_shovel": "Telosteel Shovel"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Telosteel",
+        "children": []
+      },
+      {
+        "name": "Enderlink",
+        "children": []
+      },
+      {
+        "name": "Recipes",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "royalrealms",
+    "modName": "RoyalRealms",
+    "version": "1.0.0",
+    "author": "saver, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "cosmetic_armory",
+      "curios_api"
+    ],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.royalrealms"
+  },
+  "mcreatorVersion": 202400232117
+}
