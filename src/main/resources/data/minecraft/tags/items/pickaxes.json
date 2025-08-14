@@ -1,6 +1,8 @@
 {
   "replace": false,
   "values": [
+    "royalrealms:starlite_pickaxe",
+    "royalrealms:malachite_pickaxe",
     "royalrealms:telosteel_pickaxe"
   ]
 }

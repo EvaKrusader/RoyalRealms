@@ -1,0 +1,30 @@
+{
+  "display": {
+    "background": "minecraft:textures/block/stone.png",
+    "icon": {
+      "item": "royalrealms:enderlink"
+    },
+    "title": {
+      "translate": "advancements.neural_augment.title"
+    },
+    "description": {
+      "translate": "advancements.neural_augment.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "neural_augment_0": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "royalrealms:enderlink"
+          ]
+        }
+      }
+    }
+  }
+}

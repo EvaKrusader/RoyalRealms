@@ -1,6 +1,8 @@
 {
   "replace": false,
   "values": [
+    "royalrealms:starlite_shovel",
+    "royalrealms:malachite_shovel",
     "royalrealms:telosteel_shovel"
   ]
 }

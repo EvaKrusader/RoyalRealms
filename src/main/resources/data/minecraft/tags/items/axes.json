@@ -1,6 +1,8 @@
 {
   "replace": false,
   "values": [
+    "royalrealms:starlite_axe",
+    "royalrealms:malachite_axe",
     "royalrealms:telosteel_axe"
   ]
 }

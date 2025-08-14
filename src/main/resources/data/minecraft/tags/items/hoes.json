@@ -1,6 +1,8 @@
 {
   "replace": false,
   "values": [
+    "royalrealms:starlite_hoe",
+    "royalrealms:malachite_hoe",
     "royalrealms:telosteel_hoe"
   ]
 }

@@ -1,6 +1,8 @@
 {
   "replace": false,
   "values": [
+    "royalrealms:starlite_sword",
+    "royalrealms:malachite_sword",
     "royalrealms:telosteel_sword"
   ]
 }

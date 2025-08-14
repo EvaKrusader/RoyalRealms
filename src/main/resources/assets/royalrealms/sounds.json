@@ -1,0 +1,74 @@
+{
+  "enderlink_msg1": {
+    "subtitle": "subtitles.enderlink_msg1",
+    "sounds": [
+      {
+        "name": "royalrealms:metaprise_applications_-_angelbottm_mod_pack_v1.081417_-_02_angelbot-msg01",
+        "stream": false
+      }
+    ]
+  },
+  "enderlink_msg2": {
+    "subtitle": "subtitles.enderlink_msg2",
+    "sounds": [
+      {
+        "name": "royalrealms:metaprise_applications_-_angelbottm_mod_pack_v1.081417_-_04_angelbot-msg02",
+        "stream": false
+      }
+    ]
+  },
+  "enderlink_msg3": {
+    "subtitle": "subtitles.enderlink_msg3",
+    "sounds": [
+      {
+        "name": "royalrealms:metaprise_applications_-_angelbottm_mod_pack_v1.081417_-_06_angelbot-msg03",
+        "stream": false
+      }
+    ]
+  },
+  "enderlink_msg_rare": {
+    "subtitle": "subtitles.enderlink_msg_rare",
+    "sounds": [
+      {
+        "name": "royalrealms:metaprise_applications_-_angelbottm_mod_pack_v1.081417_-_08_angelbot-msg_dlt01",
+        "stream": false
+      }
+    ]
+  },
+  "enderlink_boot": {
+    "subtitle": "subtitles.enderlink_boot",
+    "sounds": [
+      {
+        "name": "royalrealms:metaprise_applications_-_angelbottm_mod_pack_v1.081417_-_09_xlife",
+        "stream": false
+      }
+    ]
+  },
+  "enderlink_boot_rare1": {
+    "subtitle": "subtitles.enderlink_boot_rare1",
+    "sounds": [
+      {
+        "name": "royalrealms:metaprise_applications_-_angelbottm_mod_pack_v1.081417_-_24_ylife",
+        "stream": false
+      }
+    ]
+  },
+  "enderlink_boot_rare2": {
+    "subtitle": "subtitles.enderlink_boot_rare2",
+    "sounds": [
+      {
+        "name": "royalrealms:metaprise_applications_-_angelbottm_mod_pack_v1.081417_-_39_zlife",
+        "stream": false
+      }
+    ]
+  },
+  "enderlink_boot_rare3": {
+    "subtitle": "subtitles.enderlink_boot_rare3",
+    "sounds": [
+      {
+        "name": "royalrealms:metaprise_applications_-_angelbottm_mod_pack_v1.081417_-_54_alife",
+        "stream": false
+      }
+    ]
+  }
+}

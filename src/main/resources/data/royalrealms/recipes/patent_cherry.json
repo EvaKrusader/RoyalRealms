@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "royalrealms:paper_copy_patent"
+    },
+    {
+      "item": "minecraft:cherry_planks"
+    }
+  ],
+  "result": {
+    "item": "minecraft:cherry_log",
+    "count": 1
+  }
+}

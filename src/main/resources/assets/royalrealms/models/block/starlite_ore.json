@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "royalrealms:block/starlite_ore",
+    "particle": "royalrealms:block/starlite_ore"
+  },
+  "render_type": "solid"
+}

@@ -346,51 +346,1588 @@
         ]
       },
       "path": "~/Enderlink"
+    },
+    {
+      "name": "EnderlinkDamage",
+      "type": "damagetype",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderlink_damage",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/royalrealms/damage_type/enderlink_damage.json"
+        ]
+      },
+      "path": "~/Enderlink"
+    },
+    {
+      "name": "EnderlinkPlayerFinishesUsingItem",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderlink_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/royalrealms/procedures/EnderlinkPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Enderlink"
+    },
+    {
+      "name": "NeuralAugment",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neural_augment",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/royalrealms/advancements/neural_augment.json"
+        ]
+      },
+      "path": "~/Enderlink"
+    },
+    {
+      "name": "SoulOrb",
+      "type": "curiosbauble",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_orb",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/royalrealms/models/item/soul_orb.json",
+          "src/main/java/net/mcreator/royalrealms/item/SoulOrbItem.java"
+        ]
+      },
+      "path": "~/Curio"
+    },
+    {
+      "name": "Malachite",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "malachite",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/royalrealms/item/MalachiteItem.java",
+          "src/main/resources/assets/royalrealms/models/item/malachite.json"
+        ]
+      },
+      "path": "~/Malachite"
+    },
+    {
+      "name": "MalachiteOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "malachite_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/royalrealms/worldgen/placed_feature/malachite_ore.json",
+          "src/main/resources/data/royalrealms/loot_tables/blocks/malachite_ore.json",
+          "src/main/resources/assets/royalrealms/models/block/malachite_ore.json",
+          "src/main/resources/data/royalrealms/worldgen/configured_feature/malachite_ore.json",
+          "src/main/java/net/mcreator/royalrealms/block/MalachiteOreBlock.java",
+          "src/main/resources/data/royalrealms/forge/biome_modifier/malachite_ore_biome_modifier.json",
+          "src/main/resources/assets/royalrealms/models/item/malachite_ore.json",
+          "src/main/resources/assets/royalrealms/blockstates/malachite_ore.json"
+        ]
+      },
+      "path": "~/Malachite"
+    },
+    {
+      "name": "MalachiteBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "malachite_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/royalrealms/blockstates/malachite_block.json",
+          "src/main/java/net/mcreator/royalrealms/block/MalachiteBlockBlock.java",
+          "src/main/resources/data/royalrealms/loot_tables/blocks/malachite_block.json",
+          "src/main/resources/assets/royalrealms/models/block/malachite_block.json",
+          "src/main/resources/assets/royalrealms/models/item/malachite_block.json"
+        ]
+      },
+      "path": "~/Malachite"
+    },
+    {
+      "name": "MalachiteOreBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "malachite_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/royalrealms/recipes/malachite_ore_block_recipe.json"
+        ]
+      },
+      "path": "~/Malachite"
+    },
+    {
+      "name": "MalachiteBlockOreRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "malachite_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/royalrealms/recipes/malachite_block_ore_recipe.json"
+        ]
+      },
+      "path": "~/Malachite"
+    },
+    {
+      "name": "MalachiteOreSmelting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "malachite_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/royalrealms/recipes/malachite_ore_smelting.json"
+        ]
+      },
+      "path": "~/Malachite"
+    },
+    {
+      "name": "MalachitePickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "malachite_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/royalrealms/item/MalachitePickaxeItem.java",
+          "src/main/resources/assets/royalrealms/models/item/malachite_pickaxe.json"
+        ]
+      },
+      "path": "~/Malachite"
+    },
+    {
+      "name": "MalachiteAxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "malachite_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/royalrealms/models/item/malachite_axe.json",
+          "src/main/java/net/mcreator/royalrealms/item/MalachiteAxeItem.java"
+        ]
+      },
+      "path": "~/Malachite"
+    },
+    {
+      "name": "MalachiteSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "malachite_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/royalrealms/models/item/malachite_sword.json",
+          "src/main/java/net/mcreator/royalrealms/item/MalachiteSwordItem.java"
+        ]
+      },
+      "path": "~/Malachite"
+    },
+    {
+      "name": "MalachiteShovel",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "malachite_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/royalrealms/item/MalachiteShovelItem.java",
+          "src/main/resources/assets/royalrealms/models/item/malachite_shovel.json"
+        ]
+      },
+      "path": "~/Malachite"
+    },
+    {
+      "name": "MalachiteHoe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "malachite_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/royalrealms/models/item/malachite_hoe.json",
+          "src/main/java/net/mcreator/royalrealms/item/MalachiteHoeItem.java"
+        ]
+      },
+      "path": "~/Malachite"
+    },
+    {
+      "name": "MalachitePickaxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "malachite_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/royalrealms/recipes/malachite_pickaxe_recipe.json"
+        ]
+      },
+      "path": "~/Malachite"
+    },
+    {
+      "name": "MalachiteAxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "malachite_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/royalrealms/recipes/malachite_axe_recipe.json"
+        ]
+      },
+      "path": "~/Malachite"
+    },
+    {
+      "name": "MalachiteSwordRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "malachite_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/royalrealms/recipes/malachite_sword_recipe.json"
+        ]
+      },
+      "path": "~/Malachite"
+    },
+    {
+      "name": "MalachiteShovelRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "malachite_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/royalrealms/recipes/malachite_shovel_recipe.json"
+        ]
+      },
+      "path": "~/Malachite"
+    },
+    {
+      "name": "MalachiteHoeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "malachite_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/royalrealms/recipes/malachite_hoe_recipe.json"
+        ]
+      },
+      "path": "~/Malachite"
+    },
+    {
+      "name": "MalachiteArmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "malachite_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/royalrealms/models/item/malachite_armor_helmet.json",
+          "src/main/resources/assets/royalrealms/models/item/malachite_armor_chestplate.json",
+          "src/main/java/net/mcreator/royalrealms/item/MalachiteArmorItem.java",
+          "src/main/resources/assets/royalrealms/models/item/malachite_armor_boots.json",
+          "src/main/resources/assets/royalrealms/models/item/malachite_armor_leggings.json"
+        ]
+      },
+      "path": "~/Malachite"
+    },
+    {
+      "name": "MalachiteArmorHelmetRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "malachite_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/royalrealms/recipes/malachite_armor_helmet_recipe.json"
+        ]
+      },
+      "path": "~/Malachite"
+    },
+    {
+      "name": "MalachiteArmorChestplateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "malachite_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/royalrealms/recipes/malachite_armor_chestplate_recipe.json"
+        ]
+      },
+      "path": "~/Malachite"
+    },
+    {
+      "name": "MalachiteArmorLeggingsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "malachite_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/royalrealms/recipes/malachite_armor_leggings_recipe.json"
+        ]
+      },
+      "path": "~/Malachite"
+    },
+    {
+      "name": "MalachiteArmorBootsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "malachite_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/royalrealms/recipes/malachite_armor_boots_recipe.json"
+        ]
+      },
+      "path": "~/Malachite"
+    },
+    {
+      "name": "Magnet",
+      "type": "enchantment",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magnet",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/royalrealms/enchantment/MagnetEnchantment.java"
+        ]
+      },
+      "path": "~/Enchantments/Magnets"
+    },
+    {
+      "name": "MagnetEnchantmentProcedure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magnet_enchantment_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/royalrealms/procedures/MagnetEnchantmentProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Enchantments/Magnets"
+    },
+    {
+      "name": "HotTouch",
+      "type": "enchantment",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hot_touch",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/royalrealms/enchantment/HotTouchEnchantment.java"
+        ]
+      },
+      "path": "~/Enchantments/HotTouch"
+    },
+    {
+      "name": "Replanter",
+      "type": "enchantment",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "replanter",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/royalrealms/enchantment/ReplanterEnchantment.java"
+        ]
+      },
+      "path": "~/Enchantments/Replanter"
+    },
+    {
+      "name": "ReplanterProcedure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "replanter_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/royalrealms/procedures/ReplanterProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Enchantments/Replanter"
+    },
+    {
+      "name": "HotTouchProcedure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hot_touch_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/royalrealms/procedures/HotTouchProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Enchantments/HotTouch"
+    },
+    {
+      "name": "StarliteDust",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "starlite_dust",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/royalrealms/models/item/starlite_dust.json",
+          "src/main/java/net/mcreator/royalrealms/item/StarliteDustItem.java"
+        ]
+      },
+      "path": "~/Starlite"
+    },
+    {
+      "name": "StarliteOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "starlite_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/royalrealms/blockstates/starlite_ore.json",
+          "src/main/resources/data/royalrealms/loot_tables/blocks/starlite_ore.json",
+          "src/main/resources/assets/royalrealms/models/block/starlite_ore.json",
+          "src/main/java/net/mcreator/royalrealms/block/StarliteOreBlock.java",
+          "src/main/resources/data/royalrealms/worldgen/configured_feature/starlite_ore.json",
+          "src/main/resources/assets/royalrealms/models/item/starlite_ore.json",
+          "src/main/resources/data/royalrealms/worldgen/placed_feature/starlite_ore.json",
+          "src/main/resources/data/royalrealms/forge/biome_modifier/starlite_ore_biome_modifier.json"
+        ]
+      },
+      "path": "~/Starlite"
+    },
+    {
+      "name": "StarliteBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "starlite_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/royalrealms/models/block/starlite_block.json",
+          "src/main/resources/data/royalrealms/loot_tables/blocks/starlite_block.json",
+          "src/main/resources/assets/royalrealms/models/item/starlite_block.json",
+          "src/main/resources/assets/royalrealms/blockstates/starlite_block.json",
+          "src/main/java/net/mcreator/royalrealms/block/StarliteBlockBlock.java"
+        ]
+      },
+      "path": "~/Starlite"
+    },
+    {
+      "name": "StarliteOreBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "starlite_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/royalrealms/recipes/starlite_ore_block_recipe.json"
+        ]
+      },
+      "path": "~/Starlite"
+    },
+    {
+      "name": "StarliteBlockOreRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "starlite_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/royalrealms/recipes/starlite_block_ore_recipe.json"
+        ]
+      },
+      "path": "~/Starlite"
+    },
+    {
+      "name": "StarliteOreSmelting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "starlite_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/royalrealms/recipes/starlite_ore_smelting.json"
+        ]
+      },
+      "path": "~/Starlite"
+    },
+    {
+      "name": "StarlitePickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "starlite_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/royalrealms/item/StarlitePickaxeItem.java",
+          "src/main/resources/assets/royalrealms/models/item/starlite_pickaxe.json"
+        ]
+      },
+      "path": "~/Starlite"
+    },
+    {
+      "name": "StarliteAxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "starlite_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/royalrealms/item/StarliteAxeItem.java",
+          "src/main/resources/assets/royalrealms/models/item/starlite_axe.json"
+        ]
+      },
+      "path": "~/Starlite"
+    },
+    {
+      "name": "StarliteSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "starlite_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/royalrealms/models/item/starlite_sword.json",
+          "src/main/java/net/mcreator/royalrealms/item/StarliteSwordItem.java"
+        ]
+      },
+      "path": "~/Starlite"
+    },
+    {
+      "name": "StarliteShovel",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "starlite_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/royalrealms/models/item/starlite_shovel.json",
+          "src/main/java/net/mcreator/royalrealms/item/StarliteShovelItem.java"
+        ]
+      },
+      "path": "~/Starlite"
+    },
+    {
+      "name": "StarliteHoe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "starlite_hoe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/royalrealms/item/StarliteHoeItem.java",
+          "src/main/resources/assets/royalrealms/models/item/starlite_hoe.json"
+        ]
+      },
+      "path": "~/Starlite"
+    },
+    {
+      "name": "StarlitePickaxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "starlite_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/royalrealms/recipes/starlite_pickaxe_recipe.json"
+        ]
+      },
+      "path": "~/Starlite"
+    },
+    {
+      "name": "StarliteAxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "starlite_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/royalrealms/recipes/starlite_axe_recipe.json"
+        ]
+      },
+      "path": "~/Starlite"
+    },
+    {
+      "name": "StarliteSwordRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "starlite_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/royalrealms/recipes/starlite_sword_recipe.json"
+        ]
+      },
+      "path": "~/Starlite"
+    },
+    {
+      "name": "StarliteShovelRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "starlite_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/royalrealms/recipes/starlite_shovel_recipe.json"
+        ]
+      },
+      "path": "~/Starlite"
+    },
+    {
+      "name": "StarliteHoeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "starlite_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/royalrealms/recipes/starlite_hoe_recipe.json"
+        ]
+      },
+      "path": "~/Starlite"
+    },
+    {
+      "name": "StarliteArmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "starlite_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/royalrealms/models/item/starlite_armor_helmet.json",
+          "src/main/java/net/mcreator/royalrealms/item/StarliteArmorItem.java",
+          "src/main/resources/assets/royalrealms/models/item/starlite_armor_chestplate.json",
+          "src/main/resources/assets/royalrealms/models/item/starlite_armor_leggings.json",
+          "src/main/resources/assets/royalrealms/models/item/starlite_armor_boots.json"
+        ]
+      },
+      "path": "~/Starlite"
+    },
+    {
+      "name": "StarliteArmorHelmetRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "starlite_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/royalrealms/recipes/starlite_armor_helmet_recipe.json"
+        ]
+      },
+      "path": "~/Starlite"
+    },
+    {
+      "name": "StarliteArmorChestplateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "starlite_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/royalrealms/recipes/starlite_armor_chestplate_recipe.json"
+        ]
+      },
+      "path": "~/Starlite"
+    },
+    {
+      "name": "StarliteArmorLeggingsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "starlite_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/royalrealms/recipes/starlite_armor_leggings_recipe.json"
+        ]
+      },
+      "path": "~/Starlite"
+    },
+    {
+      "name": "StarliteArmorBootsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "starlite_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/royalrealms/recipes/starlite_armor_boots_recipe.json"
+        ]
+      },
+      "path": "~/Starlite"
+    },
+    {
+      "name": "Neonium",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neonium",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/royalrealms/models/item/neonium.json",
+          "src/main/java/net/mcreator/royalrealms/item/NeoniumItem.java"
+        ]
+      },
+      "path": "~/Neonium"
+    },
+    {
+      "name": "NeoniumOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neonium_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/royalrealms/models/block/neonium_ore.json",
+          "src/main/java/net/mcreator/royalrealms/block/NeoniumOreBlock.java",
+          "src/main/resources/data/royalrealms/worldgen/placed_feature/neonium_ore.json",
+          "src/main/resources/data/royalrealms/forge/biome_modifier/neonium_ore_biome_modifier.json",
+          "src/main/resources/assets/royalrealms/blockstates/neonium_ore.json",
+          "src/main/resources/data/royalrealms/worldgen/configured_feature/neonium_ore.json",
+          "src/main/resources/data/royalrealms/loot_tables/blocks/neonium_ore.json",
+          "src/main/resources/assets/royalrealms/models/item/neonium_ore.json"
+        ]
+      },
+      "path": "~/Neonium"
+    },
+    {
+      "name": "NeoniumBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neonium_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/royalrealms/block/NeoniumBlockBlock.java",
+          "src/main/resources/assets/royalrealms/models/item/neonium_block.json",
+          "src/main/resources/data/royalrealms/loot_tables/blocks/neonium_block.json",
+          "src/main/resources/assets/royalrealms/models/block/neonium_block.json",
+          "src/main/resources/assets/royalrealms/blockstates/neonium_block.json"
+        ]
+      },
+      "path": "~/Neonium"
+    },
+    {
+      "name": "NeoniumOreBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neonium_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/royalrealms/recipes/neonium_ore_block_recipe.json"
+        ]
+      },
+      "path": "~/Neonium"
+    },
+    {
+      "name": "NeoniumBlockOreRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neonium_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/royalrealms/recipes/neonium_block_ore_recipe.json"
+        ]
+      },
+      "path": "~/Neonium"
+    },
+    {
+      "name": "NeoniumOreSmelting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neonium_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/royalrealms/recipes/neonium_ore_smelting.json"
+        ]
+      },
+      "path": "~/Neonium"
+    },
+    {
+      "name": "EnderlinkTalkProcedure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderlink_talk_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/royalrealms/procedures/EnderlinkTalkProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Enderlink"
+    },
+    {
+      "name": "EnderlinkCountdown",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderlink_countdown",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/royalrealms/procedures/EnderlinkCountdownProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Enderlink"
+    },
+    {
+      "name": "EnderlinkTalkList",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderlink_talk_list",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/royalrealms/procedures/EnderlinkTalkListProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Enderlink"
+    },
+    {
+      "name": "DevOverlayEnderlink",
+      "type": "overlay",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dev_overlay_enderlink",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/royalrealms/client/screens/DevOverlayEnderlinkOverlay.java"
+        ]
+      },
+      "path": "~/Enderlink"
+    },
+    {
+      "name": "EnderlinkPlaysound",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderlink_playsound",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/royalrealms/procedures/EnderlinkPlaysoundProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Enderlink"
+    },
+    {
+      "name": "EnderlinkStartupSound",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderlink_startup_sound",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/royalrealms/procedures/EnderlinkStartupSoundProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Enderlink"
+    },
+    {
+      "name": "Thunderstrike",
+      "type": "enchantment",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thunderstrike",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/royalrealms/enchantment/ThunderstrikeEnchantment.java"
+        ]
+      },
+      "path": "~/Enchantments/Thunderstrike"
+    },
+    {
+      "name": "NametagRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nametag_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/royalrealms/recipes/nametag_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Phasing",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "phasing",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/royalrealms/potion/PhasingMobEffect.java"
+        ]
+      },
+      "path": "~/Effects"
+    },
+    {
+      "name": "PhasingEffectStartedapplied",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "phasing_effect_startedapplied",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/royalrealms/procedures/PhasingEffectStartedappliedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Effects"
+    },
+    {
+      "name": "PhasingEffectExpires",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "phasing_effect_expires",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/royalrealms/procedures/PhasingEffectExpiresProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Effects"
+    },
+    {
+      "name": "PhasingCan",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "phasing_can",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/royalrealms/item/PhasingCanItem.java",
+          "src/main/resources/assets/royalrealms/models/item/phasing_can.json"
+        ]
+      },
+      "path": "~/Effects"
+    },
+    {
+      "name": "PaperCopyPatent",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "paper_copy_patent",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/royalrealms/item/PaperCopyPatentItem.java",
+          "src/main/resources/assets/royalrealms/models/item/paper_copy_patent.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "PaperBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "paper_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/royalrealms/recipes/paper_block_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/PaperPatent"
+    },
+    {
+      "name": "PatentOak",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "patent_oak",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/royalrealms/recipes/patent_oak.json"
+        ]
+      },
+      "path": "~/Recipes/PaperPatent"
+    },
+    {
+      "name": "PatentBirch",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "patent_birch",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/royalrealms/recipes/patent_birch.json"
+        ]
+      },
+      "path": "~/Recipes/PaperPatent"
+    },
+    {
+      "name": "PatentSpruce",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "patent_spruce",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/royalrealms/recipes/patent_spruce.json"
+        ]
+      },
+      "path": "~/Recipes/PaperPatent"
+    },
+    {
+      "name": "PatentJungle",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "patent_jungle",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/royalrealms/recipes/patent_jungle.json"
+        ]
+      },
+      "path": "~/Recipes/PaperPatent"
+    },
+    {
+      "name": "PatentAcacia",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "patent_acacia",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/royalrealms/recipes/patent_acacia.json"
+        ]
+      },
+      "path": "~/Recipes/PaperPatent"
+    },
+    {
+      "name": "PatentDarkOak",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "patent_dark_oak",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/royalrealms/recipes/patent_dark_oak.json"
+        ]
+      },
+      "path": "~/Recipes/PaperPatent"
+    },
+    {
+      "name": "PatentMangrove",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "patent_mangrove",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/royalrealms/recipes/patent_mangrove.json"
+        ]
+      },
+      "path": "~/Recipes/PaperPatent"
+    },
+    {
+      "name": "PatentCherry",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "patent_cherry",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/royalrealms/recipes/patent_cherry.json"
+        ]
+      },
+      "path": "~/Recipes/PaperPatent"
+    },
+    {
+      "name": "PatentCrimson",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "patent_crimson",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/royalrealms/recipes/patent_crimson.json"
+        ]
+      },
+      "path": "~/Recipes/PaperPatent"
+    },
+    {
+      "name": "PatentWarped",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "patent_warped",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/royalrealms/recipes/patent_warped.json"
+        ]
+      },
+      "path": "~/Recipes/PaperPatent"
+    },
+    {
+      "name": "PaperPrinter",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "paper_printer",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/royalrealms/advancements/paper_printer.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "PhasingCanPlayerFinishesUsingItem",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "phasing_can_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/royalrealms/procedures/PhasingCanPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Effects"
     }
   ],
-  "variable_elements": [],
-  "sound_elements": [],
+  "variable_elements": [
+    {
+      "name": "playerHasEnderlink",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
+    },
+    {
+      "name": "EnderlinkCounter",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "2400.0"
+    },
+    {
+      "name": "EnderlinkSoundItem",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "456.0"
+    },
+    {
+      "name": "EnderlinkStartupSound",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "456.0"
+    }
+  ],
+  "sound_elements": [
+    {
+      "name": "enderlink_msg1",
+      "files": [
+        "metaprise_applications_-_angelbottm_mod_pack_v1.081417_-_02_angelbot-msg01"
+      ],
+      "category": "neutral",
+      "subtitle": "Enderlink notification"
+    },
+    {
+      "name": "enderlink_msg2",
+      "files": [
+        "metaprise_applications_-_angelbottm_mod_pack_v1.081417_-_04_angelbot-msg02"
+      ],
+      "category": "neutral",
+      "subtitle": "Enderlink notification"
+    },
+    {
+      "name": "enderlink_msg3",
+      "files": [
+        "metaprise_applications_-_angelbottm_mod_pack_v1.081417_-_06_angelbot-msg03"
+      ],
+      "category": "neutral",
+      "subtitle": "Enderlink notification"
+    },
+    {
+      "name": "enderlink_msg_rare",
+      "files": [
+        "metaprise_applications_-_angelbottm_mod_pack_v1.081417_-_08_angelbot-msg_dlt01"
+      ],
+      "category": "neutral",
+      "subtitle": "Enderlink notification"
+    },
+    {
+      "name": "enderlink_boot",
+      "files": [
+        "metaprise_applications_-_angelbottm_mod_pack_v1.081417_-_09_xlife"
+      ],
+      "category": "neutral",
+      "subtitle": "Connecting to Enderlink servers"
+    },
+    {
+      "name": "enderlink_boot_rare1",
+      "files": [
+        "metaprise_applications_-_angelbottm_mod_pack_v1.081417_-_24_ylife"
+      ],
+      "category": "neutral",
+      "subtitle": "Connection to Enderlink servers"
+    },
+    {
+      "name": "enderlink_boot_rare2",
+      "files": [
+        "metaprise_applications_-_angelbottm_mod_pack_v1.081417_-_39_zlife"
+      ],
+      "category": "neutral",
+      "subtitle": "Connection to Enderlink servers"
+    },
+    {
+      "name": "enderlink_boot_rare3",
+      "files": [
+        "metaprise_applications_-_angelbottm_mod_pack_v1.081417_-_54_alife"
+      ],
+      "category": "neutral",
+      "subtitle": "Connection to Enderlink servers"
+    }
+  ],
   "tag_elements": {
+    "ITEMS:mod:magnet_tools": [
+      "TAG:minecraft:pickaxes",
+      "TAG:minecraft:axes",
+      "TAG:minecraft:shovels",
+      "TAG:minecraft:hoes"
+    ],
     "BLOCKS:minecraft:needs_iron_tool": [
+      "~CUSTOM:NeoniumBlock",
+      "~CUSTOM:NeoniumOre",
+      "~CUSTOM:StarliteBlock",
+      "~CUSTOM:StarliteOre",
+      "~CUSTOM:MalachiteBlock",
+      "~CUSTOM:MalachiteOre",
       "~CUSTOM:TelosteelBlock",
       "~CUSTOM:TelosteelOre"
     ],
     "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:NeoniumBlock",
+      "~CUSTOM:NeoniumOre",
+      "~CUSTOM:StarliteBlock",
+      "~CUSTOM:StarliteOre",
+      "~CUSTOM:MalachiteBlock",
+      "~CUSTOM:MalachiteOre",
       "~CUSTOM:TelosteelBlock",
       "~CUSTOM:TelosteelOre"
     ],
     "ITEMS:minecraft:pickaxes": [
+      "~CUSTOM:StarlitePickaxe",
+      "~CUSTOM:MalachitePickaxe",
       "~CUSTOM:TelosteelPickaxe"
     ],
     "ITEMS:minecraft:axes": [
+      "~CUSTOM:StarliteAxe",
+      "~CUSTOM:MalachiteAxe",
       "~CUSTOM:TelosteelAxe"
     ],
     "ITEMS:minecraft:swords": [
+      "~CUSTOM:StarliteSword",
+      "~CUSTOM:MalachiteSword",
       "~CUSTOM:TelosteelSword"
     ],
     "ITEMS:minecraft:hoes": [
+      "~CUSTOM:StarliteHoe",
+      "~CUSTOM:MalachiteHoe",
       "~CUSTOM:TelosteelHoe"
     ],
+    "BLOCKS:minecraft:hoe_breakables": [
+      "Blocks.CARROTS",
+      "Blocks.POTATOES",
+      "Blocks.MELON_BLOCK",
+      "Blocks.PUMPKIN",
+      "TAG:minecraft:crops"
+    ],
     "ITEMS:minecraft:shovels": [
+      "~CUSTOM:StarliteShovel",
+      "~CUSTOM:MalachiteShovel",
       "~CUSTOM:TelosteelShovel"
     ]
   },
   "tab_element_order": {},
   "language_map": {
     "en_us": {
-      "item.royalrealms.telosteel_armor_boots": "Telosteel Boots",
-      "item.royalrealms.telosteel_armor_chestplate": "Telosteel Chestplate",
-      "item.royalrealms.telosteel_armor_leggings": "Telosteel Leggings",
-      "item.royalrealms.telosteel_sword": "Telosteel Sword",
-      "block.royalrealms.telosteel_block": "Block of Telosteel",
-      "item.royalrealms.telosteel_ingot": "Telosteel",
+      "death.attack.enderlink_damage.player": "%1$s died whilst trying to escape %2$s",
+      "advancements.neural_augment.descr": "Install Enderlink",
+      "advancements.neural_augment.title": "Neural Augmentation",
+      "enchantment.royalrealms.replanter": "Replanter",
+      "enchantment.royalrealms.hot_touch": "Hot Touch",
+      "block.royalrealms.malachite_block": "Block of Malachite",
+      "death.attack.enderlink_damage.item": "%1$s was killed by %2$s using %3$s",
       "item.royalrealms.telosteel_armor_helmet": "Telosteel Helmet",
-      "item.royalrealms.enderlink": "Enderlink",
-      "item.royalrealms.telosteel_axe": "Telosteel Axe",
-      "item.royalrealms.telosteel_hoe": "Telosteel Hoe",
-      "item.royalrealms.telosteel_pickaxe": "Telosteel Pickaxe",
+      "item.royalrealms.starlite_pickaxe": "Starlite Pickaxe",
+      "item.royalrealms.starlite_armor_boots": "Starlite Boots",
+      "item.royalrealms.soul_orb": "Soul Orb",
+      "item.royalrealms.malachite_axe": "Malachite Axe",
+      "item.royalrealms.malachite_sword": "Malachite Sword",
+      "item.royalrealms.telosteel_sword": "Telosteel Sword",
+      "enchantment.royalrealms.thunderstrike": "Thunderstrike",
+      "item.royalrealms.malachite_armor_leggings": "Malachite Leggings",
+      "advancements.paper_printer.descr": "Obtain a log patent",
+      "effect.royalrealms.phasing": "Phasing",
       "block.royalrealms.telosteel_ore": "Telosteel Ore",
-      "item.royalrealms.telosteel_shovel": "Telosteel Shovel"
+      "item.royalrealms.malachite_armor_helmet": "Malachite Helmet",
+      "item.royalrealms.malachite_armor_boots": "Malachite Boots",
+      "item.royalrealms.telosteel_armor_boots": "Telosteel Boots",
+      "item.royalrealms.starlite_shovel": "Starlite Shovel",
+      "item.royalrealms.telosteel_armor_chestplate": "Telosteel Chestplate",
+      "death.attack.enderlink_damage": "%1$s couldn\u0027t withstand their Enderlink",
+      "item.royalrealms.neonium": "Neonium",
+      "block.royalrealms.telosteel_block": "Block of Telosteel",
+      "item.royalrealms.starlite_armor_leggings": "Starlite Leggings",
+      "item.royalrealms.telosteel_ingot": "Telosteel",
+      "block.royalrealms.starlite_ore": "Starlite Ore",
+      "item.royalrealms.malachite_armor_chestplate": "Malachite Chestplate",
+      "item.royalrealms.telosteel_axe": "Telosteel Axe",
+      "item.royalrealms.phasing_can": "Phasing Can",
+      "item.royalrealms.telosteel_hoe": "Telosteel Hoe",
+      "item.royalrealms.malachite_shovel": "Malachite Shovel",
+      "item.royalrealms.starlite_axe": "Starlite Axe",
+      "item.royalrealms.malachite": "Malachite",
+      "enchantment.royalrealms.magnet": "Magnet",
+      "block.royalrealms.malachite_ore": "Malachite Ore",
+      "subtitles.enderlink_msg_rare": "Enderlink notification",
+      "item.royalrealms.starlite_armor_helmet": "Starlite Helmet",
+      "subtitles.enderlink_msg1": "Enderlink notification",
+      "subtitles.enderlink_msg2": "Enderlink notification",
+      "subtitles.enderlink_msg3": "Enderlink notification",
+      "item.royalrealms.telosteel_armor_leggings": "Telosteel Leggings",
+      "item.royalrealms.starlite_hoe": "Starlite Hoe",
+      "item.royalrealms.starlite_armor_chestplate": "Starlite Chestplate",
+      "item.royalrealms.enderlink": "Enderlink",
+      "item.royalrealms.starlite_sword": "Starlite Sword",
+      "block.royalrealms.neonium_block": "Block of Neonium",
+      "item.royalrealms.malachite_pickaxe": "Malachite Pickaxe",
+      "item.royalrealms.paper_copy_patent": "Paper Copy Patent",
+      "item.royalrealms.malachite_hoe": "Malachite Hoe",
+      "item.royalrealms.starlite_dust": "Starlite",
+      "block.royalrealms.starlite_block": "Block of Starlite",
+      "subtitles.enderlink_boot_rare3": "Connection to Enderlink servers",
+      "item.royalrealms.telosteel_pickaxe": "Telosteel Pickaxe",
+      "item.royalrealms.telosteel_shovel": "Telosteel Shovel",
+      "advancements.paper_printer.title": "It doesn\u0027t grow on trees...",
+      "subtitles.enderlink_boot": "Connecting to Enderlink servers",
+      "subtitles.enderlink_boot_rare1": "Connection to Enderlink servers",
+      "block.royalrealms.neonium_ore": "Neonium Ore",
+      "subtitles.enderlink_boot_rare2": "Connection to Enderlink servers"
     }
   },
   "foldersRoot": {
@@ -406,6 +1943,76 @@
       },
       {
         "name": "Recipes",
+        "children": [
+          {
+            "name": "PaperPatent",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Liminalloy",
+        "children": []
+      },
+      {
+        "name": "Curio",
+        "children": []
+      },
+      {
+        "name": "Spectrolite",
+        "children": []
+      },
+      {
+        "name": "Brightcore",
+        "children": []
+      },
+      {
+        "name": "Malachite",
+        "children": []
+      },
+      {
+        "name": "Enchantments",
+        "children": [
+          {
+            "name": "Magnets",
+            "children": []
+          },
+          {
+            "name": "Replanter",
+            "children": []
+          },
+          {
+            "name": "HotTouch",
+            "children": []
+          },
+          {
+            "name": "Thunderstrike",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Neonium",
+        "children": []
+      },
+      {
+        "name": "Starlite",
+        "children": []
+      },
+      {
+        "name": "Dev",
+        "children": []
+      },
+      {
+        "name": "Effects",
+        "children": []
+      },
+      {
+        "name": "Items",
+        "children": []
+      },
+      {
+        "name": "Advancements",
         "children": []
       }
     ]

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "royalrealms:starlite_block"
+    }
+  ],
+  "result": {
+    "item": "royalrealms:starlite_dust",
+    "count": 9
+  }
+}

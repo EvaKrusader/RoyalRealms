@@ -1,6 +1,12 @@
 {
   "replace": false,
   "values": [
+    "royalrealms:neonium_block",
+    "royalrealms:neonium_ore",
+    "royalrealms:starlite_block",
+    "royalrealms:starlite_ore",
+    "royalrealms:malachite_block",
+    "royalrealms:malachite_ore",
     "royalrealms:telosteel_block",
     "royalrealms:telosteel_ore"
   ]

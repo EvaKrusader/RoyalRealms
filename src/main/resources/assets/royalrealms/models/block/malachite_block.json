@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "royalrealms:block/malachite_ore_block",
+    "particle": "royalrealms:block/malachite_ore_block"
+  },
+  "render_type": "solid"
+}

@@ -18,7 +18,10 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.royalrealms.init.RoyalrealmsModTabs;
+import net.mcreator.royalrealms.init.RoyalrealmsModSounds;
+import net.mcreator.royalrealms.init.RoyalrealmsModMobEffects;
 import net.mcreator.royalrealms.init.RoyalrealmsModItems;
+import net.mcreator.royalrealms.init.RoyalrealmsModEnchantments;
 import net.mcreator.royalrealms.init.RoyalrealmsModBlocks;
 
 import java.util.function.Supplier;
@@ -40,12 +43,15 @@ public class RoyalrealmsMod {
 		// End of user code block mod constructor
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
-
+		RoyalrealmsModSounds.REGISTRY.register(bus);
 		RoyalrealmsModBlocks.REGISTRY.register(bus);
 
 		RoyalrealmsModItems.REGISTRY.register(bus);
 
+		RoyalrealmsModEnchantments.REGISTRY.register(bus);
 		RoyalrealmsModTabs.REGISTRY.register(bus);
+
+		RoyalrealmsModMobEffects.REGISTRY.register(bus);
 
 		// Start of user code block mod init
 		// End of user code block mod init
