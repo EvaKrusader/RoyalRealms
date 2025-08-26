@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "royalrealms:raw_tungsten"
+    }
+  },
+  "result": {
+    "item": "royalrealms:raw_tungsten_block",
+    "count": 1
+  }
+}

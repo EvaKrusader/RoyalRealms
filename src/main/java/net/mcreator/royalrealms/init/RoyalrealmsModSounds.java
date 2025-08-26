@@ -23,4 +23,9 @@ public class RoyalrealmsModSounds {
 	public static final RegistryObject<SoundEvent> ENDERLINK_BOOT_RARE1 = REGISTRY.register("enderlink_boot_rare1", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("royalrealms", "enderlink_boot_rare1")));
 	public static final RegistryObject<SoundEvent> ENDERLINK_BOOT_RARE2 = REGISTRY.register("enderlink_boot_rare2", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("royalrealms", "enderlink_boot_rare2")));
 	public static final RegistryObject<SoundEvent> ENDERLINK_BOOT_RARE3 = REGISTRY.register("enderlink_boot_rare3", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("royalrealms", "enderlink_boot_rare3")));
+	public static final RegistryObject<SoundEvent> THUNDERSTRIKE_WARNING = REGISTRY.register("thunderstrike_warning", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("royalrealms", "thunderstrike_warning")));
+	public static final RegistryObject<SoundEvent> RECORD_SUNLIGHT_BLOCKED = REGISTRY.register("record_sunlight_blocked", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("royalrealms", "record_sunlight_blocked")));
+	public static final RegistryObject<SoundEvent> RECORD_7L011 = REGISTRY.register("record_7l011", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("royalrealms", "record_7l011")));
+	public static final RegistryObject<SoundEvent> RECORD_DISSOLVING_DARK_CLOUDS = REGISTRY.register("record_dissolving_dark_clouds", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("royalrealms", "record_dissolving_dark_clouds")));
+	public static final RegistryObject<SoundEvent> CRYSTAL_BREAK = REGISTRY.register("crystal_break", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("royalrealms", "crystal_break")));
 }

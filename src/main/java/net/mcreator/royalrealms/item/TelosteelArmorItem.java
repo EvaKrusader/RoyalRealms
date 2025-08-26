@@ -18,7 +18,7 @@ public abstract class TelosteelArmorItem extends ArmorItem {
 		super(new ArmorMaterial() {
 			@Override
 			public int getDurabilityForType(ArmorItem.Type type) {
-				return new int[]{13, 15, 16, 11}[type.getSlot().getIndex()] * 15;
+				return new int[]{13, 15, 16, 11}[type.getSlot().getIndex()] * 35;
 			}
 
 			@Override
@@ -48,12 +48,12 @@ public abstract class TelosteelArmorItem extends ArmorItem {
 
 			@Override
 			public float getToughness() {
-				return 0f;
+				return 4f;
 			}
 
 			@Override
 			public float getKnockbackResistance() {
-				return 0f;
+				return 0.1f;
 			}
 		}, type, properties);
 	}

@@ -1,0 +1,19 @@
+
+/*
+ *    MCreator note: This file will be REGENERATED on each build.
+ */
+package net.mcreator.royalrealms.init;
+
+import net.minecraftforge.registries.RegistryObject;
+import net.minecraftforge.registries.ForgeRegistries;
+import net.minecraftforge.registries.DeferredRegister;
+
+import net.minecraft.world.entity.decoration.PaintingVariant;
+
+import net.mcreator.royalrealms.RoyalrealmsMod;
+
+public class RoyalrealmsModPaintings {
+	public static final DeferredRegister<PaintingVariant> REGISTRY = DeferredRegister.create(ForgeRegistries.PAINTING_VARIANTS, RoyalrealmsMod.MODID);
+	public static final RegistryObject<PaintingVariant> LACTOSE = REGISTRY.register("lactose", () -> new PaintingVariant(48, 64));
+	public static final RegistryObject<PaintingVariant> LEXACTOSE = REGISTRY.register("lexactose", () -> new PaintingVariant(48, 64));
+}

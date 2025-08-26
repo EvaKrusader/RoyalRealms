@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "experience": 6,
+  "cookingtime": 2000,
+  "ingredient": {
+    "item": "royalrealms:raw_tungsten_block"
+  },
+  "result": "royalrealms:tungsten_block"
+}

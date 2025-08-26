@@ -1,6 +1,10 @@
 {
   "replace": false,
   "values": [
+    "royalrealms:tungsten_block",
+    "royalrealms:tungsten_ore",
+    "royalrealms:brightcore_block",
+    "royalrealms:brightcore_ore",
     "royalrealms:neonium_block",
     "royalrealms:neonium_ore",
     "royalrealms:starlite_block",

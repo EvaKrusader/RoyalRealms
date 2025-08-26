@@ -1,0 +1,9 @@
+{
+  "asset_name": "brightcore_trim_material",
+  "description": {
+    "color": "#FF7300",
+    "translate": "trim_material.royalrealms.brightcore_trim_material"
+  },
+  "ingredient": "royalrealms:brightcore",
+  "item_model_index": 0.0
+}

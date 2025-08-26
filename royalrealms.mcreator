@@ -1272,18 +1272,6 @@
             "type": "entity"
           },
           {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
             "name": "world",
             "type": "world"
           }
@@ -1298,7 +1286,6 @@
       "locked_code": false,
       "registry_name": "enderlink_countdown",
       "metadata": {
-        "return_type": "string",
         "files": [
           "src/main/java/net/mcreator/royalrealms/procedures/EnderlinkCountdownProcedure.java"
         ],
@@ -1306,18 +1293,6 @@
           {
             "name": "entity",
             "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
           },
           {
             "name": "world",
@@ -1347,19 +1322,6 @@
       "path": "~/Enderlink"
     },
     {
-      "name": "DevOverlayEnderlink",
-      "type": "overlay",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "dev_overlay_enderlink",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/royalrealms/client/screens/DevOverlayEnderlinkOverlay.java"
-        ]
-      },
-      "path": "~/Enderlink"
-    },
-    {
       "name": "EnderlinkPlaysound",
       "type": "procedure",
       "compiles": true,
@@ -1369,28 +1331,7 @@
         "files": [
           "src/main/java/net/mcreator/royalrealms/procedures/EnderlinkPlaysoundProcedure.java"
         ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
+        "dependencies": []
       },
       "path": "~/Enderlink"
     },
@@ -1404,28 +1345,7 @@
         "files": [
           "src/main/java/net/mcreator/royalrealms/procedures/EnderlinkStartupSoundProcedure.java"
         ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
+        "dependencies": []
       },
       "path": "~/Enderlink"
     },
@@ -1708,6 +1628,673 @@
         ]
       },
       "path": "~/Effects"
+    },
+    {
+      "name": "ThunderstrikeProcedure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thunderstrike_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/royalrealms/procedures/ThunderstrikeProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Enchantments/Thunderstrike"
+    },
+    {
+      "name": "WindBlast",
+      "type": "enchantment",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wind_blast",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/royalrealms/enchantment/WindBlastEnchantment.java"
+        ]
+      },
+      "path": "~/Enchantments/WindBlast"
+    },
+    {
+      "name": "WindBlastProcedure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wind_blast_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/royalrealms/procedures/WindBlastProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Enchantments/WindBlast"
+    },
+    {
+      "name": "FixHoleBlockAdded",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fix_hole_block_added",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/royalrealms/procedures/FixHoleBlockAddedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Dev"
+    },
+    {
+      "name": "FixHole",
+      "type": "fluid",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fix_hole",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/royalrealms/block/FixHoleBlock.java",
+          "src/main/resources/assets/royalrealms/models/block/fix_hole.json",
+          "src/main/java/net/mcreator/royalrealms/fluid/FixHoleFluid.java",
+          "src/main/resources/assets/royalrealms/blockstates/fix_hole.json",
+          "src/main/java/net/mcreator/royalrealms/fluid/types/FixHoleFluidType.java",
+          "src/main/java/net/mcreator/royalrealms/item/FixHoleItem.java",
+          "src/main/resources/assets/royalrealms/models/item/fix_hole_bucket.json"
+        ]
+      },
+      "path": "~/Dev"
+    },
+    {
+      "name": "Brightcore",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brightcore",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/royalrealms/item/BrightcoreItem.java",
+          "src/main/resources/assets/royalrealms/models/item/brightcore.json"
+        ]
+      },
+      "path": "~/Brightcore"
+    },
+    {
+      "name": "BrightcoreOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brightcore_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/royalrealms/models/block/brightcore_ore.json",
+          "src/main/resources/data/royalrealms/loot_tables/blocks/brightcore_ore.json",
+          "src/main/resources/assets/royalrealms/blockstates/brightcore_ore.json",
+          "src/main/resources/data/royalrealms/worldgen/configured_feature/brightcore_ore.json",
+          "src/main/resources/data/royalrealms/forge/biome_modifier/brightcore_ore_biome_modifier.json",
+          "src/main/resources/assets/royalrealms/models/item/brightcore_ore.json",
+          "src/main/java/net/mcreator/royalrealms/block/BrightcoreOreBlock.java",
+          "src/main/resources/data/royalrealms/worldgen/placed_feature/brightcore_ore.json"
+        ]
+      },
+      "path": "~/Brightcore"
+    },
+    {
+      "name": "BrightcoreBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brightcore_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/royalrealms/loot_tables/blocks/brightcore_block.json",
+          "src/main/java/net/mcreator/royalrealms/block/BrightcoreBlockBlock.java",
+          "src/main/resources/assets/royalrealms/models/item/brightcore_block.json",
+          "src/main/resources/assets/royalrealms/models/block/brightcore_block.json",
+          "src/main/resources/assets/royalrealms/blockstates/brightcore_block.json"
+        ]
+      },
+      "path": "~/Brightcore"
+    },
+    {
+      "name": "BrightcoreOreBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brightcore_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/royalrealms/recipes/brightcore_ore_block_recipe.json"
+        ]
+      },
+      "path": "~/Brightcore"
+    },
+    {
+      "name": "BrightcoreBlockOreRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brightcore_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/royalrealms/recipes/brightcore_block_ore_recipe.json"
+        ]
+      },
+      "path": "~/Brightcore"
+    },
+    {
+      "name": "BrightcoreOreSmelting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brightcore_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/royalrealms/recipes/brightcore_ore_smelting.json"
+        ]
+      },
+      "path": "~/Brightcore"
+    },
+    {
+      "name": "LustarTrim",
+      "type": "armortrim",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lustar_trim",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/royalrealms/trim_pattern/lustar_trim.json",
+          "src/main/resources/data/royalrealms/recipes/lustar_trim_trim_smithing_template_smithing_trim.json"
+        ]
+      },
+      "path": "~/Armor Trims"
+    },
+    {
+      "name": "BrightcoreTrimMaterial",
+      "type": "trimmaterial",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brightcore_trim_material",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/royalrealms/trim_material/brightcore_trim_material.json"
+        ]
+      },
+      "path": "~/Armor Trims"
+    },
+    {
+      "name": "LustTrimItem",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lust_trim_item",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/royalrealms/models/item/lust_trim_item.json",
+          "src/main/java/net/mcreator/royalrealms/item/LustTrimItemItem.java"
+        ]
+      },
+      "path": "~/Armor Trims"
+    },
+    {
+      "name": "Lactose",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lactose",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Paintings"
+    },
+    {
+      "name": "Lexactose",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lexactose",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Paintings"
+    },
+    {
+      "name": "MusicDisc7l011",
+      "type": "musicdisc",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "music_disc_7l_011",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/royalrealms/models/item/music_disc_7l_011.json",
+          "src/main/java/net/mcreator/royalrealms/item/MusicDisc7l011Item.java"
+        ]
+      },
+      "path": "~/Music"
+    },
+    {
+      "name": "ExperienceAmulet",
+      "type": "curiosbauble",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "experience_amulet",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/royalrealms/models/item/experience_amulet.json",
+          "src/main/java/net/mcreator/royalrealms/item/ExperienceAmuletItem.java"
+        ]
+      },
+      "path": "~/Curio"
+    },
+    {
+      "name": "ExperienceAmuletDeath",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "experience_amulet_death",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/royalrealms/procedures/ExperienceAmuletDeathProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Curio"
+    },
+    {
+      "name": "LifeExperience",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "life_experience",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/royalrealms/advancements/life_experience.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "WeirdTrimItem",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weird_trim_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/royalrealms/item/WeirdTrimItemItem.java",
+          "src/main/resources/assets/royalrealms/models/item/weird_trim_item.json"
+        ]
+      },
+      "path": "~/Armor Trims"
+    },
+    {
+      "name": "TrimItemsTooltip",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trim_items_tooltip",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/royalrealms/procedures/TrimItemsTooltipProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "tooltip",
+            "type": "tooltip"
+          }
+        ]
+      },
+      "path": "~/Armor Trims"
+    },
+    {
+      "name": "WeirdTrim",
+      "type": "armortrim",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weird_trim",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/royalrealms/trim_pattern/weird_trim.json",
+          "src/main/resources/data/royalrealms/recipes/weird_trim_trim_smithing_template_smithing_trim.json"
+        ]
+      },
+      "path": "~/Armor Trims"
+    },
+    {
+      "name": "TrimItemsTooltipGeneral",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trim_items_tooltip_general",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/royalrealms/procedures/TrimItemsTooltipGeneralProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/Armor Trims"
+    },
+    {
+      "name": "Tungsten",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tungsten",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/royalrealms/item/TungstenItem.java",
+          "src/main/resources/assets/royalrealms/models/item/tungsten.json"
+        ]
+      },
+      "path": "~/Tungsten"
+    },
+    {
+      "name": "TungstenOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tungsten_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/royalrealms/blockstates/tungsten_ore.json",
+          "src/main/java/net/mcreator/royalrealms/block/TungstenOreBlock.java",
+          "src/main/resources/data/royalrealms/worldgen/placed_feature/tungsten_ore.json",
+          "src/main/resources/assets/royalrealms/models/block/tungsten_ore.json",
+          "src/main/resources/data/royalrealms/forge/biome_modifier/tungsten_ore_biome_modifier.json",
+          "src/main/resources/data/royalrealms/worldgen/configured_feature/tungsten_ore.json",
+          "src/main/resources/assets/royalrealms/models/item/tungsten_ore.json"
+        ]
+      },
+      "path": "~/Tungsten"
+    },
+    {
+      "name": "TungstenBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tungsten_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/royalrealms/block/TungstenBlockBlock.java",
+          "src/main/resources/assets/royalrealms/models/item/tungsten_block.json",
+          "src/main/resources/assets/royalrealms/blockstates/tungsten_block.json",
+          "src/main/resources/assets/royalrealms/models/block/tungsten_block.json",
+          "src/main/resources/data/royalrealms/loot_tables/blocks/tungsten_block.json"
+        ]
+      },
+      "path": "~/Tungsten"
+    },
+    {
+      "name": "TungstenOreBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tungsten_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/royalrealms/recipes/tungsten_ore_block_recipe.json"
+        ]
+      },
+      "path": "~/Tungsten"
+    },
+    {
+      "name": "TungstenBlockOreRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tungsten_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/royalrealms/recipes/tungsten_block_ore_recipe.json"
+        ]
+      },
+      "path": "~/Tungsten"
+    },
+    {
+      "name": "TungstenOreSmelting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tungsten_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/royalrealms/recipes/tungsten_ore_smelting.json"
+        ]
+      },
+      "path": "~/Tungsten"
+    },
+    {
+      "name": "RawTungsten",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_tungsten",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/royalrealms/item/RawTungstenItem.java",
+          "src/main/resources/assets/royalrealms/models/item/raw_tungsten.json"
+        ]
+      },
+      "path": "~/Tungsten"
+    },
+    {
+      "name": "TungstenOreDrop",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tungsten_ore_drop",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/royalrealms/loot_tables/blocks/tungsten_ore.json"
+        ]
+      },
+      "path": "~/Tungsten"
+    },
+    {
+      "name": "RawTungstenBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_tungsten_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/royalrealms/loot_tables/blocks/raw_tungsten_block.json",
+          "src/main/resources/assets/royalrealms/models/block/raw_tungsten_block.json",
+          "src/main/resources/assets/royalrealms/models/item/raw_tungsten_block.json",
+          "src/main/java/net/mcreator/royalrealms/block/RawTungstenBlockBlock.java",
+          "src/main/resources/assets/royalrealms/blockstates/raw_tungsten_block.json"
+        ]
+      },
+      "path": "~/Tungsten"
+    },
+    {
+      "name": "RawTungstenOreBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_tungsten_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/royalrealms/recipes/raw_tungsten_ore_block_recipe.json"
+        ]
+      },
+      "path": "~/Tungsten"
+    },
+    {
+      "name": "RawTungstenBlockOreRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_tungsten_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/royalrealms/recipes/raw_tungsten_block_ore_recipe.json"
+        ]
+      },
+      "path": "~/Tungsten"
+    },
+    {
+      "name": "RawTungstenOreBlockBlasting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_tungsten_ore_block_blasting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/royalrealms/recipes/raw_tungsten_ore_block_blasting.json"
+        ]
+      },
+      "path": "~/Tungsten"
+    },
+    {
+      "name": "NameTagCustomNameCraft",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "name_tag_custom_name_craft",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/royalrealms/procedures/NameTagCustomNameCraftProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Items/NameTag"
+    },
+    {
+      "name": "NametagOverlayCondition",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nametag_overlay_condition",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/royalrealms/procedures/NametagOverlayConditionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Items/NameTag"
+    },
+    {
+      "name": "NametagConfirmationOverlay",
+      "type": "overlay",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nametag_confirmation_overlay",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/royalrealms/client/screens/NametagConfirmationOverlayOverlay.java"
+        ]
+      },
+      "path": "~/Items/NameTag"
+    },
+    {
+      "name": "NametagOverlayConfirmation",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nametag_overlay_confirmation",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/royalrealms/procedures/NametagOverlayConfirmationProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Items/NameTag"
     }
   ],
   "variable_elements": [
@@ -1800,16 +2387,55 @@
       ],
       "category": "neutral",
       "subtitle": "Connection to Enderlink servers"
+    },
+    {
+      "name": "thunderstrike_warning",
+      "files": [
+        "thunder"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "record_sunlight_blocked",
+      "files": [
+        "record_sunlight_blocked"
+      ],
+      "category": "record",
+      "subtitle": ""
+    },
+    {
+      "name": "record_7l011",
+      "files": [
+        "record_7l011"
+      ],
+      "category": "record",
+      "subtitle": ""
+    },
+    {
+      "name": "record_dissolving_dark_clouds",
+      "files": [
+        "record_dissolving_dark_clouds"
+      ],
+      "category": "record",
+      "subtitle": ""
+    },
+    {
+      "name": "crystal_break",
+      "files": [
+        "crystal_break1",
+        "crystal_break2"
+      ],
+      "category": "neutral",
+      "subtitle": ""
     }
   ],
   "tag_elements": {
-    "ITEMS:mod:magnet_tools": [
-      "TAG:minecraft:pickaxes",
-      "TAG:minecraft:axes",
-      "TAG:minecraft:shovels",
-      "TAG:minecraft:hoes"
-    ],
     "BLOCKS:minecraft:needs_iron_tool": [
+      "~CUSTOM:TungstenBlock",
+      "~CUSTOM:TungstenOre",
+      "~CUSTOM:BrightcoreBlock",
+      "~CUSTOM:BrightcoreOre",
       "~CUSTOM:NeoniumBlock",
       "~CUSTOM:NeoniumOre",
       "~CUSTOM:StarliteBlock",
@@ -1819,30 +2445,13 @@
       "~CUSTOM:TelosteelBlock",
       "~CUSTOM:TelosteelOre"
     ],
-    "BLOCKS:minecraft:mineable/pickaxe": [
-      "~CUSTOM:NeoniumBlock",
-      "~CUSTOM:NeoniumOre",
-      "~CUSTOM:StarliteBlock",
-      "~CUSTOM:StarliteOre",
-      "~CUSTOM:MalachiteBlock",
-      "~CUSTOM:MalachiteOre",
-      "~CUSTOM:TelosteelBlock",
-      "~CUSTOM:TelosteelOre"
+    "BLOCKS:minecraft:replaceable": [
+      "~CUSTOM:FixHole"
     ],
     "ITEMS:minecraft:pickaxes": [
       "~CUSTOM:StarlitePickaxe",
       "~CUSTOM:MalachitePickaxe",
       "~CUSTOM:TelosteelPickaxe"
-    ],
-    "ITEMS:minecraft:axes": [
-      "~CUSTOM:StarliteAxe",
-      "~CUSTOM:MalachiteAxe",
-      "~CUSTOM:TelosteelAxe"
-    ],
-    "ITEMS:minecraft:swords": [
-      "~CUSTOM:StarliteSword",
-      "~CUSTOM:MalachiteSword",
-      "~CUSTOM:TelosteelSword"
     ],
     "ITEMS:minecraft:hoes": [
       "~CUSTOM:StarliteHoe",
@@ -1856,6 +2465,47 @@
       "Blocks.PUMPKIN",
       "TAG:minecraft:crops"
     ],
+    "ITEMS:minecraft:music_discs": [
+      "~CUSTOM:MusicDisc7l011"
+    ],
+    "ITEMS:mod:magnet_tools": [
+      "TAG:minecraft:pickaxes",
+      "TAG:minecraft:axes",
+      "TAG:minecraft:shovels",
+      "TAG:minecraft:hoes"
+    ],
+    "ITEMS:minecraft:trim_items": [
+      "CUSTOM:LustTrimItem",
+      "CUSTOM:WeirdTrimItem"
+    ],
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:TungstenBlock",
+      "~CUSTOM:TungstenOre",
+      "~CUSTOM:BrightcoreBlock",
+      "~CUSTOM:BrightcoreOre",
+      "~CUSTOM:NeoniumBlock",
+      "~CUSTOM:NeoniumOre",
+      "~CUSTOM:StarliteBlock",
+      "~CUSTOM:StarliteOre",
+      "~CUSTOM:MalachiteBlock",
+      "~CUSTOM:MalachiteOre",
+      "~CUSTOM:TelosteelBlock",
+      "~CUSTOM:TelosteelOre"
+    ],
+    "ITEMS:minecraft:axes": [
+      "~CUSTOM:StarliteAxe",
+      "~CUSTOM:MalachiteAxe",
+      "~CUSTOM:TelosteelAxe"
+    ],
+    "ITEMS:mod:tungsten_blastable": [
+      "CUSTOM:TungstenOre",
+      "CUSTOM:RawTungsten"
+    ],
+    "ITEMS:minecraft:swords": [
+      "~CUSTOM:StarliteSword",
+      "~CUSTOM:MalachiteSword",
+      "~CUSTOM:TelosteelSword"
+    ],
     "ITEMS:minecraft:shovels": [
       "~CUSTOM:StarliteShovel",
       "~CUSTOM:MalachiteShovel",
@@ -1866,26 +2516,48 @@
   "language_map": {
     "en_us": {
       "death.attack.enderlink_damage.player": "%1$s died whilst trying to escape %2$s",
+      "painting.royalrealms.lexactose.title": "Lexactose",
+      "block.royalrealms.tungsten_block": "Block of Tungsten",
       "advancements.neural_augment.descr": "Install Enderlink",
+      "block.royalrealms.fix_hole": "Fix Hole",
+      "block.royalrealms.brightcore_ore": "Brightcore Ore",
       "advancements.neural_augment.title": "Neural Augmentation",
       "enchantment.royalrealms.replanter": "Replanter",
+      "fluid.royalrealms.fix_hole": "Fix Hole",
       "enchantment.royalrealms.hot_touch": "Hot Touch",
+      "painting.royalrealms.lactose.author": "Linkstar_",
+      "block.royalrealms.brightcore_block": "Block of Brightcore",
       "block.royalrealms.malachite_block": "Block of Malachite",
       "death.attack.enderlink_damage.item": "%1$s was killed by %2$s using %3$s",
       "item.royalrealms.telosteel_armor_helmet": "Telosteel Helmet",
+      "item.royalrealms.brightcore": "Brightcore",
       "item.royalrealms.starlite_pickaxe": "Starlite Pickaxe",
+      "item.royalrealms.weird_trim_item": "Smithing Template",
+      "subtitles.crystal_break": "",
       "item.royalrealms.starlite_armor_boots": "Starlite Boots",
       "item.royalrealms.soul_orb": "Soul Orb",
+      "block.royalrealms.raw_tungsten_block": "Raw Tungsten Block",
+      "subtitles.thunderstrike_warning": "",
+      "item.royalrealms.raw_tungsten": "Raw Tungsten",
+      "item.royalrealms.music_disc_7l_011": "Music Disc",
+      "block.royalrealms.tungsten_ore": "Tungsten Ore",
       "item.royalrealms.malachite_axe": "Malachite Axe",
       "item.royalrealms.malachite_sword": "Malachite Sword",
       "item.royalrealms.telosteel_sword": "Telosteel Sword",
       "enchantment.royalrealms.thunderstrike": "Thunderstrike",
+      "item.royalrealms.lust_trim_item": "Smithing Template",
+      "trim_material.royalrealms.brightcore_trim_material": "Brightcore",
       "item.royalrealms.malachite_armor_leggings": "Malachite Leggings",
+      "painting.royalrealms.lexactose.author": "EvaKrusader",
       "advancements.paper_printer.descr": "Obtain a log patent",
       "effect.royalrealms.phasing": "Phasing",
       "block.royalrealms.telosteel_ore": "Telosteel Ore",
+      "trim_pattern.royalrealms.lustar_trim": "Lust Armor Trim",
       "item.royalrealms.malachite_armor_helmet": "Malachite Helmet",
+      "advancements.life_experience.title": "Life Experience",
+      "item.royalrealms.fix_hole_bucket": "Fix Hole Bucket",
       "item.royalrealms.malachite_armor_boots": "Malachite Boots",
+      "subtitles.record_sunlight_blocked": "",
       "item.royalrealms.telosteel_armor_boots": "Telosteel Boots",
       "item.royalrealms.starlite_shovel": "Starlite Shovel",
       "item.royalrealms.telosteel_armor_chestplate": "Telosteel Chestplate",
@@ -1894,6 +2566,8 @@
       "block.royalrealms.telosteel_block": "Block of Telosteel",
       "item.royalrealms.starlite_armor_leggings": "Starlite Leggings",
       "item.royalrealms.telosteel_ingot": "Telosteel",
+      "subtitles.record_7l011": "",
+      "item.royalrealms.music_disc_7l_011.desc": "Asutenki - 7L011",
       "block.royalrealms.starlite_ore": "Starlite Ore",
       "item.royalrealms.malachite_armor_chestplate": "Malachite Chestplate",
       "item.royalrealms.telosteel_axe": "Telosteel Axe",
@@ -1901,8 +2575,11 @@
       "item.royalrealms.telosteel_hoe": "Telosteel Hoe",
       "item.royalrealms.malachite_shovel": "Malachite Shovel",
       "item.royalrealms.starlite_axe": "Starlite Axe",
+      "item.royalrealms.experience_amulet": "Experience Amulet",
       "item.royalrealms.malachite": "Malachite",
       "enchantment.royalrealms.magnet": "Magnet",
+      "subtitles.disc_sunlight_blocked": "",
+      "item.royalrealms.tungsten": "Tungsten",
       "block.royalrealms.malachite_ore": "Malachite Ore",
       "subtitles.enderlink_msg_rare": "Enderlink notification",
       "item.royalrealms.starlite_armor_helmet": "Starlite Helmet",
@@ -1910,17 +2587,22 @@
       "subtitles.enderlink_msg2": "Enderlink notification",
       "subtitles.enderlink_msg3": "Enderlink notification",
       "item.royalrealms.telosteel_armor_leggings": "Telosteel Leggings",
+      "painting.royalrealms.lactose.title": "Lactose",
       "item.royalrealms.starlite_hoe": "Starlite Hoe",
+      "enchantment.royalrealms.wind_blast": "Wind Blast",
+      "subtitles.record_dissolving_dark_clouds": "",
       "item.royalrealms.starlite_armor_chestplate": "Starlite Chestplate",
       "item.royalrealms.enderlink": "Enderlink",
       "item.royalrealms.starlite_sword": "Starlite Sword",
       "block.royalrealms.neonium_block": "Block of Neonium",
       "item.royalrealms.malachite_pickaxe": "Malachite Pickaxe",
       "item.royalrealms.paper_copy_patent": "Paper Copy Patent",
+      "trim_pattern.royalrealms.weird_trim": "Weird Armor Trim",
       "item.royalrealms.malachite_hoe": "Malachite Hoe",
       "item.royalrealms.starlite_dust": "Starlite",
       "block.royalrealms.starlite_block": "Block of Starlite",
       "subtitles.enderlink_boot_rare3": "Connection to Enderlink servers",
+      "advancements.life_experience.descr": "Cheat death",
       "item.royalrealms.telosteel_pickaxe": "Telosteel Pickaxe",
       "item.royalrealms.telosteel_shovel": "Telosteel Shovel",
       "advancements.paper_printer.title": "It doesn\u0027t grow on trees...",
@@ -1988,6 +2670,10 @@
           {
             "name": "Thunderstrike",
             "children": []
+          },
+          {
+            "name": "WindBlast",
+            "children": []
           }
         ]
       },
@@ -2009,10 +2695,31 @@
       },
       {
         "name": "Items",
-        "children": []
+        "children": [
+          {
+            "name": "NameTag",
+            "children": []
+          }
+        ]
       },
       {
         "name": "Advancements",
+        "children": []
+      },
+      {
+        "name": "Armor Trims",
+        "children": []
+      },
+      {
+        "name": "Paintings",
+        "children": []
+      },
+      {
+        "name": "Music",
+        "children": []
+      },
+      {
+        "name": "Tungsten",
         "children": []
       }
     ]

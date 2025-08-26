@@ -1,0 +1,11 @@
+{
+  "_fv": 66,
+  "_type": "armortrim",
+  "definition": {
+    "name": "Weird Armor Trim",
+    "item": {
+      "value": "CUSTOM:WeirdTrimItem"
+    },
+    "armorTextureFile": "weird_"
+  }
+}

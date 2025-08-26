@@ -1,0 +1,44 @@
+{
+  "_fv": 66,
+  "_type": "overlay",
+  "definition": {
+    "priority": "NORMAL",
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "angel_brick.png",
+          "use1Xscale": false,
+          "anchorPoint": "CENTER",
+          "x": 214,
+          "y": 120
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "demon_brick.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "NametagOverlayConfirmation"
+          },
+          "anchorPoint": "CENTER",
+          "x": 214,
+          "y": 120
+        }
+      }
+    ],
+    "baseTexture": "",
+    "overlayTarget": "Ingame",
+    "displayCondition": {
+      "name": "NametagOverlayCondition"
+    },
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "asset_id": "royalrealms:weird_trim",
+  "description": {
+    "translate": "trim_pattern.royalrealms.weird_trim"
+  },
+  "template_item": "royalrealms:weird_trim_item"
+}

@@ -30,6 +30,10 @@ public class RoyalrealmsModTabs {
 			tabData.accept(RoyalrealmsModBlocks.STARLITE_BLOCK.get().asItem());
 			tabData.accept(RoyalrealmsModBlocks.NEONIUM_ORE.get().asItem());
 			tabData.accept(RoyalrealmsModBlocks.NEONIUM_BLOCK.get().asItem());
+			tabData.accept(RoyalrealmsModBlocks.BRIGHTCORE_ORE.get().asItem());
+			tabData.accept(RoyalrealmsModBlocks.BRIGHTCORE_BLOCK.get().asItem());
+			tabData.accept(RoyalrealmsModBlocks.TUNGSTEN_ORE.get().asItem());
+			tabData.accept(RoyalrealmsModBlocks.TUNGSTEN_BLOCK.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
 			tabData.accept(RoyalrealmsModItems.TELOSTEEL_SWORD.get());
 			tabData.accept(RoyalrealmsModItems.TELOSTEEL_ARMOR_HELMET.get());
@@ -48,11 +52,17 @@ public class RoyalrealmsModTabs {
 			tabData.accept(RoyalrealmsModItems.STARLITE_ARMOR_BOOTS.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
 			tabData.accept(RoyalrealmsModItems.SOUL_ORB.get());
+			tabData.accept(RoyalrealmsModItems.EXPERIENCE_AMULET.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
 			tabData.accept(RoyalrealmsModItems.TELOSTEEL_INGOT.get());
 			tabData.accept(RoyalrealmsModItems.MALACHITE.get());
 			tabData.accept(RoyalrealmsModItems.STARLITE_DUST.get());
 			tabData.accept(RoyalrealmsModItems.NEONIUM.get());
+			tabData.accept(RoyalrealmsModItems.FIX_HOLE_BUCKET.get());
+			tabData.accept(RoyalrealmsModItems.BRIGHTCORE.get());
+			tabData.accept(RoyalrealmsModItems.LUST_TRIM_ITEM.get());
+			tabData.accept(RoyalrealmsModItems.WEIRD_TRIM_ITEM.get());
+			tabData.accept(RoyalrealmsModItems.TUNGSTEN.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 			tabData.accept(RoyalrealmsModItems.TELOSTEEL_PICKAXE.get());
 			tabData.accept(RoyalrealmsModItems.TELOSTEEL_AXE.get());
@@ -66,6 +76,7 @@ public class RoyalrealmsModTabs {
 			tabData.accept(RoyalrealmsModItems.STARLITE_AXE.get());
 			tabData.accept(RoyalrealmsModItems.STARLITE_SHOVEL.get());
 			tabData.accept(RoyalrealmsModItems.STARLITE_HOE.get());
+			tabData.accept(RoyalrealmsModItems.MUSIC_DISC_7L_011.get());
 		}
 	}
 }

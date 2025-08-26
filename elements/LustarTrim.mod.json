@@ -1,0 +1,11 @@
+{
+  "_fv": 66,
+  "_type": "armortrim",
+  "definition": {
+    "name": "Lust Armor Trim",
+    "item": {
+      "value": "CUSTOM:LustTrimItem"
+    },
+    "armorTextureFile": "snowgrave_"
+  }
+}

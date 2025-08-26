@@ -70,5 +70,49 @@
         "stream": false
       }
     ]
+  },
+  "thunderstrike_warning": {
+    "sounds": [
+      {
+        "name": "royalrealms:thunder",
+        "stream": false
+      }
+    ]
+  },
+  "record_sunlight_blocked": {
+    "sounds": [
+      {
+        "name": "royalrealms:record_sunlight_blocked",
+        "stream": true
+      }
+    ]
+  },
+  "record_7l011": {
+    "sounds": [
+      {
+        "name": "royalrealms:record_7l011",
+        "stream": true
+      }
+    ]
+  },
+  "record_dissolving_dark_clouds": {
+    "sounds": [
+      {
+        "name": "royalrealms:record_dissolving_dark_clouds",
+        "stream": true
+      }
+    ]
+  },
+  "crystal_break": {
+    "sounds": [
+      {
+        "name": "royalrealms:crystal_break1",
+        "stream": false
+      },
+      {
+        "name": "royalrealms:crystal_break2",
+        "stream": false
+      }
+    ]
   }
 }

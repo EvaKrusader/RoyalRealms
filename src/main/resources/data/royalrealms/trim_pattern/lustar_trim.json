@@ -1,0 +1,7 @@
+{
+  "asset_id": "royalrealms:lustar_trim",
+  "description": {
+    "translate": "trim_pattern.royalrealms.lustar_trim"
+  },
+  "template_item": "royalrealms:lust_trim_item"
+}

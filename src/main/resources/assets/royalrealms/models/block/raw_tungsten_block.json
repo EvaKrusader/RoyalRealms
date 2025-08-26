@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "royalrealms:block/raw_tungsten_block_top",
+    "up": "royalrealms:block/raw_tungsten_block_top",
+    "north": "royalrealms:block/raw_tungsten_block",
+    "east": "royalrealms:block/raw_tungsten_block",
+    "south": "royalrealms:block/raw_tungsten_block",
+    "west": "royalrealms:block/raw_tungsten_block",
+    "particle": "royalrealms:block/raw_tungsten_block_top"
+  },
+  "render_type": "solid"
+}

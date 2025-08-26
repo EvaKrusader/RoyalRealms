@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "royalrealms:block/brightcore_ore_block",
+    "up": "royalrealms:block/brightcore_ore_block",
+    "north": "royalrealms:block/brightcore_ore_block",
+    "east": "royalrealms:block/brightcore_ore_block",
+    "south": "royalrealms:block/brightcore_ore_block",
+    "west": "royalrealms:block/brightcore_ore_block",
+    "particle": "royalrealms:block/brightcore_ore_block"
+  },
+  "render_type": "solid"
+}

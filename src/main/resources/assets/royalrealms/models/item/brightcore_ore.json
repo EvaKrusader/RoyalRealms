@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "royalrealms:item/brightcore_ore"
+  },
+  "render_type": "translucent"
+}

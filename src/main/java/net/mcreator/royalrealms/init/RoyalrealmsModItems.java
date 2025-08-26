@@ -12,6 +12,8 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
+import net.mcreator.royalrealms.item.WeirdTrimItemItem;
+import net.mcreator.royalrealms.item.TungstenItem;
 import net.mcreator.royalrealms.item.TelosteelSwordItem;
 import net.mcreator.royalrealms.item.TelosteelShovelItem;
 import net.mcreator.royalrealms.item.TelosteelPickaxeItem;
@@ -27,9 +29,11 @@ import net.mcreator.royalrealms.item.StarliteDustItem;
 import net.mcreator.royalrealms.item.StarliteAxeItem;
 import net.mcreator.royalrealms.item.StarliteArmorItem;
 import net.mcreator.royalrealms.item.SoulOrbItem;
+import net.mcreator.royalrealms.item.RawTungstenItem;
 import net.mcreator.royalrealms.item.PhasingCanItem;
 import net.mcreator.royalrealms.item.PaperCopyPatentItem;
 import net.mcreator.royalrealms.item.NeoniumItem;
+import net.mcreator.royalrealms.item.MusicDisc7l011Item;
 import net.mcreator.royalrealms.item.MalachiteSwordItem;
 import net.mcreator.royalrealms.item.MalachiteShovelItem;
 import net.mcreator.royalrealms.item.MalachitePickaxeItem;
@@ -37,7 +41,11 @@ import net.mcreator.royalrealms.item.MalachiteItem;
 import net.mcreator.royalrealms.item.MalachiteHoeItem;
 import net.mcreator.royalrealms.item.MalachiteAxeItem;
 import net.mcreator.royalrealms.item.MalachiteArmorItem;
+import net.mcreator.royalrealms.item.LustTrimItemItem;
+import net.mcreator.royalrealms.item.FixHoleItem;
+import net.mcreator.royalrealms.item.ExperienceAmuletItem;
 import net.mcreator.royalrealms.item.EnderlinkItem;
+import net.mcreator.royalrealms.item.BrightcoreItem;
 import net.mcreator.royalrealms.RoyalrealmsMod;
 
 public class RoyalrealmsModItems {
@@ -85,6 +93,19 @@ public class RoyalrealmsModItems {
 	public static final RegistryObject<Item> NEONIUM_BLOCK = block(RoyalrealmsModBlocks.NEONIUM_BLOCK);
 	public static final RegistryObject<Item> PHASING_CAN = REGISTRY.register("phasing_can", () -> new PhasingCanItem());
 	public static final RegistryObject<Item> PAPER_COPY_PATENT = REGISTRY.register("paper_copy_patent", () -> new PaperCopyPatentItem());
+	public static final RegistryObject<Item> FIX_HOLE_BUCKET = REGISTRY.register("fix_hole_bucket", () -> new FixHoleItem());
+	public static final RegistryObject<Item> BRIGHTCORE = REGISTRY.register("brightcore", () -> new BrightcoreItem());
+	public static final RegistryObject<Item> BRIGHTCORE_ORE = block(RoyalrealmsModBlocks.BRIGHTCORE_ORE);
+	public static final RegistryObject<Item> BRIGHTCORE_BLOCK = block(RoyalrealmsModBlocks.BRIGHTCORE_BLOCK);
+	public static final RegistryObject<Item> LUST_TRIM_ITEM = REGISTRY.register("lust_trim_item", () -> new LustTrimItemItem());
+	public static final RegistryObject<Item> MUSIC_DISC_7L_011 = REGISTRY.register("music_disc_7l_011", () -> new MusicDisc7l011Item());
+	public static final RegistryObject<Item> EXPERIENCE_AMULET = REGISTRY.register("experience_amulet", () -> new ExperienceAmuletItem());
+	public static final RegistryObject<Item> WEIRD_TRIM_ITEM = REGISTRY.register("weird_trim_item", () -> new WeirdTrimItemItem());
+	public static final RegistryObject<Item> TUNGSTEN = REGISTRY.register("tungsten", () -> new TungstenItem());
+	public static final RegistryObject<Item> TUNGSTEN_ORE = block(RoyalrealmsModBlocks.TUNGSTEN_ORE);
+	public static final RegistryObject<Item> TUNGSTEN_BLOCK = block(RoyalrealmsModBlocks.TUNGSTEN_BLOCK);
+	public static final RegistryObject<Item> RAW_TUNGSTEN = REGISTRY.register("raw_tungsten", () -> new RawTungstenItem());
+	public static final RegistryObject<Item> RAW_TUNGSTEN_BLOCK = block(RoyalrealmsModBlocks.RAW_TUNGSTEN_BLOCK);
 
 	// Start of user code block custom items
 	// End of user code block custom items

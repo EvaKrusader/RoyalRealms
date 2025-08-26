@@ -1,0 +1,22 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Blasting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 6.0,
+    "cookingTime": 2000,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "blastingInputStack": {
+      "value": "CUSTOM:RawTungstenBlock"
+    },
+    "blastingReturnStack": {
+      "value": "CUSTOM:TungstenBlock"
+    },
+    "name": "raw_tungsten_ore_block_blasting",
+    "namespace": "mod"
+  }
+}

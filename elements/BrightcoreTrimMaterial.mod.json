@@ -1,0 +1,42 @@
+{
+  "_fv": 66,
+  "_type": "trimmaterial",
+  "definition": {
+    "name": "Brightcore",
+    "item": {
+      "value": "CUSTOM:Brightcore"
+    },
+    "color1": {
+      "value": -24320,
+      "falpha": 0.0
+    },
+    "color2": {
+      "value": -29440,
+      "falpha": 0.0
+    },
+    "color3": {
+      "value": -33536,
+      "falpha": 0.0
+    },
+    "color4": {
+      "value": -36096,
+      "falpha": 0.0
+    },
+    "color5": {
+      "value": -14474461,
+      "falpha": 0.0
+    },
+    "color6": {
+      "value": -15198184,
+      "falpha": 0.0
+    },
+    "color7": {
+      "value": -15592942,
+      "falpha": 0.0
+    },
+    "color8": {
+      "value": -16448251,
+      "falpha": 0.0
+    }
+  }
+}

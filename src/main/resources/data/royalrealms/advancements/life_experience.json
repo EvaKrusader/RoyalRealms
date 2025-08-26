@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "royalrealms:experience_amulet"
+    },
+    "title": {
+      "translate": "advancements.life_experience.title"
+    },
+    "description": {
+      "translate": "advancements.life_experience.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "life_experience_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "royalrealms:neural_augment"
+}

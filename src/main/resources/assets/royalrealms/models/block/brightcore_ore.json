@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "royalrealms:block/brightcore_ore",
+    "particle": "royalrealms:block/brightcore_ore"
+  },
+  "render_type": "cutout_mipped"
+}

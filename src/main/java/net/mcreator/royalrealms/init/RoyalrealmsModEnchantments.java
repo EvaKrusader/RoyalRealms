@@ -10,6 +10,7 @@ import net.minecraftforge.registries.DeferredRegister;
 
 import net.minecraft.world.item.enchantment.Enchantment;
 
+import net.mcreator.royalrealms.enchantment.WindBlastEnchantment;
 import net.mcreator.royalrealms.enchantment.ThunderstrikeEnchantment;
 import net.mcreator.royalrealms.enchantment.ReplanterEnchantment;
 import net.mcreator.royalrealms.enchantment.MagnetEnchantment;
@@ -22,4 +23,5 @@ public class RoyalrealmsModEnchantments {
 	public static final RegistryObject<Enchantment> HOT_TOUCH = REGISTRY.register("hot_touch", () -> new HotTouchEnchantment());
 	public static final RegistryObject<Enchantment> REPLANTER = REGISTRY.register("replanter", () -> new ReplanterEnchantment());
 	public static final RegistryObject<Enchantment> THUNDERSTRIKE = REGISTRY.register("thunderstrike", () -> new ThunderstrikeEnchantment());
+	public static final RegistryObject<Enchantment> WIND_BLAST = REGISTRY.register("wind_blast", () -> new WindBlastEnchantment());
 }

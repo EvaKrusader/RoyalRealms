@@ -19,8 +19,11 @@ import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.royalrealms.init.RoyalrealmsModTabs;
 import net.mcreator.royalrealms.init.RoyalrealmsModSounds;
+import net.mcreator.royalrealms.init.RoyalrealmsModPaintings;
 import net.mcreator.royalrealms.init.RoyalrealmsModMobEffects;
 import net.mcreator.royalrealms.init.RoyalrealmsModItems;
+import net.mcreator.royalrealms.init.RoyalrealmsModFluids;
+import net.mcreator.royalrealms.init.RoyalrealmsModFluidTypes;
 import net.mcreator.royalrealms.init.RoyalrealmsModEnchantments;
 import net.mcreator.royalrealms.init.RoyalrealmsModBlocks;
 
@@ -53,6 +56,10 @@ public class RoyalrealmsMod {
 
 		RoyalrealmsModMobEffects.REGISTRY.register(bus);
 
+		RoyalrealmsModPaintings.REGISTRY.register(bus);
+
+		RoyalrealmsModFluids.REGISTRY.register(bus);
+		RoyalrealmsModFluidTypes.REGISTRY.register(bus);
 		// Start of user code block mod init
 		// End of user code block mod init
 	}
