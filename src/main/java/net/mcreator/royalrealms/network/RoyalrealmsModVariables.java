@@ -69,6 +69,10 @@ public class RoyalrealmsModVariables {
 			clone.playerHasEnderlink = original.playerHasEnderlink;
 			clone.EnderlinkSoundItem = original.EnderlinkSoundItem;
 			clone.EnderlinkStartupSound = original.EnderlinkStartupSound;
+			clone.ver1 = original.ver1;
+			clone.ver2 = original.ver2;
+			clone.ver3 = original.ver3;
+			clone.nextVersion = original.nextVersion;
 			if (!event.isWasDeath()) {
 				clone.EnderlinkCounter = original.EnderlinkCounter;
 			}
@@ -110,6 +114,10 @@ public class RoyalrealmsModVariables {
 		public double EnderlinkCounter = 2400.0;
 		public double EnderlinkSoundItem = 456.0;
 		public double EnderlinkStartupSound = 456.0;
+		public double ver1 = 0;
+		public double ver2 = 0;
+		public double ver3 = 1.0;
+		public String nextVersion = "\"\"";
 
 		public void syncPlayerVariables(Entity entity) {
 			if (entity instanceof ServerPlayer serverPlayer)
@@ -122,6 +130,10 @@ public class RoyalrealmsModVariables {
 			nbt.putDouble("EnderlinkCounter", EnderlinkCounter);
 			nbt.putDouble("EnderlinkSoundItem", EnderlinkSoundItem);
 			nbt.putDouble("EnderlinkStartupSound", EnderlinkStartupSound);
+			nbt.putDouble("ver1", ver1);
+			nbt.putDouble("ver2", ver2);
+			nbt.putDouble("ver3", ver3);
+			nbt.putString("nextVersion", nextVersion);
 			return nbt;
 		}
 
@@ -131,6 +143,10 @@ public class RoyalrealmsModVariables {
 			EnderlinkCounter = nbt.getDouble("EnderlinkCounter");
 			EnderlinkSoundItem = nbt.getDouble("EnderlinkSoundItem");
 			EnderlinkStartupSound = nbt.getDouble("EnderlinkStartupSound");
+			ver1 = nbt.getDouble("ver1");
+			ver2 = nbt.getDouble("ver2");
+			ver3 = nbt.getDouble("ver3");
+			nextVersion = nbt.getString("nextVersion");
 		}
 	}
 
@@ -159,6 +175,10 @@ public class RoyalrealmsModVariables {
 					variables.EnderlinkCounter = message.data.EnderlinkCounter;
 					variables.EnderlinkSoundItem = message.data.EnderlinkSoundItem;
 					variables.EnderlinkStartupSound = message.data.EnderlinkStartupSound;
+					variables.ver1 = message.data.ver1;
+					variables.ver2 = message.data.ver2;
+					variables.ver3 = message.data.ver3;
+					variables.nextVersion = message.data.nextVersion;
 				}
 			});
 			context.setPacketHandled(true);

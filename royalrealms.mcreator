@@ -2295,6 +2295,25 @@
         ]
       },
       "path": "~/Items/NameTag"
+    },
+    {
+      "name": "CheckModVersionWhenJoin",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "check_mod_version_when_join",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/royalrealms/procedures/CheckModVersionWhenJoinProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Dev"
     }
   ],
   "variable_elements": [
@@ -2321,6 +2340,30 @@
       "type": "number",
       "scope": "player_persistent",
       "value": "456.0"
+    },
+    {
+      "name": "ver1",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "ver2",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "ver3",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "1.0"
+    },
+    {
+      "name": "nextVersion",
+      "type": "string",
+      "scope": "player_persistent",
+      "value": "\"\""
     }
   ],
   "sound_elements": [
