@@ -1,8 +1,9 @@
 {
-  "tip1" : "Tip 1 test",
-  "tip2" : "Tip 2 test",
-  "tip3" : "Tip 3 test",
-  "tip4" : "Tip 4 test",
-  "tip5" : "Tip 5 test",
+  "tip0" : "You are not supposed to see this message, please reboot your Enderlink."
+  "tip1" : "You can craft bread faster by using hay blocks!",
+  "tip2" : "Installing the Enderlink may cause temporary brain damage.",
+  "tip3" : "Starlite is named that way after it's appearance, it ressembles stars in the night sky!",
+  "tip4" : "Neonium is a great source of fuel!",
+  "tip5" : "Test message",
   "tip6" : "Tip 6 test"
 }

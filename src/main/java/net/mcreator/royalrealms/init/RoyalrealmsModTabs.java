@@ -51,7 +51,6 @@ public class RoyalrealmsModTabs {
 			tabData.accept(RoyalrealmsModItems.STARLITE_ARMOR_LEGGINGS.get());
 			tabData.accept(RoyalrealmsModItems.STARLITE_ARMOR_BOOTS.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
-			tabData.accept(RoyalrealmsModItems.SOUL_ORB.get());
 			tabData.accept(RoyalrealmsModItems.EXPERIENCE_AMULET.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
 			tabData.accept(RoyalrealmsModItems.TELOSTEEL_INGOT.get());

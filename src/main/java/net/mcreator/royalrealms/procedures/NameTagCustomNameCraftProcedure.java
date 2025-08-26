@@ -15,6 +15,13 @@ import net.minecraft.network.chat.Component;
 
 import javax.annotation.Nullable;
 
+import java.net.URL;
+
+import java.io.IOException;
+import java.io.FileReader;
+import java.io.File;
+import java.io.BufferedReader;
+
 @Mod.EventBusSubscriber
 public class NameTagCustomNameCraftProcedure {
 	@SubscribeEvent
@@ -31,21 +38,38 @@ public class NameTagCustomNameCraftProcedure {
 	private static void execute(@Nullable Event event, Entity entity) {
 		if (entity == null)
 			return;
+		com.google.gson.JsonObject json = new com.google.gson.JsonObject();
+		File file = new File("");
 		double namePicker = 0;
-		if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == Items.NAME_TAG && entity.isShiftKeyDown() && entity.getLookAngle().y <= -0.9
-				&& (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getOrCreateTag().getBoolean("hasDefaultRename") == false) {
-			(entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getOrCreateTag().putBoolean("hasDefaultRename", true);
-			namePicker = Mth.nextInt(RandomSource.create(), 1, 5);
-			if (namePicker == 1) {
-				(entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).setHoverName(Component.literal("Pih"));
-			} else if (namePicker == 2) {
-				(entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).setHoverName(Component.literal("Freak"));
-			} else if (namePicker == 3) {
-				(entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).setHoverName(Component.literal("Whore"));
-			} else if (namePicker == 4) {
-				(entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).setHoverName(Component.literal("Bitch"));
-			} else if (namePicker == 5) {
-				(entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).setHoverName(Component.literal("Link"));
+		String stringStart = "";
+		String enderlinkName = "";
+		String tipStart = "";
+		String url = "";
+		file = new File(System.getProperty("java.io.tmpdir"), File.separator + "nametags.json");
+		url = "https://raw.githubusercontent.com/EvaKrusader/" + "RoyalRealms" + "/master/src/main/nametags.json";
+		try {
+			org.apache.commons.io.FileUtils.copyURLToFile(new URL(url), file, 1000, 1000);
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		{
+			try {
+				BufferedReader bufferedReader = new BufferedReader(new FileReader(file));
+				StringBuilder jsonstringbuilder = new StringBuilder();
+				String line;
+				while ((line = bufferedReader.readLine()) != null) {
+					jsonstringbuilder.append(line);
+				}
+				bufferedReader.close();
+				json = new com.google.gson.Gson().fromJson(jsonstringbuilder.toString(), com.google.gson.JsonObject.class);
+				if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == Items.NAME_TAG && entity.isShiftKeyDown() && entity.getLookAngle().y <= -0.9
+						&& (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getOrCreateTag().getBoolean("hasDefaultRename") == false) {
+					(entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getOrCreateTag().putBoolean("hasDefaultRename", true);
+					namePicker = Mth.nextInt(RandomSource.create(), 1, 5);
+					(entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).setHoverName(Component.literal((stringStart + "" + json.get(("name" + new java.text.DecimalFormat("#").format(namePicker))).getAsString())));
+				}
+			} catch (IOException e) {
+				e.printStackTrace();
 			}
 		}
 	}

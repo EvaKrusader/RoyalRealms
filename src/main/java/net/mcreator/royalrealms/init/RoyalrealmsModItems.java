@@ -28,7 +28,6 @@ import net.mcreator.royalrealms.item.StarliteHoeItem;
 import net.mcreator.royalrealms.item.StarliteDustItem;
 import net.mcreator.royalrealms.item.StarliteAxeItem;
 import net.mcreator.royalrealms.item.StarliteArmorItem;
-import net.mcreator.royalrealms.item.SoulOrbItem;
 import net.mcreator.royalrealms.item.RawTungstenItem;
 import net.mcreator.royalrealms.item.PhasingCanItem;
 import net.mcreator.royalrealms.item.PaperCopyPatentItem;
@@ -63,7 +62,6 @@ public class RoyalrealmsModItems {
 	public static final RegistryObject<Item> TELOSTEEL_ARMOR_LEGGINGS = REGISTRY.register("telosteel_armor_leggings", () -> new TelosteelArmorItem.Leggings());
 	public static final RegistryObject<Item> TELOSTEEL_ARMOR_BOOTS = REGISTRY.register("telosteel_armor_boots", () -> new TelosteelArmorItem.Boots());
 	public static final RegistryObject<Item> ENDERLINK = REGISTRY.register("enderlink", () -> new EnderlinkItem());
-	public static final RegistryObject<Item> SOUL_ORB = REGISTRY.register("soul_orb", () -> new SoulOrbItem());
 	public static final RegistryObject<Item> MALACHITE = REGISTRY.register("malachite", () -> new MalachiteItem());
 	public static final RegistryObject<Item> MALACHITE_ORE = block(RoyalrealmsModBlocks.MALACHITE_ORE);
 	public static final RegistryObject<Item> MALACHITE_BLOCK = block(RoyalrealmsModBlocks.MALACHITE_BLOCK);
