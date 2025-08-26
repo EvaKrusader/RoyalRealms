@@ -6,37 +6,53 @@ import net.minecraft.util.RandomSource;
 import net.minecraft.util.Mth;
 import net.minecraft.network.chat.Component;
 
+import java.net.URL;
+
+import java.io.IOException;
+import java.io.FileReader;
+import java.io.File;
+import java.io.BufferedReader;
+
 public class EnderlinkTalkListProcedure {
 	public static void execute(Entity entity) {
 		if (entity == null)
 			return;
+		com.google.gson.JsonObject json = new com.google.gson.JsonObject();
+		File file = new File("");
+		double textPicker = 0;
+		double SoundItem = 0;
+		double nextVersion = 0;
+		double currentVersion = 0;
 		String tipStart = "";
 		String enderlinkName = "";
 		String stringStart = "";
-		double textPicker = 0;
-		double SoundItem = 0;
+		String url = "";
 		textPicker = Mth.nextInt(RandomSource.create(), 1, 5);
 		enderlinkName = "<Enderlink> ";
 		tipStart = "Tip #" + new java.text.DecimalFormat("##.##").format(textPicker) + " : ";
 		stringStart = enderlinkName + "" + tipStart;
-		if (textPicker == 0) {
-			if (entity instanceof Player _player && !_player.level().isClientSide())
-				_player.displayClientMessage(Component.literal((stringStart + "You are not supposed to see this message, please reboot your Enderlink.")), false);
-		} else if (textPicker == 1) {
-			if (entity instanceof Player _player && !_player.level().isClientSide())
-				_player.displayClientMessage(Component.literal((stringStart + "You can craft bread faster by using hay blocks!")), false);
-		} else if (textPicker == 2) {
-			if (entity instanceof Player _player && !_player.level().isClientSide())
-				_player.displayClientMessage(Component.literal((stringStart + "Installing the Enderlink may cause temporary brain damage.")), false);
-		} else if (textPicker == 3) {
-			if (entity instanceof Player _player && !_player.level().isClientSide())
-				_player.displayClientMessage(Component.literal((stringStart + "Starlite is named that way after it's appearance, it ressembles stars in the night sky!")), false);
-		} else if (textPicker == 4) {
-			if (entity instanceof Player _player && !_player.level().isClientSide())
-				_player.displayClientMessage(Component.literal((stringStart + "Neonium is a great source of fuel!")), false);
-		} else if (textPicker == 5) {
-			if (entity instanceof Player _player && !_player.level().isClientSide())
-				_player.displayClientMessage(Component.literal((stringStart + "Test message")), false);
+		file = new File(System.getProperty("java.io.tmpdir"), File.separator + "modver.json");
+		url = "https://raw.githubusercontent.com/EvaKrusader/" + "RoyalRealms" + "/master/src/main/modver.json";
+		try {
+			org.apache.commons.io.FileUtils.copyURLToFile(new URL(url), file, 1000, 1000);
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		{
+			try {
+				BufferedReader bufferedReader = new BufferedReader(new FileReader(file));
+				StringBuilder jsonstringbuilder = new StringBuilder();
+				String line;
+				while ((line = bufferedReader.readLine()) != null) {
+					jsonstringbuilder.append(line);
+				}
+				bufferedReader.close();
+				json = new com.google.gson.Gson().fromJson(jsonstringbuilder.toString(), com.google.gson.JsonObject.class);
+				if (entity instanceof Player _player && !_player.level().isClientSide())
+					_player.displayClientMessage(Component.literal((stringStart + "" + json.get(("tip" + new java.text.DecimalFormat("#").format(textPicker))).getAsString())), false);
+			} catch (IOException e) {
+				e.printStackTrace();
+			}
 		}
 	}
 }
