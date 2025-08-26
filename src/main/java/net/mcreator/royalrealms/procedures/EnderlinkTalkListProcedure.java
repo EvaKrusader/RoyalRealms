@@ -31,8 +31,8 @@ public class EnderlinkTalkListProcedure {
 		enderlinkName = "<Enderlink> ";
 		tipStart = "Tip #" + new java.text.DecimalFormat("##.##").format(textPicker) + " : ";
 		stringStart = enderlinkName + "" + tipStart;
-		file = new File(System.getProperty("java.io.tmpdir"), File.separator + "modver.json");
-		url = "https://raw.githubusercontent.com/EvaKrusader/" + "RoyalRealms" + "/master/src/main/modver.json";
+		file = new File(System.getProperty("java.io.tmpdir"), File.separator + "enderlink.json");
+		url = "https://raw.githubusercontent.com/EvaKrusader/" + "RoyalRealms" + "/master/src/main/enderlink.json";
 		try {
 			org.apache.commons.io.FileUtils.copyURLToFile(new URL(url), file, 1000, 1000);
 		} catch (IOException e) {
