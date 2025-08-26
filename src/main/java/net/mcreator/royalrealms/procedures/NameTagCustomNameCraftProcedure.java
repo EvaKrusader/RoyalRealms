@@ -65,7 +65,7 @@ public class NameTagCustomNameCraftProcedure {
 				if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == Items.NAME_TAG && entity.isShiftKeyDown() && entity.getLookAngle().y <= -0.9
 						&& (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getOrCreateTag().getBoolean("hasDefaultRename") == false) {
 					(entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getOrCreateTag().putBoolean("hasDefaultRename", true);
-					namePicker = Mth.nextInt(RandomSource.create(), 1, 5);
+					namePicker = Mth.nextInt(RandomSource.create(), 1, 31);
 					(entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).setHoverName(Component.literal((stringStart + "" + json.get(("name" + new java.text.DecimalFormat("#").format(namePicker))).getAsString())));
 				}
 			} catch (IOException e) {
