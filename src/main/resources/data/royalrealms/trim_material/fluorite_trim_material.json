@@ -1,0 +1,9 @@
+{
+  "asset_name": "fluorite_trim_material",
+  "description": {
+    "color": "#CEFBBD",
+    "translate": "trim_material.royalrealms.fluorite_trim_material"
+  },
+  "ingredient": "royalrealms:fluorite",
+  "item_model_index": 0.0
+}

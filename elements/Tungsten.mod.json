@@ -7,7 +7,7 @@
     "customModelName": "Normal",
     "customProperties": {},
     "states": [],
-    "name": "Tungsten",
+    "name": "Tungsten Ingot",
     "rarity": "COMMON",
     "creativeTabs": [
       {
@@ -23,7 +23,7 @@
       "value": ""
     },
     "destroyAnyBlock": false,
-    "immuneToFire": false,
+    "immuneToFire": true,
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,
     "enableMeleeDamage": false,

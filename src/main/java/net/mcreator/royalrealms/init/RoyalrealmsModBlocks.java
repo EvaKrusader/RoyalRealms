@@ -21,6 +21,8 @@ import net.mcreator.royalrealms.block.NeoniumOreBlock;
 import net.mcreator.royalrealms.block.NeoniumBlockBlock;
 import net.mcreator.royalrealms.block.MalachiteOreBlock;
 import net.mcreator.royalrealms.block.MalachiteBlockBlock;
+import net.mcreator.royalrealms.block.FluoriteOreBlock;
+import net.mcreator.royalrealms.block.FluoriteBlockBlock;
 import net.mcreator.royalrealms.block.FixHoleBlock;
 import net.mcreator.royalrealms.block.BrightcoreOreBlock;
 import net.mcreator.royalrealms.block.BrightcoreBlockBlock;
@@ -42,6 +44,8 @@ public class RoyalrealmsModBlocks {
 	public static final RegistryObject<Block> TUNGSTEN_ORE = REGISTRY.register("tungsten_ore", () -> new TungstenOreBlock());
 	public static final RegistryObject<Block> TUNGSTEN_BLOCK = REGISTRY.register("tungsten_block", () -> new TungstenBlockBlock());
 	public static final RegistryObject<Block> RAW_TUNGSTEN_BLOCK = REGISTRY.register("raw_tungsten_block", () -> new RawTungstenBlockBlock());
+	public static final RegistryObject<Block> FLUORITE_ORE = REGISTRY.register("fluorite_ore", () -> new FluoriteOreBlock());
+	public static final RegistryObject<Block> FLUORITE_BLOCK = REGISTRY.register("fluorite_block", () -> new FluoriteBlockBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

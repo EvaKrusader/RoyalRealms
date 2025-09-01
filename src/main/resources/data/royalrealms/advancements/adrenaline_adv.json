@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "royalrealms:raw_tungsten"
+    },
+    "title": {
+      "translate": "advancements.adrenaline_adv.title"
+    },
+    "description": {
+      "translate": "advancements.adrenaline_adv.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "adrenaline_adv_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "royalrealms:royal_realms"
+}

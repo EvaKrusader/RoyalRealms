@@ -40,7 +40,7 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "Blocks.LOG#0"
+      "value": "Blocks.SAPLING#0"
     },
     "name": "patent_oak",
     "namespace": "mod"

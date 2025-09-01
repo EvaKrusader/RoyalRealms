@@ -1,0 +1,42 @@
+{
+  "_fv": 66,
+  "_type": "trimmaterial",
+  "definition": {
+    "name": "Fluorite",
+    "item": {
+      "value": "CUSTOM:Fluorite"
+    },
+    "color1": {
+      "value": -865806,
+      "falpha": 0.0
+    },
+    "color2": {
+      "value": -407342,
+      "falpha": 0.0
+    },
+    "color3": {
+      "value": -1646903,
+      "falpha": 0.0
+    },
+    "color4": {
+      "value": -3212355,
+      "falpha": 0.0
+    },
+    "color5": {
+      "value": -2229568,
+      "falpha": 0.0
+    },
+    "color6": {
+      "value": -984637,
+      "falpha": 0.0
+    },
+    "color7": {
+      "value": -2427690,
+      "falpha": 0.0
+    },
+    "color8": {
+      "value": -4264466,
+      "falpha": 0.0
+    }
+  }
+}

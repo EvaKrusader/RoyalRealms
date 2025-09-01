@@ -18,9 +18,9 @@
     "particleTexture": "",
     "tintType": "No tint",
     "isItemTinted": false,
-    "hasTransparency": false,
+    "hasTransparency": true,
     "connectedSides": false,
-    "transparencyType": "SOLID",
+    "transparencyType": "CUTOUT_MIPPED",
     "disableOffset": false,
     "boundingBoxes": [
       {
@@ -43,7 +43,7 @@
     "isWaterloggable": false,
     "creativeTabs": [
       {
-        "value": "BUILDING_BLOCKS"
+        "value": "DECORATIONS"
       }
     ],
     "destroyTool": "pickaxe",
@@ -67,7 +67,7 @@
     "emittedRedstonePower": {
       "fixedValue": 15.0
     },
-    "colorOnMap": "DEFAULT",
+    "colorOnMap": "IRON",
     "creativePickItem": {
       "value": ""
     },
@@ -129,13 +129,13 @@
     ],
     "blocksToReplace": [
       {
-        "value": "TAG:stone_ore_replaceables"
+        "value": "Blocks.DEEPSLATE"
       }
     ],
     "generationShape": "UNIFORM",
-    "frequencyPerChunks": 11,
-    "frequencyOnChunk": 7,
-    "minGenerateHeight": 1,
-    "maxGenerateHeight": 63
+    "frequencyPerChunks": 5,
+    "frequencyOnChunk": 3,
+    "minGenerateHeight": -64,
+    "maxGenerateHeight": -1
   }
 }

@@ -4,5 +4,5 @@
     "all": "royalrealms:block/neonium_ore",
     "particle": "royalrealms:block/neonium_ore"
   },
-  "render_type": "solid"
+  "render_type": "cutout_mipped"
 }

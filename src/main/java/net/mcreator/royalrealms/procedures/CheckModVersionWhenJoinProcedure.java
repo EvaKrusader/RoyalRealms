@@ -37,10 +37,16 @@ public class CheckModVersionWhenJoinProcedure {
 		if (entity == null)
 			return;
 		File file = new File("");
-		double nextVersion = 0;
-		double currentVersion = 0;
 		String url = "";
 		com.google.gson.JsonObject json = new com.google.gson.JsonObject();
+		double nextVersion = 0;
+		double currentVersion = 0;
+		double nextVersion1 = 0;
+		double nextVersion2 = 0;
+		double nextVersion3 = 0;
+		nextVersion1 = 1;
+		nextVersion2 = 0;
+		nextVersion3 = 0;
 		url = (new java.text.DecimalFormat("#").format((entity.getCapability(RoyalrealmsModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new RoyalrealmsModVariables.PlayerVariables())).ver1) + ".") + ""
 				+ (new java.text.DecimalFormat("#").format((entity.getCapability(RoyalrealmsModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new RoyalrealmsModVariables.PlayerVariables())).ver2) + ".")
 				+ new java.text.DecimalFormat("#").format((entity.getCapability(RoyalrealmsModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new RoyalrealmsModVariables.PlayerVariables())).ver3);
@@ -79,7 +85,7 @@ public class CheckModVersionWhenJoinProcedure {
 						}
 						return 0;
 					}
-				}.convert(new java.text.DecimalFormat("#").format(nextVersion) + "" + new java.text.DecimalFormat("#").format(nextVersion) + new java.text.DecimalFormat("#").format(nextVersion));
+				}.convert(new java.text.DecimalFormat("#").format(nextVersion1) + "" + new java.text.DecimalFormat("#").format(nextVersion1) + new java.text.DecimalFormat("#").format(nextVersion2));
 				nextVersion = new Object() {
 					double convert(String s) {
 						try {
@@ -96,20 +102,6 @@ public class CheckModVersionWhenJoinProcedure {
 						_player.displayClientMessage(Component.literal(("You are using the version " + "\u00A7c" + url + url + " of this mod.")), false);
 					if (entity instanceof Player _player && !_player.level().isClientSide())
 						_player.displayClientMessage(Component.literal(("The version " + "\u00A7a" + url + url + " of this mod is out!")), false);
-					{
-						boolean _setval = true;
-						entity.getCapability(RoyalrealmsModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
-							capability.playerHasEnderlink = _setval;
-							capability.syncPlayerVariables(entity);
-						});
-					}
-					{
-						boolean _setval = true;
-						entity.getCapability(RoyalrealmsModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
-							capability.playerHasEnderlink = _setval;
-							capability.syncPlayerVariables(entity);
-						});
-					}
 				} else if (nextVersion == currentVersion) {
 					if (entity instanceof Player _player && !_player.level().isClientSide())
 						_player.displayClientMessage(Component.literal(("You are using the right version of this mod! (" + "\u00A7b" + url + url + ")")), false);
@@ -118,13 +110,6 @@ public class CheckModVersionWhenJoinProcedure {
 						_player.displayClientMessage(Component.literal(("You are somehow using an unreleased version of this mod (\u00A7e" + url + url + ")")), false);
 					if (entity instanceof Player _player && !_player.level().isClientSide())
 						_player.displayClientMessage(Component.literal(("The current version of this mod is " + "\u00A7a" + url + url + ".")), false);
-					{
-						boolean _setval = false;
-						entity.getCapability(RoyalrealmsModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
-							capability.playerHasEnderlink = _setval;
-							capability.syncPlayerVariables(entity);
-						});
-					}
 				}
 			} catch (IOException e) {
 				e.printStackTrace();

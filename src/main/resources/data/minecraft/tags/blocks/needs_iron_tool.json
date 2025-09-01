@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
+    "royalrealms:fluorite_block",
+    "royalrealms:fluorite_ore",
+    "royalrealms:raw_tungsten_block",
     "royalrealms:tungsten_block",
     "royalrealms:tungsten_ore",
     "royalrealms:brightcore_block",

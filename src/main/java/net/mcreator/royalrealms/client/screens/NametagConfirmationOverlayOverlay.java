@@ -45,10 +45,10 @@ public class NametagConfirmationOverlayOverlay {
 		RenderSystem.blendFuncSeparate(GlStateManager.SourceFactor.SRC_ALPHA, GlStateManager.DestFactor.ONE_MINUS_SRC_ALPHA, GlStateManager.SourceFactor.ONE, GlStateManager.DestFactor.ZERO);
 		RenderSystem.setShaderColor(1, 1, 1, 1);
 		if (NametagOverlayConditionProcedure.execute(entity)) {
-			event.getGuiGraphics().blit(new ResourceLocation("royalrealms:textures/screens/angel_brick.png"), w / 2 + 1, h / 2 + 0, 0, 0, 16, 16, 16, 16);
+			event.getGuiGraphics().blit(new ResourceLocation("royalrealms:textures/screens/nametag_off.png"), w / 2 + 3, h / 2 + 2, 0, 0, 8, 8, 8, 8);
 
 			if (NametagOverlayConfirmationProcedure.execute(entity)) {
-				event.getGuiGraphics().blit(new ResourceLocation("royalrealms:textures/screens/demon_brick.png"), w / 2 + 1, h / 2 + 0, 0, 0, 16, 16, 16, 16);
+				event.getGuiGraphics().blit(new ResourceLocation("royalrealms:textures/screens/nametag_on.png"), w / 2 + 3, h / 2 + 2, 0, 0, 8, 8, 8, 8);
 			}
 		}
 		RenderSystem.depthMask(true);

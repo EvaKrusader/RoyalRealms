@@ -1,6 +1,0 @@
-{
-  "parent": "item/handheld",
-  "textures": {
-    "layer0": "royalrealms:item/starlite_pickaxe"
-  }
-}

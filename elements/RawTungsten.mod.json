@@ -9,7 +9,11 @@
     "states": [],
     "name": "Raw Tungsten",
     "rarity": "COMMON",
-    "creativeTabs": [],
+    "creativeTabs": [
+      {
+        "value": "MATERIALS"
+      }
+    ],
     "stackSize": 64,
     "enchantability": 0,
     "useDuration": 0,
@@ -19,7 +23,7 @@
       "value": ""
     },
     "destroyAnyBlock": false,
-    "immuneToFire": false,
+    "immuneToFire": true,
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,
     "enableMeleeDamage": false,

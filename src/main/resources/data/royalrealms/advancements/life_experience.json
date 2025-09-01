@@ -19,5 +19,5 @@
       "trigger": "minecraft:impossible"
     }
   },
-  "parent": "royalrealms:neural_augment"
+  "parent": "royalrealms:royal_realms"
 }

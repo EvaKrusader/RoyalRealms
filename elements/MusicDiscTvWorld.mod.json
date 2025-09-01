@@ -1,0 +1,29 @@
+{
+  "_fv": 66,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "§cMusic Disc",
+    "rarity": "COMMON",
+    "texture": "music_disc_tv_world",
+    "description": "Toby Fox - TV World",
+    "creativeTabs": [
+      {
+        "value": "TOOLS"
+      },
+      {
+        "value": "CUSTOM:MusicDiscs"
+      }
+    ],
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "music": {
+      "value": "CUSTOM:record_tv_world"
+    },
+    "lengthInTicks": 2580,
+    "analogOutput": 5
+  }
+}

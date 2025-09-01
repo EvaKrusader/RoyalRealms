@@ -4,13 +4,16 @@
  */
 package net.mcreator.royalrealms.init;
 
+import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
 
+import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.network.chat.Component;
 import net.minecraft.core.registries.Registries;
 
 import net.mcreator.royalrealms.RoyalrealmsMod;
@@ -18,6 +21,16 @@ import net.mcreator.royalrealms.RoyalrealmsMod;
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class RoyalrealmsModTabs {
 	public static final DeferredRegister<CreativeModeTab> REGISTRY = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, RoyalrealmsMod.MODID);
+	public static final RegistryObject<CreativeModeTab> MUSIC_DISCS = REGISTRY.register("music_discs",
+			() -> CreativeModeTab.builder().title(Component.translatable("item_group.royalrealms.music_discs")).icon(() -> new ItemStack(RoyalrealmsModItems.MUSIC_DISC_TV_TIME.get())).displayItems((parameters, tabData) -> {
+				tabData.accept(RoyalrealmsModItems.MUSIC_DISC_7L_011.get());
+				tabData.accept(RoyalrealmsModItems.MUSIC_DISC_CORE.get());
+				tabData.accept(RoyalrealmsModItems.MUSIC_DISC_TV_WORLD.get());
+				tabData.accept(RoyalrealmsModItems.MUSIC_DISC_GLOWING_SNOW.get());
+				tabData.accept(RoyalrealmsModItems.MUSIC_DISC_BLACK_KNIFE.get());
+				tabData.accept(RoyalrealmsModItems.MUSIC_DISC_TV_TIME.get());
+				tabData.accept(RoyalrealmsModItems.MUSIC_DISC_UWAH_SO_TEMPERATE.get());
+			}).withSearchBar().build());
 
 	@SubscribeEvent
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
@@ -32,26 +45,29 @@ public class RoyalrealmsModTabs {
 			tabData.accept(RoyalrealmsModBlocks.NEONIUM_BLOCK.get().asItem());
 			tabData.accept(RoyalrealmsModBlocks.BRIGHTCORE_ORE.get().asItem());
 			tabData.accept(RoyalrealmsModBlocks.BRIGHTCORE_BLOCK.get().asItem());
-			tabData.accept(RoyalrealmsModBlocks.TUNGSTEN_ORE.get().asItem());
 			tabData.accept(RoyalrealmsModBlocks.TUNGSTEN_BLOCK.get().asItem());
+			tabData.accept(RoyalrealmsModBlocks.RAW_TUNGSTEN_BLOCK.get().asItem());
+			tabData.accept(RoyalrealmsModBlocks.FLUORITE_ORE.get().asItem());
+			tabData.accept(RoyalrealmsModBlocks.FLUORITE_BLOCK.get().asItem());
+		} else if (tabData.getTabKey() == CreativeModeTabs.REDSTONE_BLOCKS) {
+			tabData.accept(RoyalrealmsModItems.HOLE_SWITCH.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
 			tabData.accept(RoyalrealmsModItems.TELOSTEEL_SWORD.get());
 			tabData.accept(RoyalrealmsModItems.TELOSTEEL_ARMOR_HELMET.get());
 			tabData.accept(RoyalrealmsModItems.TELOSTEEL_ARMOR_CHESTPLATE.get());
 			tabData.accept(RoyalrealmsModItems.TELOSTEEL_ARMOR_LEGGINGS.get());
 			tabData.accept(RoyalrealmsModItems.TELOSTEEL_ARMOR_BOOTS.get());
-			tabData.accept(RoyalrealmsModItems.MALACHITE_SWORD.get());
-			tabData.accept(RoyalrealmsModItems.MALACHITE_ARMOR_HELMET.get());
-			tabData.accept(RoyalrealmsModItems.MALACHITE_ARMOR_CHESTPLATE.get());
-			tabData.accept(RoyalrealmsModItems.MALACHITE_ARMOR_LEGGINGS.get());
-			tabData.accept(RoyalrealmsModItems.MALACHITE_ARMOR_BOOTS.get());
-			tabData.accept(RoyalrealmsModItems.STARLITE_SWORD.get());
-			tabData.accept(RoyalrealmsModItems.STARLITE_ARMOR_HELMET.get());
-			tabData.accept(RoyalrealmsModItems.STARLITE_ARMOR_CHESTPLATE.get());
-			tabData.accept(RoyalrealmsModItems.STARLITE_ARMOR_LEGGINGS.get());
-			tabData.accept(RoyalrealmsModItems.STARLITE_ARMOR_BOOTS.get());
+			tabData.accept(RoyalrealmsModItems.WATER_ARMOR_HELMET.get());
+			tabData.accept(RoyalrealmsModItems.WATER_ARMOR_CHESTPLATE.get());
+			tabData.accept(RoyalrealmsModItems.WATER_ARMOR_LEGGINGS.get());
+			tabData.accept(RoyalrealmsModItems.WATER_ARMOR_BOOTS.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
 			tabData.accept(RoyalrealmsModItems.EXPERIENCE_AMULET.get());
+			tabData.accept(RoyalrealmsModItems.FLUORITE_NECKLACE.get());
+			tabData.accept(RoyalrealmsModItems.CURSED_SKULL.get());
+			tabData.accept(RoyalrealmsModItems.FALL_BREAKER_CHARM.get());
+			tabData.accept(RoyalrealmsModItems.CHASTITY_CAGE_BLACK.get());
+			tabData.accept(RoyalrealmsModItems.CHASTITY_CAGE_GOLD.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
 			tabData.accept(RoyalrealmsModItems.TELOSTEEL_INGOT.get());
 			tabData.accept(RoyalrealmsModItems.MALACHITE.get());
@@ -62,20 +78,26 @@ public class RoyalrealmsModTabs {
 			tabData.accept(RoyalrealmsModItems.LUST_TRIM_ITEM.get());
 			tabData.accept(RoyalrealmsModItems.WEIRD_TRIM_ITEM.get());
 			tabData.accept(RoyalrealmsModItems.TUNGSTEN.get());
+			tabData.accept(RoyalrealmsModItems.RAW_TUNGSTEN.get());
+			tabData.accept(RoyalrealmsModItems.FLUORITE.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 			tabData.accept(RoyalrealmsModItems.TELOSTEEL_PICKAXE.get());
 			tabData.accept(RoyalrealmsModItems.TELOSTEEL_AXE.get());
 			tabData.accept(RoyalrealmsModItems.TELOSTEEL_SHOVEL.get());
 			tabData.accept(RoyalrealmsModItems.TELOSTEEL_HOE.get());
-			tabData.accept(RoyalrealmsModItems.MALACHITE_PICKAXE.get());
-			tabData.accept(RoyalrealmsModItems.MALACHITE_AXE.get());
-			tabData.accept(RoyalrealmsModItems.MALACHITE_SHOVEL.get());
-			tabData.accept(RoyalrealmsModItems.MALACHITE_HOE.get());
-			tabData.accept(RoyalrealmsModItems.STARLITE_PICKAXE.get());
-			tabData.accept(RoyalrealmsModItems.STARLITE_AXE.get());
-			tabData.accept(RoyalrealmsModItems.STARLITE_SHOVEL.get());
-			tabData.accept(RoyalrealmsModItems.STARLITE_HOE.get());
 			tabData.accept(RoyalrealmsModItems.MUSIC_DISC_7L_011.get());
+			tabData.accept(RoyalrealmsModItems.MUSIC_DISC_CORE.get());
+			tabData.accept(RoyalrealmsModItems.MUSIC_DISC_TV_WORLD.get());
+			tabData.accept(RoyalrealmsModItems.MUSIC_DISC_GLOWING_SNOW.get());
+			tabData.accept(RoyalrealmsModItems.MUSIC_DISC_BLACK_KNIFE.get());
+			tabData.accept(RoyalrealmsModItems.MUSIC_DISC_TV_TIME.get());
+			tabData.accept(RoyalrealmsModItems.MUSIC_DISC_UWAH_SO_TEMPERATE.get());
+			tabData.accept(RoyalrealmsModItems.WISHING_STAR.get());
+			tabData.accept(RoyalrealmsModItems.PLAYER_ITEM.get());
+		} else if (tabData.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
+			tabData.accept(RoyalrealmsModItems.PHASING_CAN.get());
+		} else if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
+			tabData.accept(RoyalrealmsModBlocks.TUNGSTEN_ORE.get().asItem());
 		}
 	}
 }

@@ -40,7 +40,7 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "Blocks.LOG#3"
+      "value": "Blocks.SAPLING#3"
     },
     "name": "patent_jungle",
     "namespace": "mod"

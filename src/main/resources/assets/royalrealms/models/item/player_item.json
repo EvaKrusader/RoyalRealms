@@ -1,0 +1,38 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "royalrealms:item/player_item_blank"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "royalrealms:player_item_player_belongs": 0
+      },
+      "model": "royalrealms:item/player_item_0"
+    },
+    {
+      "predicate": {
+        "royalrealms:player_item_player_belongs": 1
+      },
+      "model": "royalrealms:item/player_item_1"
+    },
+    {
+      "predicate": {
+        "royalrealms:player_item_player_belongs": 2
+      },
+      "model": "royalrealms:item/player_item_2"
+    },
+    {
+      "predicate": {
+        "royalrealms:player_item_player_belongs": 3
+      },
+      "model": "royalrealms:item/player_item_3"
+    },
+    {
+      "predicate": {
+        "royalrealms:player_item_player_belongs": 4
+      },
+      "model": "royalrealms:item/player_item_4"
+    }
+  ]
+}

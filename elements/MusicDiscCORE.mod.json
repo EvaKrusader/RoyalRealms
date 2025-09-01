@@ -1,0 +1,29 @@
+{
+  "_fv": 66,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "§4Music Disc",
+    "rarity": "COMMON",
+    "texture": "music_disc_core",
+    "description": "toby fox - CORE",
+    "creativeTabs": [
+      {
+        "value": "TOOLS"
+      },
+      {
+        "value": "CUSTOM:MusicDiscs"
+      }
+    ],
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "music": {
+      "value": "CUSTOM:record_core"
+    },
+    "lengthInTicks": 3320,
+    "analogOutput": 6
+  }
+}

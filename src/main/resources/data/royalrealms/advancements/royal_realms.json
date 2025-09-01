@@ -1,0 +1,23 @@
+{
+  "display": {
+    "background": "minecraft:textures/block/stone.png",
+    "icon": {
+      "item": "royalrealms:wishing_star"
+    },
+    "title": {
+      "translate": "advancements.royal_realms.title"
+    },
+    "description": {
+      "translate": "advancements.royal_realms.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "royal_realms_0": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

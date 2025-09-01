@@ -7,12 +7,21 @@ package net.mcreator.royalrealms.init;
 import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.DeferredRegister;
+import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
+import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.client.renderer.item.ItemProperties;
 
+import net.mcreator.royalrealms.procedures.PlayerItemPropertyValueProviderProcedure;
+import net.mcreator.royalrealms.item.WishingStarItem;
 import net.mcreator.royalrealms.item.WeirdTrimItemItem;
+import net.mcreator.royalrealms.item.WaterArmorItem;
 import net.mcreator.royalrealms.item.TungstenItem;
 import net.mcreator.royalrealms.item.TelosteelSwordItem;
 import net.mcreator.royalrealms.item.TelosteelShovelItem;
@@ -21,32 +30,35 @@ import net.mcreator.royalrealms.item.TelosteelIngotItem;
 import net.mcreator.royalrealms.item.TelosteelHoeItem;
 import net.mcreator.royalrealms.item.TelosteelAxeItem;
 import net.mcreator.royalrealms.item.TelosteelArmorItem;
-import net.mcreator.royalrealms.item.StarliteSwordItem;
-import net.mcreator.royalrealms.item.StarliteShovelItem;
-import net.mcreator.royalrealms.item.StarlitePickaxeItem;
-import net.mcreator.royalrealms.item.StarliteHoeItem;
 import net.mcreator.royalrealms.item.StarliteDustItem;
-import net.mcreator.royalrealms.item.StarliteAxeItem;
-import net.mcreator.royalrealms.item.StarliteArmorItem;
 import net.mcreator.royalrealms.item.RawTungstenItem;
+import net.mcreator.royalrealms.item.PlayerItemItem;
 import net.mcreator.royalrealms.item.PhasingCanItem;
 import net.mcreator.royalrealms.item.PaperCopyPatentItem;
 import net.mcreator.royalrealms.item.NeoniumItem;
+import net.mcreator.royalrealms.item.MusicDiscUwahSoTemperateItem;
+import net.mcreator.royalrealms.item.MusicDiscTvWorldItem;
+import net.mcreator.royalrealms.item.MusicDiscTvTimeItem;
+import net.mcreator.royalrealms.item.MusicDiscGlowingSnowItem;
+import net.mcreator.royalrealms.item.MusicDiscCOREItem;
+import net.mcreator.royalrealms.item.MusicDiscBlackKnifeItem;
 import net.mcreator.royalrealms.item.MusicDisc7l011Item;
-import net.mcreator.royalrealms.item.MalachiteSwordItem;
-import net.mcreator.royalrealms.item.MalachiteShovelItem;
-import net.mcreator.royalrealms.item.MalachitePickaxeItem;
 import net.mcreator.royalrealms.item.MalachiteItem;
-import net.mcreator.royalrealms.item.MalachiteHoeItem;
-import net.mcreator.royalrealms.item.MalachiteAxeItem;
-import net.mcreator.royalrealms.item.MalachiteArmorItem;
 import net.mcreator.royalrealms.item.LustTrimItemItem;
+import net.mcreator.royalrealms.item.HoleSwitchItem;
+import net.mcreator.royalrealms.item.FluoriteNecklaceItem;
+import net.mcreator.royalrealms.item.FluoriteItem;
 import net.mcreator.royalrealms.item.FixHoleItem;
+import net.mcreator.royalrealms.item.FallBreakerCharmItem;
 import net.mcreator.royalrealms.item.ExperienceAmuletItem;
 import net.mcreator.royalrealms.item.EnderlinkItem;
+import net.mcreator.royalrealms.item.CursedSkullItem;
+import net.mcreator.royalrealms.item.ChastityCageGoldItem;
+import net.mcreator.royalrealms.item.ChastityCageBlackItem;
 import net.mcreator.royalrealms.item.BrightcoreItem;
 import net.mcreator.royalrealms.RoyalrealmsMod;
 
+@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 public class RoyalrealmsModItems {
 	public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, RoyalrealmsMod.MODID);
 	public static final RegistryObject<Item> TELOSTEEL_INGOT = REGISTRY.register("telosteel_ingot", () -> new TelosteelIngotItem());
@@ -65,27 +77,9 @@ public class RoyalrealmsModItems {
 	public static final RegistryObject<Item> MALACHITE = REGISTRY.register("malachite", () -> new MalachiteItem());
 	public static final RegistryObject<Item> MALACHITE_ORE = block(RoyalrealmsModBlocks.MALACHITE_ORE);
 	public static final RegistryObject<Item> MALACHITE_BLOCK = block(RoyalrealmsModBlocks.MALACHITE_BLOCK);
-	public static final RegistryObject<Item> MALACHITE_PICKAXE = REGISTRY.register("malachite_pickaxe", () -> new MalachitePickaxeItem());
-	public static final RegistryObject<Item> MALACHITE_AXE = REGISTRY.register("malachite_axe", () -> new MalachiteAxeItem());
-	public static final RegistryObject<Item> MALACHITE_SWORD = REGISTRY.register("malachite_sword", () -> new MalachiteSwordItem());
-	public static final RegistryObject<Item> MALACHITE_SHOVEL = REGISTRY.register("malachite_shovel", () -> new MalachiteShovelItem());
-	public static final RegistryObject<Item> MALACHITE_HOE = REGISTRY.register("malachite_hoe", () -> new MalachiteHoeItem());
-	public static final RegistryObject<Item> MALACHITE_ARMOR_HELMET = REGISTRY.register("malachite_armor_helmet", () -> new MalachiteArmorItem.Helmet());
-	public static final RegistryObject<Item> MALACHITE_ARMOR_CHESTPLATE = REGISTRY.register("malachite_armor_chestplate", () -> new MalachiteArmorItem.Chestplate());
-	public static final RegistryObject<Item> MALACHITE_ARMOR_LEGGINGS = REGISTRY.register("malachite_armor_leggings", () -> new MalachiteArmorItem.Leggings());
-	public static final RegistryObject<Item> MALACHITE_ARMOR_BOOTS = REGISTRY.register("malachite_armor_boots", () -> new MalachiteArmorItem.Boots());
 	public static final RegistryObject<Item> STARLITE_DUST = REGISTRY.register("starlite_dust", () -> new StarliteDustItem());
 	public static final RegistryObject<Item> STARLITE_ORE = block(RoyalrealmsModBlocks.STARLITE_ORE);
 	public static final RegistryObject<Item> STARLITE_BLOCK = block(RoyalrealmsModBlocks.STARLITE_BLOCK);
-	public static final RegistryObject<Item> STARLITE_PICKAXE = REGISTRY.register("starlite_pickaxe", () -> new StarlitePickaxeItem());
-	public static final RegistryObject<Item> STARLITE_AXE = REGISTRY.register("starlite_axe", () -> new StarliteAxeItem());
-	public static final RegistryObject<Item> STARLITE_SWORD = REGISTRY.register("starlite_sword", () -> new StarliteSwordItem());
-	public static final RegistryObject<Item> STARLITE_SHOVEL = REGISTRY.register("starlite_shovel", () -> new StarliteShovelItem());
-	public static final RegistryObject<Item> STARLITE_HOE = REGISTRY.register("starlite_hoe", () -> new StarliteHoeItem());
-	public static final RegistryObject<Item> STARLITE_ARMOR_HELMET = REGISTRY.register("starlite_armor_helmet", () -> new StarliteArmorItem.Helmet());
-	public static final RegistryObject<Item> STARLITE_ARMOR_CHESTPLATE = REGISTRY.register("starlite_armor_chestplate", () -> new StarliteArmorItem.Chestplate());
-	public static final RegistryObject<Item> STARLITE_ARMOR_LEGGINGS = REGISTRY.register("starlite_armor_leggings", () -> new StarliteArmorItem.Leggings());
-	public static final RegistryObject<Item> STARLITE_ARMOR_BOOTS = REGISTRY.register("starlite_armor_boots", () -> new StarliteArmorItem.Boots());
 	public static final RegistryObject<Item> NEONIUM = REGISTRY.register("neonium", () -> new NeoniumItem());
 	public static final RegistryObject<Item> NEONIUM_ORE = block(RoyalrealmsModBlocks.NEONIUM_ORE);
 	public static final RegistryObject<Item> NEONIUM_BLOCK = block(RoyalrealmsModBlocks.NEONIUM_BLOCK);
@@ -104,10 +98,39 @@ public class RoyalrealmsModItems {
 	public static final RegistryObject<Item> TUNGSTEN_BLOCK = block(RoyalrealmsModBlocks.TUNGSTEN_BLOCK);
 	public static final RegistryObject<Item> RAW_TUNGSTEN = REGISTRY.register("raw_tungsten", () -> new RawTungstenItem());
 	public static final RegistryObject<Item> RAW_TUNGSTEN_BLOCK = block(RoyalrealmsModBlocks.RAW_TUNGSTEN_BLOCK);
+	public static final RegistryObject<Item> FLUORITE_NECKLACE = REGISTRY.register("fluorite_necklace", () -> new FluoriteNecklaceItem());
+	public static final RegistryObject<Item> CURSED_SKULL = REGISTRY.register("cursed_skull", () -> new CursedSkullItem());
+	public static final RegistryObject<Item> MUSIC_DISC_CORE = REGISTRY.register("music_disc_core", () -> new MusicDiscCOREItem());
+	public static final RegistryObject<Item> MUSIC_DISC_TV_WORLD = REGISTRY.register("music_disc_tv_world", () -> new MusicDiscTvWorldItem());
+	public static final RegistryObject<Item> MUSIC_DISC_GLOWING_SNOW = REGISTRY.register("music_disc_glowing_snow", () -> new MusicDiscGlowingSnowItem());
+	public static final RegistryObject<Item> MUSIC_DISC_BLACK_KNIFE = REGISTRY.register("music_disc_black_knife", () -> new MusicDiscBlackKnifeItem());
+	public static final RegistryObject<Item> MUSIC_DISC_TV_TIME = REGISTRY.register("music_disc_tv_time", () -> new MusicDiscTvTimeItem());
+	public static final RegistryObject<Item> MUSIC_DISC_UWAH_SO_TEMPERATE = REGISTRY.register("music_disc_uwah_so_temperate", () -> new MusicDiscUwahSoTemperateItem());
+	public static final RegistryObject<Item> FLUORITE = REGISTRY.register("fluorite", () -> new FluoriteItem());
+	public static final RegistryObject<Item> FLUORITE_ORE = block(RoyalrealmsModBlocks.FLUORITE_ORE);
+	public static final RegistryObject<Item> FLUORITE_BLOCK = block(RoyalrealmsModBlocks.FLUORITE_BLOCK);
+	public static final RegistryObject<Item> FALL_BREAKER_CHARM = REGISTRY.register("fall_breaker_charm", () -> new FallBreakerCharmItem());
+	public static final RegistryObject<Item> WATER_ARMOR_HELMET = REGISTRY.register("water_armor_helmet", () -> new WaterArmorItem.Helmet());
+	public static final RegistryObject<Item> WATER_ARMOR_CHESTPLATE = REGISTRY.register("water_armor_chestplate", () -> new WaterArmorItem.Chestplate());
+	public static final RegistryObject<Item> WATER_ARMOR_LEGGINGS = REGISTRY.register("water_armor_leggings", () -> new WaterArmorItem.Leggings());
+	public static final RegistryObject<Item> WATER_ARMOR_BOOTS = REGISTRY.register("water_armor_boots", () -> new WaterArmorItem.Boots());
+	public static final RegistryObject<Item> WISHING_STAR = REGISTRY.register("wishing_star", () -> new WishingStarItem());
+	public static final RegistryObject<Item> PLAYER_ITEM = REGISTRY.register("player_item", () -> new PlayerItemItem());
+	public static final RegistryObject<Item> CHASTITY_CAGE_BLACK = REGISTRY.register("chastity_cage_black", () -> new ChastityCageBlackItem());
+	public static final RegistryObject<Item> CHASTITY_CAGE_GOLD = REGISTRY.register("chastity_cage_gold", () -> new ChastityCageGoldItem());
+	public static final RegistryObject<Item> HOLE_SWITCH = REGISTRY.register("hole_switch", () -> new HoleSwitchItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
+	}
+
+	@SubscribeEvent
+	public static void clientLoad(FMLClientSetupEvent event) {
+		event.enqueueWork(() -> {
+			ItemProperties.register(PLAYER_ITEM.get(), new ResourceLocation("royalrealms:player_item_player_belongs"),
+					(itemStackToRender, clientWorld, entity, itemEntityId) -> (float) PlayerItemPropertyValueProviderProcedure.execute(itemStackToRender));
+		});
 	}
 }

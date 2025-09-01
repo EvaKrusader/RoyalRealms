@@ -40,7 +40,7 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "Blocks.CHERRY_LOG"
+      "value": "Blocks.CHERRY_SAPLING"
     },
     "name": "patent_cherry",
     "namespace": "mod"

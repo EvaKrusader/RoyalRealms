@@ -3,7 +3,7 @@
   "_type": "achievement",
   "definition": {
     "achievementName": "Life Experience",
-    "achievementDescription": "Cheat death",
+    "achievementDescription": "Cheat death with an experience amulet",
     "achievementIcon": {
       "value": "CUSTOM:ExperienceAmulet"
     },
@@ -18,7 +18,7 @@
     "rewardXP": 0,
     "achievementType": "task",
     "parent": {
-      "value": "CUSTOM:NeuralAugment"
+      "value": "CUSTOM:RoyalRealms"
     },
     "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"advancement_trigger\" deletable=\"false\" x=\"40\" y=\"80\"><next><block type=\"custom_trigger\"></block></next></block></xml>"
   }

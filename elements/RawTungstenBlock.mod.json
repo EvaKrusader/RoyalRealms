@@ -37,18 +37,22 @@
     "specialInformation": {
       "fixedValue": []
     },
-    "hardness": 1.0,
-    "resistance": 10.0,
+    "hardness": 5.0,
+    "resistance": 6.0,
     "hasGravity": false,
     "isWaterloggable": false,
-    "creativeTabs": [],
-    "destroyTool": "Not specified",
+    "creativeTabs": [
+      {
+        "value": "BUILDING_BLOCKS"
+      }
+    ],
+    "destroyTool": "pickaxe",
     "customDrop": {
       "value": ""
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
-    "requiresCorrectTool": false,
+    "requiresCorrectTool": true,
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
     "canRedstoneConnect": false,
@@ -79,7 +83,7 @@
     "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "GROUND"
+      "value": "METAL"
     },
     "breakSound": {
       "value": ""
@@ -98,7 +102,7 @@
     },
     "luminance": 0,
     "unbreakable": false,
-    "vanillaToolTier": "NONE",
+    "vanillaToolTier": "IRON",
     "isBonemealable": false,
     "hasInventory": false,
     "guiBoundTo": "<NONE>",
@@ -119,11 +123,7 @@
     "fluidRestrictions": [],
     "generateFeature": false,
     "restrictionBiomes": [],
-    "blocksToReplace": [
-      {
-        "value": "TAG:stone_ore_replaceables"
-      }
-    ],
+    "blocksToReplace": [],
     "generationShape": "UNIFORM",
     "frequencyPerChunks": 10,
     "frequencyOnChunk": 16,

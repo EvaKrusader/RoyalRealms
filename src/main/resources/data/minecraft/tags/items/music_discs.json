@@ -1,6 +1,12 @@
 {
   "replace": false,
   "values": [
+    "royalrealms:music_disc_uwah_so_temperate",
+    "royalrealms:music_disc_tv_time",
+    "royalrealms:music_disc_black_knife",
+    "royalrealms:music_disc_glowing_snow",
+    "royalrealms:music_disc_tv_world",
+    "royalrealms:music_disc_core",
     "royalrealms:music_disc_7l_011"
   ]
 }

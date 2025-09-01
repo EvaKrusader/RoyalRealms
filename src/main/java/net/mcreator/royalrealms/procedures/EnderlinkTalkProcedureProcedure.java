@@ -28,7 +28,7 @@ public class EnderlinkTalkProcedureProcedure {
 			return;
 		double timer = 0;
 		{
-			double _setval = 1 * 60 * 20;
+			double _setval = 3 * 60 * 20;
 			entity.getCapability(RoyalrealmsModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
 				capability.EnderlinkCounter = _setval;
 				capability.syncPlayerVariables(entity);

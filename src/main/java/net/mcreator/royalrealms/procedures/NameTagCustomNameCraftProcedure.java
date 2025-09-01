@@ -15,12 +15,10 @@ import net.minecraft.network.chat.Component;
 
 import javax.annotation.Nullable;
 
-import java.net.URL;
+import java.util.List;
+import java.util.ArrayList;
 
-import java.io.IOException;
-import java.io.FileReader;
 import java.io.File;
-import java.io.BufferedReader;
 
 @Mod.EventBusSubscriber
 public class NameTagCustomNameCraftProcedure {
@@ -45,32 +43,37 @@ public class NameTagCustomNameCraftProcedure {
 		String enderlinkName = "";
 		String tipStart = "";
 		String url = "";
-		file = new File(System.getProperty("java.io.tmpdir"), File.separator + "nametags.json");
-		url = "https://raw.githubusercontent.com/EvaKrusader/" + "RoyalRealms" + "/master/src/main/nametags.json";
-		try {
-			org.apache.commons.io.FileUtils.copyURLToFile(new URL(url), file, 1000, 1000);
-		} catch (IOException e) {
-			e.printStackTrace();
-		}
-		{
-			try {
-				BufferedReader bufferedReader = new BufferedReader(new FileReader(file));
-				StringBuilder jsonstringbuilder = new StringBuilder();
-				String line;
-				while ((line = bufferedReader.readLine()) != null) {
-					jsonstringbuilder.append(line);
-				}
-				bufferedReader.close();
-				json = new com.google.gson.Gson().fromJson(jsonstringbuilder.toString(), com.google.gson.JsonObject.class);
-				if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == Items.NAME_TAG && entity.isShiftKeyDown() && entity.getLookAngle().y <= -0.9
-						&& (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getOrCreateTag().getBoolean("hasDefaultRename") == false) {
-					(entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getOrCreateTag().putBoolean("hasDefaultRename", true);
-					namePicker = Mth.nextInt(RandomSource.create(), 1, 31);
-					(entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).setHoverName(Component.literal((stringStart + "" + json.get(("name" + new java.text.DecimalFormat("#").format(namePicker))).getAsString())));
-				}
-			} catch (IOException e) {
-				e.printStackTrace();
+		List<Object> list = new ArrayList<>();
+		if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == Items.NAME_TAG && entity.isShiftKeyDown() && entity.getLookAngle().y <= -0.9
+				&& (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getOrCreateTag().getBoolean("hasDefaultRename") == false) {
+			if (list.isEmpty()) {
+				list.add("Pih");
+				list.add("Freak");
+				list.add("Whore");
+				list.add("Bitch");
+				list.add("Slut");
+				list.add("Cookie");
+				list.add("Coochie");
+				list.add("Mario");
+				list.add("Luigi");
+				list.add("Diddy");
+				list.add("Pomni");
+				list.add("Cum");
+				list.add("Precum");
+				list.add("Dildo");
+				list.add("Fleshlight");
+				list.add("Pussy");
+				list.add("Sparkle");
+				list.add("Awawa");
+				list.add("True");
+				list.add("Earpod");
+				list.add("Jeff");
+				list.add("Twin");
+				list.add("Dih");
 			}
+			(entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getOrCreateTag().putBoolean("hasDefaultRename", true);
+			namePicker = Mth.nextInt(RandomSource.create(), 0, (int) (list.size() - 1));
+			(entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).setHoverName(Component.literal((list.get((int) namePicker) instanceof String _s ? _s : "")));
 		}
 	}
 }

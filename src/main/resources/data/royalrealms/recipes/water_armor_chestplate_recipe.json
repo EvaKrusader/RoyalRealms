@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "a a",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "royalrealms:fall_breaker_charm"
+    }
+  },
+  "result": {
+    "item": "royalrealms:water_armor_chestplate",
+    "count": 1
+  }
+}

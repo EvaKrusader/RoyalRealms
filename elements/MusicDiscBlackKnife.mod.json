@@ -1,0 +1,29 @@
+{
+  "_fv": 66,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Music Disc",
+    "rarity": "COMMON",
+    "texture": "music_disc_black_knife",
+    "description": "Toby Fox - Black Knife",
+    "creativeTabs": [
+      {
+        "value": "TOOLS"
+      },
+      {
+        "value": "CUSTOM:MusicDiscs"
+      }
+    ],
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "music": {
+      "value": "CUSTOM:record_black_knife"
+    },
+    "lengthInTicks": 2340,
+    "analogOutput": 12
+  }
+}

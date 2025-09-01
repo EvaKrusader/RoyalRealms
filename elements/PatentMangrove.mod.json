@@ -40,7 +40,7 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "Blocks.MANGROVE_LOG"
+      "value": "Blocks.MANGROVE_PROPAGULE"
     },
     "name": "patent_mangrove",
     "namespace": "mod"

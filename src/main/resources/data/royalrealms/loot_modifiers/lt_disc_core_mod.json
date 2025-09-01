@@ -1,0 +1,10 @@
+{
+  "type": "royalrealms:royalrealms_loot_modifier",
+  "conditions": [
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "minecraft:chests/nether_bridge"
+    }
+  ],
+  "lootTable": "royalrealms:chests/lt_disc_core"
+}

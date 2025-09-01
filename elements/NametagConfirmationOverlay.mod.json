@@ -7,24 +7,24 @@
       {
         "type": "image",
         "data": {
-          "image": "angel_brick.png",
-          "use1Xscale": false,
+          "image": "nametag_off.png",
+          "use1Xscale": true,
           "anchorPoint": "CENTER",
-          "x": 214,
-          "y": 120
+          "x": 216,
+          "y": 122
         }
       },
       {
         "type": "image",
         "data": {
-          "image": "demon_brick.png",
-          "use1Xscale": false,
+          "image": "nametag_on.png",
+          "use1Xscale": true,
           "displayCondition": {
             "name": "NametagOverlayConfirmation"
           },
           "anchorPoint": "CENTER",
-          "x": 214,
-          "y": 120
+          "x": 216,
+          "y": 122
         }
       }
     ],

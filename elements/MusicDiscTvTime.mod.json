@@ -1,0 +1,29 @@
+{
+  "_fv": 66,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "§cMusic Disc",
+    "rarity": "COMMON",
+    "texture": "music_disc_tv_time",
+    "description": "Toby Fox - It's TV Time!",
+    "creativeTabs": [
+      {
+        "value": "TOOLS"
+      },
+      {
+        "value": "CUSTOM:MusicDiscs"
+      }
+    ],
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "music": {
+      "value": "CUSTOM:record_tv_time"
+    },
+    "lengthInTicks": 3300,
+    "analogOutput": 9
+  }
+}

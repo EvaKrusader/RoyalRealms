@@ -1,0 +1,52 @@
+{
+  "_fv": 66,
+  "_type": "overlay",
+  "definition": {
+    "priority": "NORMAL",
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_return_adrenaline",
+          "text": {
+            "fixedValue": "",
+            "name": "ReturnAdrenaline"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "anchorPoint": "TOP_LEFT",
+          "x": 15,
+          "y": 8
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_return_skull",
+          "text": {
+            "fixedValue": "",
+            "name": "ReturnSkull"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "anchorPoint": "TOP_LEFT",
+          "x": 16,
+          "y": 21
+        }
+      }
+    ],
+    "baseTexture": "",
+    "overlayTarget": "Ingame",
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

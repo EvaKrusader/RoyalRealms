@@ -1,0 +1,29 @@
+{
+  "_fv": 66,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "§eMusic Disc",
+    "rarity": "COMMON",
+    "texture": "music_disc_uwah_so_temperate",
+    "description": "Toby Fox - Uwa!! So Temperate♫",
+    "creativeTabs": [
+      {
+        "value": "TOOLS"
+      },
+      {
+        "value": "CUSTOM:MusicDiscs"
+      }
+    ],
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "music": {
+      "value": "CUSTOM:record_uwah_so_temperate"
+    },
+    "lengthInTicks": 1120,
+    "analogOutput": 6
+  }
+}

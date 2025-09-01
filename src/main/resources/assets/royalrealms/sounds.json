@@ -114,5 +114,53 @@
         "stream": false
       }
     ]
+  },
+  "record_core": {
+    "sounds": [
+      {
+        "name": "royalrealms:record_core",
+        "stream": true
+      }
+    ]
+  },
+  "record_black_knife": {
+    "sounds": [
+      {
+        "name": "royalrealms:record_black_knife",
+        "stream": true
+      }
+    ]
+  },
+  "record_tv_time": {
+    "sounds": [
+      {
+        "name": "royalrealms:record_tv_time",
+        "stream": true
+      }
+    ]
+  },
+  "record_glowing_snow": {
+    "sounds": [
+      {
+        "name": "royalrealms:record_glowing_snow",
+        "stream": true
+      }
+    ]
+  },
+  "record_uwah_so_temperate": {
+    "sounds": [
+      {
+        "name": "royalrealms:record_uwah_so_temperate",
+        "stream": true
+      }
+    ]
+  },
+  "record_tv_world": {
+    "sounds": [
+      {
+        "name": "royalrealms:record_tv_world",
+        "stream": true
+      }
+    ]
   }
 }

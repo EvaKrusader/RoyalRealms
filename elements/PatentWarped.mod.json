@@ -40,7 +40,7 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "Blocks.WARPED_STEM"
+      "value": "Blocks.WARPED_FUNGUS"
     },
     "name": "patent_warped",
     "namespace": "mod"

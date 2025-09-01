@@ -1,0 +1,48 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Fluorite"
+      },
+      {
+        "value": "CUSTOM:Fluorite"
+      },
+      {
+        "value": "CUSTOM:Fluorite"
+      },
+      {
+        "value": "CUSTOM:Fluorite"
+      },
+      {
+        "value": "CUSTOM:Fluorite"
+      },
+      {
+        "value": "CUSTOM:Fluorite"
+      },
+      {
+        "value": "CUSTOM:Fluorite"
+      },
+      {
+        "value": "CUSTOM:Fluorite"
+      },
+      {
+        "value": "CUSTOM:Fluorite"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:FluoriteBlock"
+    },
+    "name": "fluorite_ore_block_recipe",
+    "namespace": "mod"
+  }
+}

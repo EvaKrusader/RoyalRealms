@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "royalrealms:brightcore"
+    "royalrealms:brightcore",
+    "royalrealms:fluorite"
   ]
 }

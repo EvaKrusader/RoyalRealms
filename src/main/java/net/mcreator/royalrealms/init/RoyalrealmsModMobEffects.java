@@ -10,10 +10,14 @@ import net.minecraftforge.registries.DeferredRegister;
 
 import net.minecraft.world.effect.MobEffect;
 
+import net.mcreator.royalrealms.potion.SkullCurseEffectMobEffect;
 import net.mcreator.royalrealms.potion.PhasingMobEffect;
+import net.mcreator.royalrealms.potion.AdrenalineMobEffect;
 import net.mcreator.royalrealms.RoyalrealmsMod;
 
 public class RoyalrealmsModMobEffects {
 	public static final DeferredRegister<MobEffect> REGISTRY = DeferredRegister.create(ForgeRegistries.MOB_EFFECTS, RoyalrealmsMod.MODID);
 	public static final RegistryObject<MobEffect> PHASING = REGISTRY.register("phasing", () -> new PhasingMobEffect());
+	public static final RegistryObject<MobEffect> SKULL_CURSE_EFFECT = REGISTRY.register("skull_curse_effect", () -> new SkullCurseEffectMobEffect());
+	public static final RegistryObject<MobEffect> ADRENALINE = REGISTRY.register("adrenaline", () -> new AdrenalineMobEffect());
 }
