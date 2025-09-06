@@ -1,6 +1,6 @@
 {
   "type": "forge:add_features",
-  "biomes": "#is_overworld",
+  "biomes": "#minecraft:is_nether",
   "features": "royalrealms:telosteel_ore",
   "step": "underground_ores"
 }

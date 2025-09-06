@@ -1,0 +1,11 @@
+{
+  "_fv": 66,
+  "_type": "painting",
+  "definition": {
+    "texture": "vitrail",
+    "width": 32,
+    "height": 32,
+    "title": "Vitrail",
+    "author": "Lilypad"
+  }
+}

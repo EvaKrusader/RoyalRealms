@@ -5,7 +5,7 @@
     "effectName": "Skull Curse",
     "icon": "cursed_skull",
     "color": {
-      "value": -1,
+      "value": -4966667,
       "falpha": 0.0
     },
     "isInstant": false,

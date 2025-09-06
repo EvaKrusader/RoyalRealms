@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "royalrealms:obsidian_glass",
     "royalrealms:fluorite_block",
     "royalrealms:fluorite_ore",
     "royalrealms:raw_tungsten_block",

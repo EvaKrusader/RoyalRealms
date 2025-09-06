@@ -13,6 +13,8 @@ import net.minecraft.world.level.Level;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.client.Minecraft;
 
+import net.mcreator.royalrealms.procedures.ReturnWorldTimeProcedure;
+import net.mcreator.royalrealms.procedures.ReturnSwoonProcedure;
 import net.mcreator.royalrealms.procedures.ReturnSkullProcedure;
 import net.mcreator.royalrealms.procedures.ReturnAdrenalineProcedure;
 
@@ -40,6 +42,12 @@ public class DevOVLOverlay {
 			event.getGuiGraphics().drawString(Minecraft.getInstance().font,
 
 					ReturnSkullProcedure.execute(entity), 16, 21, -1, false);
+			event.getGuiGraphics().drawString(Minecraft.getInstance().font,
+
+					ReturnWorldTimeProcedure.execute(world), 15, 35, -1, false);
+			event.getGuiGraphics().drawString(Minecraft.getInstance().font,
+
+					ReturnSwoonProcedure.execute(entity), 15, 49, -1, false);
 		}
 	}
 }

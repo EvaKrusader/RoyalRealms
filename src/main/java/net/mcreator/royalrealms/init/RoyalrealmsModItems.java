@@ -51,11 +51,13 @@ import net.mcreator.royalrealms.item.FluoriteItem;
 import net.mcreator.royalrealms.item.FixHoleItem;
 import net.mcreator.royalrealms.item.FallBreakerCharmItem;
 import net.mcreator.royalrealms.item.ExperienceAmuletItem;
+import net.mcreator.royalrealms.item.EsotericKnowledgeItem;
 import net.mcreator.royalrealms.item.EnderlinkItem;
 import net.mcreator.royalrealms.item.CursedSkullItem;
 import net.mcreator.royalrealms.item.ChastityCageGoldItem;
 import net.mcreator.royalrealms.item.ChastityCageBlackItem;
 import net.mcreator.royalrealms.item.BrightcoreItem;
+import net.mcreator.royalrealms.item.BlackKnifeItem;
 import net.mcreator.royalrealms.RoyalrealmsMod;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
@@ -119,6 +121,10 @@ public class RoyalrealmsModItems {
 	public static final RegistryObject<Item> CHASTITY_CAGE_BLACK = REGISTRY.register("chastity_cage_black", () -> new ChastityCageBlackItem());
 	public static final RegistryObject<Item> CHASTITY_CAGE_GOLD = REGISTRY.register("chastity_cage_gold", () -> new ChastityCageGoldItem());
 	public static final RegistryObject<Item> HOLE_SWITCH = REGISTRY.register("hole_switch", () -> new HoleSwitchItem());
+	public static final RegistryObject<Item> BLACK_KNIFE = REGISTRY.register("black_knife", () -> new BlackKnifeItem());
+	public static final RegistryObject<Item> ESOTERIC_KNOWLEDGE = REGISTRY.register("esoteric_knowledge", () -> new EsotericKnowledgeItem());
+	public static final RegistryObject<Item> OBSIDIAN_GLASS = block(RoyalrealmsModBlocks.OBSIDIAN_GLASS);
+	public static final RegistryObject<Item> SPECTRAL_BLOCK = block(RoyalrealmsModBlocks.SPECTRAL_BLOCK);
 
 	// Start of user code block custom items
 	// End of user code block custom items

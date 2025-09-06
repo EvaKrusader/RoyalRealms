@@ -1,0 +1,11 @@
+{
+  "_fv": 66,
+  "_type": "painting",
+  "definition": {
+    "texture": "neon",
+    "width": 32,
+    "height": 16,
+    "title": "Neon",
+    "author": "Lilypad"
+  }
+}

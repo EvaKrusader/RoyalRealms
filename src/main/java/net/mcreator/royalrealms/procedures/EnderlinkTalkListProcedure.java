@@ -41,8 +41,8 @@ public class EnderlinkTalkListProcedure {
 				list.add("You can extinguish yourself with a Wishing Star, useful when in the Nether!");
 				list.add("You can use a Wishing Star to sacrifice an item to realise a wish!");
 				list.add("You can use a Player Item on a Wishing Star to teleport to them!");
-				list.add("12");
-				list.add("13");
+				list.add("Try wishing for a copper rod, netherrack or a fall breaker charm!");
+				list.add("You can always wish for more food!");
 				list.add("14");
 				list.add("15");
 			}

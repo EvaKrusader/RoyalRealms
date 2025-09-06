@@ -1,0 +1,38 @@
+{
+  "_fv": 66,
+  "_type": "overlay",
+  "definition": {
+    "priority": "NORMAL",
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_phasing_overlay_text",
+          "text": {
+            "fixedValue": "",
+            "name": "PhasingOverlayText"
+          },
+          "color": {
+            "value": -6684673,
+            "falpha": 0.0
+          },
+          "anchorPoint": "CENTER",
+          "x": 211,
+          "y": 115
+        }
+      }
+    ],
+    "baseTexture": "phasing_overlay.png",
+    "overlayTarget": "Ingame",
+    "displayCondition": {
+      "name": "PhasingOverlayDisplayOverlayIngame"
+    },
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

@@ -11,7 +11,7 @@ import net.mcreator.royalrealms.procedures.SkullCurseEffectEffectStartedappliedP
 
 public class SkullCurseEffectMobEffect extends MobEffect {
 	public SkullCurseEffectMobEffect() {
-		super(MobEffectCategory.NEUTRAL, -1);
+		super(MobEffectCategory.NEUTRAL, -4966667);
 	}
 
 	@Override
@@ -21,7 +21,7 @@ public class SkullCurseEffectMobEffect extends MobEffect {
 
 	@Override
 	public void applyEffectTick(LivingEntity entity, int amplifier) {
-		SkullCurseEffectOnEffectActiveTickProcedure.execute(entity.level(), entity);
+		SkullCurseEffectOnEffectActiveTickProcedure.execute(entity);
 	}
 
 	@Override

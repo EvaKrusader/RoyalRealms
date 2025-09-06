@@ -115,14 +115,6 @@
       }
     ]
   },
-  "record_core": {
-    "sounds": [
-      {
-        "name": "royalrealms:record_core",
-        "stream": true
-      }
-    ]
-  },
   "record_black_knife": {
     "sounds": [
       {
@@ -160,6 +152,22 @@
       {
         "name": "royalrealms:record_tv_world",
         "stream": true
+      }
+    ]
+  },
+  "record_core": {
+    "sounds": [
+      {
+        "name": "royalrealms:record_core",
+        "stream": true
+      }
+    ]
+  },
+  "swoon": {
+    "sounds": [
+      {
+        "name": "royalrealms:black_knife_swoon",
+        "stream": false
       }
     ]
   }

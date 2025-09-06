@@ -12,11 +12,14 @@ import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.util.RandomSource;
 import net.minecraft.util.Mth;
 import net.minecraft.sounds.SoundSource;
+import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.network.chat.Component;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.core.BlockPos;
+import net.minecraft.advancements.AdvancementProgress;
+import net.minecraft.advancements.Advancement;
 
 import net.mcreator.royalrealms.network.RoyalrealmsModVariables;
 import net.mcreator.royalrealms.init.RoyalrealmsModItems;
@@ -56,6 +59,17 @@ public class EnderlinkPlayerFinishesUsingItemProcedure {
 					capability.syncPlayerVariables(entity);
 				});
 			}
+			if (entity instanceof ServerPlayer _player) {
+				Advancement _adv = _player.server.getAdvancements().getAdvancement(new ResourceLocation("royalrealms:neural_augment"));
+				AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv);
+				if (!_ap.isDone()) {
+					for (String criteria : _ap.getRemainingCriteria())
+						_player.getAdvancements().award(_adv, criteria);
+				}
+			}
+			if (entity instanceof Player _player && !_player.level().isClientSide())
+				_player.displayClientMessage(Component.literal(("<Enderlink> " + "Thank you for installing Enderlink\u2122, you will now receive FacTips every 3 minutes.")), false);
+			EnderlinkTalkProcedureProcedure.execute(world, entity);
 		} else {
 			if (entity instanceof Player _player && !_player.level().isClientSide())
 				_player.displayClientMessage(Component.literal("You already have Enderlink installed."), false);

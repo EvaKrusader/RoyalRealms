@@ -37,6 +37,40 @@
           "x": 16,
           "y": 21
         }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_return_world_time",
+          "text": {
+            "fixedValue": "",
+            "name": "ReturnWorldTime"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "anchorPoint": "TOP_LEFT",
+          "x": 15,
+          "y": 35
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_return_swoon",
+          "text": {
+            "fixedValue": "",
+            "name": "ReturnSwoon"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "anchorPoint": "TOP_LEFT",
+          "x": 15,
+          "y": 49
+        }
       }
     ],
     "baseTexture": "",

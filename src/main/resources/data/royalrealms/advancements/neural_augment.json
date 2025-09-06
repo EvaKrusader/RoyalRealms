@@ -1,6 +1,5 @@
 {
   "display": {
-    "background": "minecraft:textures/block/stone.png",
     "icon": {
       "item": "royalrealms:enderlink"
     },
@@ -26,5 +25,6 @@
         }
       }
     }
-  }
+  },
+  "parent": "royalrealms:royal_realms"
 }

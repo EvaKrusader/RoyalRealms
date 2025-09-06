@@ -28,10 +28,11 @@ public class RoyalrealmsModSounds {
 	public static final RegistryObject<SoundEvent> RECORD_7L011 = REGISTRY.register("record_7l011", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("royalrealms", "record_7l011")));
 	public static final RegistryObject<SoundEvent> RECORD_DISSOLVING_DARK_CLOUDS = REGISTRY.register("record_dissolving_dark_clouds", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("royalrealms", "record_dissolving_dark_clouds")));
 	public static final RegistryObject<SoundEvent> CRYSTAL_BREAK = REGISTRY.register("crystal_break", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("royalrealms", "crystal_break")));
-	public static final RegistryObject<SoundEvent> RECORD_CORE = REGISTRY.register("record_core", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("royalrealms", "record_core")));
 	public static final RegistryObject<SoundEvent> RECORD_BLACK_KNIFE = REGISTRY.register("record_black_knife", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("royalrealms", "record_black_knife")));
 	public static final RegistryObject<SoundEvent> RECORD_TV_TIME = REGISTRY.register("record_tv_time", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("royalrealms", "record_tv_time")));
 	public static final RegistryObject<SoundEvent> RECORD_GLOWING_SNOW = REGISTRY.register("record_glowing_snow", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("royalrealms", "record_glowing_snow")));
 	public static final RegistryObject<SoundEvent> RECORD_UWAH_SO_TEMPERATE = REGISTRY.register("record_uwah_so_temperate", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("royalrealms", "record_uwah_so_temperate")));
 	public static final RegistryObject<SoundEvent> RECORD_TV_WORLD = REGISTRY.register("record_tv_world", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("royalrealms", "record_tv_world")));
+	public static final RegistryObject<SoundEvent> RECORD_CORE = REGISTRY.register("record_core", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("royalrealms", "record_core")));
+	public static final RegistryObject<SoundEvent> SWOON = REGISTRY.register("swoon", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("royalrealms", "swoon")));
 }

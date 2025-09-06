@@ -27,13 +27,15 @@ public class EnderlinkTalkProcedureProcedure {
 		if (entity == null)
 			return;
 		double timer = 0;
-		{
-			double _setval = 3 * 60 * 20;
-			entity.getCapability(RoyalrealmsModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
-				capability.EnderlinkCounter = _setval;
-				capability.syncPlayerVariables(entity);
-			});
+		if ((entity.getCapability(RoyalrealmsModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new RoyalrealmsModVariables.PlayerVariables())).playerHasEnderlink == true) {
+			{
+				double _setval = 3 * 60 * 20;
+				entity.getCapability(RoyalrealmsModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+					capability.EnderlinkCounter = _setval;
+					capability.syncPlayerVariables(entity);
+				});
+			}
+			EnderlinkCountdownProcedure.execute(world, entity);
 		}
-		EnderlinkCountdownProcedure.execute(world, entity);
 	}
 }

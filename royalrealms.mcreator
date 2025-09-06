@@ -1991,10 +1991,6 @@
           {
             "name": "entity",
             "type": "entity"
-          },
-          {
-            "name": "sourceentity",
-            "type": "entity"
           }
         ]
       },
@@ -2826,10 +2822,6 @@
           {
             "name": "entity",
             "type": "entity"
-          },
-          {
-            "name": "world",
-            "type": "world"
           }
         ]
       },
@@ -2952,14 +2944,795 @@
         ]
       },
       "path": "~/Dev"
+    },
+    {
+      "name": "BlackKnife",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_knife",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/royalrealms/models/item/black_knife.json",
+          "src/main/java/net/mcreator/royalrealms/item/BlackKnifeItem.java"
+        ]
+      },
+      "path": "~/Artifacts/BlackKnife"
+    },
+    {
+      "name": "EsotericKnowledge",
+      "type": "curiosbauble",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "esoteric_knowledge",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/royalrealms/item/EsotericKnowledgeItem.java",
+          "src/main/resources/assets/royalrealms/models/item/esoteric_knowledge.json"
+        ]
+      },
+      "path": "~/Curio/Knowledge"
+    },
+    {
+      "name": "EsotericKnowledgeBaubleIsEquipped",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "esoteric_knowledge_bauble_is_equipped",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/royalrealms/procedures/EsotericKnowledgeBaubleIsEquippedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Curio/Knowledge"
+    },
+    {
+      "name": "EsotericKnowledgeTooltip",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "esoteric_knowledge_tooltip",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/royalrealms/procedures/EsotericKnowledgeTooltipProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "tooltip",
+            "type": "tooltip"
+          }
+        ]
+      },
+      "path": "~/Curio/Knowledge"
+    },
+    {
+      "name": "BlackKnifeSwoon",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_knife_swoon",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/royalrealms/procedures/BlackKnifeSwoonProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Artifacts/BlackKnife"
+    },
+    {
+      "name": "Swoon",
+      "type": "damagetype",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "swoon",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/royalrealms/damage_type/swoon.json"
+        ]
+      },
+      "path": "~/Artifacts/BlackKnife"
+    },
+    {
+      "name": "SeriesTooltip",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "series_tooltip",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/royalrealms/procedures/SeriesTooltipProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "tooltip",
+            "type": "tooltip"
+          }
+        ]
+      },
+      "path": "~/Music"
+    },
+    {
+      "name": "LCL",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lcl",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Paintings"
+    },
+    {
+      "name": "Bliss",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bliss",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Paintings"
+    },
+    {
+      "name": "Confused",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "confused",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Paintings"
+    },
+    {
+      "name": "HQ",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hq",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Paintings"
+    },
+    {
+      "name": "Vitrail",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vitrail",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Paintings/Lilypad"
+    },
+    {
+      "name": "Bioluminescence",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bioluminescence",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Paintings/Lilypad"
+    },
+    {
+      "name": "MidnightSky",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "midnight_sky",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Paintings/Lilypad"
+    },
+    {
+      "name": "Lantern",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lantern",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Paintings/Lilypad"
+    },
+    {
+      "name": "Mist",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mist",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Paintings/Lilypad"
+    },
+    {
+      "name": "IronDoors",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_doors",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Paintings/Lilypad"
+    },
+    {
+      "name": "CrabNebula",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crab_nebula",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Paintings/Lilypad"
+    },
+    {
+      "name": "Morning",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "morning",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Paintings/Lilypad"
+    },
+    {
+      "name": "IceCube",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ice_cube",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Paintings/Lilypad"
+    },
+    {
+      "name": "Overlook",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "overlook",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Paintings/Lilypad"
+    },
+    {
+      "name": "Glitch",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glitch",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Paintings/Lilypad"
+    },
+    {
+      "name": "Monochrome",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "monochrome",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Paintings/Lilypad"
+    },
+    {
+      "name": "Neon",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Paintings/Lilypad"
+    },
+    {
+      "name": "Breeze",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "breeze",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Paintings/Lilypad"
+    },
+    {
+      "name": "Town",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "town",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Paintings/Lilypad"
+    },
+    {
+      "name": "House",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "house",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Paintings/Lilypad"
+    },
+    {
+      "name": "ObsidianGlass",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidian_glass",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/royalrealms/models/item/obsidian_glass.json",
+          "src/main/resources/assets/royalrealms/models/block/obsidian_glass.json",
+          "src/main/java/net/mcreator/royalrealms/block/ObsidianGlassBlock.java",
+          "src/main/resources/data/royalrealms/loot_tables/blocks/obsidian_glass.json",
+          "src/main/resources/assets/royalrealms/blockstates/obsidian_glass.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "ReturnWorldTime",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "return_world_time",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/royalrealms/procedures/ReturnWorldTimeProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Dev"
+    },
+    {
+      "name": "SpectralBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spectral_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/royalrealms/models/item/spectral_block.json",
+          "src/main/resources/data/royalrealms/loot_tables/blocks/spectral_block.json",
+          "src/main/resources/assets/royalrealms/blockstates/spectral_block.json",
+          "src/main/java/net/mcreator/royalrealms/block/SpectralBlockBlock.java",
+          "src/main/resources/assets/royalrealms/models/block/spectral_block.json"
+        ]
+      },
+      "path": "~/Blocks/SpectralBlocks"
+    },
+    {
+      "name": "SpectralBlockBlockAdded",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spectral_block_block_added",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/royalrealms/procedures/SpectralBlockBlockAddedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks/SpectralBlocks"
+    },
+    {
+      "name": "SpectralBlockStates",
+      "type": "blockstates",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spectral_block_states",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/royalrealms/models/block/spectral_block_states_blockstate_3.json",
+          "src/main/resources/assets/royalrealms/models/block/spectral_block_states_blockstate_2.json",
+          "src/main/resources/assets/royalrealms/models/block/spectral_block_states_blockstate_0.json",
+          "src/main/resources/assets/royalrealms/models/block/spectral_block_states_blockstate_1.json",
+          "src/main/resources/assets/royalrealms/models/block/spectral_block_states_blockstate_4.json"
+        ]
+      },
+      "path": "~/Blocks/SpectralBlocks"
+    },
+    {
+      "name": "BlackKnifeToolInHandTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_knife_tool_in_hand_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/royalrealms/procedures/BlackKnifeToolInHandTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Artifacts/BlackKnife"
+    },
+    {
+      "name": "Artifact",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "artifact",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/royalrealms/advancements/artifact.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "BlackKnifeAdv",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_knife_adv",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/royalrealms/advancements/black_knife_adv.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "BlackKnifeToolInInventoryTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_knife_tool_in_inventory_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/royalrealms/procedures/BlackKnifeToolInInventoryTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Artifacts/BlackKnife"
+    },
+    {
+      "name": "HasArtifact",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "has_artifact",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/royalrealms/procedures/HasArtifactProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "BlackKnifeAdv10",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_knife_adv_10",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/royalrealms/advancements/black_knife_adv_10.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "BlackKnifeAdv50",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_knife_adv_50",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/royalrealms/advancements/black_knife_adv_50.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "BlackKnifeAdv100",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_knife_adv_100",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/royalrealms/advancements/black_knife_adv_100.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "ReturnSwoon",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "return_swoon",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/royalrealms/procedures/ReturnSwoonProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Dev"
+    },
+    {
+      "name": "PhasingOverlay",
+      "type": "overlay",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "phasing_overlay",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/royalrealms/client/screens/PhasingOverlayOverlay.java"
+        ]
+      },
+      "path": "~/Effects/Phasing"
+    },
+    {
+      "name": "PhasingOverlayDisplayOverlayIngame",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "phasing_overlay_display_overlay_ingame",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/royalrealms/procedures/PhasingOverlayDisplayOverlayIngameProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Effects/Phasing"
+    },
+    {
+      "name": "PhasingOverlayText",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "phasing_overlay_text",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/royalrealms/procedures/PhasingOverlayTextProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Effects/Phasing"
+    },
+    {
+      "name": "AdrenalineOverlayDisplay",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "adrenaline_overlay_display",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/royalrealms/procedures/AdrenalineOverlayDisplayProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Effects/Adrenaline"
+    },
+    {
+      "name": "AdrenalineOverlay",
+      "type": "overlay",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "adrenaline_overlay",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/royalrealms/client/screens/AdrenalineOverlayOverlay.java"
+        ]
+      },
+      "path": "~/Effects/Adrenaline"
+    },
+    {
+      "name": "Day10",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "day_10",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/royalrealms/advancements/day_10.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "CursedSkullOverlayDisplayOverlayIngame",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cursed_skull_overlay_display_overlay_ingame",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/royalrealms/procedures/CursedSkullOverlayDisplayOverlayIngameProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Curio/Cursed Skull"
+    },
+    {
+      "name": "CursedSkullOverlay",
+      "type": "overlay",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cursed_skull_overlay",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/royalrealms/client/screens/CursedSkullOverlayOverlay.java"
+        ]
+      },
+      "path": "~/Curio/Cursed Skull"
+    },
+    {
+      "name": "AllBark",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "all_bark",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/royalrealms/advancements/all_bark.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "AllBarkProc",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "all_bark_proc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/royalrealms/procedures/AllBarkProcProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Advancements"
     }
   ],
   "variable_elements": [
     {
-      "name": "playerHasEnderlink",
-      "type": "logic",
-      "scope": "player_persistent",
-      "value": "false"
+      "name": "adrenalineDamage",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
     },
     {
       "name": "EnderlinkCounter",
@@ -2980,6 +3753,30 @@
       "value": "456.0"
     },
     {
+      "name": "fluidSwitch",
+      "type": "logic",
+      "scope": "world",
+      "value": "false"
+    },
+    {
+      "name": "nextVersion",
+      "type": "string",
+      "scope": "player_persistent",
+      "value": "\"\""
+    },
+    {
+      "name": "playerHasEnderlink",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
+    },
+    {
+      "name": "playerSkullCurse",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
+    },
+    {
       "name": "ver1",
       "type": "number",
       "scope": "player_persistent",
@@ -2989,7 +3786,7 @@
       "name": "ver2",
       "type": "number",
       "scope": "player_persistent",
-      "value": "0"
+      "value": "0.0"
     },
     {
       "name": "ver3",
@@ -2998,28 +3795,16 @@
       "value": "0.0"
     },
     {
-      "name": "nextVersion",
-      "type": "string",
+      "name": "playerSwoon",
+      "type": "number",
       "scope": "player_persistent",
-      "value": "\"\""
-    },
-    {
-      "name": "adrenalineDamage",
-      "type": "number",
-      "scope": "player_lifetime",
       "value": "0"
     },
     {
-      "name": "playerSkullCurse",
+      "name": "barkNum",
       "type": "number",
-      "scope": "player_lifetime",
+      "scope": "player_persistent",
       "value": "0"
-    },
-    {
-      "name": "fluidSwitch",
-      "type": "logic",
-      "scope": "world",
-      "value": "false"
     }
   ],
   "sound_elements": [
@@ -3129,14 +3914,6 @@
       "subtitle": ""
     },
     {
-      "name": "record_core",
-      "files": [
-        "record_core"
-      ],
-      "category": "record",
-      "subtitle": ""
-    },
-    {
       "name": "record_black_knife",
       "files": [
         "record_black_knife"
@@ -3175,11 +3952,28 @@
       ],
       "category": "record",
       "subtitle": ""
+    },
+    {
+      "name": "record_core",
+      "files": [
+        "record_core"
+      ],
+      "category": "record",
+      "subtitle": ""
+    },
+    {
+      "name": "swoon",
+      "files": [
+        "black_knife_swoon"
+      ],
+      "category": "player",
+      "subtitle": ""
     }
   ],
   "tag_elements": {
-    "BLOCKS:minecraft:replaceable": [
-      "~CUSTOM:FixHole"
+    "BLOCKS:minecraft:needs_diamond_tool": [
+      "~CUSTOM:ObsidianGlass",
+      "~CUSTOM:TelosteelOre"
     ],
     "BLOCKS:minecraft:needs_iron_tool": [
       "~CUSTOM:FluoriteBlock",
@@ -3195,8 +3989,10 @@
       "~CUSTOM:StarliteOre",
       "~CUSTOM:MalachiteBlock",
       "~CUSTOM:MalachiteOre",
-      "~CUSTOM:TelosteelBlock",
-      "~CUSTOM:TelosteelOre"
+      "~CUSTOM:TelosteelBlock"
+    ],
+    "BLOCKS:minecraft:replaceable": [
+      "~CUSTOM:FixHole"
     ],
     "ITEMS:minecraft:pickaxes": [
       "~CUSTOM:TelosteelPickaxe"
@@ -3220,6 +4016,9 @@
       "~CUSTOM:MusicDiscCORE",
       "~CUSTOM:MusicDisc7l011"
     ],
+    "ITEMS:minecraft:artifacts": [
+      "CUSTOM:BlackKnife"
+    ],
     "ITEMS:mod:magnet_tools": [
       "TAG:minecraft:pickaxes",
       "TAG:minecraft:axes",
@@ -3231,6 +4030,7 @@
       "CUSTOM:WeirdTrimItem"
     ],
     "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:ObsidianGlass",
       "~CUSTOM:FluoriteBlock",
       "~CUSTOM:FluoriteOre",
       "~CUSTOM:RawTungstenBlock",
@@ -3247,7 +4047,6 @@
       "~CUSTOM:TelosteelBlock",
       "~CUSTOM:TelosteelOre"
     ],
-    "FUNCTIONS:minecraft:tag": [],
     "ITEMS:minecraft:axes": [
       "~CUSTOM:TelosteelAxe"
     ],
@@ -3256,6 +4055,7 @@
       "CUSTOM:RawTungsten"
     ],
     "ITEMS:minecraft:swords": [
+      "~CUSTOM:BlackKnife",
       "~CUSTOM:TelosteelSword"
     ],
     "ITEMS:minecraft:shovels": [
@@ -3265,140 +4065,202 @@
   "tab_element_order": {},
   "language_map": {
     "en_us": {
-      "item.royalrealms.music_disc_glowing_snow.desc": "Toby Fox - Glowing Snow",
+      "painting.royalrealms.ice_cube.author": "Lilypad",
       "advancements.neural_augment.descr": "Install Enderlink",
-      "trim_material.royalrealms.fluorite_trim_material": "Fluorite",
-      "subtitles.record_tv_time": "",
+      "painting.royalrealms.ice_cube.title": "Ice Cube",
       "block.royalrealms.fix_hole": "Fix Hole",
-      "enchantment.royalrealms.replanter": "Replanter",
+      "subtitles.record_tv_time": "",
+      "item.royalrealms.black_knife": "Black Knife",
       "fluid.royalrealms.fix_hole": "Fix Hole",
+      "enchantment.royalrealms.replanter": "Replanter",
       "item.royalrealms.music_disc_black_knife": "Music Disc",
       "block.royalrealms.brightcore_block": "Block of Brightcore",
-      "block.royalrealms.malachite_block": "Block of Malachite",
       "item.royalrealms.music_disc_core.desc": "toby fox - CORE",
+      "block.royalrealms.obsidian_glass": "Obsidian Glass",
       "death.attack.enderlink_damage.item": "%1$s was killed by %2$s using %3$s",
-      "painting.royalrealms.eva_freaky_link.author": "ItzLinkstar_",
-      "item.royalrealms.brightcore": "Brightcore",
-      "item.royalrealms.weird_trim_item": "Smithing Template",
+      "painting.royalrealms.lcl.title": "Near the LCL Sea",
       "block.royalrealms.raw_tungsten_block": "Raw Tungsten Block",
+      "painting.royalrealms.town.title": "Town",
       "advancements.royal_realms.title": "Royal Realms",
+      "advancements.artifact.title": "Artifact",
       "item.royalrealms.music_disc_uwah_so_temperate.desc": "Toby Fox - Uwa!! So Temperate♫",
       "item.royalrealms.fluorite_necklace": "Fluorite Necklace",
-      "painting.royalrealms.eva_freaky_bread.title": "Freaky Eva",
-      "painting.royalrealms.nefarious.title": "Nefarious Creature",
-      "item.royalrealms.player_item": "Player Item",
+      "painting.royalrealms.mist.title": "Mist",
+      "advancements.black_knife_adv_10.descr": "Swoon 10 enemies",
       "death.attack.skull_curse_damage.player": "%1$s died whilst trying to escape %2$s",
-      "item.royalrealms.lust_trim_item": "Smithing Template",
+      "advancements.black_knife_adv_50.descr": "Swoon 50 enemies",
+      "painting.royalrealms.overlook.title": "Overlook",
       "subtitles.record_glowing_snow": "",
       "advancements.paper_printer.descr": "Obtain a sapling patent",
-      "effect.royalrealms.skull_curse_effect": "Skull Curse",
       "effect.royalrealms.phasing": "Phasing",
       "block.royalrealms.telosteel_ore": "Telosteel Ore",
       "item.royalrealms.music_disc_tv_world.desc": "Toby Fox - TV World",
-      "advancements.adrenaline_adv.descr": "Persist through your depleting adrenaline",
-      "item.royalrealms.water_armor_boots": "Water Boots",
-      "advancements.adrenaline_hard_adv.descr": "Explode from receiving too much damage during adrenaline",
+      "painting.royalrealms.monochrome.title": "Monochrome",
       "item.royalrealms.fall_breaker_charm": "Fall Breaker Charm",
-      "block.royalrealms.telosteel_block": "Block of Telosteel",
-      "item.royalrealms.telosteel_ingot": "Telosteel",
-      "subtitles.record_7l011": "",
-      "painting.royalrealms.eva_freaky_bread.author": "BreadFiend",
       "item.royalrealms.music_disc_7l_011.desc": "Asutenki - 7L011",
-      "item.royalrealms.music_disc_tv_time": "§cMusic Disc",
-      "item.royalrealms.fluorite": "Fluorite",
-      "block.royalrealms.starlite_ore": "Starlite Ore",
       "item.royalrealms.telosteel_axe": "Telosteel Axe",
-      "item.royalrealms.phasing_can": "Phasing Can",
       "item.royalrealms.experience_amulet": "Experience Amulet",
       "death.attack.adrenaline_damage.player": "%1$s died whilst trying to escape %2$s",
       "item.royalrealms.hole_switch": "Hole Switch",
-      "enchantment.royalrealms.magnet": "Magnet",
-      "subtitles.disc_sunlight_blocked": "",
       "item.royalrealms.tungsten": "Tungsten Ingot",
       "death.attack.skull_curse_damage": "%1$s died",
       "subtitles.record_world": "",
       "subtitles.enderlink_msg1": "Enderlink notification",
       "subtitles.enderlink_msg2": "Enderlink notification",
-      "subtitles.enderlink_msg3": "Enderlink notification",
+      "advancements.day_10.title": "Day 10",
       "effect.royalrealms.adrenaline": "Adrenaline",
+      "subtitles.enderlink_msg3": "Enderlink notification",
       "item.royalrealms.telosteel_armor_leggings": "Telosteel Leggings",
+      "death.attack.swoon": "%1$s died",
       "painting.royalrealms.jinx.title": "Egg Ponderer",
-      "block.royalrealms.fluorite_ore": "Fluorite Ore",
-      "item.royalrealms.paper_copy_patent": "Sapling Patent",
       "subtitles.record_black_knife": "",
-      "painting.royalrealms.eva_freaky_link.title": "Freaky Eva",
       "trim_pattern.royalrealms.weird_trim": "Weird Armor Trim",
-      "block.royalrealms.starlite_block": "Block of Starlite",
-      "subtitles.enderlink_boot_rare3": "Connection to Enderlink servers",
       "advancements.life_experience.descr": "Cheat death with an experience amulet",
-      "item.royalrealms.chastity_cage_black": "Chastity Cage Black",
+      "subtitles.enderlink_boot_rare3": "Connection to Enderlink servers",
       "item.royalrealms.telosteel_pickaxe": "Telosteel Pickaxe",
       "subtitles.enderlink_boot": "Connecting to Enderlink servers",
       "subtitles.enderlink_boot_rare1": "Connection to Enderlink servers",
       "block.royalrealms.neonium_ore": "Neonium Ore",
       "subtitles.enderlink_boot_rare2": "Connection to Enderlink servers",
+      "painting.royalrealms.lcl.author": "Neon Genesis Evangelion",
       "death.attack.enderlink_damage.player": "%1$s died whilst trying to escape %2$s",
       "item.royalrealms.chastity_cage_gold": "Chastity Cage Black",
       "painting.royalrealms.lexactose.title": "Lexactose",
-      "block.royalrealms.tungsten_block": "Block of Tungsten",
       "painting.royalrealms.nefarious.author": "EvaKrusader",
+      "painting.royalrealms.morning.author": "Lilypad",
+      "item.royalrealms.raw_tungsten": "Raw Tungsten",
+      "advancements.royal_realms.descr": "Be cool enough to own one of the four copies of this mod",
+      "block.royalrealms.fluorite_block": "Block of Fluorite",
+      "painting.royalrealms.morning.title": "Morning",
+      "painting.royalrealms.monochrome.author": "Lilypad",
+      "advancements.artifact.descr": "Obtain an artifact",
+      "painting.royalrealms.confused.title": "Confused",
+      "advancements.adrenaline_hard_adv.title": "Adrenaline",
+      "trim_material.royalrealms.brightcore_trim_material": "Brightcore",
+      "trim_pattern.royalrealms.lustar_trim": "Lust Armor Trim",
+      "item.royalrealms.fix_hole_bucket": "Fix Hole Bucket",
+      "item.royalrealms.telosteel_armor_boots": "Telosteel Boots",
+      "item.royalrealms.music_disc_core": "§4Music Disc",
+      "painting.royalrealms.neon.author": "Lilypad",
+      "painting.royalrealms.bioluminescence.title": "Bioluminescence",
+      "item.royalrealms.telosteel_armor_chestplate": "Telosteel Chestplate",
+      "death.attack.enderlink_damage": "%1$s couldn\u0027t withstand their Enderlink",
+      "painting.royalrealms.house.title": "House",
+      "item.royalrealms.wishing_star": "Wishing Star",
+      "item.royalrealms.malachite": "Malachite",
+      "subtitles.enderlink_msg_rare": "Enderlink notification",
+      "painting.royalrealms.breeze.title": "Breeze",
+      "death.attack.adrenaline_damage": "%1$s cooled down",
+      "advancements.all_bark.title": "All Bark, No Bite",
+      "advancements.black_knife_adv.descr": "Obtain the Black Knife",
+      "advancements.black_knife_adv_100.title": "The Roaring Knight",
+      "enchantment.royalrealms.wind_blast": "Wind Blast",
+      "subtitles.record_tv_world": "",
+      "painting.royalrealms.town.author": "Lilypad",
+      "painting.royalrealms.vitrail.author": "Lilypad",
+      "item.royalrealms.enderlink": "Enderlink",
+      "item.royalrealms.starlite_dust": "Starlite",
+      "painting.royalrealms.hq.author": "Linkstar",
+      "item.royalrealms.telosteel_shovel": "Telosteel Shovel",
+      "advancements.paper_printer.title": "It doesn\u0027t grow on trees...",
+      "item.royalrealms.music_disc_glowing_snow.desc": "Toby Fox - Glowing Snow",
+      "trim_material.royalrealms.fluorite_trim_material": "Fluorite",
+      "death.attack.swoon.player": "%1$s died whilst trying to escape %2$s",
+      "advancements.all_bark.descr": "Strip 50 logs",
+      "block.royalrealms.malachite_block": "Block of Malachite",
+      "painting.royalrealms.midnight_sky.author": "Lilypad",
+      "painting.royalrealms.breeze.author": "Lilypad",
+      "painting.royalrealms.bliss.author": "Windows",
+      "painting.royalrealms.eva_freaky_link.author": "ItzLinkstar_",
+      "item.royalrealms.weird_trim_item": "Smithing Template",
+      "item.royalrealms.brightcore": "Brightcore",
+      "painting.royalrealms.eva_freaky_bread.title": "Freaky Eva",
+      "painting.royalrealms.nefarious.title": "Nefarious Creature",
+      "item.royalrealms.player_item": "Player Item",
+      "painting.royalrealms.overlook.author": "Lilypad",
+      "item.royalrealms.lust_trim_item": "Smithing Template",
+      "effect.royalrealms.skull_curse_effect": "Skull Curse",
+      "death.attack.swoon.item": "%1$s was killed by %2$s using %3$s",
+      "advancements.adrenaline_adv.descr": "Persist through your depleting adrenaline",
+      "item.royalrealms.water_armor_boots": "Water Boots",
+      "advancements.adrenaline_hard_adv.descr": "Explode from receiving too much damage during adrenaline",
+      "advancements.black_knife_adv_50.title": "Roaring Knight",
+      "block.royalrealms.telosteel_block": "Block of Telosteel",
+      "painting.royalrealms.bioluminescence.author": "Lilypad",
+      "item.royalrealms.telosteel_ingot": "Telosteel",
+      "subtitles.record_7l011": "",
+      "painting.royalrealms.eva_freaky_bread.author": "BreadFiend",
+      "item.royalrealms.music_disc_tv_time": "§cMusic Disc",
+      "item.royalrealms.fluorite": "Fluorite",
+      "block.royalrealms.starlite_ore": "Starlite Ore",
+      "painting.royalrealms.glitch.author": "Lilypad",
+      "painting.royalrealms.house.author": "Lilypad",
+      "item.royalrealms.phasing_can": "Phasing Can",
+      "painting.royalrealms.glitch.title": "Glitch",
+      "subtitles.disc_sunlight_blocked": "",
+      "enchantment.royalrealms.magnet": "Magnet",
+      "painting.royalrealms.iron_doors.author": "Lilypad",
+      "block.royalrealms.fluorite_ore": "Fluorite Ore",
+      "block.royalrealms.spectral_block": "Spectral Block",
+      "painting.royalrealms.lantern.author": "Lilypad",
+      "item.royalrealms.paper_copy_patent": "Sapling Patent",
+      "painting.royalrealms.eva_freaky_link.title": "Freaky Eva",
+      "advancements.black_knife_adv_10.title": "Roaring",
+      "block.royalrealms.starlite_block": "Block of Starlite",
+      "item.royalrealms.chastity_cage_black": "Chastity Cage Black",
+      "painting.royalrealms.hq.title": "HQ",
+      "painting.royalrealms.mist.author": "Lilypad",
+      "subtitles.swoon": "",
+      "block.royalrealms.tungsten_block": "Block of Tungsten",
       "advancements.neural_augment.title": "Neural Augmentation",
       "block.royalrealms.brightcore_ore": "Brightcore Ore",
       "enchantment.royalrealms.hot_touch": "Hot Touch",
+      "item.royalrealms.esoteric_knowledge": "Esoteric Knowledge",
       "painting.royalrealms.lactose.author": "Linkstar_",
+      "painting.royalrealms.vitrail.title": "Vitrail",
       "item.royalrealms.telosteel_armor_helmet": "Telosteel Helmet",
       "subtitles.crystal_break": "",
       "item.royalrealms.music_disc_glowing_snow": "Music Disc",
       "subtitles.thunderstrike_warning": "",
-      "item.royalrealms.raw_tungsten": "Raw Tungsten",
       "item.royalrealms.music_disc_7l_011": "Music Disc",
-      "advancements.royal_realms.descr": "Be cool enough to own one of the four copies of this mod",
       "item.royalrealms.water_armor_helmet": "Water Helmet",
-      "block.royalrealms.fluorite_block": "Block of Fluorite",
       "death.attack.adrenaline_damage.item": "%1$s was killed by %2$s using %3$s",
       "block.royalrealms.tungsten_ore": "Tungsten Ore",
+      "painting.royalrealms.crab_nebula.title": "Crab Nebula",
       "subtitles.record_core": "",
       "item.royalrealms.telosteel_sword": "Telosteel Sword",
       "enchantment.royalrealms.thunderstrike": "Thunderstrike",
-      "advancements.adrenaline_hard_adv.title": "Adrenaline",
+      "painting.royalrealms.neon.title": "Neon",
       "item.royalrealms.music_disc_tv_world": "§cMusic Disc",
       "painting.royalrealms.jinx.author": "EvaKrusader",
-      "trim_material.royalrealms.brightcore_trim_material": "Brightcore",
       "death.attack.skull_curse_damage.item": "%1$s was killed by %2$s using %3$s",
       "painting.royalrealms.lexactose.author": "EvaKrusader",
-      "trim_pattern.royalrealms.lustar_trim": "Lust Armor Trim",
+      "advancements.black_knife_adv.title": "Black Knife",
+      "painting.royalrealms.midnight_sky.title": "Midnight Sky",
       "advancements.life_experience.title": "Life Experience",
-      "item.royalrealms.fix_hole_bucket": "Fix Hole Bucket",
       "item.royalrealms.cursed_skull": "Cursed Skull",
       "subtitles.record_sunlight_blocked": "",
-      "item.royalrealms.telosteel_armor_boots": "Telosteel Boots",
-      "item.royalrealms.music_disc_core": "§4Music Disc",
       "key.royalrealms.gamemode_switcher": "Gamemode Switcher",
-      "item.royalrealms.telosteel_armor_chestplate": "Telosteel Chestplate",
-      "death.attack.enderlink_damage": "%1$s couldn\u0027t withstand their Enderlink",
+      "painting.royalrealms.bliss.title": "Bliss",
       "item.royalrealms.neonium": "Neonium",
       "item.royalrealms.music_disc_uwah_so_temperate": "§eMusic Disc",
-      "item.royalrealms.wishing_star": "Wishing Star",
+      "advancements.day_10.descr": "Reach 10 days of survival",
+      "painting.royalrealms.crab_nebula.author": "Lilypad",
+      "painting.royalrealms.iron_doors.title": "Iron Doors",
+      "painting.royalrealms.lantern.title": "Lantern",
       "item.royalrealms.water_armor_leggings": "Water Leggings",
+      "advancements.black_knife_adv_100.descr": "Swoon 100 enemies",
       "item.royalrealms.telosteel_hoe": "Telosteel Hoe",
-      "item.royalrealms.malachite": "Malachite",
       "block.royalrealms.malachite_ore": "Malachite Ore",
-      "subtitles.enderlink_msg_rare": "Enderlink notification",
-      "death.attack.adrenaline_damage": "%1$s cooled down",
       "painting.royalrealms.lactose.title": "Lactose",
       "item.royalrealms.music_disc_black_knife.desc": "Toby Fox - Black Knife",
       "item.royalrealms.water_armor_chestplate": "Water Chestplate",
-      "enchantment.royalrealms.wind_blast": "Wind Blast",
+      "painting.royalrealms.confused.author": "Linkstar",
       "subtitles.record_dissolving_dark_clouds": "",
-      "subtitles.record_tv_world": "",
       "subtitles.record_uwah_so_temperate": "",
-      "item.royalrealms.enderlink": "Enderlink",
       "block.royalrealms.neonium_block": "Block of Neonium",
       "advancements.adrenaline_adv.title": "Adrenaline",
       "item.royalrealms.music_disc_tv_time.desc": "Toby Fox - It\u0027s TV Time!",
-      "item.royalrealms.starlite_dust": "Starlite",
-      "item.royalrealms.telosteel_shovel": "Telosteel Shovel",
-      "advancements.paper_printer.title": "It doesn\u0027t grow on trees...",
       "item_group.royalrealms.music_discs": "Music Discs"
     }
   },
@@ -3435,6 +4297,10 @@
           },
           {
             "name": "Cursed Skull",
+            "children": []
+          },
+          {
+            "name": "Knowledge",
             "children": []
           }
         ]
@@ -3524,7 +4390,12 @@
       },
       {
         "name": "Paintings",
-        "children": []
+        "children": [
+          {
+            "name": "Lilypad",
+            "children": []
+          }
+        ]
       },
       {
         "name": "Music",
@@ -3545,6 +4416,24 @@
       {
         "name": "Water Armor",
         "children": []
+      },
+      {
+        "name": "Artifacts",
+        "children": [
+          {
+            "name": "BlackKnife",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Blocks",
+        "children": [
+          {
+            "name": "SpectralBlocks",
+            "children": []
+          }
+        ]
       }
     ]
   },

@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "royalrealms:experience_amulet"
+    },
+    "title": {
+      "translate": "advancements.day_10.title"
+    },
+    "description": {
+      "translate": "advancements.day_10.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "day_10_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "minecraft:adventure/root"
+}

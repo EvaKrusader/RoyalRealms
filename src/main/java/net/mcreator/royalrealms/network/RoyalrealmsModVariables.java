@@ -72,16 +72,18 @@ public class RoyalrealmsModVariables {
 			event.getOriginal().revive();
 			PlayerVariables original = ((PlayerVariables) event.getOriginal().getCapability(PLAYER_VARIABLES_CAPABILITY, null).orElse(new PlayerVariables()));
 			PlayerVariables clone = ((PlayerVariables) event.getEntity().getCapability(PLAYER_VARIABLES_CAPABILITY, null).orElse(new PlayerVariables()));
-			clone.playerHasEnderlink = original.playerHasEnderlink;
 			clone.EnderlinkSoundItem = original.EnderlinkSoundItem;
 			clone.EnderlinkStartupSound = original.EnderlinkStartupSound;
+			clone.nextVersion = original.nextVersion;
+			clone.playerHasEnderlink = original.playerHasEnderlink;
 			clone.ver1 = original.ver1;
 			clone.ver2 = original.ver2;
 			clone.ver3 = original.ver3;
-			clone.nextVersion = original.nextVersion;
+			clone.playerSwoon = original.playerSwoon;
+			clone.barkNum = original.barkNum;
 			if (!event.isWasDeath()) {
-				clone.EnderlinkCounter = original.EnderlinkCounter;
 				clone.adrenalineDamage = original.adrenalineDamage;
+				clone.EnderlinkCounter = original.EnderlinkCounter;
 				clone.playerSkullCurse = original.playerSkullCurse;
 			}
 		}
@@ -251,16 +253,18 @@ public class RoyalrealmsModVariables {
 	}
 
 	public static class PlayerVariables {
-		public boolean playerHasEnderlink = false;
+		public double adrenalineDamage = 0;
 		public double EnderlinkCounter = 2400.0;
 		public double EnderlinkSoundItem = 456.0;
 		public double EnderlinkStartupSound = 456.0;
-		public double ver1 = 1.0;
-		public double ver2 = 0;
-		public double ver3 = 0.0;
 		public String nextVersion = "\"\"";
-		public double adrenalineDamage = 0;
+		public boolean playerHasEnderlink = false;
 		public double playerSkullCurse = 0;
+		public double ver1 = 1.0;
+		public double ver2 = 0.0;
+		public double ver3 = 0.0;
+		public double playerSwoon = 0;
+		public double barkNum = 0;
 
 		public void syncPlayerVariables(Entity entity) {
 			if (entity instanceof ServerPlayer serverPlayer)
@@ -269,31 +273,35 @@ public class RoyalrealmsModVariables {
 
 		public Tag writeNBT() {
 			CompoundTag nbt = new CompoundTag();
-			nbt.putBoolean("playerHasEnderlink", playerHasEnderlink);
+			nbt.putDouble("adrenalineDamage", adrenalineDamage);
 			nbt.putDouble("EnderlinkCounter", EnderlinkCounter);
 			nbt.putDouble("EnderlinkSoundItem", EnderlinkSoundItem);
 			nbt.putDouble("EnderlinkStartupSound", EnderlinkStartupSound);
+			nbt.putString("nextVersion", nextVersion);
+			nbt.putBoolean("playerHasEnderlink", playerHasEnderlink);
+			nbt.putDouble("playerSkullCurse", playerSkullCurse);
 			nbt.putDouble("ver1", ver1);
 			nbt.putDouble("ver2", ver2);
 			nbt.putDouble("ver3", ver3);
-			nbt.putString("nextVersion", nextVersion);
-			nbt.putDouble("adrenalineDamage", adrenalineDamage);
-			nbt.putDouble("playerSkullCurse", playerSkullCurse);
+			nbt.putDouble("playerSwoon", playerSwoon);
+			nbt.putDouble("barkNum", barkNum);
 			return nbt;
 		}
 
 		public void readNBT(Tag tag) {
 			CompoundTag nbt = (CompoundTag) tag;
-			playerHasEnderlink = nbt.getBoolean("playerHasEnderlink");
+			adrenalineDamage = nbt.getDouble("adrenalineDamage");
 			EnderlinkCounter = nbt.getDouble("EnderlinkCounter");
 			EnderlinkSoundItem = nbt.getDouble("EnderlinkSoundItem");
 			EnderlinkStartupSound = nbt.getDouble("EnderlinkStartupSound");
+			nextVersion = nbt.getString("nextVersion");
+			playerHasEnderlink = nbt.getBoolean("playerHasEnderlink");
+			playerSkullCurse = nbt.getDouble("playerSkullCurse");
 			ver1 = nbt.getDouble("ver1");
 			ver2 = nbt.getDouble("ver2");
 			ver3 = nbt.getDouble("ver3");
-			nextVersion = nbt.getString("nextVersion");
-			adrenalineDamage = nbt.getDouble("adrenalineDamage");
-			playerSkullCurse = nbt.getDouble("playerSkullCurse");
+			playerSwoon = nbt.getDouble("playerSwoon");
+			barkNum = nbt.getDouble("barkNum");
 		}
 	}
 
@@ -318,16 +326,18 @@ public class RoyalrealmsModVariables {
 			context.enqueueWork(() -> {
 				if (!context.getDirection().getReceptionSide().isServer()) {
 					PlayerVariables variables = ((PlayerVariables) Minecraft.getInstance().player.getCapability(PLAYER_VARIABLES_CAPABILITY, null).orElse(new PlayerVariables()));
-					variables.playerHasEnderlink = message.data.playerHasEnderlink;
+					variables.adrenalineDamage = message.data.adrenalineDamage;
 					variables.EnderlinkCounter = message.data.EnderlinkCounter;
 					variables.EnderlinkSoundItem = message.data.EnderlinkSoundItem;
 					variables.EnderlinkStartupSound = message.data.EnderlinkStartupSound;
+					variables.nextVersion = message.data.nextVersion;
+					variables.playerHasEnderlink = message.data.playerHasEnderlink;
+					variables.playerSkullCurse = message.data.playerSkullCurse;
 					variables.ver1 = message.data.ver1;
 					variables.ver2 = message.data.ver2;
 					variables.ver3 = message.data.ver3;
-					variables.nextVersion = message.data.nextVersion;
-					variables.adrenalineDamage = message.data.adrenalineDamage;
-					variables.playerSkullCurse = message.data.playerSkullCurse;
+					variables.playerSwoon = message.data.playerSwoon;
+					variables.barkNum = message.data.barkNum;
 				}
 			});
 			context.setPacketHandled(true);

@@ -43,7 +43,7 @@
     "isWaterloggable": false,
     "creativeTabs": [
       {
-        "value": "BUILDING_BLOCKS"
+        "value": "DECORATIONS"
       }
     ],
     "destroyTool": "pickaxe",
@@ -83,7 +83,7 @@
     "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "STONE"
+      "value": "GILDED_BLACKSTONE"
     },
     "breakSound": {
       "value": ""
@@ -102,7 +102,7 @@
     },
     "luminance": 0,
     "unbreakable": false,
-    "vanillaToolTier": "IRON",
+    "vanillaToolTier": "DIAMOND",
     "isBonemealable": false,
     "hasInventory": false,
     "guiBoundTo": "<NONE>",
@@ -124,18 +124,18 @@
     "generateFeature": true,
     "restrictionBiomes": [
       {
-        "value": "#is_overworld"
+        "value": "#minecraft:is_nether"
       }
     ],
     "blocksToReplace": [
       {
-        "value": "TAG:stone_ore_replaceables"
+        "value": "Blocks.BLACKSTONE"
       }
     ],
     "generationShape": "UNIFORM",
     "frequencyPerChunks": 11,
     "frequencyOnChunk": 7,
-    "minGenerateHeight": 1,
+    "minGenerateHeight": -64,
     "maxGenerateHeight": 63
   }
 }

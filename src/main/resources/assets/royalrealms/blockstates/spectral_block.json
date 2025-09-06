@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "blockstate=0": {
+      "model": "royalrealms:block/spectral_block"
+    },
+    "blockstate=1": {
+      "model": "royalrealms:block/spectral_block_states_blockstate_0"
+    },
+    "blockstate=2": {
+      "model": "royalrealms:block/spectral_block_states_blockstate_1"
+    },
+    "blockstate=3": {
+      "model": "royalrealms:block/spectral_block_states_blockstate_2"
+    },
+    "blockstate=4": {
+      "model": "royalrealms:block/spectral_block_states_blockstate_3"
+    },
+    "blockstate=5": {
+      "model": "royalrealms:block/spectral_block_states_blockstate_4"
+    }
+  }
+}

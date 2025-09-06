@@ -35,20 +35,16 @@ public class RoyalrealmsModTabs {
 	@SubscribeEvent
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
 		if (tabData.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
-			tabData.accept(RoyalrealmsModBlocks.TELOSTEEL_ORE.get().asItem());
 			tabData.accept(RoyalrealmsModBlocks.TELOSTEEL_BLOCK.get().asItem());
-			tabData.accept(RoyalrealmsModBlocks.MALACHITE_ORE.get().asItem());
 			tabData.accept(RoyalrealmsModBlocks.MALACHITE_BLOCK.get().asItem());
-			tabData.accept(RoyalrealmsModBlocks.STARLITE_ORE.get().asItem());
 			tabData.accept(RoyalrealmsModBlocks.STARLITE_BLOCK.get().asItem());
-			tabData.accept(RoyalrealmsModBlocks.NEONIUM_ORE.get().asItem());
 			tabData.accept(RoyalrealmsModBlocks.NEONIUM_BLOCK.get().asItem());
-			tabData.accept(RoyalrealmsModBlocks.BRIGHTCORE_ORE.get().asItem());
 			tabData.accept(RoyalrealmsModBlocks.BRIGHTCORE_BLOCK.get().asItem());
 			tabData.accept(RoyalrealmsModBlocks.TUNGSTEN_BLOCK.get().asItem());
 			tabData.accept(RoyalrealmsModBlocks.RAW_TUNGSTEN_BLOCK.get().asItem());
-			tabData.accept(RoyalrealmsModBlocks.FLUORITE_ORE.get().asItem());
 			tabData.accept(RoyalrealmsModBlocks.FLUORITE_BLOCK.get().asItem());
+			tabData.accept(RoyalrealmsModBlocks.OBSIDIAN_GLASS.get().asItem());
+			tabData.accept(RoyalrealmsModBlocks.SPECTRAL_BLOCK.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.REDSTONE_BLOCKS) {
 			tabData.accept(RoyalrealmsModItems.HOLE_SWITCH.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
@@ -68,6 +64,7 @@ public class RoyalrealmsModTabs {
 			tabData.accept(RoyalrealmsModItems.FALL_BREAKER_CHARM.get());
 			tabData.accept(RoyalrealmsModItems.CHASTITY_CAGE_BLACK.get());
 			tabData.accept(RoyalrealmsModItems.CHASTITY_CAGE_GOLD.get());
+			tabData.accept(RoyalrealmsModItems.ESOTERIC_KNOWLEDGE.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
 			tabData.accept(RoyalrealmsModItems.TELOSTEEL_INGOT.get());
 			tabData.accept(RoyalrealmsModItems.MALACHITE.get());
@@ -80,6 +77,14 @@ public class RoyalrealmsModTabs {
 			tabData.accept(RoyalrealmsModItems.TUNGSTEN.get());
 			tabData.accept(RoyalrealmsModItems.RAW_TUNGSTEN.get());
 			tabData.accept(RoyalrealmsModItems.FLUORITE.get());
+		} else if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
+			tabData.accept(RoyalrealmsModBlocks.TELOSTEEL_ORE.get().asItem());
+			tabData.accept(RoyalrealmsModBlocks.MALACHITE_ORE.get().asItem());
+			tabData.accept(RoyalrealmsModBlocks.STARLITE_ORE.get().asItem());
+			tabData.accept(RoyalrealmsModBlocks.NEONIUM_ORE.get().asItem());
+			tabData.accept(RoyalrealmsModBlocks.BRIGHTCORE_ORE.get().asItem());
+			tabData.accept(RoyalrealmsModBlocks.TUNGSTEN_ORE.get().asItem());
+			tabData.accept(RoyalrealmsModBlocks.FLUORITE_ORE.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 			tabData.accept(RoyalrealmsModItems.TELOSTEEL_PICKAXE.get());
 			tabData.accept(RoyalrealmsModItems.TELOSTEEL_AXE.get());
@@ -94,10 +99,9 @@ public class RoyalrealmsModTabs {
 			tabData.accept(RoyalrealmsModItems.MUSIC_DISC_UWAH_SO_TEMPERATE.get());
 			tabData.accept(RoyalrealmsModItems.WISHING_STAR.get());
 			tabData.accept(RoyalrealmsModItems.PLAYER_ITEM.get());
+			tabData.accept(RoyalrealmsModItems.BLACK_KNIFE.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
 			tabData.accept(RoyalrealmsModItems.PHASING_CAN.get());
-		} else if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
-			tabData.accept(RoyalrealmsModBlocks.TUNGSTEN_ORE.get().asItem());
 		}
 	}
 }
