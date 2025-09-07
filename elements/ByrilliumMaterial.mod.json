@@ -1,0 +1,42 @@
+{
+  "_fv": 66,
+  "_type": "trimmaterial",
+  "definition": {
+    "name": "Byrillium",
+    "item": {
+      "value": "CUSTOM:Biryllium"
+    },
+    "color1": {
+      "value": -2994521,
+      "falpha": 0.0
+    },
+    "color2": {
+      "value": -4897633,
+      "falpha": 0.0
+    },
+    "color3": {
+      "value": -6735208,
+      "falpha": 0.0
+    },
+    "color4": {
+      "value": -8638320,
+      "falpha": 0.0
+    },
+    "color5": {
+      "value": -10476151,
+      "falpha": 0.0
+    },
+    "color6": {
+      "value": -12379263,
+      "falpha": 0.0
+    },
+    "color7": {
+      "value": -14216838,
+      "falpha": 0.0
+    },
+    "color8": {
+      "value": -16119950,
+      "falpha": 0.0
+    }
+  }
+}

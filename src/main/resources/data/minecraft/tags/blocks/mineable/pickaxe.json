@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
+    "royalrealms:byrillium_block_refined",
+    "royalrealms:biryllium_block",
+    "royalrealms:biryllium_ore",
     "royalrealms:obsidian_glass",
     "royalrealms:fluorite_block",
     "royalrealms:fluorite_ore",

@@ -37,7 +37,7 @@ public class PlayerItemSetNameProcedure {
 				playerColor = "a";
 			} else if ((entity.getDisplayName().getString()).equals("ItzLinstar_")) {
 				playerColor = "6";
-			} else if ((entity.getDisplayName().getString()).equals("subsoni3947")) {
+			} else if ((entity.getDisplayName().getString()).equals("subsonic3947")) {
 				playerColor = "5";
 			} else if ((entity.getDisplayName().getString()).equals("BreadFiend226")) {
 				playerColor = "e";

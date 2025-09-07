@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "royalrealms:biryllium_block"
+    }
+  ],
+  "result": {
+    "item": "royalrealms:biryllium",
+    "count": 9
+  }
+}

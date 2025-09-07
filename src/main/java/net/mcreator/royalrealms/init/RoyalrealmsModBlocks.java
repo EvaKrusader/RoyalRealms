@@ -10,6 +10,7 @@ import net.minecraftforge.registries.DeferredRegister;
 
 import net.minecraft.world.level.block.Block;
 
+import net.mcreator.royalrealms.block.VantablackBlock;
 import net.mcreator.royalrealms.block.TungstenOreBlock;
 import net.mcreator.royalrealms.block.TungstenBlockBlock;
 import net.mcreator.royalrealms.block.TelosteelOreBlock;
@@ -18,6 +19,7 @@ import net.mcreator.royalrealms.block.StarliteOreBlock;
 import net.mcreator.royalrealms.block.StarliteBlockBlock;
 import net.mcreator.royalrealms.block.SpectralBlockBlock;
 import net.mcreator.royalrealms.block.RawTungstenBlockBlock;
+import net.mcreator.royalrealms.block.RainbowBlock;
 import net.mcreator.royalrealms.block.ObsidianGlassBlock;
 import net.mcreator.royalrealms.block.NeoniumOreBlock;
 import net.mcreator.royalrealms.block.NeoniumBlockBlock;
@@ -26,8 +28,11 @@ import net.mcreator.royalrealms.block.MalachiteBlockBlock;
 import net.mcreator.royalrealms.block.FluoriteOreBlock;
 import net.mcreator.royalrealms.block.FluoriteBlockBlock;
 import net.mcreator.royalrealms.block.FixHoleBlock;
+import net.mcreator.royalrealms.block.ByrilliumBlockRefinedBlock;
 import net.mcreator.royalrealms.block.BrightcoreOreBlock;
 import net.mcreator.royalrealms.block.BrightcoreBlockBlock;
+import net.mcreator.royalrealms.block.BirylliumOreBlock;
+import net.mcreator.royalrealms.block.BirylliumBlockBlock;
 import net.mcreator.royalrealms.RoyalrealmsMod;
 
 public class RoyalrealmsModBlocks {
@@ -50,6 +55,11 @@ public class RoyalrealmsModBlocks {
 	public static final RegistryObject<Block> FLUORITE_BLOCK = REGISTRY.register("fluorite_block", () -> new FluoriteBlockBlock());
 	public static final RegistryObject<Block> OBSIDIAN_GLASS = REGISTRY.register("obsidian_glass", () -> new ObsidianGlassBlock());
 	public static final RegistryObject<Block> SPECTRAL_BLOCK = REGISTRY.register("spectral_block", () -> new SpectralBlockBlock());
+	public static final RegistryObject<Block> VANTABLACK = REGISTRY.register("vantablack", () -> new VantablackBlock());
+	public static final RegistryObject<Block> RAINBOW = REGISTRY.register("rainbow", () -> new RainbowBlock());
+	public static final RegistryObject<Block> BIRYLLIUM_ORE = REGISTRY.register("biryllium_ore", () -> new BirylliumOreBlock());
+	public static final RegistryObject<Block> BIRYLLIUM_BLOCK = REGISTRY.register("biryllium_block", () -> new BirylliumBlockBlock());
+	public static final RegistryObject<Block> BYRILLIUM_BLOCK_REFINED = REGISTRY.register("byrillium_block_refined", () -> new ByrilliumBlockRefinedBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

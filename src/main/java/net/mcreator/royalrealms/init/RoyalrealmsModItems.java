@@ -45,6 +45,7 @@ import net.mcreator.royalrealms.item.MusicDiscBlackKnifeItem;
 import net.mcreator.royalrealms.item.MusicDisc7l011Item;
 import net.mcreator.royalrealms.item.MalachiteItem;
 import net.mcreator.royalrealms.item.LustTrimItemItem;
+import net.mcreator.royalrealms.item.LobotomizerItem;
 import net.mcreator.royalrealms.item.HoleSwitchItem;
 import net.mcreator.royalrealms.item.FluoriteNecklaceItem;
 import net.mcreator.royalrealms.item.FluoriteItem;
@@ -56,8 +57,13 @@ import net.mcreator.royalrealms.item.EnderlinkItem;
 import net.mcreator.royalrealms.item.CursedSkullItem;
 import net.mcreator.royalrealms.item.ChastityCageGoldItem;
 import net.mcreator.royalrealms.item.ChastityCageBlackItem;
+import net.mcreator.royalrealms.item.ByrilliumPureItem;
 import net.mcreator.royalrealms.item.BrightcoreItem;
 import net.mcreator.royalrealms.item.BlackKnifeItem;
+import net.mcreator.royalrealms.item.BirylliumItem;
+import net.mcreator.royalrealms.item.BirylliumAxeItem;
+import net.mcreator.royalrealms.item.BirylliumArmorItem;
+import net.mcreator.royalrealms.item.AngelShotItem;
 import net.mcreator.royalrealms.RoyalrealmsMod;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
@@ -125,6 +131,17 @@ public class RoyalrealmsModItems {
 	public static final RegistryObject<Item> ESOTERIC_KNOWLEDGE = REGISTRY.register("esoteric_knowledge", () -> new EsotericKnowledgeItem());
 	public static final RegistryObject<Item> OBSIDIAN_GLASS = block(RoyalrealmsModBlocks.OBSIDIAN_GLASS);
 	public static final RegistryObject<Item> SPECTRAL_BLOCK = block(RoyalrealmsModBlocks.SPECTRAL_BLOCK);
+	public static final RegistryObject<Item> VANTABLACK = block(RoyalrealmsModBlocks.VANTABLACK);
+	public static final RegistryObject<Item> RAINBOW = block(RoyalrealmsModBlocks.RAINBOW);
+	public static final RegistryObject<Item> LOBOTOMIZER = REGISTRY.register("lobotomizer", () -> new LobotomizerItem());
+	public static final RegistryObject<Item> ANGEL_SHOT = REGISTRY.register("angel_shot", () -> new AngelShotItem());
+	public static final RegistryObject<Item> BIRYLLIUM = REGISTRY.register("biryllium", () -> new BirylliumItem());
+	public static final RegistryObject<Item> BIRYLLIUM_ORE = block(RoyalrealmsModBlocks.BIRYLLIUM_ORE);
+	public static final RegistryObject<Item> BIRYLLIUM_BLOCK = block(RoyalrealmsModBlocks.BIRYLLIUM_BLOCK);
+	public static final RegistryObject<Item> BIRYLLIUM_AXE = REGISTRY.register("biryllium_axe", () -> new BirylliumAxeItem());
+	public static final RegistryObject<Item> BIRYLLIUM_ARMOR_BOOTS = REGISTRY.register("biryllium_armor_boots", () -> new BirylliumArmorItem.Boots());
+	public static final RegistryObject<Item> BYRILLIUM_REFINED = REGISTRY.register("byrillium_refined", () -> new ByrilliumPureItem());
+	public static final RegistryObject<Item> BYRILLIUM_BLOCK_REFINED = block(RoyalrealmsModBlocks.BYRILLIUM_BLOCK_REFINED);
 
 	// Start of user code block custom items
 	// End of user code block custom items

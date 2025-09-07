@@ -45,6 +45,11 @@ public class RoyalrealmsModTabs {
 			tabData.accept(RoyalrealmsModBlocks.FLUORITE_BLOCK.get().asItem());
 			tabData.accept(RoyalrealmsModBlocks.OBSIDIAN_GLASS.get().asItem());
 			tabData.accept(RoyalrealmsModBlocks.SPECTRAL_BLOCK.get().asItem());
+			tabData.accept(RoyalrealmsModBlocks.VANTABLACK.get().asItem());
+			tabData.accept(RoyalrealmsModBlocks.RAINBOW.get().asItem());
+			tabData.accept(RoyalrealmsModBlocks.BIRYLLIUM_ORE.get().asItem());
+			tabData.accept(RoyalrealmsModBlocks.BIRYLLIUM_BLOCK.get().asItem());
+			tabData.accept(RoyalrealmsModBlocks.BYRILLIUM_BLOCK_REFINED.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.REDSTONE_BLOCKS) {
 			tabData.accept(RoyalrealmsModItems.HOLE_SWITCH.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
@@ -57,6 +62,7 @@ public class RoyalrealmsModTabs {
 			tabData.accept(RoyalrealmsModItems.WATER_ARMOR_CHESTPLATE.get());
 			tabData.accept(RoyalrealmsModItems.WATER_ARMOR_LEGGINGS.get());
 			tabData.accept(RoyalrealmsModItems.WATER_ARMOR_BOOTS.get());
+			tabData.accept(RoyalrealmsModItems.BIRYLLIUM_ARMOR_BOOTS.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
 			tabData.accept(RoyalrealmsModItems.EXPERIENCE_AMULET.get());
 			tabData.accept(RoyalrealmsModItems.FLUORITE_NECKLACE.get());
@@ -77,6 +83,8 @@ public class RoyalrealmsModTabs {
 			tabData.accept(RoyalrealmsModItems.TUNGSTEN.get());
 			tabData.accept(RoyalrealmsModItems.RAW_TUNGSTEN.get());
 			tabData.accept(RoyalrealmsModItems.FLUORITE.get());
+			tabData.accept(RoyalrealmsModItems.BIRYLLIUM.get());
+			tabData.accept(RoyalrealmsModItems.BYRILLIUM_REFINED.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
 			tabData.accept(RoyalrealmsModBlocks.TELOSTEEL_ORE.get().asItem());
 			tabData.accept(RoyalrealmsModBlocks.MALACHITE_ORE.get().asItem());
@@ -100,6 +108,8 @@ public class RoyalrealmsModTabs {
 			tabData.accept(RoyalrealmsModItems.WISHING_STAR.get());
 			tabData.accept(RoyalrealmsModItems.PLAYER_ITEM.get());
 			tabData.accept(RoyalrealmsModItems.BLACK_KNIFE.get());
+			tabData.accept(RoyalrealmsModItems.LOBOTOMIZER.get());
+			tabData.accept(RoyalrealmsModItems.BIRYLLIUM_AXE.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
 			tabData.accept(RoyalrealmsModItems.PHASING_CAN.get());
 		}

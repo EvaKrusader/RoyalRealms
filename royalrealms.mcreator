@@ -3725,6 +3725,389 @@
         ]
       },
       "path": "~/Advancements"
+    },
+    {
+      "name": "Whore",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "whore",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Paintings"
+    },
+    {
+      "name": "Vantablack",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vantablack",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/royalrealms/models/item/vantablack.json",
+          "src/main/resources/data/royalrealms/loot_tables/blocks/vantablack.json",
+          "src/main/resources/assets/royalrealms/models/block/vantablack.json",
+          "src/main/java/net/mcreator/royalrealms/block/VantablackBlock.java",
+          "src/main/resources/assets/royalrealms/blockstates/vantablack.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "Rainbow",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rainbow",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/royalrealms/loot_tables/blocks/rainbow.json",
+          "src/main/java/net/mcreator/royalrealms/block/RainbowBlock.java",
+          "src/main/resources/assets/royalrealms/models/item/rainbow.json",
+          "src/main/resources/assets/royalrealms/blockstates/rainbow.json",
+          "src/main/resources/assets/royalrealms/models/block/rainbow.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "LobotomyDamage",
+      "type": "damagetype",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lobotomy_damage",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/royalrealms/damage_type/lobotomy_damage.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "Freedom",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "freedom",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/royalrealms/advancements/freedom.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "LobotomizerPlayerFinishesUsingItem",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lobotomizer_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/royalrealms/procedures/LobotomizerPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "Lobotomizer",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lobotomizer",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/royalrealms/item/LobotomizerItem.java",
+          "src/main/resources/assets/royalrealms/models/item/lobotomizer.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "AngelProjectile",
+      "type": "projectile",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "angel_projectile",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/royalrealms/entity/AngelProjectileEntity.java"
+        ]
+      },
+      "path": "~/Artifacts/Angel Shot"
+    },
+    {
+      "name": "Divine",
+      "type": "damagetype",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "divine",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/royalrealms/damage_type/divine.json"
+        ]
+      },
+      "path": "~/Artifacts/Angel Shot"
+    },
+    {
+      "name": "AngelShotOnPlayerStoppedUsing",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "angel_shot_on_player_stopped_using",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/royalrealms/procedures/AngelShotOnPlayerStoppedUsingProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Artifacts/Angel Shot"
+    },
+    {
+      "name": "AngelShot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "angel_shot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/royalrealms/models/item/angel_shot.json",
+          "src/main/java/net/mcreator/royalrealms/item/AngelShotItem.java"
+        ]
+      },
+      "path": "~/Artifacts/Angel Shot"
+    },
+    {
+      "name": "JinxFriend",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jinx_friend",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Paintings"
+    },
+    {
+      "name": "Biryllium",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "biryllium",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/royalrealms/item/BirylliumItem.java",
+          "src/main/resources/assets/royalrealms/models/item/biryllium.json"
+        ]
+      },
+      "path": "~/Biryllium"
+    },
+    {
+      "name": "BirylliumOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "biryllium_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/royalrealms/models/block/biryllium_ore.json",
+          "src/main/resources/data/royalrealms/worldgen/configured_feature/biryllium_ore.json",
+          "src/main/java/net/mcreator/royalrealms/block/BirylliumOreBlock.java",
+          "src/main/resources/assets/royalrealms/models/item/biryllium_ore.json",
+          "src/main/resources/assets/royalrealms/blockstates/biryllium_ore.json",
+          "src/main/resources/data/royalrealms/worldgen/placed_feature/biryllium_ore.json",
+          "src/main/resources/data/royalrealms/forge/biome_modifier/biryllium_ore_biome_modifier.json",
+          "src/main/resources/data/royalrealms/loot_tables/blocks/biryllium_ore.json"
+        ]
+      },
+      "path": "~/Biryllium"
+    },
+    {
+      "name": "BirylliumBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "biryllium_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/royalrealms/blockstates/biryllium_block.json",
+          "src/main/resources/data/royalrealms/loot_tables/blocks/biryllium_block.json",
+          "src/main/resources/assets/royalrealms/models/item/biryllium_block.json",
+          "src/main/java/net/mcreator/royalrealms/block/BirylliumBlockBlock.java",
+          "src/main/resources/assets/royalrealms/models/block/biryllium_block.json"
+        ]
+      },
+      "path": "~/Biryllium"
+    },
+    {
+      "name": "BirylliumOreBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "biryllium_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/royalrealms/recipes/biryllium_ore_block_recipe.json"
+        ]
+      },
+      "path": "~/Biryllium"
+    },
+    {
+      "name": "BirylliumBlockOreRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "biryllium_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/royalrealms/recipes/biryllium_block_ore_recipe.json"
+        ]
+      },
+      "path": "~/Biryllium"
+    },
+    {
+      "name": "BirylliumOreSmelting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "biryllium_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/royalrealms/recipes/biryllium_ore_smelting.json"
+        ]
+      },
+      "path": "~/Biryllium"
+    },
+    {
+      "name": "BirylliumAxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "biryllium_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/royalrealms/item/BirylliumAxeItem.java",
+          "src/main/resources/assets/royalrealms/models/item/biryllium_axe.json"
+        ]
+      },
+      "path": "~/Biryllium"
+    },
+    {
+      "name": "BirylliumAxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "biryllium_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/royalrealms/recipes/biryllium_axe_recipe.json"
+        ]
+      },
+      "path": "~/Biryllium"
+    },
+    {
+      "name": "BirylliumArmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "biryllium_armor",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/royalrealms/item/BirylliumArmorItem.java",
+          "src/main/resources/assets/royalrealms/models/item/biryllium_armor_boots.json"
+        ]
+      },
+      "path": "~/Biryllium"
+    },
+    {
+      "name": "BirylliumArmorBootsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "biryllium_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/royalrealms/recipes/biryllium_armor_boots_recipe.json"
+        ]
+      },
+      "path": "~/Biryllium"
+    },
+    {
+      "name": "BirylliumSmelterOre",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "biryllium_smelter_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/royalrealms/recipes/biryllium_smelter_ore.json"
+        ]
+      },
+      "path": "~/Biryllium"
+    },
+    {
+      "name": "ByrilliumPure",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "byrillium_refined",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/royalrealms/item/ByrilliumPureItem.java",
+          "src/main/resources/assets/royalrealms/models/item/byrillium_refined.json"
+        ]
+      },
+      "path": "~/Biryllium"
+    },
+    {
+      "name": "ByrilliumBlockRefined",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "byrillium_block_refined",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/royalrealms/loot_tables/blocks/byrillium_block_refined.json",
+          "src/main/resources/assets/royalrealms/blockstates/byrillium_block_refined.json",
+          "src/main/java/net/mcreator/royalrealms/block/ByrilliumBlockRefinedBlock.java",
+          "src/main/resources/assets/royalrealms/models/item/byrillium_block_refined.json",
+          "src/main/resources/assets/royalrealms/models/block/byrillium_block_refined.json"
+        ]
+      },
+      "path": "~/Biryllium"
+    },
+    {
+      "name": "ByrilliumMaterial",
+      "type": "trimmaterial",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "byrillium_material",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/royalrealms/trim_material/byrillium_material.json"
+        ]
+      },
+      "path": "~/Armor Trims"
     }
   ],
   "variable_elements": [
@@ -3976,6 +4359,9 @@
       "~CUSTOM:TelosteelOre"
     ],
     "BLOCKS:minecraft:needs_iron_tool": [
+      "~CUSTOM:BirylliumOre",
+      "~CUSTOM:ByrilliumBlockRefined",
+      "~CUSTOM:BirylliumBlock",
       "~CUSTOM:FluoriteBlock",
       "~CUSTOM:FluoriteOre",
       "~CUSTOM:RawTungstenBlock",
@@ -4030,6 +4416,9 @@
       "CUSTOM:WeirdTrimItem"
     ],
     "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:ByrilliumBlockRefined",
+      "~CUSTOM:BirylliumBlock",
+      "~CUSTOM:BirylliumOre",
       "~CUSTOM:ObsidianGlass",
       "~CUSTOM:FluoriteBlock",
       "~CUSTOM:FluoriteOre",
@@ -4048,6 +4437,7 @@
       "~CUSTOM:TelosteelOre"
     ],
     "ITEMS:minecraft:axes": [
+      "~CUSTOM:BirylliumAxe",
       "~CUSTOM:TelosteelAxe"
     ],
     "ITEMS:mod:tungsten_blastable": [
@@ -4079,6 +4469,8 @@
       "block.royalrealms.obsidian_glass": "Obsidian Glass",
       "death.attack.enderlink_damage.item": "%1$s was killed by %2$s using %3$s",
       "painting.royalrealms.lcl.title": "Near the LCL Sea",
+      "block.royalrealms.rainbow": "Rainbow",
+      "trim_material.royalrealms.byrillium_material": "Byrillium",
       "block.royalrealms.raw_tungsten_block": "Raw Tungsten Block",
       "painting.royalrealms.town.title": "Town",
       "advancements.royal_realms.title": "Royal Realms",
@@ -4092,12 +4484,15 @@
       "painting.royalrealms.overlook.title": "Overlook",
       "subtitles.record_glowing_snow": "",
       "advancements.paper_printer.descr": "Obtain a sapling patent",
+      "death.attack.lobotomy_damage": "%1$s died",
       "effect.royalrealms.phasing": "Phasing",
       "block.royalrealms.telosteel_ore": "Telosteel Ore",
       "item.royalrealms.music_disc_tv_world.desc": "Toby Fox - TV World",
       "painting.royalrealms.monochrome.title": "Monochrome",
       "item.royalrealms.fall_breaker_charm": "Fall Breaker Charm",
+      "block.royalrealms.vantablack": "Vantablack",
       "item.royalrealms.music_disc_7l_011.desc": "Asutenki - 7L011",
+      "item.royalrealms.biryllium": "Biryllium",
       "item.royalrealms.telosteel_axe": "Telosteel Axe",
       "item.royalrealms.experience_amulet": "Experience Amulet",
       "death.attack.adrenaline_damage.player": "%1$s died whilst trying to escape %2$s",
@@ -4115,8 +4510,8 @@
       "painting.royalrealms.jinx.title": "Egg Ponderer",
       "subtitles.record_black_knife": "",
       "trim_pattern.royalrealms.weird_trim": "Weird Armor Trim",
-      "advancements.life_experience.descr": "Cheat death with an experience amulet",
       "subtitles.enderlink_boot_rare3": "Connection to Enderlink servers",
+      "advancements.life_experience.descr": "Cheat death with an experience amulet",
       "item.royalrealms.telosteel_pickaxe": "Telosteel Pickaxe",
       "subtitles.enderlink_boot": "Connecting to Enderlink servers",
       "subtitles.enderlink_boot_rare1": "Connection to Enderlink servers",
@@ -4128,17 +4523,21 @@
       "painting.royalrealms.lexactose.title": "Lexactose",
       "painting.royalrealms.nefarious.author": "EvaKrusader",
       "painting.royalrealms.morning.author": "Lilypad",
+      "item.royalrealms.biryllium_axe": "Pure Biryllium Axe",
       "item.royalrealms.raw_tungsten": "Raw Tungsten",
       "advancements.royal_realms.descr": "Be cool enough to own one of the four copies of this mod",
       "block.royalrealms.fluorite_block": "Block of Fluorite",
       "painting.royalrealms.morning.title": "Morning",
+      "death.attack.divine": "%1$s died",
       "painting.royalrealms.monochrome.author": "Lilypad",
       "advancements.artifact.descr": "Obtain an artifact",
+      "advancements.freedom.descr": "Remove your Enderlink",
       "painting.royalrealms.confused.title": "Confused",
       "advancements.adrenaline_hard_adv.title": "Adrenaline",
       "trim_material.royalrealms.brightcore_trim_material": "Brightcore",
       "trim_pattern.royalrealms.lustar_trim": "Lust Armor Trim",
       "item.royalrealms.fix_hole_bucket": "Fix Hole Bucket",
+      "item.royalrealms.byrillium_refined": "Refined Birillium",
       "item.royalrealms.telosteel_armor_boots": "Telosteel Boots",
       "item.royalrealms.music_disc_core": "§4Music Disc",
       "painting.royalrealms.neon.author": "Lilypad",
@@ -4156,6 +4555,7 @@
       "advancements.black_knife_adv_100.title": "The Roaring Knight",
       "enchantment.royalrealms.wind_blast": "Wind Blast",
       "subtitles.record_tv_world": "",
+      "painting.royalrealms.whore.author": "EvaKrusader",
       "painting.royalrealms.town.author": "Lilypad",
       "painting.royalrealms.vitrail.author": "Lilypad",
       "item.royalrealms.enderlink": "Enderlink",
@@ -4164,6 +4564,7 @@
       "item.royalrealms.telosteel_shovel": "Telosteel Shovel",
       "advancements.paper_printer.title": "It doesn\u0027t grow on trees...",
       "item.royalrealms.music_disc_glowing_snow.desc": "Toby Fox - Glowing Snow",
+      "block.royalrealms.byrillium_block_refined": "Block of Refined Biryllium",
       "trim_material.royalrealms.fluorite_trim_material": "Fluorite",
       "death.attack.swoon.player": "%1$s died whilst trying to escape %2$s",
       "advancements.all_bark.descr": "Strip 50 logs",
@@ -4178,13 +4579,19 @@
       "painting.royalrealms.nefarious.title": "Nefarious Creature",
       "item.royalrealms.player_item": "Player Item",
       "painting.royalrealms.overlook.author": "Lilypad",
+      "death.attack.divine.player": "%1$s died whilst trying to escape %2$s",
       "item.royalrealms.lust_trim_item": "Smithing Template",
+      "death.attack.lobotomy_damage.player": "%1$s died whilst trying to escape %2$s",
+      "block.royalrealms.biryllium_ore": "Biryllium Ore",
       "effect.royalrealms.skull_curse_effect": "Skull Curse",
+      "item.royalrealms.angel_shot": "Angel Shot",
       "death.attack.swoon.item": "%1$s was killed by %2$s using %3$s",
       "advancements.adrenaline_adv.descr": "Persist through your depleting adrenaline",
+      "painting.royalrealms.jinx_friend.author": "EvaKrusader",
       "item.royalrealms.water_armor_boots": "Water Boots",
       "advancements.adrenaline_hard_adv.descr": "Explode from receiving too much damage during adrenaline",
       "advancements.black_knife_adv_50.title": "Roaring Knight",
+      "block.royalrealms.biryllium_block": "Block of Biryllium",
       "block.royalrealms.telosteel_block": "Block of Telosteel",
       "painting.royalrealms.bioluminescence.author": "Lilypad",
       "item.royalrealms.telosteel_ingot": "Telosteel",
@@ -4197,8 +4604,10 @@
       "painting.royalrealms.house.author": "Lilypad",
       "item.royalrealms.phasing_can": "Phasing Can",
       "painting.royalrealms.glitch.title": "Glitch",
+      "item.royalrealms.biryllium_armor_boots": "Biryllium Boots",
       "subtitles.disc_sunlight_blocked": "",
       "enchantment.royalrealms.magnet": "Magnet",
+      "advancements.freedom.title": "Freedom",
       "painting.royalrealms.iron_doors.author": "Lilypad",
       "block.royalrealms.fluorite_ore": "Fluorite Ore",
       "block.royalrealms.spectral_block": "Spectral Block",
@@ -4218,16 +4627,19 @@
       "item.royalrealms.esoteric_knowledge": "Esoteric Knowledge",
       "painting.royalrealms.lactose.author": "Linkstar_",
       "painting.royalrealms.vitrail.title": "Vitrail",
+      "painting.royalrealms.whore.title": "Whore",
       "item.royalrealms.telosteel_armor_helmet": "Telosteel Helmet",
       "subtitles.crystal_break": "",
       "item.royalrealms.music_disc_glowing_snow": "Music Disc",
       "subtitles.thunderstrike_warning": "",
       "item.royalrealms.music_disc_7l_011": "Music Disc",
       "item.royalrealms.water_armor_helmet": "Water Helmet",
+      "item.royalrealms.lobotomizer": "Lobotomizer",
       "death.attack.adrenaline_damage.item": "%1$s was killed by %2$s using %3$s",
       "block.royalrealms.tungsten_ore": "Tungsten Ore",
       "painting.royalrealms.crab_nebula.title": "Crab Nebula",
       "subtitles.record_core": "",
+      "death.attack.lobotomy_damage.item": "%1$s was killed by %2$s using %3$s",
       "item.royalrealms.telosteel_sword": "Telosteel Sword",
       "enchantment.royalrealms.thunderstrike": "Thunderstrike",
       "painting.royalrealms.neon.title": "Neon",
@@ -4248,6 +4660,7 @@
       "painting.royalrealms.crab_nebula.author": "Lilypad",
       "painting.royalrealms.iron_doors.title": "Iron Doors",
       "painting.royalrealms.lantern.title": "Lantern",
+      "death.attack.divine.item": "%1$s was killed by %2$s using %3$s",
       "item.royalrealms.water_armor_leggings": "Water Leggings",
       "advancements.black_knife_adv_100.descr": "Swoon 100 enemies",
       "item.royalrealms.telosteel_hoe": "Telosteel Hoe",
@@ -4259,6 +4672,7 @@
       "subtitles.record_dissolving_dark_clouds": "",
       "subtitles.record_uwah_so_temperate": "",
       "block.royalrealms.neonium_block": "Block of Neonium",
+      "painting.royalrealms.jinx_friend.title": "Egg Friend",
       "advancements.adrenaline_adv.title": "Adrenaline",
       "item.royalrealms.music_disc_tv_time.desc": "Toby Fox - It\u0027s TV Time!",
       "item_group.royalrealms.music_discs": "Music Discs"
@@ -4423,6 +4837,10 @@
           {
             "name": "BlackKnife",
             "children": []
+          },
+          {
+            "name": "Angel Shot",
+            "children": []
           }
         ]
       },
@@ -4434,6 +4852,10 @@
             "children": []
           }
         ]
+      },
+      {
+        "name": "Biryllium",
+        "children": []
       }
     ]
   },
