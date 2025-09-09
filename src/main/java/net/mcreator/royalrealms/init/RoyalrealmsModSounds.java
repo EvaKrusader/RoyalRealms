@@ -35,4 +35,6 @@ public class RoyalrealmsModSounds {
 	public static final RegistryObject<SoundEvent> RECORD_TV_WORLD = REGISTRY.register("record_tv_world", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("royalrealms", "record_tv_world")));
 	public static final RegistryObject<SoundEvent> RECORD_CORE = REGISTRY.register("record_core", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("royalrealms", "record_core")));
 	public static final RegistryObject<SoundEvent> SWOON = REGISTRY.register("swoon", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("royalrealms", "swoon")));
+	public static final RegistryObject<SoundEvent> RECORD_HEALING = REGISTRY.register("record_healing", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("royalrealms", "record_healing")));
+	public static final RegistryObject<SoundEvent> RECORD_BORN = REGISTRY.register("record_born", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("royalrealms", "record_born")));
 }

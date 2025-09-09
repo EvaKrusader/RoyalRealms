@@ -36,14 +36,24 @@ import net.mcreator.royalrealms.item.PlayerItemItem;
 import net.mcreator.royalrealms.item.PhasingCanItem;
 import net.mcreator.royalrealms.item.PaperCopyPatentItem;
 import net.mcreator.royalrealms.item.NeoniumItem;
+import net.mcreator.royalrealms.item.MusicDiscWeevilItem;
 import net.mcreator.royalrealms.item.MusicDiscUwahSoTemperateItem;
 import net.mcreator.royalrealms.item.MusicDiscTvWorldItem;
 import net.mcreator.royalrealms.item.MusicDiscTvTimeItem;
+import net.mcreator.royalrealms.item.MusicDiscTreehopperItem;
+import net.mcreator.royalrealms.item.MusicDiscTortoiseBeetleItem;
+import net.mcreator.royalrealms.item.MusicDiscSpinySpiderItem;
+import net.mcreator.royalrealms.item.MusicDiscScarabItem;
+import net.mcreator.royalrealms.item.MusicDiscMothItem;
+import net.mcreator.royalrealms.item.MusicDiscIsopodItem;
+import net.mcreator.royalrealms.item.MusicDiscHealingItem;
 import net.mcreator.royalrealms.item.MusicDiscGlowingSnowItem;
 import net.mcreator.royalrealms.item.MusicDiscCOREItem;
+import net.mcreator.royalrealms.item.MusicDiscButterflyItem;
+import net.mcreator.royalrealms.item.MusicDiscBumblebeeItem;
+import net.mcreator.royalrealms.item.MusicDiscBornItem;
 import net.mcreator.royalrealms.item.MusicDiscBlackKnifeItem;
 import net.mcreator.royalrealms.item.MusicDisc7l011Item;
-import net.mcreator.royalrealms.item.MalachiteItem;
 import net.mcreator.royalrealms.item.LustTrimItemItem;
 import net.mcreator.royalrealms.item.LobotomizerItem;
 import net.mcreator.royalrealms.item.HoleSwitchItem;
@@ -82,9 +92,6 @@ public class RoyalrealmsModItems {
 	public static final RegistryObject<Item> TELOSTEEL_ARMOR_LEGGINGS = REGISTRY.register("telosteel_armor_leggings", () -> new TelosteelArmorItem.Leggings());
 	public static final RegistryObject<Item> TELOSTEEL_ARMOR_BOOTS = REGISTRY.register("telosteel_armor_boots", () -> new TelosteelArmorItem.Boots());
 	public static final RegistryObject<Item> ENDERLINK = REGISTRY.register("enderlink", () -> new EnderlinkItem());
-	public static final RegistryObject<Item> MALACHITE = REGISTRY.register("malachite", () -> new MalachiteItem());
-	public static final RegistryObject<Item> MALACHITE_ORE = block(RoyalrealmsModBlocks.MALACHITE_ORE);
-	public static final RegistryObject<Item> MALACHITE_BLOCK = block(RoyalrealmsModBlocks.MALACHITE_BLOCK);
 	public static final RegistryObject<Item> STARLITE_DUST = REGISTRY.register("starlite_dust", () -> new StarliteDustItem());
 	public static final RegistryObject<Item> STARLITE_ORE = block(RoyalrealmsModBlocks.STARLITE_ORE);
 	public static final RegistryObject<Item> STARLITE_BLOCK = block(RoyalrealmsModBlocks.STARLITE_BLOCK);
@@ -140,8 +147,19 @@ public class RoyalrealmsModItems {
 	public static final RegistryObject<Item> BIRYLLIUM_BLOCK = block(RoyalrealmsModBlocks.BIRYLLIUM_BLOCK);
 	public static final RegistryObject<Item> BIRYLLIUM_AXE = REGISTRY.register("biryllium_axe", () -> new BirylliumAxeItem());
 	public static final RegistryObject<Item> BIRYLLIUM_ARMOR_BOOTS = REGISTRY.register("biryllium_armor_boots", () -> new BirylliumArmorItem.Boots());
-	public static final RegistryObject<Item> BYRILLIUM_REFINED = REGISTRY.register("byrillium_refined", () -> new ByrilliumPureItem());
-	public static final RegistryObject<Item> BYRILLIUM_BLOCK_REFINED = block(RoyalrealmsModBlocks.BYRILLIUM_BLOCK_REFINED);
+	public static final RegistryObject<Item> BIRYLLIUM_REFINED = REGISTRY.register("biryllium_refined", () -> new ByrilliumPureItem());
+	public static final RegistryObject<Item> BIRYLLIUM_BLOCK_REFINED = block(RoyalrealmsModBlocks.BIRYLLIUM_BLOCK_REFINED);
+	public static final RegistryObject<Item> MUSIC_DISC_HEALING = REGISTRY.register("music_disc_healing", () -> new MusicDiscHealingItem());
+	public static final RegistryObject<Item> MUSIC_DISC_BORN = REGISTRY.register("music_disc_born", () -> new MusicDiscBornItem());
+	public static final RegistryObject<Item> MUSIC_DISC_WEEVIL = REGISTRY.register("music_disc_weevil", () -> new MusicDiscWeevilItem());
+	public static final RegistryObject<Item> MUSIC_DISC_BUTTERFLY = REGISTRY.register("music_disc_butterfly", () -> new MusicDiscButterflyItem());
+	public static final RegistryObject<Item> MUSIC_DISC_TREEHOPPER = REGISTRY.register("music_disc_treehopper", () -> new MusicDiscTreehopperItem());
+	public static final RegistryObject<Item> MUSIC_DISC_MOTH = REGISTRY.register("music_disc_moth", () -> new MusicDiscMothItem());
+	public static final RegistryObject<Item> MUSIC_DISC_ISOPOD = REGISTRY.register("music_disc_isopod", () -> new MusicDiscIsopodItem());
+	public static final RegistryObject<Item> MUSIC_DISC_BUMBLEBEE = REGISTRY.register("music_disc_bumblebee", () -> new MusicDiscBumblebeeItem());
+	public static final RegistryObject<Item> MUSIC_DISC_SCARAB = REGISTRY.register("music_disc_scarab", () -> new MusicDiscScarabItem());
+	public static final RegistryObject<Item> MUSIC_DISC_SPINY_SPIDER = REGISTRY.register("music_disc_spiny_spider", () -> new MusicDiscSpinySpiderItem());
+	public static final RegistryObject<Item> MUSIC_DISC_TORTOISE_BEETLE = REGISTRY.register("music_disc_tortoise_beetle", () -> new MusicDiscTortoiseBeetleItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

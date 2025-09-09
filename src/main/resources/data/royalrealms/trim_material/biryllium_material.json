@@ -1,0 +1,9 @@
+{
+  "asset_name": "biryllium_material",
+  "description": {
+    "color": "#7C3090",
+    "translate": "trim_material.royalrealms.biryllium_material"
+  },
+  "ingredient": "royalrealms:biryllium",
+  "item_model_index": 0.0
+}

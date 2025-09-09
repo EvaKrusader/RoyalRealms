@@ -2,7 +2,7 @@
   "_fv": 66,
   "_type": "achievement",
   "definition": {
-    "achievementName": "All Bark, No Bite",
+    "achievementName": "All Bite, No Bark",
     "achievementDescription": "Strip 50 logs",
     "achievementIcon": {
       "value": "Blocks.STRIPPED_OAK_LOG"

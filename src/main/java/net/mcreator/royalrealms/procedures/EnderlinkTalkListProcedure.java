@@ -6,6 +6,8 @@ import net.minecraft.util.RandomSource;
 import net.minecraft.util.Mth;
 import net.minecraft.network.chat.Component;
 
+import net.mcreator.royalrealms.network.RoyalrealmsModVariables;
+
 import java.util.List;
 import java.util.ArrayList;
 
@@ -64,11 +66,13 @@ public class EnderlinkTalkListProcedure {
 				list.add("30");
 			}
 		}
-		namePicker = Mth.nextInt(RandomSource.create(), 1, (int) (list.size() - 1));
-		enderlinkName = "<Enderlink> ";
-		tipStart = "FacTip #" + new java.text.DecimalFormat("##.##").format(namePicker) + " : ";
-		stringStart = enderlinkName + "" + tipStart;
-		if (entity instanceof Player _player && !_player.level().isClientSide())
-			_player.displayClientMessage(Component.literal((stringStart + "" + (list.get((int) namePicker) instanceof String _s ? _s : ""))), false);
+		if ((entity.getCapability(RoyalrealmsModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new RoyalrealmsModVariables.PlayerVariables())).playerHasEnderlink == true) {
+			namePicker = Mth.nextInt(RandomSource.create(), 1, (int) (list.size() - 1));
+			enderlinkName = "<Enderlink> ";
+			tipStart = "FacTip #" + new java.text.DecimalFormat("##.##").format(namePicker) + " : ";
+			stringStart = enderlinkName + "" + tipStart;
+			if (entity instanceof Player _player && !_player.level().isClientSide())
+				_player.displayClientMessage(Component.literal((stringStart + "" + (list.get((int) namePicker) instanceof String _s ? _s : ""))), false);
+		}
 	}
 }

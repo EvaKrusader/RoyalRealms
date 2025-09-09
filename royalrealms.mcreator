@@ -409,96 +409,6 @@
       "path": "~/Enderlink"
     },
     {
-      "name": "Malachite",
-      "type": "item",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "malachite",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/royalrealms/item/MalachiteItem.java",
-          "src/main/resources/assets/royalrealms/models/item/malachite.json"
-        ]
-      },
-      "path": "~/Malachite"
-    },
-    {
-      "name": "MalachiteOre",
-      "type": "block",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "malachite_ore",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/royalrealms/worldgen/placed_feature/malachite_ore.json",
-          "src/main/resources/data/royalrealms/loot_tables/blocks/malachite_ore.json",
-          "src/main/resources/assets/royalrealms/models/block/malachite_ore.json",
-          "src/main/resources/data/royalrealms/worldgen/configured_feature/malachite_ore.json",
-          "src/main/java/net/mcreator/royalrealms/block/MalachiteOreBlock.java",
-          "src/main/resources/data/royalrealms/forge/biome_modifier/malachite_ore_biome_modifier.json",
-          "src/main/resources/assets/royalrealms/models/item/malachite_ore.json",
-          "src/main/resources/assets/royalrealms/blockstates/malachite_ore.json"
-        ]
-      },
-      "path": "~/Malachite"
-    },
-    {
-      "name": "MalachiteBlock",
-      "type": "block",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "malachite_block",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/royalrealms/blockstates/malachite_block.json",
-          "src/main/java/net/mcreator/royalrealms/block/MalachiteBlockBlock.java",
-          "src/main/resources/data/royalrealms/loot_tables/blocks/malachite_block.json",
-          "src/main/resources/assets/royalrealms/models/block/malachite_block.json",
-          "src/main/resources/assets/royalrealms/models/item/malachite_block.json"
-        ]
-      },
-      "path": "~/Malachite"
-    },
-    {
-      "name": "MalachiteOreBlockRecipe",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "malachite_ore_block_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/royalrealms/recipes/malachite_ore_block_recipe.json"
-        ]
-      },
-      "path": "~/Malachite"
-    },
-    {
-      "name": "MalachiteBlockOreRecipe",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "malachite_block_ore_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/royalrealms/recipes/malachite_block_ore_recipe.json"
-        ]
-      },
-      "path": "~/Malachite"
-    },
-    {
-      "name": "MalachiteOreSmelting",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "malachite_ore_smelting",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/royalrealms/recipes/malachite_ore_smelting.json"
-        ]
-      },
-      "path": "~/Malachite"
-    },
-    {
       "name": "Magnet",
       "type": "enchantment",
       "compiles": true,
@@ -2607,7 +2517,7 @@
           "src/main/java/net/mcreator/royalrealms/item/WishingStarItem.java"
         ]
       },
-      "path": "~/Items"
+      "path": "~/Items/Wishing"
     },
     {
       "name": "WishingStarPlayerFinishesUsingItem",
@@ -2642,7 +2552,7 @@
           }
         ]
       },
-      "path": "~/Items"
+      "path": "~/Items/Wishing"
     },
     {
       "name": "PlayerItemPropertyValueProvider",
@@ -3082,6 +2992,10 @@
           "src/main/java/net/mcreator/royalrealms/procedures/SeriesTooltipProcedure.java"
         ],
         "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
           {
             "name": "itemstack",
             "type": "itemstack"
@@ -4070,11 +3984,11 @@
       "type": "item",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "byrillium_refined",
+      "registry_name": "biryllium_refined",
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/royalrealms/item/ByrilliumPureItem.java",
-          "src/main/resources/assets/royalrealms/models/item/byrillium_refined.json"
+          "src/main/resources/assets/royalrealms/models/item/biryllium_refined.json"
         ]
       },
       "path": "~/Biryllium"
@@ -4084,14 +3998,14 @@
       "type": "block",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "byrillium_block_refined",
+      "registry_name": "biryllium_block_refined",
       "metadata": {
         "files": [
-          "src/main/resources/data/royalrealms/loot_tables/blocks/byrillium_block_refined.json",
-          "src/main/resources/assets/royalrealms/blockstates/byrillium_block_refined.json",
+          "src/main/resources/assets/royalrealms/models/item/biryllium_block_refined.json",
           "src/main/java/net/mcreator/royalrealms/block/ByrilliumBlockRefinedBlock.java",
-          "src/main/resources/assets/royalrealms/models/item/byrillium_block_refined.json",
-          "src/main/resources/assets/royalrealms/models/block/byrillium_block_refined.json"
+          "src/main/resources/data/royalrealms/loot_tables/blocks/biryllium_block_refined.json",
+          "src/main/resources/assets/royalrealms/blockstates/biryllium_block_refined.json",
+          "src/main/resources/assets/royalrealms/models/block/biryllium_block_refined.json"
         ]
       },
       "path": "~/Biryllium"
@@ -4101,13 +4015,293 @@
       "type": "trimmaterial",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "byrillium_material",
+      "registry_name": "biryllium_material",
       "metadata": {
         "files": [
-          "src/main/resources/data/royalrealms/trim_material/byrillium_material.json"
+          "src/main/resources/data/royalrealms/trim_material/biryllium_material.json"
         ]
       },
       "path": "~/Armor Trims"
+    },
+    {
+      "name": "Day10Proc",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "day_10_proc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/royalrealms/procedures/Day10ProcProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "GiveChastity",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "give_chastity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/royalrealms/procedures/GiveChastityProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/Curio/Chastity Cage"
+    },
+    {
+      "name": "WishingStarFriend",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wishing_star_friend",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/royalrealms/procedures/WishingStarFriendProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Items/Wishing"
+    },
+    {
+      "name": "WishingStarWeatherTime",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wishing_star_weather_time",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/royalrealms/procedures/WishingStarWeatherTimeProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Items/Wishing"
+    },
+    {
+      "name": "MusicDiscHealing",
+      "type": "musicdisc",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "music_disc_healing",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/royalrealms/models/item/music_disc_healing.json",
+          "src/main/java/net/mcreator/royalrealms/item/MusicDiscHealingItem.java"
+        ]
+      },
+      "path": "~/Music"
+    },
+    {
+      "name": "MusicDiscBorn",
+      "type": "musicdisc",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "music_disc_born",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/royalrealms/item/MusicDiscBornItem.java",
+          "src/main/resources/assets/royalrealms/models/item/music_disc_born.json"
+        ]
+      },
+      "path": "~/Music"
+    },
+    {
+      "name": "BedrockFog",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bedrock_fog",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/royalrealms/procedures/BedrockFogProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Features"
+    },
+    {
+      "name": "MusicDiscWeevil",
+      "type": "musicdisc",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "music_disc_weevil",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/royalrealms/item/MusicDiscWeevilItem.java",
+          "src/main/resources/assets/royalrealms/models/item/music_disc_weevil.json"
+        ]
+      },
+      "path": "~/Music/Music for bugs"
+    },
+    {
+      "name": "MusicDiscButterfly",
+      "type": "musicdisc",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "music_disc_butterfly",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/royalrealms/models/item/music_disc_butterfly.json",
+          "src/main/java/net/mcreator/royalrealms/item/MusicDiscButterflyItem.java"
+        ]
+      },
+      "path": "~/Music/Music for bugs"
+    },
+    {
+      "name": "MusicDiscTreehopper",
+      "type": "musicdisc",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "music_disc_treehopper",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/royalrealms/item/MusicDiscTreehopperItem.java",
+          "src/main/resources/assets/royalrealms/models/item/music_disc_treehopper.json"
+        ]
+      },
+      "path": "~/Music/Music for bugs"
+    },
+    {
+      "name": "MusicDiscMoth",
+      "type": "musicdisc",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "music_disc_moth",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/royalrealms/item/MusicDiscMothItem.java",
+          "src/main/resources/assets/royalrealms/models/item/music_disc_moth.json"
+        ]
+      },
+      "path": "~/Music/Music for bugs"
+    },
+    {
+      "name": "MusicDiscIsopod",
+      "type": "musicdisc",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "music_disc_isopod",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/royalrealms/item/MusicDiscIsopodItem.java",
+          "src/main/resources/assets/royalrealms/models/item/music_disc_isopod.json"
+        ]
+      },
+      "path": "~/Music/Music for bugs"
+    },
+    {
+      "name": "MusicDiscBumblebee",
+      "type": "musicdisc",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "music_disc_bumblebee",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/royalrealms/models/item/music_disc_bumblebee.json",
+          "src/main/java/net/mcreator/royalrealms/item/MusicDiscBumblebeeItem.java"
+        ]
+      },
+      "path": "~/Music/Music for bugs"
+    },
+    {
+      "name": "MusicDiscScarab",
+      "type": "musicdisc",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "music_disc_scarab",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/royalrealms/item/MusicDiscScarabItem.java",
+          "src/main/resources/assets/royalrealms/models/item/music_disc_scarab.json"
+        ]
+      },
+      "path": "~/Music/Music for bugs"
+    },
+    {
+      "name": "MusicDiscSpinySpider",
+      "type": "musicdisc",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "music_disc_spiny_spider",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/royalrealms/models/item/music_disc_spiny_spider.json",
+          "src/main/java/net/mcreator/royalrealms/item/MusicDiscSpinySpiderItem.java"
+        ]
+      },
+      "path": "~/Music/Music for bugs"
+    },
+    {
+      "name": "MusicDiscTortoiseBeetle",
+      "type": "musicdisc",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "music_disc_tortoise_beetle",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/royalrealms/models/item/music_disc_tortoise_beetle.json",
+          "src/main/java/net/mcreator/royalrealms/item/MusicDiscTortoiseBeetleItem.java"
+        ]
+      },
+      "path": "~/Music/Music for bugs"
     }
   ],
   "variable_elements": [
@@ -4351,17 +4545,59 @@
       ],
       "category": "player",
       "subtitle": ""
+    },
+    {
+      "name": "record_healing",
+      "files": [
+        "record_healing1",
+        "record_healing2",
+        "record_healing3",
+        "record_healing4",
+        "record_healing5",
+        "record_healing6",
+        "record_healing7"
+      ],
+      "category": "record",
+      "subtitle": ""
+    },
+    {
+      "name": "record_born",
+      "files": [
+        "record_born1",
+        "record_born2",
+        "record_born3",
+        "record_born4",
+        "record_born5",
+        "record_born6",
+        "record_born7",
+        "record_born8",
+        "record_born9",
+        "record_born10"
+      ],
+      "category": "record",
+      "subtitle": ""
     }
   ],
   "tag_elements": {
+    "ITEMS:minecraft:series_bug_music": [
+      "CUSTOM:MusicDiscWeevil",
+      "CUSTOM:MusicDiscButterfly",
+      "CUSTOM:MusicDiscTreehopper",
+      "CUSTOM:MusicDiscMoth",
+      "CUSTOM:MusicDiscIsopod",
+      "CUSTOM:MusicDiscBumblebee",
+      "CUSTOM:MusicDiscScarab",
+      "CUSTOM:MusicDiscSpinySpider",
+      "CUSTOM:MusicDiscTortoiseBeetle"
+    ],
     "BLOCKS:minecraft:needs_diamond_tool": [
       "~CUSTOM:ObsidianGlass",
       "~CUSTOM:TelosteelOre"
     ],
     "BLOCKS:minecraft:needs_iron_tool": [
-      "~CUSTOM:BirylliumOre",
       "~CUSTOM:ByrilliumBlockRefined",
       "~CUSTOM:BirylliumBlock",
+      "~CUSTOM:BirylliumOre",
       "~CUSTOM:FluoriteBlock",
       "~CUSTOM:FluoriteOre",
       "~CUSTOM:RawTungstenBlock",
@@ -4373,8 +4609,6 @@
       "~CUSTOM:NeoniumOre",
       "~CUSTOM:StarliteBlock",
       "~CUSTOM:StarliteOre",
-      "~CUSTOM:MalachiteBlock",
-      "~CUSTOM:MalachiteOre",
       "~CUSTOM:TelosteelBlock"
     ],
     "BLOCKS:minecraft:replaceable": [
@@ -4394,6 +4628,17 @@
       "~CUSTOM:TelosteelHoe"
     ],
     "ITEMS:minecraft:music_discs": [
+      "~CUSTOM:MusicDiscTortoiseBeetle",
+      "~CUSTOM:MusicDiscSpinySpider",
+      "~CUSTOM:MusicDiscScarab",
+      "~CUSTOM:MusicDiscBumblebee",
+      "~CUSTOM:MusicDiscIsopod",
+      "~CUSTOM:MusicDiscMoth",
+      "~CUSTOM:MusicDiscTreehopper",
+      "~CUSTOM:MusicDiscButterfly",
+      "~CUSTOM:MusicDiscWeevil",
+      "~CUSTOM:MusicDiscBorn",
+      "~CUSTOM:MusicDiscHealing",
       "~CUSTOM:MusicDiscUwahSoTemperate",
       "~CUSTOM:MusicDiscTvTime",
       "~CUSTOM:MusicDiscBlackKnife",
@@ -4403,7 +4648,18 @@
       "~CUSTOM:MusicDisc7l011"
     ],
     "ITEMS:minecraft:artifacts": [
-      "CUSTOM:BlackKnife"
+      "CUSTOM:BlackKnife",
+      "CUSTOM:AngelShot"
+    ],
+    "ITEMS:minecraft:wish_friends": [
+      "Items.FISH#0",
+      "Items.FISH#1",
+      "Items.BEEF",
+      "Items.PORKCHOP",
+      "Items.RABBIT",
+      "Items.CHICKEN",
+      "Items.MUTTON",
+      "Items.FISH#3"
     ],
     "ITEMS:mod:magnet_tools": [
       "TAG:minecraft:pickaxes",
@@ -4431,8 +4687,6 @@
       "~CUSTOM:NeoniumOre",
       "~CUSTOM:StarliteBlock",
       "~CUSTOM:StarliteOre",
-      "~CUSTOM:MalachiteBlock",
-      "~CUSTOM:MalachiteOre",
       "~CUSTOM:TelosteelBlock",
       "~CUSTOM:TelosteelOre"
     ],
@@ -4450,6 +4704,13 @@
     ],
     "ITEMS:minecraft:shovels": [
       "~CUSTOM:TelosteelShovel"
+    ],
+    "ITEMS:minecraft:wish_weather": [
+      "Blocks.LIGHTNING_ROD",
+      "Blocks.NETHERRACK",
+      "Items.BLAZE_POWDER",
+      "CUSTOM:FallBreakerCharm",
+      "Blocks.TORCH"
     ]
   },
   "tab_element_order": {},
@@ -4465,24 +4726,30 @@
       "enchantment.royalrealms.replanter": "Replanter",
       "item.royalrealms.music_disc_black_knife": "Music Disc",
       "block.royalrealms.brightcore_block": "Block of Brightcore",
+      "item.royalrealms.music_disc_weevil": "Music Disc",
       "item.royalrealms.music_disc_core.desc": "toby fox - CORE",
       "block.royalrealms.obsidian_glass": "Obsidian Glass",
       "death.attack.enderlink_damage.item": "%1$s was killed by %2$s using %3$s",
       "painting.royalrealms.lcl.title": "Near the LCL Sea",
       "block.royalrealms.rainbow": "Rainbow",
-      "trim_material.royalrealms.byrillium_material": "Byrillium",
+      "item.royalrealms.music_disc_spiny_spider.desc": "camiidae - spiny spider",
       "block.royalrealms.raw_tungsten_block": "Raw Tungsten Block",
       "painting.royalrealms.town.title": "Town",
       "advancements.royal_realms.title": "Royal Realms",
       "advancements.artifact.title": "Artifact",
+      "item.royalrealms.music_disc_treehopper.desc": "camiidae - treehopper",
+      "item.royalrealms.music_disc_tortoise_beetle": "Music Disc",
       "item.royalrealms.music_disc_uwah_so_temperate.desc": "Toby Fox - Uwa!! So Temperate♫",
       "item.royalrealms.fluorite_necklace": "Fluorite Necklace",
+      "item.royalrealms.music_disc_bumblebee": "Music Disc",
       "painting.royalrealms.mist.title": "Mist",
       "advancements.black_knife_adv_10.descr": "Swoon 10 enemies",
+      "item.royalrealms.music_disc_born": "Music Disc",
       "death.attack.skull_curse_damage.player": "%1$s died whilst trying to escape %2$s",
       "advancements.black_knife_adv_50.descr": "Swoon 50 enemies",
       "painting.royalrealms.overlook.title": "Overlook",
       "subtitles.record_glowing_snow": "",
+      "item.royalrealms.music_disc_spiny_spider": "Music Disc",
       "advancements.paper_printer.descr": "Obtain a sapling patent",
       "death.attack.lobotomy_damage": "%1$s died",
       "effect.royalrealms.phasing": "Phasing",
@@ -4491,6 +4758,7 @@
       "painting.royalrealms.monochrome.title": "Monochrome",
       "item.royalrealms.fall_breaker_charm": "Fall Breaker Charm",
       "block.royalrealms.vantablack": "Vantablack",
+      "subtitles.record_healing": "",
       "item.royalrealms.music_disc_7l_011.desc": "Asutenki - 7L011",
       "item.royalrealms.biryllium": "Biryllium",
       "item.royalrealms.telosteel_axe": "Telosteel Axe",
@@ -4525,6 +4793,8 @@
       "painting.royalrealms.morning.author": "Lilypad",
       "item.royalrealms.biryllium_axe": "Pure Biryllium Axe",
       "item.royalrealms.raw_tungsten": "Raw Tungsten",
+      "item.royalrealms.music_disc_healing.desc": "Secamuno - Healing (Album)",
+      "item.royalrealms.music_disc_isopod.desc": "camiidae - isopod",
       "advancements.royal_realms.descr": "Be cool enough to own one of the four copies of this mod",
       "block.royalrealms.fluorite_block": "Block of Fluorite",
       "painting.royalrealms.morning.title": "Morning",
@@ -4537,7 +4807,6 @@
       "trim_material.royalrealms.brightcore_trim_material": "Brightcore",
       "trim_pattern.royalrealms.lustar_trim": "Lust Armor Trim",
       "item.royalrealms.fix_hole_bucket": "Fix Hole Bucket",
-      "item.royalrealms.byrillium_refined": "Refined Birillium",
       "item.royalrealms.telosteel_armor_boots": "Telosteel Boots",
       "item.royalrealms.music_disc_core": "§4Music Disc",
       "painting.royalrealms.neon.author": "Lilypad",
@@ -4545,12 +4814,13 @@
       "item.royalrealms.telosteel_armor_chestplate": "Telosteel Chestplate",
       "death.attack.enderlink_damage": "%1$s couldn\u0027t withstand their Enderlink",
       "painting.royalrealms.house.title": "House",
+      "item.royalrealms.music_disc_isopod": "Music Disc",
       "item.royalrealms.wishing_star": "Wishing Star",
-      "item.royalrealms.malachite": "Malachite",
+      "item.royalrealms.music_disc_moth": "Music Disc",
       "subtitles.enderlink_msg_rare": "Enderlink notification",
       "painting.royalrealms.breeze.title": "Breeze",
       "death.attack.adrenaline_damage": "%1$s cooled down",
-      "advancements.all_bark.title": "All Bark, No Bite",
+      "advancements.all_bark.title": "All Bite, No Bark",
       "advancements.black_knife_adv.descr": "Obtain the Black Knife",
       "advancements.black_knife_adv_100.title": "The Roaring Knight",
       "enchantment.royalrealms.wind_blast": "Wind Blast",
@@ -4563,12 +4833,12 @@
       "painting.royalrealms.hq.author": "Linkstar",
       "item.royalrealms.telosteel_shovel": "Telosteel Shovel",
       "advancements.paper_printer.title": "It doesn\u0027t grow on trees...",
+      "item.royalrealms.music_disc_butterfly.desc": "camiidae - butterfly",
+      "item.royalrealms.music_disc_born.desc": "Secamuno - Born (Album)",
       "item.royalrealms.music_disc_glowing_snow.desc": "Toby Fox - Glowing Snow",
-      "block.royalrealms.byrillium_block_refined": "Block of Refined Biryllium",
       "trim_material.royalrealms.fluorite_trim_material": "Fluorite",
       "death.attack.swoon.player": "%1$s died whilst trying to escape %2$s",
       "advancements.all_bark.descr": "Strip 50 logs",
-      "block.royalrealms.malachite_block": "Block of Malachite",
       "painting.royalrealms.midnight_sky.author": "Lilypad",
       "painting.royalrealms.breeze.author": "Lilypad",
       "painting.royalrealms.bliss.author": "Windows",
@@ -4579,12 +4849,15 @@
       "painting.royalrealms.nefarious.title": "Nefarious Creature",
       "item.royalrealms.player_item": "Player Item",
       "painting.royalrealms.overlook.author": "Lilypad",
+      "trim_material.royalrealms.biryllium_material": "Biryllium",
       "death.attack.divine.player": "%1$s died whilst trying to escape %2$s",
       "item.royalrealms.lust_trim_item": "Smithing Template",
+      "item.royalrealms.music_disc_moth.desc": "camiidae - moth",
       "death.attack.lobotomy_damage.player": "%1$s died whilst trying to escape %2$s",
       "block.royalrealms.biryllium_ore": "Biryllium Ore",
       "effect.royalrealms.skull_curse_effect": "Skull Curse",
       "item.royalrealms.angel_shot": "Angel Shot",
+      "item.royalrealms.music_disc_healing": "Music Disc",
       "death.attack.swoon.item": "%1$s was killed by %2$s using %3$s",
       "advancements.adrenaline_adv.descr": "Persist through your depleting adrenaline",
       "painting.royalrealms.jinx_friend.author": "EvaKrusader",
@@ -4605,6 +4878,7 @@
       "item.royalrealms.phasing_can": "Phasing Can",
       "painting.royalrealms.glitch.title": "Glitch",
       "item.royalrealms.biryllium_armor_boots": "Biryllium Boots",
+      "item.royalrealms.music_disc_bumblebee.desc": "camiidae - bumblebee",
       "subtitles.disc_sunlight_blocked": "",
       "enchantment.royalrealms.magnet": "Magnet",
       "advancements.freedom.title": "Freedom",
@@ -4617,10 +4891,12 @@
       "advancements.black_knife_adv_10.title": "Roaring",
       "block.royalrealms.starlite_block": "Block of Starlite",
       "item.royalrealms.chastity_cage_black": "Chastity Cage Black",
+      "subtitles.record_born": "",
       "painting.royalrealms.hq.title": "HQ",
       "painting.royalrealms.mist.author": "Lilypad",
       "subtitles.swoon": "",
       "block.royalrealms.tungsten_block": "Block of Tungsten",
+      "item.royalrealms.music_disc_treehopper": "Music Disc",
       "advancements.neural_augment.title": "Neural Augmentation",
       "block.royalrealms.brightcore_ore": "Brightcore Ore",
       "enchantment.royalrealms.hot_touch": "Hot Touch",
@@ -4638,6 +4914,7 @@
       "death.attack.adrenaline_damage.item": "%1$s was killed by %2$s using %3$s",
       "block.royalrealms.tungsten_ore": "Tungsten Ore",
       "painting.royalrealms.crab_nebula.title": "Crab Nebula",
+      "item.royalrealms.music_disc_tortoise_beetle.desc": "camiidae - tortoise beetle",
       "subtitles.record_core": "",
       "death.attack.lobotomy_damage.item": "%1$s was killed by %2$s using %3$s",
       "item.royalrealms.telosteel_sword": "Telosteel Sword",
@@ -4648,12 +4925,14 @@
       "death.attack.skull_curse_damage.item": "%1$s was killed by %2$s using %3$s",
       "painting.royalrealms.lexactose.author": "EvaKrusader",
       "advancements.black_knife_adv.title": "Black Knife",
+      "item.royalrealms.music_disc_butterfly": "Music Disc",
       "painting.royalrealms.midnight_sky.title": "Midnight Sky",
       "advancements.life_experience.title": "Life Experience",
       "item.royalrealms.cursed_skull": "Cursed Skull",
       "subtitles.record_sunlight_blocked": "",
       "key.royalrealms.gamemode_switcher": "Gamemode Switcher",
       "painting.royalrealms.bliss.title": "Bliss",
+      "block.royalrealms.biryllium_block_refined": "Block of Refined Biryllium",
       "item.royalrealms.neonium": "Neonium",
       "item.royalrealms.music_disc_uwah_so_temperate": "§eMusic Disc",
       "advancements.day_10.descr": "Reach 10 days of survival",
@@ -4664,7 +4943,8 @@
       "item.royalrealms.water_armor_leggings": "Water Leggings",
       "advancements.black_knife_adv_100.descr": "Swoon 100 enemies",
       "item.royalrealms.telosteel_hoe": "Telosteel Hoe",
-      "block.royalrealms.malachite_ore": "Malachite Ore",
+      "item.royalrealms.music_disc_weevil.desc": "camiidae - weevil",
+      "item.royalrealms.music_disc_scarab.desc": "camiidae - scarab",
       "painting.royalrealms.lactose.title": "Lactose",
       "item.royalrealms.music_disc_black_knife.desc": "Toby Fox - Black Knife",
       "item.royalrealms.water_armor_chestplate": "Water Chestplate",
@@ -4675,7 +4955,9 @@
       "painting.royalrealms.jinx_friend.title": "Egg Friend",
       "advancements.adrenaline_adv.title": "Adrenaline",
       "item.royalrealms.music_disc_tv_time.desc": "Toby Fox - It\u0027s TV Time!",
-      "item_group.royalrealms.music_discs": "Music Discs"
+      "item_group.royalrealms.music_discs": "Music Discs",
+      "item.royalrealms.biryllium_refined": "Refined Birillium",
+      "item.royalrealms.music_disc_scarab": "Music Disc"
     }
   },
   "foldersRoot": {
@@ -4791,6 +5073,10 @@
           {
             "name": "PlayerItem",
             "children": []
+          },
+          {
+            "name": "Wishing",
+            "children": []
           }
         ]
       },
@@ -4813,7 +5099,12 @@
       },
       {
         "name": "Music",
-        "children": []
+        "children": [
+          {
+            "name": "Music for bugs",
+            "children": []
+          }
+        ]
       },
       {
         "name": "Tungsten",
@@ -4855,6 +5146,14 @@
       },
       {
         "name": "Biryllium",
+        "children": []
+      },
+      {
+        "name": "Features",
+        "children": []
+      },
+      {
+        "name": "Structures",
         "children": []
       }
     ]

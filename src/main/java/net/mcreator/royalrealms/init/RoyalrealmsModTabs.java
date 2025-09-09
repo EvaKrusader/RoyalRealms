@@ -30,13 +30,23 @@ public class RoyalrealmsModTabs {
 				tabData.accept(RoyalrealmsModItems.MUSIC_DISC_BLACK_KNIFE.get());
 				tabData.accept(RoyalrealmsModItems.MUSIC_DISC_TV_TIME.get());
 				tabData.accept(RoyalrealmsModItems.MUSIC_DISC_UWAH_SO_TEMPERATE.get());
+				tabData.accept(RoyalrealmsModItems.MUSIC_DISC_HEALING.get());
+				tabData.accept(RoyalrealmsModItems.MUSIC_DISC_BORN.get());
+				tabData.accept(RoyalrealmsModItems.MUSIC_DISC_WEEVIL.get());
+				tabData.accept(RoyalrealmsModItems.MUSIC_DISC_BUTTERFLY.get());
+				tabData.accept(RoyalrealmsModItems.MUSIC_DISC_TREEHOPPER.get());
+				tabData.accept(RoyalrealmsModItems.MUSIC_DISC_MOTH.get());
+				tabData.accept(RoyalrealmsModItems.MUSIC_DISC_ISOPOD.get());
+				tabData.accept(RoyalrealmsModItems.MUSIC_DISC_BUMBLEBEE.get());
+				tabData.accept(RoyalrealmsModItems.MUSIC_DISC_SCARAB.get());
+				tabData.accept(RoyalrealmsModItems.MUSIC_DISC_SPINY_SPIDER.get());
+				tabData.accept(RoyalrealmsModItems.MUSIC_DISC_TORTOISE_BEETLE.get());
 			}).withSearchBar().build());
 
 	@SubscribeEvent
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
 		if (tabData.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
 			tabData.accept(RoyalrealmsModBlocks.TELOSTEEL_BLOCK.get().asItem());
-			tabData.accept(RoyalrealmsModBlocks.MALACHITE_BLOCK.get().asItem());
 			tabData.accept(RoyalrealmsModBlocks.STARLITE_BLOCK.get().asItem());
 			tabData.accept(RoyalrealmsModBlocks.NEONIUM_BLOCK.get().asItem());
 			tabData.accept(RoyalrealmsModBlocks.BRIGHTCORE_BLOCK.get().asItem());
@@ -49,7 +59,7 @@ public class RoyalrealmsModTabs {
 			tabData.accept(RoyalrealmsModBlocks.RAINBOW.get().asItem());
 			tabData.accept(RoyalrealmsModBlocks.BIRYLLIUM_ORE.get().asItem());
 			tabData.accept(RoyalrealmsModBlocks.BIRYLLIUM_BLOCK.get().asItem());
-			tabData.accept(RoyalrealmsModBlocks.BYRILLIUM_BLOCK_REFINED.get().asItem());
+			tabData.accept(RoyalrealmsModBlocks.BIRYLLIUM_BLOCK_REFINED.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.REDSTONE_BLOCKS) {
 			tabData.accept(RoyalrealmsModItems.HOLE_SWITCH.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
@@ -73,7 +83,6 @@ public class RoyalrealmsModTabs {
 			tabData.accept(RoyalrealmsModItems.ESOTERIC_KNOWLEDGE.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
 			tabData.accept(RoyalrealmsModItems.TELOSTEEL_INGOT.get());
-			tabData.accept(RoyalrealmsModItems.MALACHITE.get());
 			tabData.accept(RoyalrealmsModItems.STARLITE_DUST.get());
 			tabData.accept(RoyalrealmsModItems.NEONIUM.get());
 			tabData.accept(RoyalrealmsModItems.FIX_HOLE_BUCKET.get());
@@ -84,10 +93,9 @@ public class RoyalrealmsModTabs {
 			tabData.accept(RoyalrealmsModItems.RAW_TUNGSTEN.get());
 			tabData.accept(RoyalrealmsModItems.FLUORITE.get());
 			tabData.accept(RoyalrealmsModItems.BIRYLLIUM.get());
-			tabData.accept(RoyalrealmsModItems.BYRILLIUM_REFINED.get());
+			tabData.accept(RoyalrealmsModItems.BIRYLLIUM_REFINED.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
 			tabData.accept(RoyalrealmsModBlocks.TELOSTEEL_ORE.get().asItem());
-			tabData.accept(RoyalrealmsModBlocks.MALACHITE_ORE.get().asItem());
 			tabData.accept(RoyalrealmsModBlocks.STARLITE_ORE.get().asItem());
 			tabData.accept(RoyalrealmsModBlocks.NEONIUM_ORE.get().asItem());
 			tabData.accept(RoyalrealmsModBlocks.BRIGHTCORE_ORE.get().asItem());
@@ -110,6 +118,17 @@ public class RoyalrealmsModTabs {
 			tabData.accept(RoyalrealmsModItems.BLACK_KNIFE.get());
 			tabData.accept(RoyalrealmsModItems.LOBOTOMIZER.get());
 			tabData.accept(RoyalrealmsModItems.BIRYLLIUM_AXE.get());
+			tabData.accept(RoyalrealmsModItems.MUSIC_DISC_HEALING.get());
+			tabData.accept(RoyalrealmsModItems.MUSIC_DISC_BORN.get());
+			tabData.accept(RoyalrealmsModItems.MUSIC_DISC_WEEVIL.get());
+			tabData.accept(RoyalrealmsModItems.MUSIC_DISC_BUTTERFLY.get());
+			tabData.accept(RoyalrealmsModItems.MUSIC_DISC_TREEHOPPER.get());
+			tabData.accept(RoyalrealmsModItems.MUSIC_DISC_MOTH.get());
+			tabData.accept(RoyalrealmsModItems.MUSIC_DISC_ISOPOD.get());
+			tabData.accept(RoyalrealmsModItems.MUSIC_DISC_BUMBLEBEE.get());
+			tabData.accept(RoyalrealmsModItems.MUSIC_DISC_SCARAB.get());
+			tabData.accept(RoyalrealmsModItems.MUSIC_DISC_SPINY_SPIDER.get());
+			tabData.accept(RoyalrealmsModItems.MUSIC_DISC_TORTOISE_BEETLE.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
 			tabData.accept(RoyalrealmsModItems.PHASING_CAN.get());
 		}

@@ -1,0 +1,29 @@
+{
+  "_fv": 66,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Music Disc",
+    "rarity": "COMMON",
+    "texture": "music_disc_treehopper",
+    "description": "camiidae - treehopper",
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:MusicDiscs"
+      },
+      {
+        "value": "TOOLS"
+      }
+    ],
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "music": {
+      "value": "CUSTOM:enderlink_msg1"
+    },
+    "lengthInTicks": 100,
+    "analogOutput": 0
+  }
+}

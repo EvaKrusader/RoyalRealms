@@ -38,7 +38,7 @@ public class BlackKnifeItem extends SwordItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of();
 			}
-		}, 3, -4f, new Item.Properties().fireResistant());
+		}, 3, -3f, new Item.Properties().fireResistant());
 	}
 
 	@Override

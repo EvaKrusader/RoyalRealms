@@ -170,5 +170,81 @@
         "stream": false
       }
     ]
+  },
+  "record_healing": {
+    "sounds": [
+      {
+        "name": "royalrealms:record_healing1",
+        "stream": true
+      },
+      {
+        "name": "royalrealms:record_healing2",
+        "stream": true
+      },
+      {
+        "name": "royalrealms:record_healing3",
+        "stream": true
+      },
+      {
+        "name": "royalrealms:record_healing4",
+        "stream": true
+      },
+      {
+        "name": "royalrealms:record_healing5",
+        "stream": true
+      },
+      {
+        "name": "royalrealms:record_healing6",
+        "stream": true
+      },
+      {
+        "name": "royalrealms:record_healing7",
+        "stream": true
+      }
+    ]
+  },
+  "record_born": {
+    "sounds": [
+      {
+        "name": "royalrealms:record_born1",
+        "stream": true
+      },
+      {
+        "name": "royalrealms:record_born2",
+        "stream": true
+      },
+      {
+        "name": "royalrealms:record_born3",
+        "stream": true
+      },
+      {
+        "name": "royalrealms:record_born4",
+        "stream": true
+      },
+      {
+        "name": "royalrealms:record_born5",
+        "stream": true
+      },
+      {
+        "name": "royalrealms:record_born6",
+        "stream": true
+      },
+      {
+        "name": "royalrealms:record_born7",
+        "stream": true
+      },
+      {
+        "name": "royalrealms:record_born8",
+        "stream": true
+      },
+      {
+        "name": "royalrealms:record_born9",
+        "stream": true
+      },
+      {
+        "name": "royalrealms:record_born10",
+        "stream": true
+      }
+    ]
   }
 }

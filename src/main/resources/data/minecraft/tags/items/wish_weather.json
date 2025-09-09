@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:lightning_rod",
+    "minecraft:netherrack",
+    "minecraft:blaze_powder",
+    "royalrealms:fall_breaker_charm",
+    "minecraft:torch"
+  ]
+}

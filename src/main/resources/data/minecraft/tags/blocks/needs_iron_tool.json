@@ -1,9 +1,9 @@
 {
   "replace": false,
   "values": [
-    "royalrealms:biryllium_ore",
-    "royalrealms:byrillium_block_refined",
+    "royalrealms:biryllium_block_refined",
     "royalrealms:biryllium_block",
+    "royalrealms:biryllium_ore",
     "royalrealms:fluorite_block",
     "royalrealms:fluorite_ore",
     "royalrealms:raw_tungsten_block",
@@ -15,8 +15,6 @@
     "royalrealms:neonium_ore",
     "royalrealms:starlite_block",
     "royalrealms:starlite_ore",
-    "royalrealms:malachite_block",
-    "royalrealms:malachite_ore",
     "royalrealms:telosteel_block"
   ]
 }

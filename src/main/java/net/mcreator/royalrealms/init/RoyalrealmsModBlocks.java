@@ -23,8 +23,6 @@ import net.mcreator.royalrealms.block.RainbowBlock;
 import net.mcreator.royalrealms.block.ObsidianGlassBlock;
 import net.mcreator.royalrealms.block.NeoniumOreBlock;
 import net.mcreator.royalrealms.block.NeoniumBlockBlock;
-import net.mcreator.royalrealms.block.MalachiteOreBlock;
-import net.mcreator.royalrealms.block.MalachiteBlockBlock;
 import net.mcreator.royalrealms.block.FluoriteOreBlock;
 import net.mcreator.royalrealms.block.FluoriteBlockBlock;
 import net.mcreator.royalrealms.block.FixHoleBlock;
@@ -39,8 +37,6 @@ public class RoyalrealmsModBlocks {
 	public static final DeferredRegister<Block> REGISTRY = DeferredRegister.create(ForgeRegistries.BLOCKS, RoyalrealmsMod.MODID);
 	public static final RegistryObject<Block> TELOSTEEL_ORE = REGISTRY.register("telosteel_ore", () -> new TelosteelOreBlock());
 	public static final RegistryObject<Block> TELOSTEEL_BLOCK = REGISTRY.register("telosteel_block", () -> new TelosteelBlockBlock());
-	public static final RegistryObject<Block> MALACHITE_ORE = REGISTRY.register("malachite_ore", () -> new MalachiteOreBlock());
-	public static final RegistryObject<Block> MALACHITE_BLOCK = REGISTRY.register("malachite_block", () -> new MalachiteBlockBlock());
 	public static final RegistryObject<Block> STARLITE_ORE = REGISTRY.register("starlite_ore", () -> new StarliteOreBlock());
 	public static final RegistryObject<Block> STARLITE_BLOCK = REGISTRY.register("starlite_block", () -> new StarliteBlockBlock());
 	public static final RegistryObject<Block> NEONIUM_ORE = REGISTRY.register("neonium_ore", () -> new NeoniumOreBlock());
@@ -59,7 +55,7 @@ public class RoyalrealmsModBlocks {
 	public static final RegistryObject<Block> RAINBOW = REGISTRY.register("rainbow", () -> new RainbowBlock());
 	public static final RegistryObject<Block> BIRYLLIUM_ORE = REGISTRY.register("biryllium_ore", () -> new BirylliumOreBlock());
 	public static final RegistryObject<Block> BIRYLLIUM_BLOCK = REGISTRY.register("biryllium_block", () -> new BirylliumBlockBlock());
-	public static final RegistryObject<Block> BYRILLIUM_BLOCK_REFINED = REGISTRY.register("byrillium_block_refined", () -> new ByrilliumBlockRefinedBlock());
+	public static final RegistryObject<Block> BIRYLLIUM_BLOCK_REFINED = REGISTRY.register("biryllium_block_refined", () -> new ByrilliumBlockRefinedBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }
