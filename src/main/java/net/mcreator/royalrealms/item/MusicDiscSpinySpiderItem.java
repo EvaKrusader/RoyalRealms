@@ -10,6 +10,6 @@ import net.minecraft.resources.ResourceLocation;
 
 public class MusicDiscSpinySpiderItem extends RecordItem {
 	public MusicDiscSpinySpiderItem() {
-		super(0, () -> ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("royalrealms:enderlink_msg1")), new Item.Properties().stacksTo(1).rarity(Rarity.COMMON), 100);
+		super(8, () -> ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("royalrealms:record_spiny_spider")), new Item.Properties().stacksTo(1).rarity(Rarity.COMMON), 1380);
 	}
 }

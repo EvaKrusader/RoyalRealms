@@ -55,6 +55,7 @@ import net.mcreator.royalrealms.item.MusicDiscBornItem;
 import net.mcreator.royalrealms.item.MusicDiscBlackKnifeItem;
 import net.mcreator.royalrealms.item.MusicDisc7l011Item;
 import net.mcreator.royalrealms.item.LustTrimItemItem;
+import net.mcreator.royalrealms.item.LoreItemItem;
 import net.mcreator.royalrealms.item.LobotomizerItem;
 import net.mcreator.royalrealms.item.HoleSwitchItem;
 import net.mcreator.royalrealms.item.FluoriteNecklaceItem;
@@ -160,6 +161,7 @@ public class RoyalrealmsModItems {
 	public static final RegistryObject<Item> MUSIC_DISC_SCARAB = REGISTRY.register("music_disc_scarab", () -> new MusicDiscScarabItem());
 	public static final RegistryObject<Item> MUSIC_DISC_SPINY_SPIDER = REGISTRY.register("music_disc_spiny_spider", () -> new MusicDiscSpinySpiderItem());
 	public static final RegistryObject<Item> MUSIC_DISC_TORTOISE_BEETLE = REGISTRY.register("music_disc_tortoise_beetle", () -> new MusicDiscTortoiseBeetleItem());
+	public static final RegistryObject<Item> LORE_ITEM = REGISTRY.register("lore_item", () -> new LoreItemItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

@@ -246,5 +246,77 @@
         "stream": true
       }
     ]
+  },
+  "record_bumblebee": {
+    "sounds": [
+      {
+        "name": "royalrealms:record_bumblebee",
+        "stream": true
+      }
+    ]
+  },
+  "record_moth": {
+    "sounds": [
+      {
+        "name": "royalrealms:record_moth",
+        "stream": true
+      }
+    ]
+  },
+  "record_isopod": {
+    "sounds": [
+      {
+        "name": "royalrealms:record_isopod",
+        "stream": true
+      }
+    ]
+  },
+  "record_scarab": {
+    "sounds": [
+      {
+        "name": "royalrealms:record_scarab",
+        "stream": true
+      }
+    ]
+  },
+  "record_spiny_spider": {
+    "sounds": [
+      {
+        "name": "royalrealms:record_spiny_spider",
+        "stream": true
+      }
+    ]
+  },
+  "record_weevil": {
+    "sounds": [
+      {
+        "name": "royalrealms:record_weevil",
+        "stream": true
+      }
+    ]
+  },
+  "record_butterfly": {
+    "sounds": [
+      {
+        "name": "royalrealms:record_butterfly",
+        "stream": true
+      }
+    ]
+  },
+  "record_treehopper": {
+    "sounds": [
+      {
+        "name": "royalrealms:record_treehopper",
+        "stream": true
+      }
+    ]
+  },
+  "record_tortoise_beetle": {
+    "sounds": [
+      {
+        "name": "royalrealms:record_tortoise_beetle",
+        "stream": true
+      }
+    ]
   }
 }

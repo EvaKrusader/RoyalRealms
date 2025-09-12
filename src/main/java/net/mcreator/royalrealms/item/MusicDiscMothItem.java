@@ -10,6 +10,6 @@ import net.minecraft.resources.ResourceLocation;
 
 public class MusicDiscMothItem extends RecordItem {
 	public MusicDiscMothItem() {
-		super(0, () -> ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("royalrealms:enderlink_msg1")), new Item.Properties().stacksTo(1).rarity(Rarity.COMMON), 100);
+		super(4, () -> ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("royalrealms:record_moth")), new Item.Properties().stacksTo(1).rarity(Rarity.COMMON), 1480);
 	}
 }

@@ -260,9 +260,9 @@ public class RoyalrealmsModVariables {
 		public String nextVersion = "\"\"";
 		public boolean playerHasEnderlink = false;
 		public double playerSkullCurse = 0;
-		public double ver1 = 1.0;
+		public double ver1 = 0.0;
 		public double ver2 = 0.0;
-		public double ver3 = 0.0;
+		public double ver3 = 1.0;
 		public double playerSwoon = 0;
 		public double barkNum = 0;
 

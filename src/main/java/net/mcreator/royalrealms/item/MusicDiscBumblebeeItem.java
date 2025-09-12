@@ -10,6 +10,6 @@ import net.minecraft.resources.ResourceLocation;
 
 public class MusicDiscBumblebeeItem extends RecordItem {
 	public MusicDiscBumblebeeItem() {
-		super(0, () -> ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("royalrealms:enderlink_msg1")), new Item.Properties().stacksTo(1).rarity(Rarity.COMMON), 100);
+		super(6, () -> ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("royalrealms:record_bumblebee")), new Item.Properties().stacksTo(1).rarity(Rarity.COMMON), 1940);
 	}
 }

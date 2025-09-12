@@ -10,6 +10,6 @@ import net.minecraft.resources.ResourceLocation;
 
 public class MusicDiscTortoiseBeetleItem extends RecordItem {
 	public MusicDiscTortoiseBeetleItem() {
-		super(0, () -> ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("royalrealms:enderlink_msg1")), new Item.Properties().stacksTo(1).rarity(Rarity.COMMON), 100);
+		super(9, () -> ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("royalrealms:record_tortoise_beetle")), new Item.Properties().stacksTo(1).rarity(Rarity.COMMON), 660);
 	}
 }

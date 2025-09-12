@@ -2,7 +2,7 @@
   "_fv": 66,
   "_type": "musicdisc",
   "definition": {
-    "name": "Music Disc",
+    "name": "§2Music Disc",
     "rarity": "COMMON",
     "texture": "music_disc_isopod",
     "description": "camiidae - isopod",
@@ -21,9 +21,9 @@
       "fixedValue": false
     },
     "music": {
-      "value": "CUSTOM:enderlink_msg1"
+      "value": "CUSTOM:record_isopod"
     },
-    "lengthInTicks": 100,
-    "analogOutput": 0
+    "lengthInTicks": 1900,
+    "analogOutput": 5
   }
 }

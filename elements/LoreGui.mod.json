@@ -1,0 +1,108 @@
+{
+  "_fv": 66,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "Add lore",
+          "name": "Lore",
+          "width": 120,
+          "height": 20,
+          "x": 130,
+          "y": 41
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_engrave",
+          "text": "Engrave",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "LoreGuiEngrave"
+          },
+          "width": 61,
+          "height": 20,
+          "x": 237,
+          "y": 179
+        }
+      },
+      {
+        "type": "checkbox",
+        "data": {
+          "name": "SignUsername",
+          "text": "Sign with username?",
+          "x": 85,
+          "y": 117
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "Sign with custom name?",
+          "name": "CustomName",
+          "width": 120,
+          "height": 20,
+          "x": 310,
+          "y": 126
+        }
+      },
+      {
+        "type": "checkbox",
+        "data": {
+          "name": "TimeDataReal",
+          "text": "Add time (real) ?",
+          "x": 85,
+          "y": 153
+        }
+      },
+      {
+        "type": "checkbox",
+        "data": {
+          "name": "TimeDataMC",
+          "text": "Add time (game) ?",
+          "x": 103,
+          "y": 198
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "Add lore",
+          "name": "Lore2",
+          "width": 120,
+          "height": 20,
+          "x": 130,
+          "y": 63
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "Add lore",
+          "name": "Lore3",
+          "width": 120,
+          "height": 20,
+          "x": 130,
+          "y": 86
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 24,
+      "oy": 26,
+      "snapOnGrid": true
+    }
+  }
+}

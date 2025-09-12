@@ -94,6 +94,7 @@ public class RoyalrealmsModTabs {
 			tabData.accept(RoyalrealmsModItems.FLUORITE.get());
 			tabData.accept(RoyalrealmsModItems.BIRYLLIUM.get());
 			tabData.accept(RoyalrealmsModItems.BIRYLLIUM_REFINED.get());
+			tabData.accept(RoyalrealmsModItems.LORE_ITEM.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
 			tabData.accept(RoyalrealmsModBlocks.TELOSTEEL_ORE.get().asItem());
 			tabData.accept(RoyalrealmsModBlocks.STARLITE_ORE.get().asItem());
@@ -129,6 +130,7 @@ public class RoyalrealmsModTabs {
 			tabData.accept(RoyalrealmsModItems.MUSIC_DISC_SCARAB.get());
 			tabData.accept(RoyalrealmsModItems.MUSIC_DISC_SPINY_SPIDER.get());
 			tabData.accept(RoyalrealmsModItems.MUSIC_DISC_TORTOISE_BEETLE.get());
+			tabData.accept(RoyalrealmsModItems.LORE_ITEM.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
 			tabData.accept(RoyalrealmsModItems.PHASING_CAN.get());
 		}

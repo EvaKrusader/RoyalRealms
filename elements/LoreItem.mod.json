@@ -1,0 +1,65 @@
+{
+  "_fv": 66,
+  "_type": "item",
+  "definition": {
+    "renderType": 0,
+    "texture": "fluorite_necklace",
+    "customModelName": "Normal",
+    "customProperties": {},
+    "states": [],
+    "name": "Lore Item",
+    "rarity": "COMMON",
+    "creativeTabs": [
+      {
+        "value": "MATERIALS"
+      },
+      {
+        "value": "TOOLS"
+      }
+    ],
+    "stackSize": 1,
+    "enchantability": 0,
+    "useDuration": 40,
+    "toolType": 1.0,
+    "damageCount": 0,
+    "recipeRemainder": {
+      "value": ""
+    },
+    "destroyAnyBlock": false,
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "guiBoundTo": "<NONE>",
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "onEntitySwing": {
+      "name": "LoreItemRightclicked"
+    },
+    "onFinishUsingItem": {
+      "name": "LoreItemPlayerFinishesUsingItem"
+    },
+    "enableRanged": false,
+    "shootConstantly": false,
+    "rangedItemChargesPower": false,
+    "projectile": {
+      "value": "CUSTOM:AngelProjectile"
+    },
+    "isFood": true,
+    "nutritionalValue": 0,
+    "saturation": 0.0,
+    "eatResultItem": {
+      "value": ""
+    },
+    "isMeat": false,
+    "isAlwaysEdible": true,
+    "animation": "spear"
+  }
+}

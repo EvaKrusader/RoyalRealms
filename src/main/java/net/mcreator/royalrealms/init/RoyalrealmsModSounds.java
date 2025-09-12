@@ -37,4 +37,13 @@ public class RoyalrealmsModSounds {
 	public static final RegistryObject<SoundEvent> SWOON = REGISTRY.register("swoon", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("royalrealms", "swoon")));
 	public static final RegistryObject<SoundEvent> RECORD_HEALING = REGISTRY.register("record_healing", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("royalrealms", "record_healing")));
 	public static final RegistryObject<SoundEvent> RECORD_BORN = REGISTRY.register("record_born", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("royalrealms", "record_born")));
+	public static final RegistryObject<SoundEvent> RECORD_BUMBLEBEE = REGISTRY.register("record_bumblebee", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("royalrealms", "record_bumblebee")));
+	public static final RegistryObject<SoundEvent> RECORD_MOTH = REGISTRY.register("record_moth", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("royalrealms", "record_moth")));
+	public static final RegistryObject<SoundEvent> RECORD_ISOPOD = REGISTRY.register("record_isopod", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("royalrealms", "record_isopod")));
+	public static final RegistryObject<SoundEvent> RECORD_SCARAB = REGISTRY.register("record_scarab", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("royalrealms", "record_scarab")));
+	public static final RegistryObject<SoundEvent> RECORD_SPINY_SPIDER = REGISTRY.register("record_spiny_spider", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("royalrealms", "record_spiny_spider")));
+	public static final RegistryObject<SoundEvent> RECORD_WEEVIL = REGISTRY.register("record_weevil", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("royalrealms", "record_weevil")));
+	public static final RegistryObject<SoundEvent> RECORD_BUTTERFLY = REGISTRY.register("record_butterfly", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("royalrealms", "record_butterfly")));
+	public static final RegistryObject<SoundEvent> RECORD_TREEHOPPER = REGISTRY.register("record_treehopper", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("royalrealms", "record_treehopper")));
+	public static final RegistryObject<SoundEvent> RECORD_TORTOISE_BEETLE = REGISTRY.register("record_tortoise_beetle", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("royalrealms", "record_tortoise_beetle")));
 }

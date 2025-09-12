@@ -21,6 +21,7 @@ import net.mcreator.royalrealms.init.RoyalrealmsModTabs;
 import net.mcreator.royalrealms.init.RoyalrealmsModSounds;
 import net.mcreator.royalrealms.init.RoyalrealmsModPaintings;
 import net.mcreator.royalrealms.init.RoyalrealmsModMobEffects;
+import net.mcreator.royalrealms.init.RoyalrealmsModMenus;
 import net.mcreator.royalrealms.init.RoyalrealmsModItems;
 import net.mcreator.royalrealms.init.RoyalrealmsModFluids;
 import net.mcreator.royalrealms.init.RoyalrealmsModFluidTypes;
@@ -59,6 +60,7 @@ public class RoyalrealmsMod {
 
 		RoyalrealmsModPaintings.REGISTRY.register(bus);
 
+		RoyalrealmsModMenus.REGISTRY.register(bus);
 		RoyalrealmsModFluids.REGISTRY.register(bus);
 		RoyalrealmsModFluidTypes.REGISTRY.register(bus);
 		// Start of user code block mod init

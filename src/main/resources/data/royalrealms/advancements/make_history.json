@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "royalrealms:lore_item"
+    },
+    "title": {
+      "translate": "advancements.make_history.title"
+    },
+    "description": {
+      "translate": "advancements.make_history.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "make_history_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "royalrealms:royal_realms"
+}
