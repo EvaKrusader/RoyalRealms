@@ -7,9 +7,14 @@ package net.mcreator.royalrealms.init;
 import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.DeferredRegister;
+import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.client.event.RegisterColorHandlersEvent;
+import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.level.block.Block;
 
+import net.mcreator.royalrealms.block.VantawhiteBlock;
 import net.mcreator.royalrealms.block.VantablackBlock;
 import net.mcreator.royalrealms.block.TungstenOreBlock;
 import net.mcreator.royalrealms.block.TungstenBlockBlock;
@@ -20,9 +25,20 @@ import net.mcreator.royalrealms.block.StarliteBlockBlock;
 import net.mcreator.royalrealms.block.SpectralBlockBlock;
 import net.mcreator.royalrealms.block.RawTungstenBlockBlock;
 import net.mcreator.royalrealms.block.RainbowBlock;
+import net.mcreator.royalrealms.block.OlympianStoneBlock;
+import net.mcreator.royalrealms.block.OlympianGrassBlock;
 import net.mcreator.royalrealms.block.ObsidianGlassBlock;
 import net.mcreator.royalrealms.block.NeoniumOreBlock;
 import net.mcreator.royalrealms.block.NeoniumBlockBlock;
+import net.mcreator.royalrealms.block.GridstoneTilesStairsBlock;
+import net.mcreator.royalrealms.block.GridstoneTilesSlabBlock;
+import net.mcreator.royalrealms.block.GridstoneTilesBlock;
+import net.mcreator.royalrealms.block.GridstoneStairsBlock;
+import net.mcreator.royalrealms.block.GridstoneSlabBlock;
+import net.mcreator.royalrealms.block.GridstoneBlockBlock;
+import net.mcreator.royalrealms.block.GridstoneBlock;
+import net.mcreator.royalrealms.block.GridlightTilesBlock;
+import net.mcreator.royalrealms.block.GridlightBlockBlock;
 import net.mcreator.royalrealms.block.FluoriteOreBlock;
 import net.mcreator.royalrealms.block.FluoriteBlockBlock;
 import net.mcreator.royalrealms.block.FixHoleBlock;
@@ -56,6 +72,31 @@ public class RoyalrealmsModBlocks {
 	public static final RegistryObject<Block> BIRYLLIUM_ORE = REGISTRY.register("biryllium_ore", () -> new BirylliumOreBlock());
 	public static final RegistryObject<Block> BIRYLLIUM_BLOCK = REGISTRY.register("biryllium_block", () -> new BirylliumBlockBlock());
 	public static final RegistryObject<Block> BIRYLLIUM_BLOCK_REFINED = REGISTRY.register("biryllium_block_refined", () -> new ByrilliumBlockRefinedBlock());
+	public static final RegistryObject<Block> OLYMPIAN_GRASS = REGISTRY.register("olympian_grass", () -> new OlympianGrassBlock());
+	public static final RegistryObject<Block> OLYMPIAN_STONE = REGISTRY.register("olympian_stone", () -> new OlympianStoneBlock());
+	public static final RegistryObject<Block> VANTAWHITE = REGISTRY.register("vantawhite", () -> new VantawhiteBlock());
+	public static final RegistryObject<Block> GRIDSTONE = REGISTRY.register("gridstone", () -> new GridstoneBlock());
+	public static final RegistryObject<Block> GRIDSTONE_TILES = REGISTRY.register("gridstone_tiles", () -> new GridstoneTilesBlock());
+	public static final RegistryObject<Block> GRIDSTONE_BLOCK = REGISTRY.register("gridstone_block", () -> new GridstoneBlockBlock());
+	public static final RegistryObject<Block> GRIDLIGHT_TILES = REGISTRY.register("gridlight_tiles", () -> new GridlightTilesBlock());
+	public static final RegistryObject<Block> GRIDLIGHT_BLOCK = REGISTRY.register("gridlight_block", () -> new GridlightBlockBlock());
+	public static final RegistryObject<Block> GRIDSTONE_SLAB = REGISTRY.register("gridstone_slab", () -> new GridstoneSlabBlock());
+	public static final RegistryObject<Block> GRIDSTONE_STAIRS = REGISTRY.register("gridstone_stairs", () -> new GridstoneStairsBlock());
+	public static final RegistryObject<Block> GRIDSTONE_TILES_SLAB = REGISTRY.register("gridstone_tiles_slab", () -> new GridstoneTilesSlabBlock());
+	public static final RegistryObject<Block> GRIDSTONE_TILES_STAIRS = REGISTRY.register("gridstone_tiles_stairs", () -> new GridstoneTilesStairsBlock());
+
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
+	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
+	public static class BlocksClientSideHandler {
+		@SubscribeEvent
+		public static void blockColorLoad(RegisterColorHandlersEvent.Block event) {
+			OlympianGrassBlock.blockColorLoad(event);
+		}
+
+		@SubscribeEvent
+		public static void itemColorLoad(RegisterColorHandlersEvent.Item event) {
+			OlympianGrassBlock.itemColorLoad(event);
+		}
+	}
 }

@@ -60,6 +60,16 @@ public class RoyalrealmsModTabs {
 			tabData.accept(RoyalrealmsModBlocks.BIRYLLIUM_ORE.get().asItem());
 			tabData.accept(RoyalrealmsModBlocks.BIRYLLIUM_BLOCK.get().asItem());
 			tabData.accept(RoyalrealmsModBlocks.BIRYLLIUM_BLOCK_REFINED.get().asItem());
+			tabData.accept(RoyalrealmsModBlocks.VANTAWHITE.get().asItem());
+			tabData.accept(RoyalrealmsModBlocks.GRIDSTONE.get().asItem());
+			tabData.accept(RoyalrealmsModBlocks.GRIDSTONE_TILES.get().asItem());
+			tabData.accept(RoyalrealmsModBlocks.GRIDSTONE_BLOCK.get().asItem());
+			tabData.accept(RoyalrealmsModBlocks.GRIDLIGHT_TILES.get().asItem());
+			tabData.accept(RoyalrealmsModBlocks.GRIDLIGHT_BLOCK.get().asItem());
+			tabData.accept(RoyalrealmsModBlocks.GRIDSTONE_SLAB.get().asItem());
+			tabData.accept(RoyalrealmsModBlocks.GRIDSTONE_STAIRS.get().asItem());
+			tabData.accept(RoyalrealmsModBlocks.GRIDSTONE_TILES_SLAB.get().asItem());
+			tabData.accept(RoyalrealmsModBlocks.GRIDSTONE_TILES_STAIRS.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.REDSTONE_BLOCKS) {
 			tabData.accept(RoyalrealmsModItems.HOLE_SWITCH.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
@@ -102,6 +112,8 @@ public class RoyalrealmsModTabs {
 			tabData.accept(RoyalrealmsModBlocks.BRIGHTCORE_ORE.get().asItem());
 			tabData.accept(RoyalrealmsModBlocks.TUNGSTEN_ORE.get().asItem());
 			tabData.accept(RoyalrealmsModBlocks.FLUORITE_ORE.get().asItem());
+			tabData.accept(RoyalrealmsModBlocks.OLYMPIAN_GRASS.get().asItem());
+			tabData.accept(RoyalrealmsModBlocks.OLYMPIAN_STONE.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 			tabData.accept(RoyalrealmsModItems.TELOSTEEL_PICKAXE.get());
 			tabData.accept(RoyalrealmsModItems.TELOSTEEL_AXE.get());

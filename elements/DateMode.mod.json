@@ -1,0 +1,35 @@
+{
+  "_fv": 66,
+  "_type": "config",
+  "definition": {
+    "pools": [
+      {
+        "category": "DateType",
+        "entries": [
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 5,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 0.0,
+            "textDefault": "",
+            "comment": "",
+            "vardisplay": "DateFormat",
+            "varname": "DateFormat",
+            "enablecomment": false,
+            "stringlist": [
+              "dd/mm/YYYY",
+              "mm/dd/YYYY"
+            ]
+          }
+        ]
+      }
+    ],
+    "file": "royalrealms_config",
+    "configType": 0
+  }
+}

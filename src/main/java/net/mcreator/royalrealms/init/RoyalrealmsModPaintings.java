@@ -42,4 +42,5 @@ public class RoyalrealmsModPaintings {
 	public static final RegistryObject<PaintingVariant> HOUSE = REGISTRY.register("house", () -> new PaintingVariant(64, 32));
 	public static final RegistryObject<PaintingVariant> WHORE = REGISTRY.register("whore", () -> new PaintingVariant(32, 48));
 	public static final RegistryObject<PaintingVariant> JINX_FRIEND = REGISTRY.register("jinx_friend", () -> new PaintingVariant(16, 32));
+	public static final RegistryObject<PaintingVariant> DEER = REGISTRY.register("deer", () -> new PaintingVariant(16, 32));
 }

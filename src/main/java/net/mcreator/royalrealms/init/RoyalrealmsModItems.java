@@ -162,6 +162,18 @@ public class RoyalrealmsModItems {
 	public static final RegistryObject<Item> MUSIC_DISC_SPINY_SPIDER = REGISTRY.register("music_disc_spiny_spider", () -> new MusicDiscSpinySpiderItem());
 	public static final RegistryObject<Item> MUSIC_DISC_TORTOISE_BEETLE = REGISTRY.register("music_disc_tortoise_beetle", () -> new MusicDiscTortoiseBeetleItem());
 	public static final RegistryObject<Item> LORE_ITEM = REGISTRY.register("lore_item", () -> new LoreItemItem());
+	public static final RegistryObject<Item> OLYMPIAN_GRASS = block(RoyalrealmsModBlocks.OLYMPIAN_GRASS);
+	public static final RegistryObject<Item> OLYMPIAN_STONE = block(RoyalrealmsModBlocks.OLYMPIAN_STONE);
+	public static final RegistryObject<Item> VANTAWHITE = block(RoyalrealmsModBlocks.VANTAWHITE);
+	public static final RegistryObject<Item> GRIDSTONE = block(RoyalrealmsModBlocks.GRIDSTONE);
+	public static final RegistryObject<Item> GRIDSTONE_TILES = block(RoyalrealmsModBlocks.GRIDSTONE_TILES);
+	public static final RegistryObject<Item> GRIDSTONE_BLOCK = block(RoyalrealmsModBlocks.GRIDSTONE_BLOCK);
+	public static final RegistryObject<Item> GRIDLIGHT_TILES = block(RoyalrealmsModBlocks.GRIDLIGHT_TILES);
+	public static final RegistryObject<Item> GRIDLIGHT_BLOCK = block(RoyalrealmsModBlocks.GRIDLIGHT_BLOCK);
+	public static final RegistryObject<Item> GRIDSTONE_SLAB = block(RoyalrealmsModBlocks.GRIDSTONE_SLAB);
+	public static final RegistryObject<Item> GRIDSTONE_STAIRS = block(RoyalrealmsModBlocks.GRIDSTONE_STAIRS);
+	public static final RegistryObject<Item> GRIDSTONE_TILES_SLAB = block(RoyalrealmsModBlocks.GRIDSTONE_TILES_SLAB);
+	public static final RegistryObject<Item> GRIDSTONE_TILES_STAIRS = block(RoyalrealmsModBlocks.GRIDSTONE_TILES_STAIRS);
 
 	// Start of user code block custom items
 	// End of user code block custom items

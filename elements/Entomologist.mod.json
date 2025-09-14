@@ -2,7 +2,7 @@
   "_fv": 66,
   "_type": "achievement",
   "definition": {
-    "achievementName": "Entomology",
+    "achievementName": "Entomologist",
     "achievementDescription": "Get all the music discs from the \"music for bugs\" series",
     "achievementIcon": {
       "value": "CUSTOM:Enderlink"

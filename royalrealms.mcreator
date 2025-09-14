@@ -12,7 +12,7 @@
           "src/main/java/net/mcreator/royalrealms/item/TelosteelIngotItem.java"
         ]
       },
-      "path": "~/Telosteel"
+      "path": "~/Ores/Telosteel"
     },
     {
       "name": "TelosteelOre",
@@ -32,7 +32,7 @@
           "src/main/resources/data/royalrealms/worldgen/placed_feature/telosteel_ore.json"
         ]
       },
-      "path": "~/Telosteel"
+      "path": "~/Ores/Telosteel"
     },
     {
       "name": "TelosteelBlock",
@@ -49,7 +49,7 @@
           "src/main/java/net/mcreator/royalrealms/block/TelosteelBlockBlock.java"
         ]
       },
-      "path": "~/Telosteel"
+      "path": "~/Ores/Telosteel"
     },
     {
       "name": "TelosteelOreBlockRecipe",
@@ -62,7 +62,7 @@
           "src/main/resources/data/royalrealms/recipes/telosteel_ore_block_recipe.json"
         ]
       },
-      "path": "~/Telosteel"
+      "path": "~/Ores/Telosteel"
     },
     {
       "name": "TelosteelBlockOreRecipe",
@@ -75,7 +75,7 @@
           "src/main/resources/data/royalrealms/recipes/telosteel_block_ore_recipe.json"
         ]
       },
-      "path": "~/Telosteel"
+      "path": "~/Ores/Telosteel"
     },
     {
       "name": "TelosteelOreSmelting",
@@ -88,7 +88,7 @@
           "src/main/resources/data/royalrealms/recipes/telosteel_ore_smelting.json"
         ]
       },
-      "path": "~/Telosteel"
+      "path": "~/Ores/Telosteel"
     },
     {
       "name": "TelosteelPickaxe",
@@ -102,7 +102,7 @@
           "src/main/resources/assets/royalrealms/models/item/telosteel_pickaxe.json"
         ]
       },
-      "path": "~/Telosteel"
+      "path": "~/Ores/Telosteel"
     },
     {
       "name": "TelosteelAxe",
@@ -116,7 +116,7 @@
           "src/main/resources/assets/royalrealms/models/item/telosteel_axe.json"
         ]
       },
-      "path": "~/Telosteel"
+      "path": "~/Ores/Telosteel"
     },
     {
       "name": "TelosteelSword",
@@ -130,7 +130,7 @@
           "src/main/java/net/mcreator/royalrealms/item/TelosteelSwordItem.java"
         ]
       },
-      "path": "~/Telosteel"
+      "path": "~/Ores/Telosteel"
     },
     {
       "name": "TelosteelShovel",
@@ -144,7 +144,7 @@
           "src/main/java/net/mcreator/royalrealms/item/TelosteelShovelItem.java"
         ]
       },
-      "path": "~/Telosteel"
+      "path": "~/Ores/Telosteel"
     },
     {
       "name": "TelosteelHoe",
@@ -158,7 +158,7 @@
           "src/main/java/net/mcreator/royalrealms/item/TelosteelHoeItem.java"
         ]
       },
-      "path": "~/Telosteel"
+      "path": "~/Ores/Telosteel"
     },
     {
       "name": "TelosteelPickaxeRecipe",
@@ -171,7 +171,7 @@
           "src/main/resources/data/royalrealms/recipes/telosteel_pickaxe_recipe.json"
         ]
       },
-      "path": "~/Telosteel"
+      "path": "~/Ores/Telosteel"
     },
     {
       "name": "TelosteelAxeRecipe",
@@ -184,7 +184,7 @@
           "src/main/resources/data/royalrealms/recipes/telosteel_axe_recipe.json"
         ]
       },
-      "path": "~/Telosteel"
+      "path": "~/Ores/Telosteel"
     },
     {
       "name": "TelosteelSwordRecipe",
@@ -197,7 +197,7 @@
           "src/main/resources/data/royalrealms/recipes/telosteel_sword_recipe.json"
         ]
       },
-      "path": "~/Telosteel"
+      "path": "~/Ores/Telosteel"
     },
     {
       "name": "TelosteelShovelRecipe",
@@ -210,7 +210,7 @@
           "src/main/resources/data/royalrealms/recipes/telosteel_shovel_recipe.json"
         ]
       },
-      "path": "~/Telosteel"
+      "path": "~/Ores/Telosteel"
     },
     {
       "name": "TelosteelHoeRecipe",
@@ -223,7 +223,7 @@
           "src/main/resources/data/royalrealms/recipes/telosteel_hoe_recipe.json"
         ]
       },
-      "path": "~/Telosteel"
+      "path": "~/Ores/Telosteel"
     },
     {
       "name": "TelosteelArmor",
@@ -240,7 +240,7 @@
           "src/main/resources/assets/royalrealms/models/item/telosteel_armor_boots.json"
         ]
       },
-      "path": "~/Telosteel"
+      "path": "~/Ores/Telosteel"
     },
     {
       "name": "TelosteelArmorHelmetRecipe",
@@ -253,7 +253,7 @@
           "src/main/resources/data/royalrealms/recipes/telosteel_armor_helmet_recipe.json"
         ]
       },
-      "path": "~/Telosteel"
+      "path": "~/Ores/Telosteel"
     },
     {
       "name": "TelosteelArmorChestplateRecipe",
@@ -266,7 +266,7 @@
           "src/main/resources/data/royalrealms/recipes/telosteel_armor_chestplate_recipe.json"
         ]
       },
-      "path": "~/Telosteel"
+      "path": "~/Ores/Telosteel"
     },
     {
       "name": "TelosteelArmorLeggingsRecipe",
@@ -279,7 +279,7 @@
           "src/main/resources/data/royalrealms/recipes/telosteel_armor_leggings_recipe.json"
         ]
       },
-      "path": "~/Telosteel"
+      "path": "~/Ores/Telosteel"
     },
     {
       "name": "TelosteelArmorBootsRecipe",
@@ -292,7 +292,7 @@
           "src/main/resources/data/royalrealms/recipes/telosteel_armor_boots_recipe.json"
         ]
       },
-      "path": "~/Telosteel"
+      "path": "~/Ores/Telosteel"
     },
     {
       "name": "WheatBlockRecipe",
@@ -345,7 +345,7 @@
           "src/main/resources/assets/royalrealms/models/item/enderlink.json"
         ]
       },
-      "path": "~/Enderlink"
+      "path": "~/Items/Enderlink"
     },
     {
       "name": "EnderlinkDamage",
@@ -358,7 +358,7 @@
           "src/main/resources/data/royalrealms/damage_type/enderlink_damage.json"
         ]
       },
-      "path": "~/Enderlink"
+      "path": "~/Items/Enderlink"
     },
     {
       "name": "EnderlinkPlayerFinishesUsingItem",
@@ -393,7 +393,7 @@
           }
         ]
       },
-      "path": "~/Enderlink"
+      "path": "~/Items/Enderlink"
     },
     {
       "name": "NeuralAugment",
@@ -406,7 +406,7 @@
           "src/main/resources/data/royalrealms/advancements/neural_augment.json"
         ]
       },
-      "path": "~/Enderlink"
+      "path": "~/Items/Enderlink"
     },
     {
       "name": "Magnet",
@@ -576,7 +576,7 @@
           "src/main/java/net/mcreator/royalrealms/item/StarliteDustItem.java"
         ]
       },
-      "path": "~/Starlite"
+      "path": "~/Ores/Starlite"
     },
     {
       "name": "StarliteOre",
@@ -596,7 +596,7 @@
           "src/main/resources/data/royalrealms/forge/biome_modifier/starlite_ore_biome_modifier.json"
         ]
       },
-      "path": "~/Starlite"
+      "path": "~/Ores/Starlite"
     },
     {
       "name": "StarliteBlock",
@@ -613,7 +613,7 @@
           "src/main/java/net/mcreator/royalrealms/block/StarliteBlockBlock.java"
         ]
       },
-      "path": "~/Starlite"
+      "path": "~/Ores/Starlite"
     },
     {
       "name": "StarliteOreBlockRecipe",
@@ -626,7 +626,7 @@
           "src/main/resources/data/royalrealms/recipes/starlite_ore_block_recipe.json"
         ]
       },
-      "path": "~/Starlite"
+      "path": "~/Ores/Starlite"
     },
     {
       "name": "StarliteBlockOreRecipe",
@@ -639,7 +639,7 @@
           "src/main/resources/data/royalrealms/recipes/starlite_block_ore_recipe.json"
         ]
       },
-      "path": "~/Starlite"
+      "path": "~/Ores/Starlite"
     },
     {
       "name": "StarliteOreSmelting",
@@ -652,7 +652,7 @@
           "src/main/resources/data/royalrealms/recipes/starlite_ore_smelting.json"
         ]
       },
-      "path": "~/Starlite"
+      "path": "~/Ores/Starlite"
     },
     {
       "name": "Neonium",
@@ -666,7 +666,7 @@
           "src/main/java/net/mcreator/royalrealms/item/NeoniumItem.java"
         ]
       },
-      "path": "~/Neonium"
+      "path": "~/Ores/Neonium"
     },
     {
       "name": "NeoniumOre",
@@ -686,7 +686,7 @@
           "src/main/resources/assets/royalrealms/models/item/neonium_ore.json"
         ]
       },
-      "path": "~/Neonium"
+      "path": "~/Ores/Neonium"
     },
     {
       "name": "NeoniumBlock",
@@ -703,7 +703,7 @@
           "src/main/resources/assets/royalrealms/blockstates/neonium_block.json"
         ]
       },
-      "path": "~/Neonium"
+      "path": "~/Ores/Neonium"
     },
     {
       "name": "NeoniumOreBlockRecipe",
@@ -716,7 +716,7 @@
           "src/main/resources/data/royalrealms/recipes/neonium_ore_block_recipe.json"
         ]
       },
-      "path": "~/Neonium"
+      "path": "~/Ores/Neonium"
     },
     {
       "name": "NeoniumBlockOreRecipe",
@@ -729,7 +729,7 @@
           "src/main/resources/data/royalrealms/recipes/neonium_block_ore_recipe.json"
         ]
       },
-      "path": "~/Neonium"
+      "path": "~/Ores/Neonium"
     },
     {
       "name": "NeoniumOreSmelting",
@@ -742,7 +742,7 @@
           "src/main/resources/data/royalrealms/recipes/neonium_ore_smelting.json"
         ]
       },
-      "path": "~/Neonium"
+      "path": "~/Ores/Neonium"
     },
     {
       "name": "EnderlinkTalkProcedure",
@@ -765,7 +765,7 @@
           }
         ]
       },
-      "path": "~/Enderlink"
+      "path": "~/Items/Enderlink"
     },
     {
       "name": "EnderlinkCountdown",
@@ -788,7 +788,7 @@
           }
         ]
       },
-      "path": "~/Enderlink"
+      "path": "~/Items/Enderlink"
     },
     {
       "name": "EnderlinkTalkList",
@@ -807,7 +807,7 @@
           }
         ]
       },
-      "path": "~/Enderlink"
+      "path": "~/Items/Enderlink"
     },
     {
       "name": "EnderlinkPlaysound",
@@ -821,7 +821,7 @@
         ],
         "dependencies": []
       },
-      "path": "~/Enderlink"
+      "path": "~/Items/Enderlink"
     },
     {
       "name": "EnderlinkStartupSound",
@@ -835,7 +835,7 @@
         ],
         "dependencies": []
       },
-      "path": "~/Enderlink"
+      "path": "~/Items/Enderlink"
     },
     {
       "name": "Thunderstrike",
@@ -1258,7 +1258,7 @@
           "src/main/resources/assets/royalrealms/models/item/brightcore.json"
         ]
       },
-      "path": "~/Brightcore"
+      "path": "~/Ores/Brightcore"
     },
     {
       "name": "BrightcoreOre",
@@ -1278,7 +1278,7 @@
           "src/main/resources/data/royalrealms/worldgen/placed_feature/brightcore_ore.json"
         ]
       },
-      "path": "~/Brightcore"
+      "path": "~/Ores/Brightcore"
     },
     {
       "name": "BrightcoreBlock",
@@ -1295,7 +1295,7 @@
           "src/main/resources/assets/royalrealms/blockstates/brightcore_block.json"
         ]
       },
-      "path": "~/Brightcore"
+      "path": "~/Ores/Brightcore"
     },
     {
       "name": "BrightcoreOreBlockRecipe",
@@ -1308,7 +1308,7 @@
           "src/main/resources/data/royalrealms/recipes/brightcore_ore_block_recipe.json"
         ]
       },
-      "path": "~/Brightcore"
+      "path": "~/Ores/Brightcore"
     },
     {
       "name": "BrightcoreBlockOreRecipe",
@@ -1321,7 +1321,7 @@
           "src/main/resources/data/royalrealms/recipes/brightcore_block_ore_recipe.json"
         ]
       },
-      "path": "~/Brightcore"
+      "path": "~/Ores/Brightcore"
     },
     {
       "name": "BrightcoreOreSmelting",
@@ -1334,7 +1334,7 @@
           "src/main/resources/data/royalrealms/recipes/brightcore_ore_smelting.json"
         ]
       },
-      "path": "~/Brightcore"
+      "path": "~/Ores/Brightcore"
     },
     {
       "name": "LustarTrim",
@@ -1552,7 +1552,7 @@
           "src/main/resources/assets/royalrealms/models/item/tungsten.json"
         ]
       },
-      "path": "~/Tungsten"
+      "path": "~/Ores/Tungsten"
     },
     {
       "name": "TungstenOre",
@@ -1571,7 +1571,7 @@
           "src/main/resources/assets/royalrealms/models/item/tungsten_ore.json"
         ]
       },
-      "path": "~/Tungsten"
+      "path": "~/Ores/Tungsten"
     },
     {
       "name": "TungstenBlock",
@@ -1588,7 +1588,7 @@
           "src/main/resources/data/royalrealms/loot_tables/blocks/tungsten_block.json"
         ]
       },
-      "path": "~/Tungsten"
+      "path": "~/Ores/Tungsten"
     },
     {
       "name": "TungstenOreBlockRecipe",
@@ -1601,7 +1601,7 @@
           "src/main/resources/data/royalrealms/recipes/tungsten_ore_block_recipe.json"
         ]
       },
-      "path": "~/Tungsten"
+      "path": "~/Ores/Tungsten"
     },
     {
       "name": "TungstenBlockOreRecipe",
@@ -1614,7 +1614,7 @@
           "src/main/resources/data/royalrealms/recipes/tungsten_block_ore_recipe.json"
         ]
       },
-      "path": "~/Tungsten"
+      "path": "~/Ores/Tungsten"
     },
     {
       "name": "TungstenOreSmelting",
@@ -1627,7 +1627,7 @@
           "src/main/resources/data/royalrealms/recipes/tungsten_ore_smelting.json"
         ]
       },
-      "path": "~/Tungsten"
+      "path": "~/Ores/Tungsten"
     },
     {
       "name": "RawTungsten",
@@ -1641,7 +1641,7 @@
           "src/main/resources/assets/royalrealms/models/item/raw_tungsten.json"
         ]
       },
-      "path": "~/Tungsten"
+      "path": "~/Ores/Tungsten"
     },
     {
       "name": "TungstenOreDrop",
@@ -1654,7 +1654,7 @@
           "src/main/resources/data/royalrealms/loot_tables/blocks/tungsten_ore.json"
         ]
       },
-      "path": "~/Tungsten"
+      "path": "~/Ores/Tungsten"
     },
     {
       "name": "RawTungstenBlock",
@@ -1671,7 +1671,7 @@
           "src/main/resources/assets/royalrealms/blockstates/raw_tungsten_block.json"
         ]
       },
-      "path": "~/Tungsten"
+      "path": "~/Ores/Tungsten"
     },
     {
       "name": "RawTungstenOreBlockRecipe",
@@ -1684,7 +1684,7 @@
           "src/main/resources/data/royalrealms/recipes/raw_tungsten_ore_block_recipe.json"
         ]
       },
-      "path": "~/Tungsten"
+      "path": "~/Ores/Tungsten"
     },
     {
       "name": "RawTungstenBlockOreRecipe",
@@ -1697,7 +1697,7 @@
           "src/main/resources/data/royalrealms/recipes/raw_tungsten_block_ore_recipe.json"
         ]
       },
-      "path": "~/Tungsten"
+      "path": "~/Ores/Tungsten"
     },
     {
       "name": "RawTungstenOreBlockBlasting",
@@ -1710,7 +1710,7 @@
           "src/main/resources/data/royalrealms/recipes/raw_tungsten_ore_block_blasting.json"
         ]
       },
-      "path": "~/Tungsten"
+      "path": "~/Ores/Tungsten"
     },
     {
       "name": "NameTagCustomNameCraft",
@@ -2015,7 +2015,7 @@
           "src/main/java/net/mcreator/royalrealms/item/FluoriteItem.java"
         ]
       },
-      "path": "~/Fluorite"
+      "path": "~/Ores/Fluorite"
     },
     {
       "name": "FluoriteOre",
@@ -2035,7 +2035,7 @@
           "src/main/resources/data/royalrealms/loot_tables/blocks/fluorite_ore.json"
         ]
       },
-      "path": "~/Fluorite"
+      "path": "~/Ores/Fluorite"
     },
     {
       "name": "FluoriteBlock",
@@ -2052,7 +2052,7 @@
           "src/main/java/net/mcreator/royalrealms/block/FluoriteBlockBlock.java"
         ]
       },
-      "path": "~/Fluorite"
+      "path": "~/Ores/Fluorite"
     },
     {
       "name": "FluoriteOreBlockRecipe",
@@ -2065,7 +2065,7 @@
           "src/main/resources/data/royalrealms/recipes/fluorite_ore_block_recipe.json"
         ]
       },
-      "path": "~/Fluorite"
+      "path": "~/Ores/Fluorite"
     },
     {
       "name": "FluoriteBlockOreRecipe",
@@ -2078,7 +2078,7 @@
           "src/main/resources/data/royalrealms/recipes/fluorite_block_ore_recipe.json"
         ]
       },
-      "path": "~/Fluorite"
+      "path": "~/Ores/Fluorite"
     },
     {
       "name": "FluoriteOreSmelting",
@@ -2091,7 +2091,7 @@
           "src/main/resources/data/royalrealms/recipes/fluorite_ore_smelting.json"
         ]
       },
-      "path": "~/Fluorite"
+      "path": "~/Ores/Fluorite"
     },
     {
       "name": "FallBreakerCharm",
@@ -2365,7 +2365,7 @@
           }
         ]
       },
-      "path": "~/Enderlink"
+      "path": "~/Items/Enderlink"
     },
     {
       "name": "WaterArmor",
@@ -2382,7 +2382,7 @@
           "src/main/resources/assets/royalrealms/models/item/water_armor_boots.json"
         ]
       },
-      "path": "~/Water Armor"
+      "path": "~/Ores/Water Armor"
     },
     {
       "name": "WaterArmorHelmetRecipe",
@@ -2395,7 +2395,7 @@
           "src/main/resources/data/royalrealms/recipes/water_armor_helmet_recipe.json"
         ]
       },
-      "path": "~/Water Armor"
+      "path": "~/Ores/Water Armor"
     },
     {
       "name": "WaterArmorChestplateRecipe",
@@ -2408,7 +2408,7 @@
           "src/main/resources/data/royalrealms/recipes/water_armor_chestplate_recipe.json"
         ]
       },
-      "path": "~/Water Armor"
+      "path": "~/Ores/Water Armor"
     },
     {
       "name": "WaterArmorLeggingsRecipe",
@@ -2421,7 +2421,7 @@
           "src/main/resources/data/royalrealms/recipes/water_armor_leggings_recipe.json"
         ]
       },
-      "path": "~/Water Armor"
+      "path": "~/Ores/Water Armor"
     },
     {
       "name": "WaterArmorBootsRecipe",
@@ -2434,7 +2434,7 @@
           "src/main/resources/data/royalrealms/recipes/water_armor_boots_recipe.json"
         ]
       },
-      "path": "~/Water Armor"
+      "path": "~/Ores/Water Armor"
     },
     {
       "name": "WaterBootsFall",
@@ -2457,7 +2457,7 @@
           }
         ]
       },
-      "path": "~/Water Armor"
+      "path": "~/Ores/Water Armor"
     },
     {
       "name": "WaterPantsFire",
@@ -2480,7 +2480,7 @@
           }
         ]
       },
-      "path": "~/Water Armor"
+      "path": "~/Ores/Water Armor"
     },
     {
       "name": "WaterArmorExplosion",
@@ -2503,7 +2503,7 @@
           }
         ]
       },
-      "path": "~/Water Armor"
+      "path": "~/Ores/Water Armor"
     },
     {
       "name": "WishingStar",
@@ -2807,7 +2807,7 @@
           "src/main/resources/data/royalrealms/loot_tables/chests/enderlink_loot.json"
         ]
       },
-      "path": "~/Enderlink"
+      "path": "~/Items/Enderlink"
     },
     {
       "name": "EnderlinkLootModifier",
@@ -2820,7 +2820,7 @@
           "src/main/resources/data/royalrealms/loot_modifiers/enderlink_loot_modifier.json"
         ]
       },
-      "path": "~/Enderlink"
+      "path": "~/Items/Enderlink"
     },
     {
       "name": "HoleSwitchRightclicked",
@@ -3834,7 +3834,7 @@
           "src/main/resources/assets/royalrealms/models/item/biryllium.json"
         ]
       },
-      "path": "~/Biryllium"
+      "path": "~/Ores/Biryllium"
     },
     {
       "name": "BirylliumOre",
@@ -3854,7 +3854,7 @@
           "src/main/resources/data/royalrealms/loot_tables/blocks/biryllium_ore.json"
         ]
       },
-      "path": "~/Biryllium"
+      "path": "~/Ores/Biryllium"
     },
     {
       "name": "BirylliumBlock",
@@ -3871,7 +3871,7 @@
           "src/main/resources/assets/royalrealms/models/block/biryllium_block.json"
         ]
       },
-      "path": "~/Biryllium"
+      "path": "~/Ores/Biryllium"
     },
     {
       "name": "BirylliumOreBlockRecipe",
@@ -3884,7 +3884,7 @@
           "src/main/resources/data/royalrealms/recipes/biryllium_ore_block_recipe.json"
         ]
       },
-      "path": "~/Biryllium"
+      "path": "~/Ores/Biryllium"
     },
     {
       "name": "BirylliumBlockOreRecipe",
@@ -3897,7 +3897,7 @@
           "src/main/resources/data/royalrealms/recipes/biryllium_block_ore_recipe.json"
         ]
       },
-      "path": "~/Biryllium"
+      "path": "~/Ores/Biryllium"
     },
     {
       "name": "BirylliumOreSmelting",
@@ -3910,7 +3910,7 @@
           "src/main/resources/data/royalrealms/recipes/biryllium_ore_smelting.json"
         ]
       },
-      "path": "~/Biryllium"
+      "path": "~/Ores/Biryllium"
     },
     {
       "name": "BirylliumAxe",
@@ -3924,7 +3924,7 @@
           "src/main/resources/assets/royalrealms/models/item/biryllium_axe.json"
         ]
       },
-      "path": "~/Biryllium"
+      "path": "~/Ores/Biryllium"
     },
     {
       "name": "BirylliumAxeRecipe",
@@ -3937,7 +3937,7 @@
           "src/main/resources/data/royalrealms/recipes/biryllium_axe_recipe.json"
         ]
       },
-      "path": "~/Biryllium"
+      "path": "~/Ores/Biryllium"
     },
     {
       "name": "BirylliumArmor",
@@ -3951,7 +3951,7 @@
           "src/main/resources/assets/royalrealms/models/item/biryllium_armor_boots.json"
         ]
       },
-      "path": "~/Biryllium"
+      "path": "~/Ores/Biryllium"
     },
     {
       "name": "BirylliumArmorBootsRecipe",
@@ -3964,7 +3964,7 @@
           "src/main/resources/data/royalrealms/recipes/biryllium_armor_boots_recipe.json"
         ]
       },
-      "path": "~/Biryllium"
+      "path": "~/Ores/Biryllium"
     },
     {
       "name": "BirylliumSmelterOre",
@@ -3977,7 +3977,7 @@
           "src/main/resources/data/royalrealms/recipes/biryllium_smelter_ore.json"
         ]
       },
-      "path": "~/Biryllium"
+      "path": "~/Ores/Biryllium"
     },
     {
       "name": "ByrilliumPure",
@@ -3991,7 +3991,7 @@
           "src/main/resources/assets/royalrealms/models/item/biryllium_refined.json"
         ]
       },
-      "path": "~/Biryllium"
+      "path": "~/Ores/Biryllium"
     },
     {
       "name": "ByrilliumBlockRefined",
@@ -4008,7 +4008,7 @@
           "src/main/resources/assets/royalrealms/models/block/biryllium_block_refined.json"
         ]
       },
-      "path": "~/Biryllium"
+      "path": "~/Ores/Biryllium"
     },
     {
       "name": "ByrilliumMaterial",
@@ -4501,7 +4501,8 @@
         "files": [
           "src/main/resources/data/royalrealms/advancements/make_history.json"
         ]
-      }
+      },
+      "path": "~/Advancements"
     },
     {
       "name": "CounterBlockBroken",
@@ -4551,7 +4552,8 @@
         "files": [
           "src/main/resources/data/royalrealms/advancements/entomologist.json"
         ]
-      }
+      },
+      "path": "~/Advancements"
     },
     {
       "name": "MusicForBugsProc",
@@ -4571,6 +4573,257 @@
         ]
       },
       "path": "~/Music/Music for bugs"
+    },
+    {
+      "name": "DateMode",
+      "type": "config",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "date_mode",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/royalrealms/configuration/DateModeConfiguration.java"
+        ]
+      },
+      "path": "~/Dev"
+    },
+    {
+      "name": "OlympianGrass",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "olympian_grass",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/royalrealms/models/block/olympian_grass.json",
+          "src/main/resources/assets/royalrealms/models/item/olympian_grass.json",
+          "src/main/java/net/mcreator/royalrealms/block/OlympianGrassBlock.java",
+          "src/main/resources/data/royalrealms/loot_tables/blocks/olympian_grass.json",
+          "src/main/resources/assets/royalrealms/blockstates/olympian_grass.json"
+        ]
+      },
+      "path": "~/Biomes"
+    },
+    {
+      "name": "OlympianStone",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "olympian_stone",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/royalrealms/models/block/olympian_stone.json",
+          "src/main/resources/assets/royalrealms/blockstates/olympian_stone.json",
+          "src/main/resources/data/royalrealms/loot_tables/blocks/olympian_stone.json",
+          "src/main/resources/assets/royalrealms/models/item/olympian_stone.json",
+          "src/main/java/net/mcreator/royalrealms/block/OlympianStoneBlock.java"
+        ]
+      },
+      "path": "~/Biomes"
+    },
+    {
+      "name": "Olympia",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "olympia",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/royalrealms/worldgen/placed_feature/olympia_tree.json",
+          "src/main/resources/data/royalrealms/worldgen/configured_feature/olympia_tree.json",
+          "src/main/resources/data/royalrealms/worldgen/biome/olympia.json"
+        ]
+      },
+      "path": "~/Biomes"
+    },
+    {
+      "name": "Deer",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deer",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Paintings"
+    },
+    {
+      "name": "Vantawhite",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vantawhite",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/royalrealms/models/block/vantawhite.json",
+          "src/main/java/net/mcreator/royalrealms/block/VantawhiteBlock.java",
+          "src/main/resources/assets/royalrealms/models/item/vantawhite.json",
+          "src/main/resources/assets/royalrealms/blockstates/vantawhite.json",
+          "src/main/resources/data/royalrealms/loot_tables/blocks/vantawhite.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "Gridstone",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gridstone",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/royalrealms/blockstates/gridstone.json",
+          "src/main/resources/data/royalrealms/loot_tables/blocks/gridstone.json",
+          "src/main/resources/assets/royalrealms/models/block/gridstone.json",
+          "src/main/resources/assets/royalrealms/models/item/gridstone.json",
+          "src/main/java/net/mcreator/royalrealms/block/GridstoneBlock.java"
+        ]
+      },
+      "path": "~/Blocks/Gridstone"
+    },
+    {
+      "name": "GridstoneTiles",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gridstone_tiles",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/royalrealms/blockstates/gridstone_tiles.json",
+          "src/main/resources/assets/royalrealms/models/block/gridstone_tiles.json",
+          "src/main/resources/assets/royalrealms/models/item/gridstone_tiles.json",
+          "src/main/java/net/mcreator/royalrealms/block/GridstoneTilesBlock.java",
+          "src/main/resources/data/royalrealms/loot_tables/blocks/gridstone_tiles.json"
+        ]
+      },
+      "path": "~/Blocks/Gridstone"
+    },
+    {
+      "name": "GridstoneBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gridstone_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/royalrealms/block/GridstoneBlockBlock.java",
+          "src/main/resources/data/royalrealms/loot_tables/blocks/gridstone_block.json",
+          "src/main/resources/assets/royalrealms/blockstates/gridstone_block.json",
+          "src/main/resources/assets/royalrealms/models/item/gridstone_block.json",
+          "src/main/resources/assets/royalrealms/models/block/gridstone_block.json"
+        ]
+      },
+      "path": "~/Blocks/Gridstone"
+    },
+    {
+      "name": "GridlightTiles",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gridlight_tiles",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/royalrealms/block/GridlightTilesBlock.java",
+          "src/main/resources/assets/royalrealms/models/block/gridlight_tiles.json",
+          "src/main/resources/assets/royalrealms/blockstates/gridlight_tiles.json",
+          "src/main/resources/assets/royalrealms/models/item/gridlight_tiles.json",
+          "src/main/resources/data/royalrealms/loot_tables/blocks/gridlight_tiles.json"
+        ]
+      },
+      "path": "~/Blocks/Gridstone"
+    },
+    {
+      "name": "GridlightBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gridlight_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/royalrealms/loot_tables/blocks/gridlight_block.json",
+          "src/main/resources/assets/royalrealms/blockstates/gridlight_block.json",
+          "src/main/resources/assets/royalrealms/models/item/gridlight_block.json",
+          "src/main/java/net/mcreator/royalrealms/block/GridlightBlockBlock.java",
+          "src/main/resources/assets/royalrealms/models/block/gridlight_block.json"
+        ]
+      },
+      "path": "~/Blocks/Gridstone"
+    },
+    {
+      "name": "GridstoneSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gridstone_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/royalrealms/models/block/gridstone_slab.json",
+          "src/main/java/net/mcreator/royalrealms/block/GridstoneSlabBlock.java",
+          "src/main/resources/assets/royalrealms/models/block/gridstone_slab_top.json",
+          "src/main/resources/assets/royalrealms/models/item/gridstone_slab.json",
+          "src/main/resources/data/royalrealms/loot_tables/blocks/gridstone_slab.json",
+          "src/main/resources/assets/royalrealms/models/block/gridstone_slab_full.json",
+          "src/main/resources/assets/royalrealms/blockstates/gridstone_slab.json"
+        ]
+      },
+      "path": "~/Blocks/Gridstone"
+    },
+    {
+      "name": "GridstoneStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gridstone_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/royalrealms/models/block/gridstone_stairs.json",
+          "src/main/java/net/mcreator/royalrealms/block/GridstoneStairsBlock.java",
+          "src/main/resources/assets/royalrealms/blockstates/gridstone_stairs.json",
+          "src/main/resources/assets/royalrealms/models/block/gridstone_stairs_outer.json",
+          "src/main/resources/data/royalrealms/loot_tables/blocks/gridstone_stairs.json",
+          "src/main/resources/assets/royalrealms/models/item/gridstone_stairs.json",
+          "src/main/resources/assets/royalrealms/models/block/gridstone_stairs_inner.json"
+        ]
+      },
+      "path": "~/Blocks/Gridstone"
+    },
+    {
+      "name": "GridstoneTilesSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gridstone_tiles_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/royalrealms/models/item/gridstone_tiles_slab.json",
+          "src/main/resources/assets/royalrealms/models/block/gridstone_tiles_slab_top.json",
+          "src/main/java/net/mcreator/royalrealms/block/GridstoneTilesSlabBlock.java",
+          "src/main/resources/assets/royalrealms/models/block/gridstone_tiles_slab.json",
+          "src/main/resources/data/royalrealms/loot_tables/blocks/gridstone_tiles_slab.json",
+          "src/main/resources/assets/royalrealms/blockstates/gridstone_tiles_slab.json",
+          "src/main/resources/assets/royalrealms/models/block/gridstone_tiles_slab_full.json"
+        ]
+      },
+      "path": "~/Blocks/Gridstone"
+    },
+    {
+      "name": "GridstoneTilesStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gridstone_tiles_stairs",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/royalrealms/block/GridstoneTilesStairsBlock.java",
+          "src/main/resources/assets/royalrealms/models/block/gridstone_tiles_stairs_inner.json",
+          "src/main/resources/assets/royalrealms/models/item/gridstone_tiles_stairs.json",
+          "src/main/resources/assets/royalrealms/models/block/gridstone_tiles_stairs.json",
+          "src/main/resources/assets/royalrealms/blockstates/gridstone_tiles_stairs.json",
+          "src/main/resources/assets/royalrealms/models/block/gridstone_tiles_stairs_outer.json",
+          "src/main/resources/data/royalrealms/loot_tables/blocks/gridstone_tiles_stairs.json"
+        ]
+      },
+      "path": "~/Blocks/Gridstone"
     }
   ],
   "variable_elements": [
@@ -4934,6 +5187,41 @@
     "BLOCKS:minecraft:replaceable": [
       "~CUSTOM:FixHole"
     ],
+    "BLOCKS:minecraft:valid_spawn": [],
+    "ITEMS:minecraft:hoes": [
+      "~CUSTOM:TelosteelHoe"
+    ],
+    "BLOCKS:minecraft:logs": [],
+    "ITEMS:mod:magnet_tools": [
+      "TAG:minecraft:pickaxes",
+      "TAG:minecraft:axes",
+      "TAG:minecraft:shovels",
+      "TAG:minecraft:hoes"
+    ],
+    "ITEMS:minecraft:trim_items": [
+      "CUSTOM:LustTrimItem",
+      "CUSTOM:WeirdTrimItem"
+    ],
+    "BLOCKS:minecraft:slabs": [
+      "~CUSTOM:GridstoneTilesSlab",
+      "~CUSTOM:GridstoneSlab"
+    ],
+    "ITEMS:minecraft:axes": [
+      "~CUSTOM:BirylliumAxe",
+      "~CUSTOM:TelosteelAxe"
+    ],
+    "BLOCKS:minecraft:stairs": [
+      "~CUSTOM:GridstoneTilesStairs",
+      "~CUSTOM:GridstoneStairs"
+    ],
+    "ITEMS:mod:tungsten_blastable": [
+      "CUSTOM:TungstenOre",
+      "CUSTOM:RawTungsten"
+    ],
+    "ITEMS:minecraft:swords": [
+      "~CUSTOM:BlackKnife",
+      "~CUSTOM:TelosteelSword"
+    ],
     "BLOCKS:minecraft:needs_iron_tool": [
       "~CUSTOM:ByrilliumBlockRefined",
       "~CUSTOM:BirylliumBlock",
@@ -4965,9 +5253,6 @@
       "Blocks.PUMPKIN",
       "TAG:minecraft:crops"
     ],
-    "ITEMS:minecraft:hoes": [
-      "~CUSTOM:TelosteelHoe"
-    ],
     "ITEMS:minecraft:music_discs": [
       "~CUSTOM:MusicDiscTortoiseBeetle",
       "~CUSTOM:MusicDiscSpinySpider",
@@ -4988,6 +5273,9 @@
       "~CUSTOM:MusicDiscCORE",
       "~CUSTOM:MusicDisc7l011"
     ],
+    "BIOMES:minecraft:is_overworld": [
+      "CUSTOM:Olympia"
+    ],
     "ITEMS:minecraft:artifacts": [
       "CUSTOM:BlackKnife",
       "CUSTOM:AngelShot"
@@ -5002,15 +5290,8 @@
       "Items.MUTTON",
       "Items.FISH#3"
     ],
-    "ITEMS:mod:magnet_tools": [
-      "TAG:minecraft:pickaxes",
-      "TAG:minecraft:axes",
-      "TAG:minecraft:shovels",
-      "TAG:minecraft:hoes"
-    ],
-    "ITEMS:minecraft:trim_items": [
-      "CUSTOM:LustTrimItem",
-      "CUSTOM:WeirdTrimItem"
+    "BLOCKS:minecraft:dirt": [
+      "CUSTOM:OlympianGrass"
     ],
     "BLOCKS:minecraft:mineable/pickaxe": [
       "~CUSTOM:ByrilliumBlockRefined",
@@ -5031,18 +5312,6 @@
       "~CUSTOM:TelosteelBlock",
       "~CUSTOM:TelosteelOre"
     ],
-    "ITEMS:minecraft:axes": [
-      "~CUSTOM:BirylliumAxe",
-      "~CUSTOM:TelosteelAxe"
-    ],
-    "ITEMS:mod:tungsten_blastable": [
-      "CUSTOM:TungstenOre",
-      "CUSTOM:RawTungsten"
-    ],
-    "ITEMS:minecraft:swords": [
-      "~CUSTOM:BlackKnife",
-      "~CUSTOM:TelosteelSword"
-    ],
     "ITEMS:minecraft:shovels": [
       "~CUSTOM:TelosteelShovel"
     ],
@@ -5057,6 +5326,7 @@
   "tab_element_order": {},
   "language_map": {
     "en_us": {
+      "block.royalrealms.gridstone": "Gridstone",
       "painting.royalrealms.ice_cube.author": "Lilypad",
       "advancements.neural_augment.descr": "Install Enderlink",
       "painting.royalrealms.ice_cube.title": "Ice Cube",
@@ -5100,7 +5370,9 @@
       "block.royalrealms.telosteel_ore": "Telosteel Ore",
       "item.royalrealms.music_disc_tv_world.desc": "Toby Fox - TV World",
       "painting.royalrealms.monochrome.title": "Monochrome",
+      "painting.royalrealms.deer.author": "EvaKrusader",
       "gui.royalrealms.lore_gui.Lore": "Add lore",
+      "block.royalrealms.olympian_stone": "Olympian Stone",
       "item.royalrealms.fall_breaker_charm": "Fall Breaker Charm",
       "subtitles.record_healing": "",
       "block.royalrealms.vantablack": "Vantablack",
@@ -5124,8 +5396,8 @@
       "painting.royalrealms.jinx.title": "Egg Ponderer",
       "subtitles.record_black_knife": "",
       "trim_pattern.royalrealms.weird_trim": "Weird Armor Trim",
-      "advancements.life_experience.descr": "Cheat death with an experience amulet",
       "subtitles.enderlink_boot_rare3": "Connection to Enderlink servers",
+      "advancements.life_experience.descr": "Cheat death with an experience amulet",
       "item.royalrealms.telosteel_pickaxe": "Telosteel Pickaxe",
       "subtitles.enderlink_boot": "Connecting to Enderlink servers",
       "subtitles.enderlink_boot_rare1": "Connection to Enderlink servers",
@@ -5147,6 +5419,7 @@
       "block.royalrealms.fluorite_block": "Block of Fluorite",
       "painting.royalrealms.morning.title": "Morning",
       "death.attack.divine": "%1$s died",
+      "block.royalrealms.gridstone_tiles_stairs": "Gridstone Tiles Stairs",
       "painting.royalrealms.monochrome.author": "Lilypad",
       "advancements.artifact.descr": "Obtain an artifact",
       "advancements.freedom.descr": "Remove your Enderlink",
@@ -5160,15 +5433,20 @@
       "item.royalrealms.music_disc_core": "§4Music Disc",
       "painting.royalrealms.neon.author": "Lilypad",
       "painting.royalrealms.bioluminescence.title": "Bioluminescence",
+      "block.royalrealms.vantawhite": "Vantawhite",
       "item.royalrealms.telosteel_armor_chestplate": "Telosteel Chestplate",
       "death.attack.enderlink_damage": "%1$s couldn\u0027t withstand their Enderlink",
       "subtitles.record_isopod": "",
+      "block.royalrealms.olympian_grass": "Olympian Grass",
+      "block.royalrealms.gridstone_tiles_slab": "Gridstone Tiles Slab",
       "painting.royalrealms.house.title": "House",
       "advancements.entomologist.descr": "Get all the music discs from the \"music for bugs\" series",
       "item.royalrealms.music_disc_isopod": "§2Music Disc",
       "item.royalrealms.wishing_star": "Wishing Star",
+      "block.royalrealms.gridstone_slab": "Gridstone Slab",
       "item.royalrealms.music_disc_moth": "§2Music Disc",
       "subtitles.enderlink_msg_rare": "Enderlink notification",
+      "block.royalrealms.gridstone_stairs": "Gridstone Stairs",
       "painting.royalrealms.breeze.title": "Breeze",
       "death.attack.adrenaline_damage": "%1$s cooled down",
       "advancements.all_bark.title": "All Bite, No Bark",
@@ -5187,11 +5465,13 @@
       "item.royalrealms.music_disc_butterfly.desc": "camiidae - butterfly",
       "item.royalrealms.music_disc_born.desc": "Secamuno - Born (Album)",
       "item.royalrealms.music_disc_glowing_snow.desc": "Toby Fox - Glowing Snow",
+      "block.royalrealms.gridlight_tiles": "Gridlight Tiles",
       "trim_material.royalrealms.fluorite_trim_material": "Fluorite",
       "death.attack.swoon.player": "%1$s died whilst trying to escape %2$s",
       "advancements.all_bark.descr": "Strip 50 logs",
       "painting.royalrealms.midnight_sky.author": "Lilypad",
       "painting.royalrealms.breeze.author": "Lilypad",
+      "block.royalrealms.gridlight_block": "Gridlight Block",
       "painting.royalrealms.bliss.author": "Windows",
       "painting.royalrealms.eva_freaky_link.author": "ItzLinkstar_",
       "item.royalrealms.weird_trim_item": "Smithing Template",
@@ -5207,6 +5487,7 @@
       "item.royalrealms.music_disc_moth.desc": "camiidae - moth",
       "death.attack.lobotomy_damage.player": "%1$s died whilst trying to escape %2$s",
       "block.royalrealms.biryllium_ore": "Biryllium Ore",
+      "painting.royalrealms.deer.title": "Deer",
       "effect.royalrealms.skull_curse_effect": "Skull Curse",
       "item.royalrealms.angel_shot": "Angel Shot",
       "item.royalrealms.music_disc_healing": "Music Disc",
@@ -5242,6 +5523,7 @@
       "painting.royalrealms.lantern.author": "Lilypad",
       "item.royalrealms.paper_copy_patent": "Sapling Patent",
       "painting.royalrealms.eva_freaky_link.title": "Freaky Eva",
+      "biome.royalrealms.olympia": "Olympia",
       "advancements.black_knife_adv_10.title": "Roaring",
       "block.royalrealms.starlite_block": "Block of Starlite",
       "item.royalrealms.chastity_cage_black": "Chastity Cage Black",
@@ -5292,9 +5574,11 @@
       "key.royalrealms.gamemode_switcher": "Gamemode Switcher",
       "painting.royalrealms.bliss.title": "Bliss",
       "block.royalrealms.biryllium_block_refined": "Block of Refined Biryllium",
+      "block.royalrealms.gridstone_block": "Gridstone Block",
+      "block.royalrealms.gridstone_tiles": "Gridstone Tiles",
       "item.royalrealms.neonium": "Neonium",
       "item.royalrealms.music_disc_uwah_so_temperate": "§eMusic Disc",
-      "advancements.entomologist.title": "Entomology",
+      "advancements.entomologist.title": "Entomologist",
       "advancements.day_10.descr": "Reach 10 days of survival",
       "subtitles.record_bumblebee": "",
       "painting.royalrealms.crab_nebula.author": "Lilypad",
@@ -5328,14 +5612,6 @@
     "name": "~",
     "children": [
       {
-        "name": "Telosteel",
-        "children": []
-      },
-      {
-        "name": "Enderlink",
-        "children": []
-      },
-      {
         "name": "Recipes",
         "children": [
           {
@@ -5343,10 +5619,6 @@
             "children": []
           }
         ]
-      },
-      {
-        "name": "Liminalloy",
-        "children": []
       },
       {
         "name": "Curio",
@@ -5364,18 +5636,6 @@
             "children": []
           }
         ]
-      },
-      {
-        "name": "Spectrolite",
-        "children": []
-      },
-      {
-        "name": "Brightcore",
-        "children": []
-      },
-      {
-        "name": "Malachite",
-        "children": []
       },
       {
         "name": "Enchantments",
@@ -5405,14 +5665,6 @@
             "children": []
           }
         ]
-      },
-      {
-        "name": "Neonium",
-        "children": []
-      },
-      {
-        "name": "Starlite",
-        "children": []
       },
       {
         "name": "Dev",
@@ -5454,6 +5706,10 @@
           {
             "name": "Wishing",
             "children": []
+          },
+          {
+            "name": "Enderlink",
+            "children": []
           }
         ]
       },
@@ -5484,19 +5740,7 @@
         ]
       },
       {
-        "name": "Tungsten",
-        "children": []
-      },
-      {
-        "name": "Fluorite",
-        "children": []
-      },
-      {
         "name": "Loot Tables",
-        "children": []
-      },
-      {
-        "name": "Water Armor",
         "children": []
       },
       {
@@ -5518,12 +5762,12 @@
           {
             "name": "SpectralBlocks",
             "children": []
+          },
+          {
+            "name": "Gridstone",
+            "children": []
           }
         ]
-      },
-      {
-        "name": "Biryllium",
-        "children": []
       },
       {
         "name": "Features",
@@ -5532,6 +5776,59 @@
       {
         "name": "Structures",
         "children": []
+      },
+      {
+        "name": "Biomes",
+        "children": []
+      },
+      {
+        "name": "Ores",
+        "children": [
+          {
+            "name": "Biryllium",
+            "children": []
+          },
+          {
+            "name": "Fluorite",
+            "children": []
+          },
+          {
+            "name": "Liminalloy",
+            "children": []
+          },
+          {
+            "name": "Malachite",
+            "children": []
+          },
+          {
+            "name": "Neonium",
+            "children": []
+          },
+          {
+            "name": "Spectrolite",
+            "children": []
+          },
+          {
+            "name": "Starlite",
+            "children": []
+          },
+          {
+            "name": "Telosteel",
+            "children": []
+          },
+          {
+            "name": "Tungsten",
+            "children": []
+          },
+          {
+            "name": "Water Armor",
+            "children": []
+          },
+          {
+            "name": "Brightcore",
+            "children": []
+          }
+        ]
       }
     ]
   },

@@ -1,0 +1,11 @@
+{
+  "parent": "royalrealms:custom/olympian_grass",
+  "textures": {
+    "all": "royalrealms:block/olympian_stone",
+    "particle": "royalrealms:block/olympian_stone",
+    "0": "royalrealms:block/olympian_stone",
+    "1": "royalrealms:block/olympian_grass_overlay",
+    "2": "royalrealms:block/olympian_grass_top"
+  },
+  "render_type": "cutout_mipped"
+}

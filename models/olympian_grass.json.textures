@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "olympian_stone",
+        "1": "olympian_grass_overlay",
+        "2": "olympian_grass_top"
+      },
+      "name": "default"
+    }
+  }
+}

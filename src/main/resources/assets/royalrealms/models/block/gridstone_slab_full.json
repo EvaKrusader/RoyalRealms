@@ -1,0 +1,10 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "particle": "royalrealms:block/gridstone",
+    "bottom": "royalrealms:block/gridstone",
+    "top": "royalrealms:block/gridstone",
+    "side": "royalrealms:block/gridstone"
+  },
+  "render_type": "solid"
+}

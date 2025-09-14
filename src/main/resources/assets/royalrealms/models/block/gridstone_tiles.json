@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "royalrealms:block/gridstone_tiles",
+    "particle": "royalrealms:block/gridstone_tiles"
+  },
+  "render_type": "solid"
+}

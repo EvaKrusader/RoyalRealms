@@ -30,7 +30,7 @@ public class LoreGuiEngraveProcedure {
 		numMin = Calendar.getInstance().get(Calendar.MINUTE);
 		numHour = Calendar.getInstance().get(Calendar.HOUR_OF_DAY);
 		numDay = Calendar.getInstance().get(Calendar.DAY_OF_MONTH);
-		numMonth = Calendar.getInstance().get(Calendar.MONTH);
+		numMonth = Calendar.getInstance().get(Calendar.MONTH) + 1;
 		numYear = Calendar.getInstance().get(Calendar.YEAR);
 		if (numSec < 10) {
 			txtSec = "0" + new java.text.DecimalFormat("##").format(numSec);

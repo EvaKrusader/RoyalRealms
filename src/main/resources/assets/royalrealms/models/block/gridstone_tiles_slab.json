@@ -1,0 +1,10 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "particle": "royalrealms:block/gridstone_tiles",
+    "bottom": "royalrealms:block/gridstone_tiles",
+    "top": "royalrealms:block/gridstone_tiles",
+    "side": "royalrealms:block/gridstone_tiles"
+  },
+  "render_type": "solid"
+}
