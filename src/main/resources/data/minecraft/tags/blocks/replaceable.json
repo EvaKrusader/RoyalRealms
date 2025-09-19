@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "royalrealms:corrupted_liquid",
     "royalrealms:fix_hole"
   ]
 }

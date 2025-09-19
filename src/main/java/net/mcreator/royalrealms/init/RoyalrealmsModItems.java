@@ -31,6 +31,7 @@ import net.mcreator.royalrealms.item.TelosteelHoeItem;
 import net.mcreator.royalrealms.item.TelosteelAxeItem;
 import net.mcreator.royalrealms.item.TelosteelArmorItem;
 import net.mcreator.royalrealms.item.StarliteDustItem;
+import net.mcreator.royalrealms.item.ShadowCloakItem;
 import net.mcreator.royalrealms.item.RawTungstenItem;
 import net.mcreator.royalrealms.item.PlayerItemItem;
 import net.mcreator.royalrealms.item.PhasingCanItem;
@@ -57,15 +58,18 @@ import net.mcreator.royalrealms.item.MusicDisc7l011Item;
 import net.mcreator.royalrealms.item.LustTrimItemItem;
 import net.mcreator.royalrealms.item.LoreItemItem;
 import net.mcreator.royalrealms.item.LobotomizerItem;
+import net.mcreator.royalrealms.item.InvisibleInkItem;
 import net.mcreator.royalrealms.item.HoleSwitchItem;
+import net.mcreator.royalrealms.item.GridworldItem;
 import net.mcreator.royalrealms.item.FluoriteNecklaceItem;
 import net.mcreator.royalrealms.item.FluoriteItem;
 import net.mcreator.royalrealms.item.FixHoleItem;
 import net.mcreator.royalrealms.item.FallBreakerCharmItem;
 import net.mcreator.royalrealms.item.ExperienceAmuletItem;
-import net.mcreator.royalrealms.item.EsotericKnowledgeItem;
 import net.mcreator.royalrealms.item.EnderlinkItem;
 import net.mcreator.royalrealms.item.CursedSkullItem;
+import net.mcreator.royalrealms.item.CorruptedLiquidItem;
+import net.mcreator.royalrealms.item.CorruptedBladeItem;
 import net.mcreator.royalrealms.item.ChastityCageGoldItem;
 import net.mcreator.royalrealms.item.ChastityCageBlackItem;
 import net.mcreator.royalrealms.item.ByrilliumPureItem;
@@ -136,7 +140,6 @@ public class RoyalrealmsModItems {
 	public static final RegistryObject<Item> CHASTITY_CAGE_GOLD = REGISTRY.register("chastity_cage_gold", () -> new ChastityCageGoldItem());
 	public static final RegistryObject<Item> HOLE_SWITCH = REGISTRY.register("hole_switch", () -> new HoleSwitchItem());
 	public static final RegistryObject<Item> BLACK_KNIFE = REGISTRY.register("black_knife", () -> new BlackKnifeItem());
-	public static final RegistryObject<Item> ESOTERIC_KNOWLEDGE = REGISTRY.register("esoteric_knowledge", () -> new EsotericKnowledgeItem());
 	public static final RegistryObject<Item> OBSIDIAN_GLASS = block(RoyalrealmsModBlocks.OBSIDIAN_GLASS);
 	public static final RegistryObject<Item> SPECTRAL_BLOCK = block(RoyalrealmsModBlocks.SPECTRAL_BLOCK);
 	public static final RegistryObject<Item> VANTABLACK = block(RoyalrealmsModBlocks.VANTABLACK);
@@ -174,6 +177,16 @@ public class RoyalrealmsModItems {
 	public static final RegistryObject<Item> GRIDSTONE_STAIRS = block(RoyalrealmsModBlocks.GRIDSTONE_STAIRS);
 	public static final RegistryObject<Item> GRIDSTONE_TILES_SLAB = block(RoyalrealmsModBlocks.GRIDSTONE_TILES_SLAB);
 	public static final RegistryObject<Item> GRIDSTONE_TILES_STAIRS = block(RoyalrealmsModBlocks.GRIDSTONE_TILES_STAIRS);
+	public static final RegistryObject<Item> INVISIBLE_CLOAK = REGISTRY.register("invisible_cloak", () -> new ShadowCloakItem());
+	public static final RegistryObject<Item> INVISIBLE_INK = REGISTRY.register("invisible_ink", () -> new InvisibleInkItem());
+	public static final RegistryObject<Item> GRIDWORLD = REGISTRY.register("gridworld", () -> new GridworldItem());
+	public static final RegistryObject<Item> GRIDPORTAL = block(RoyalrealmsModBlocks.GRIDPORTAL);
+	public static final RegistryObject<Item> GRIDGLASS_BLOCK = block(RoyalrealmsModBlocks.GRIDGLASS_BLOCK);
+	public static final RegistryObject<Item> GRIDGLASS = block(RoyalrealmsModBlocks.GRIDGLASS);
+	public static final RegistryObject<Item> GRIDGLASS_TILES = block(RoyalrealmsModBlocks.GRIDGLASS_TILES);
+	public static final RegistryObject<Item> GRIDSTONE_BLOCK_TILE = block(RoyalrealmsModBlocks.GRIDSTONE_BLOCK_TILE);
+	public static final RegistryObject<Item> CORRUPTED_BLADE = REGISTRY.register("corrupted_blade", () -> new CorruptedBladeItem());
+	public static final RegistryObject<Item> CORRUPTED_LIQUID_BUCKET = REGISTRY.register("corrupted_liquid_bucket", () -> new CorruptedLiquidItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

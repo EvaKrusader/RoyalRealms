@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "royalrealms:block/gridportal_bottom",
+    "up": "royalrealms:block/gridportal_top",
+    "north": "royalrealms:block/gridportal_side",
+    "east": "royalrealms:block/gridportal_side",
+    "south": "royalrealms:block/gridportal_side",
+    "west": "royalrealms:block/gridportal_side",
+    "particle": "royalrealms:block/gridportal_bottom"
+  },
+  "render_type": "cutout_mipped"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "forge:add_features",
+  "biomes": {
+    "type": "forge:any"
+  },
+  "features": "royalrealms:telosteel_ore_feature",
+  "step": "underground_decoration"
+}

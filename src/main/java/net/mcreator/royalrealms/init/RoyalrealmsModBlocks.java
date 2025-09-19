@@ -30,18 +30,25 @@ import net.mcreator.royalrealms.block.OlympianGrassBlock;
 import net.mcreator.royalrealms.block.ObsidianGlassBlock;
 import net.mcreator.royalrealms.block.NeoniumOreBlock;
 import net.mcreator.royalrealms.block.NeoniumBlockBlock;
+import net.mcreator.royalrealms.block.GridworldPortalBlock;
 import net.mcreator.royalrealms.block.GridstoneTilesStairsBlock;
 import net.mcreator.royalrealms.block.GridstoneTilesSlabBlock;
 import net.mcreator.royalrealms.block.GridstoneTilesBlock;
 import net.mcreator.royalrealms.block.GridstoneStairsBlock;
 import net.mcreator.royalrealms.block.GridstoneSlabBlock;
+import net.mcreator.royalrealms.block.GridstoneBlockTileBlock;
 import net.mcreator.royalrealms.block.GridstoneBlockBlock;
 import net.mcreator.royalrealms.block.GridstoneBlock;
+import net.mcreator.royalrealms.block.GridportalBlock;
 import net.mcreator.royalrealms.block.GridlightTilesBlock;
 import net.mcreator.royalrealms.block.GridlightBlockBlock;
+import net.mcreator.royalrealms.block.GridglassTilesBlock;
+import net.mcreator.royalrealms.block.GridglassBlockBlock;
+import net.mcreator.royalrealms.block.GridglassBlock;
 import net.mcreator.royalrealms.block.FluoriteOreBlock;
 import net.mcreator.royalrealms.block.FluoriteBlockBlock;
 import net.mcreator.royalrealms.block.FixHoleBlock;
+import net.mcreator.royalrealms.block.CorruptedLiquidBlock;
 import net.mcreator.royalrealms.block.ByrilliumBlockRefinedBlock;
 import net.mcreator.royalrealms.block.BrightcoreOreBlock;
 import net.mcreator.royalrealms.block.BrightcoreBlockBlock;
@@ -84,6 +91,13 @@ public class RoyalrealmsModBlocks {
 	public static final RegistryObject<Block> GRIDSTONE_STAIRS = REGISTRY.register("gridstone_stairs", () -> new GridstoneStairsBlock());
 	public static final RegistryObject<Block> GRIDSTONE_TILES_SLAB = REGISTRY.register("gridstone_tiles_slab", () -> new GridstoneTilesSlabBlock());
 	public static final RegistryObject<Block> GRIDSTONE_TILES_STAIRS = REGISTRY.register("gridstone_tiles_stairs", () -> new GridstoneTilesStairsBlock());
+	public static final RegistryObject<Block> GRIDWORLD_PORTAL = REGISTRY.register("gridworld_portal", () -> new GridworldPortalBlock());
+	public static final RegistryObject<Block> GRIDPORTAL = REGISTRY.register("gridportal", () -> new GridportalBlock());
+	public static final RegistryObject<Block> GRIDGLASS_BLOCK = REGISTRY.register("gridglass_block", () -> new GridglassBlockBlock());
+	public static final RegistryObject<Block> GRIDGLASS = REGISTRY.register("gridglass", () -> new GridglassBlock());
+	public static final RegistryObject<Block> GRIDGLASS_TILES = REGISTRY.register("gridglass_tiles", () -> new GridglassTilesBlock());
+	public static final RegistryObject<Block> GRIDSTONE_BLOCK_TILE = REGISTRY.register("gridstone_block_tile", () -> new GridstoneBlockTileBlock());
+	public static final RegistryObject<Block> CORRUPTED_LIQUID = REGISTRY.register("corrupted_liquid", () -> new CorruptedLiquidBlock());
 
 	// Start of user code block custom blocks
 	// End of user code block custom blocks

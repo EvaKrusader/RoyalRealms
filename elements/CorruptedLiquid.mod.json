@@ -1,0 +1,47 @@
+{
+  "_fv": 66,
+  "_type": "fluid",
+  "definition": {
+    "name": "Corrupted Liquid",
+    "bucketName": "Corrupted Liquid Bucket",
+    "textureStill": "corrupted_liquid",
+    "textureFlowing": "corrupted_liquid",
+    "tintType": "No tint",
+    "canMultiply": true,
+    "flowRate": 1,
+    "levelDecrease": 1,
+    "slopeFindDistance": 1,
+    "spawnParticles": false,
+    "dripParticle": {
+      "value": "SNOWFLAKE"
+    },
+    "flowStrength": 0.0,
+    "luminosity": 0,
+    "density": 1000,
+    "viscosity": 1000,
+    "temperature": 300,
+    "type": "WATER",
+    "generateBucket": true,
+    "textureBucket": "",
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:GridworldTab"
+      }
+    ],
+    "emptySound": {
+      "value": ""
+    },
+    "rarity": "COMMON",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "resistance": 100.0,
+    "luminance": 0,
+    "lightOpacity": 1,
+    "emissiveRendering": false,
+    "tickRate": 0,
+    "flammability": 0,
+    "fireSpreadSpeed": 0,
+    "colorOnMap": "DEFAULT"
+  }
+}

@@ -12,7 +12,7 @@ import net.mcreator.royalrealms.procedures.CursedSkullBaubleIsEquippedProcedure;
 
 public class CursedSkullItem extends Item implements ICurioItem {
 	public CursedSkullItem() {
-		super(new Item.Properties().stacksTo(64).rarity(Rarity.COMMON));
+		super(new Item.Properties().stacksTo(1).rarity(Rarity.COMMON));
 	}
 
 	@Override

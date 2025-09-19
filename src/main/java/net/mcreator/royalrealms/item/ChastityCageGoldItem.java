@@ -10,7 +10,7 @@ import net.minecraft.world.item.Item;
 
 public class ChastityCageGoldItem extends Item implements ICurioItem {
 	public ChastityCageGoldItem() {
-		super(new Item.Properties().stacksTo(64).rarity(Rarity.COMMON));
+		super(new Item.Properties().stacksTo(1).rarity(Rarity.COMMON));
 	}
 
 	@Override

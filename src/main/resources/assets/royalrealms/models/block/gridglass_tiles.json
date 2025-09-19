@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "royalrealms:block/gridglass_tiles",
+    "particle": "royalrealms:block/gridglass_tiles"
+  },
+  "render_type": "cutout_mipped"
+}

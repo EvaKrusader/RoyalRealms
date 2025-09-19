@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "royalrealms:gridstone_tiles"
+    },
+    "title": {
+      "translate": "advancements.tilelands_adv.title"
+    },
+    "description": {
+      "translate": "advancements.tilelands_adv.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "tilelands_adv_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "royalrealms:gridworld_adv"
+}

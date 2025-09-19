@@ -20,7 +20,7 @@
     "isItemTinted": false,
     "hasTransparency": false,
     "connectedSides": false,
-    "transparencyType": "SOLID",
+    "transparencyType": "CUTOUT_MIPPED",
     "disableOffset": false,
     "boundingBoxes": [
       {
@@ -44,6 +44,9 @@
     "creativeTabs": [
       {
         "value": "BUILDING_BLOCKS"
+      },
+      {
+        "value": "CUSTOM:GridworldTab"
       }
     ],
     "destroyTool": "Not specified",

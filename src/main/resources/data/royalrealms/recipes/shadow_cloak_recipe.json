@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "bbb",
+    "bbb"
+  ],
+  "key": {
+    "a": {
+      "tag": "minecraft:wool"
+    },
+    "b": {
+      "item": "royalrealms:invisible_ink"
+    }
+  },
+  "result": {
+    "item": "royalrealms:invisible_cloak",
+    "count": 1
+  }
+}

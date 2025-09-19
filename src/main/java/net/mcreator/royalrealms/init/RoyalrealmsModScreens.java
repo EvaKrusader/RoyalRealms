@@ -12,6 +12,7 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraft.client.gui.screens.MenuScreens;
 
 import net.mcreator.royalrealms.client.gui.LoreGuiScreen;
+import net.mcreator.royalrealms.client.gui.DevGUIScreen;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 public class RoyalrealmsModScreens {
@@ -19,6 +20,7 @@ public class RoyalrealmsModScreens {
 	public static void clientLoad(FMLClientSetupEvent event) {
 		event.enqueueWork(() -> {
 			MenuScreens.register(RoyalrealmsModMenus.LORE_GUI.get(), LoreGuiScreen::new);
+			MenuScreens.register(RoyalrealmsModMenus.DEV_GUI.get(), DevGUIScreen::new);
 		});
 	}
 }

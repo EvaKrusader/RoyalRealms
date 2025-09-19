@@ -85,6 +85,7 @@ public class RoyalrealmsModVariables {
 				clone.adrenalineDamage = original.adrenalineDamage;
 				clone.EnderlinkCounter = original.EnderlinkCounter;
 				clone.playerSkullCurse = original.playerSkullCurse;
+				clone.cloakCooldown = original.cloakCooldown;
 			}
 		}
 
@@ -265,6 +266,7 @@ public class RoyalrealmsModVariables {
 		public double ver3 = 1.0;
 		public double playerSwoon = 0;
 		public double barkNum = 0;
+		public boolean cloakCooldown = false;
 
 		public void syncPlayerVariables(Entity entity) {
 			if (entity instanceof ServerPlayer serverPlayer)
@@ -285,6 +287,7 @@ public class RoyalrealmsModVariables {
 			nbt.putDouble("ver3", ver3);
 			nbt.putDouble("playerSwoon", playerSwoon);
 			nbt.putDouble("barkNum", barkNum);
+			nbt.putBoolean("cloakCooldown", cloakCooldown);
 			return nbt;
 		}
 
@@ -302,6 +305,7 @@ public class RoyalrealmsModVariables {
 			ver3 = nbt.getDouble("ver3");
 			playerSwoon = nbt.getDouble("playerSwoon");
 			barkNum = nbt.getDouble("barkNum");
+			cloakCooldown = nbt.getBoolean("cloakCooldown");
 		}
 	}
 
@@ -338,6 +342,7 @@ public class RoyalrealmsModVariables {
 					variables.ver3 = message.data.ver3;
 					variables.playerSwoon = message.data.playerSwoon;
 					variables.barkNum = message.data.barkNum;
+					variables.cloakCooldown = message.data.cloakCooldown;
 				}
 			});
 			context.setPacketHandled(true);

@@ -11,9 +11,9 @@
     "baubleModel": "Modelcursed_skull",
     "baubleModelTexture": "cursed_skull.png",
     "creativeTab": {
-      "value": "MISC"
+      "value": "CUSTOM:Baubles"
     },
-    "stackSize": 64,
+    "stackSize": 1,
     "enchantability": 0,
     "useDuration": 0,
     "toolType": 1.0,

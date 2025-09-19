@@ -1,0 +1,23 @@
+{
+  "display": {
+    "background": "royalrealms:textures/screens/gridstone.png",
+    "icon": {
+      "item": "royalrealms:gridstone"
+    },
+    "title": {
+      "translate": "advancements.gridworld_adv.title"
+    },
+    "description": {
+      "translate": "advancements.gridworld_adv.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "gridworld_adv_0": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "_fv": 66,
+  "_type": "tab",
+  "definition": {
+    "name": "Baubles",
+    "icon": {
+      "value": "CUSTOM:LoreItem"
+    },
+    "showSearch": false
+  }
+}

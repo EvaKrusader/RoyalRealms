@@ -1,0 +1,85 @@
+{
+  "_fv": 66,
+  "_type": "overlay",
+  "definition": {
+    "priority": "NORMAL",
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "name": "label_empty",
+          "text": {
+            "fixedValue": "You should"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "anchorPoint": "CENTER",
+          "x": 143,
+          "y": 97
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_not_touch",
+          "text": {
+            "fixedValue": "not touch unknown things"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "anchorPoint": "CENTER",
+          "x": 235,
+          "y": 103
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_without_emptying",
+          "text": {
+            "fixedValue": "without emptying"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "anchorPoint": "CENTER",
+          "x": 114,
+          "y": 141
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_your_pockets_first",
+          "text": {
+            "fixedValue": "your pockets first"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "anchorPoint": "CENTER",
+          "x": 241,
+          "y": 142
+        }
+      }
+    ],
+    "baseTexture": "",
+    "overlayTarget": "Ingame",
+    "displayCondition": {
+      "name": "LookAtGridPortal"
+    },
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

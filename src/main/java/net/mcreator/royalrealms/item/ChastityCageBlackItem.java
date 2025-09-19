@@ -8,6 +8,6 @@ import net.minecraft.world.item.Item;
 
 public class ChastityCageBlackItem extends Item implements ICurioItem {
 	public ChastityCageBlackItem() {
-		super(new Item.Properties().stacksTo(64).rarity(Rarity.COMMON));
+		super(new Item.Properties().stacksTo(1).rarity(Rarity.COMMON));
 	}
 }

@@ -70,6 +70,10 @@ public class NameTagCustomNameCraftProcedure {
 				list.add("Jeff");
 				list.add("Twin");
 				list.add("Dih");
+				list.add("Palm Knee");
+				list.add("Murdoc");
+				list.add("XDDCC");
+				list.add("Noodle");
 			}
 			(entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getOrCreateTag().putBoolean("hasDefaultRename", true);
 			namePicker = Mth.nextInt(RandomSource.create(), 0, (int) (list.size() - 1));

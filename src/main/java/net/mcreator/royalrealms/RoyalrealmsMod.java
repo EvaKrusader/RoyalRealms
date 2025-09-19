@@ -25,6 +25,7 @@ import net.mcreator.royalrealms.init.RoyalrealmsModMenus;
 import net.mcreator.royalrealms.init.RoyalrealmsModItems;
 import net.mcreator.royalrealms.init.RoyalrealmsModFluids;
 import net.mcreator.royalrealms.init.RoyalrealmsModFluidTypes;
+import net.mcreator.royalrealms.init.RoyalrealmsModFeatures;
 import net.mcreator.royalrealms.init.RoyalrealmsModEntities;
 import net.mcreator.royalrealms.init.RoyalrealmsModEnchantments;
 import net.mcreator.royalrealms.init.RoyalrealmsModBlocks;
@@ -55,6 +56,7 @@ public class RoyalrealmsMod {
 		RoyalrealmsModEntities.REGISTRY.register(bus);
 		RoyalrealmsModEnchantments.REGISTRY.register(bus);
 		RoyalrealmsModTabs.REGISTRY.register(bus);
+		RoyalrealmsModFeatures.REGISTRY.register(bus);
 
 		RoyalrealmsModMobEffects.REGISTRY.register(bus);
 

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "royalrealms:invisible_ink"
+    },
+    {
+      "tag": "minecraft:glass"
+    }
+  ],
+  "result": {
+    "item": "royalrealms:spectral_block",
+    "count": 1
+  }
+}

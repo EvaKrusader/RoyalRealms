@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "royalrealms:block/gridworld_portal_ew"
+    },
+    "axis=x": {
+      "model": "royalrealms:block/gridworld_portal_ns"
+    }
+  }
+}

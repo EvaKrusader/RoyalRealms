@@ -15,6 +15,7 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.KeyMapping;
 
+import net.mcreator.royalrealms.network.SparkleMessage;
 import net.mcreator.royalrealms.network.GamemodeSwitcherMessage;
 import net.mcreator.royalrealms.RoyalrealmsMod;
 
@@ -33,10 +34,24 @@ public class RoyalrealmsModKeyMappings {
 			isDownOld = isDown;
 		}
 	};
+	public static final KeyMapping SPARKLE = new KeyMapping("key.royalrealms.sparkle", GLFW.GLFW_KEY_UNKNOWN, "key.categories.misc") {
+		private boolean isDownOld = false;
+
+		@Override
+		public void setDown(boolean isDown) {
+			super.setDown(isDown);
+			if (isDownOld != isDown && isDown) {
+				RoyalrealmsMod.PACKET_HANDLER.sendToServer(new SparkleMessage(0, 0));
+				SparkleMessage.pressAction(Minecraft.getInstance().player, 0, 0);
+			}
+			isDownOld = isDown;
+		}
+	};
 
 	@SubscribeEvent
 	public static void registerKeyMappings(RegisterKeyMappingsEvent event) {
 		event.register(GAMEMODE_SWITCHER);
+		event.register(SPARKLE);
 	}
 
 	@Mod.EventBusSubscriber({Dist.CLIENT})
@@ -45,6 +60,7 @@ public class RoyalrealmsModKeyMappings {
 		public static void onClientTick(TickEvent.ClientTickEvent event) {
 			if (Minecraft.getInstance().screen == null) {
 				GAMEMODE_SWITCHER.consumeClick();
+				SPARKLE.consumeClick();
 			}
 		}
 	}

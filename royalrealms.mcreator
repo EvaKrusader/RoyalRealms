@@ -308,32 +308,6 @@
       "path": "~/Recipes"
     },
     {
-      "name": "WheatBlockRecipeTop",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "wheat_block_recipe_top",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/royalrealms/recipes/wheat_block_recipe_top.json"
-        ]
-      },
-      "path": "~/Recipes"
-    },
-    {
-      "name": "WheatBlockRecipeBottom",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "wheat_block_recipe_bottom",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/royalrealms/recipes/wheat_block_recipe_bottom.json"
-        ]
-      },
-      "path": "~/Recipes"
-    },
-    {
       "name": "Enderlink",
       "type": "item",
       "compiles": true,
@@ -2870,66 +2844,6 @@
       "path": "~/Artifacts/BlackKnife"
     },
     {
-      "name": "EsotericKnowledge",
-      "type": "curiosbauble",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "esoteric_knowledge",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/royalrealms/item/EsotericKnowledgeItem.java",
-          "src/main/resources/assets/royalrealms/models/item/esoteric_knowledge.json"
-        ]
-      },
-      "path": "~/Curio/Knowledge"
-    },
-    {
-      "name": "EsotericKnowledgeBaubleIsEquipped",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "esoteric_knowledge_bauble_is_equipped",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/royalrealms/procedures/EsotericKnowledgeBaubleIsEquippedProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "itemstack",
-            "type": "itemstack"
-          }
-        ]
-      },
-      "path": "~/Curio/Knowledge"
-    },
-    {
-      "name": "EsotericKnowledgeTooltip",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "esoteric_knowledge_tooltip",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/royalrealms/procedures/EsotericKnowledgeTooltipProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "itemstack",
-            "type": "itemstack"
-          },
-          {
-            "name": "tooltip",
-            "type": "tooltip"
-          }
-        ]
-      },
-      "path": "~/Curio/Knowledge"
-    },
-    {
       "name": "BlackKnifeSwoon",
       "type": "procedure",
       "compiles": true,
@@ -3293,6 +3207,10 @@
           "src/main/java/net/mcreator/royalrealms/procedures/SpectralBlockBlockAddedProcedure.java"
         ],
         "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
           {
             "name": "x",
             "type": "number"
@@ -4679,7 +4597,7 @@
           "src/main/java/net/mcreator/royalrealms/block/GridstoneBlock.java"
         ]
       },
-      "path": "~/Blocks/Gridstone"
+      "path": "~/Gridworld/Gridstone"
     },
     {
       "name": "GridstoneTiles",
@@ -4696,7 +4614,7 @@
           "src/main/resources/data/royalrealms/loot_tables/blocks/gridstone_tiles.json"
         ]
       },
-      "path": "~/Blocks/Gridstone"
+      "path": "~/Gridworld/Gridstone"
     },
     {
       "name": "GridstoneBlock",
@@ -4713,7 +4631,7 @@
           "src/main/resources/assets/royalrealms/models/block/gridstone_block.json"
         ]
       },
-      "path": "~/Blocks/Gridstone"
+      "path": "~/Gridworld/Gridstone"
     },
     {
       "name": "GridlightTiles",
@@ -4730,7 +4648,7 @@
           "src/main/resources/data/royalrealms/loot_tables/blocks/gridlight_tiles.json"
         ]
       },
-      "path": "~/Blocks/Gridstone"
+      "path": "~/Gridworld/Gridstone"
     },
     {
       "name": "GridlightBlock",
@@ -4747,7 +4665,7 @@
           "src/main/resources/assets/royalrealms/models/block/gridlight_block.json"
         ]
       },
-      "path": "~/Blocks/Gridstone"
+      "path": "~/Gridworld/Gridstone"
     },
     {
       "name": "GridstoneSlab",
@@ -4766,7 +4684,7 @@
           "src/main/resources/assets/royalrealms/blockstates/gridstone_slab.json"
         ]
       },
-      "path": "~/Blocks/Gridstone"
+      "path": "~/Gridworld/Gridstone"
     },
     {
       "name": "GridstoneStairs",
@@ -4785,7 +4703,7 @@
           "src/main/resources/assets/royalrealms/models/block/gridstone_stairs_inner.json"
         ]
       },
-      "path": "~/Blocks/Gridstone"
+      "path": "~/Gridworld/Gridstone"
     },
     {
       "name": "GridstoneTilesSlab",
@@ -4804,7 +4722,7 @@
           "src/main/resources/assets/royalrealms/models/block/gridstone_tiles_slab_full.json"
         ]
       },
-      "path": "~/Blocks/Gridstone"
+      "path": "~/Gridworld/Gridstone"
     },
     {
       "name": "GridstoneTilesStairs",
@@ -4823,7 +4741,783 @@
           "src/main/resources/data/royalrealms/loot_tables/blocks/gridstone_tiles_stairs.json"
         ]
       },
-      "path": "~/Blocks/Gridstone"
+      "path": "~/Gridworld/Gridstone"
+    },
+    {
+      "name": "ShadowCloakWhileBaubleIsEquippedTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shadow_cloak_while_bauble_is_equipped_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/royalrealms/procedures/ShadowCloakWhileBaubleIsEquippedTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Curio/Shadow Cloak"
+    },
+    {
+      "name": "ShadowCloak",
+      "type": "curiosbauble",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "invisible_cloak",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/royalrealms/item/ShadowCloakItem.java",
+          "src/main/resources/assets/royalrealms/models/item/invisible_cloak.json"
+        ]
+      },
+      "path": "~/Curio/Shadow Cloak"
+    },
+    {
+      "name": "Baubles",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "baubles",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "InvisibleInk",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "invisible_ink",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/royalrealms/item/InvisibleInkItem.java",
+          "src/main/resources/assets/royalrealms/models/item/invisible_ink.json"
+        ]
+      },
+      "path": "~/Curio/Shadow Cloak"
+    },
+    {
+      "name": "ShadowCloakRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shadow_cloak_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/royalrealms/recipes/shadow_cloak_recipe.json"
+        ]
+      },
+      "path": "~/Curio/Shadow Cloak"
+    },
+    {
+      "name": "GrantRecipes",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grant_recipes",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/royalrealms/procedures/GrantRecipesProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "GrantRecipesOnFinishedUsing",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grant_recipes_on_finished_using",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/royalrealms/procedures/GrantRecipesOnFinishedUsingProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "GrantRecipesOnRightClickEntity",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grant_recipes_on_right_click_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/royalrealms/procedures/GrantRecipesOnRightClickEntityProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "GrantRecipesOnBreak",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grant_recipes_on_break",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/royalrealms/procedures/GrantRecipesOnBreakProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Gridworld",
+      "type": "dimension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gridworld",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/royalrealms/world/dimension/GridworldDimension.java",
+          "src/main/java/net/mcreator/royalrealms/world/teleporter/GridworldTeleporter.java",
+          "src/main/resources/data/royalrealms/dimension_type/gridworld.json",
+          "src/main/resources/assets/royalrealms/models/item/gridworld.json",
+          "src/main/java/net/mcreator/royalrealms/world/teleporter/GridworldPortalShape.java",
+          "src/main/resources/assets/royalrealms/models/block/gridworld_portal_ns.json",
+          "src/main/resources/data/royalrealms/dimension/gridworld.json",
+          "src/main/java/net/mcreator/royalrealms/block/GridworldPortalBlock.java",
+          "src/main/resources/assets/royalrealms/blockstates/gridworld_portal.json",
+          "src/main/resources/assets/royalrealms/models/block/gridworld_portal_ew.json",
+          "src/main/java/net/mcreator/royalrealms/item/GridworldItem.java"
+        ]
+      },
+      "path": "~/Gridworld"
+    },
+    {
+      "name": "SpectralBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spectral_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/royalrealms/recipes/spectral_block_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Gridportal",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gridportal",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/royalrealms/block/GridportalBlock.java",
+          "src/main/resources/assets/royalrealms/models/block/gridportal.json",
+          "src/main/resources/assets/royalrealms/blockstates/gridportal.json",
+          "src/main/resources/assets/royalrealms/models/item/gridportal.json",
+          "src/main/resources/data/royalrealms/worldgen/configured_feature/gridportal.json",
+          "src/main/resources/data/royalrealms/forge/biome_modifier/gridportal_biome_modifier.json",
+          "src/main/resources/data/royalrealms/loot_tables/blocks/gridportal.json",
+          "src/main/resources/data/royalrealms/worldgen/placed_feature/gridportal.json"
+        ]
+      },
+      "path": "~/Gridworld/Gridstone"
+    },
+    {
+      "name": "GridportalEntityWalksOnTheBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gridportal_entity_walks_on_the_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/royalrealms/procedures/GridportalEntityWalksOnTheBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Gridworld/Gridstone"
+    },
+    {
+      "name": "GridworldAdv",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gridworld_adv",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/royalrealms/advancements/gridworld_adv.json"
+        ]
+      },
+      "path": "~/Gridworld"
+    },
+    {
+      "name": "GridworldPlayerEntersDimension",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gridworld_player_enters_dimension",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/royalrealms/procedures/GridworldPlayerEntersDimensionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Gridworld"
+    },
+    {
+      "name": "GridglassBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gridglass_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/royalrealms/block/GridglassBlockBlock.java",
+          "src/main/resources/data/royalrealms/loot_tables/blocks/gridglass_block.json",
+          "src/main/resources/assets/royalrealms/blockstates/gridglass_block.json",
+          "src/main/resources/assets/royalrealms/models/block/gridglass_block.json",
+          "src/main/resources/assets/royalrealms/models/item/gridglass_block.json"
+        ]
+      },
+      "path": "~/Gridworld/Gridstone"
+    },
+    {
+      "name": "Gridglass",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gridglass",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/royalrealms/blockstates/gridglass.json",
+          "src/main/resources/assets/royalrealms/models/item/gridglass.json",
+          "src/main/resources/assets/royalrealms/models/block/gridglass.json",
+          "src/main/java/net/mcreator/royalrealms/block/GridglassBlock.java",
+          "src/main/resources/data/royalrealms/loot_tables/blocks/gridglass.json"
+        ]
+      },
+      "path": "~/Gridworld/Gridstone"
+    },
+    {
+      "name": "GridglassTiles",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gridglass_tiles",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/royalrealms/loot_tables/blocks/gridglass_tiles.json",
+          "src/main/resources/assets/royalrealms/blockstates/gridglass_tiles.json",
+          "src/main/resources/assets/royalrealms/models/item/gridglass_tiles.json",
+          "src/main/java/net/mcreator/royalrealms/block/GridglassTilesBlock.java",
+          "src/main/resources/assets/royalrealms/models/block/gridglass_tiles.json"
+        ]
+      },
+      "path": "~/Gridworld/Gridstone"
+    },
+    {
+      "name": "GridworldTab",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gridworld_tab",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Gridworld/Gridstone"
+    },
+    {
+      "name": "SparkleOnKeyPressed",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sparkle_on_key_pressed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/royalrealms/procedures/SparkleOnKeyPressedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Dev/DevGui"
+    },
+    {
+      "name": "Sparkle",
+      "type": "keybind",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sparkle",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/royalrealms/network/SparkleMessage.java"
+        ]
+      },
+      "path": "~/Dev/DevGui"
+    },
+    {
+      "name": "DevGUI",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dev_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/royalrealms/world/inventory/DevGUIMenu.java",
+          "src/main/java/net/mcreator/royalrealms/client/gui/DevGUIScreen.java",
+          "src/main/java/net/mcreator/royalrealms/network/DevGUIButtonMessage.java"
+        ]
+      },
+      "path": "~/Dev/DevGui"
+    },
+    {
+      "name": "DevGUISurvival",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dev_gui_survival",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/royalrealms/procedures/DevGUISurvivalProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Dev/DevGui"
+    },
+    {
+      "name": "DevGUICreative",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dev_gui_creative",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/royalrealms/procedures/DevGUICreativeProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Dev/DevGui"
+    },
+    {
+      "name": "DevGUISpectator",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dev_gui_spectator",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/royalrealms/procedures/DevGUISpectatorProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Dev/DevGui"
+    },
+    {
+      "name": "GridstoneBlockTile",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gridstone_block_tile",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/royalrealms/models/block/gridstone_block_tile.json",
+          "src/main/java/net/mcreator/royalrealms/block/GridstoneBlockTileBlock.java",
+          "src/main/resources/assets/royalrealms/models/item/gridstone_block_tile.json",
+          "src/main/resources/data/royalrealms/loot_tables/blocks/gridstone_block_tile.json",
+          "src/main/resources/assets/royalrealms/blockstates/gridstone_block_tile.json"
+        ]
+      },
+      "path": "~/Gridworld/Gridstone"
+    },
+    {
+      "name": "MicrogridAdv",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "microgrid_adv",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/royalrealms/advancements/microgrid_adv.json"
+        ]
+      },
+      "path": "~/Gridworld"
+    },
+    {
+      "name": "TilelandsAdv",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tilelands_adv",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/royalrealms/advancements/tilelands_adv.json"
+        ]
+      },
+      "path": "~/Gridworld"
+    },
+    {
+      "name": "Microgrid",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "microgrid",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/royalrealms/worldgen/placed_feature/microgrid_tree.json",
+          "src/main/resources/data/royalrealms/worldgen/configured_feature/microgrid_tree.json",
+          "src/main/resources/data/royalrealms/worldgen/biome/microgrid.json"
+        ]
+      },
+      "path": "~/Gridworld"
+    },
+    {
+      "name": "Tilelands",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tilelands",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/royalrealms/worldgen/placed_feature/tilelands_tree.json",
+          "src/main/resources/data/royalrealms/worldgen/configured_feature/tilelands_tree.json",
+          "src/main/resources/data/royalrealms/worldgen/biome/tilelands.json"
+        ]
+      },
+      "path": "~/Gridworld"
+    },
+    {
+      "name": "CorruptedBlade",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupted_blade",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/royalrealms/models/item/corrupted_blade.json",
+          "src/main/java/net/mcreator/royalrealms/item/CorruptedBladeItem.java"
+        ]
+      },
+      "path": "~/Gridworld"
+    },
+    {
+      "name": "CorruptedBladeRightclickedOnBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupted_blade_rightclicked_on_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/royalrealms/procedures/CorruptedBladeRightclickedOnBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Gridworld"
+    },
+    {
+      "name": "CorruptedBladeAdv",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupted_blade_adv",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/royalrealms/advancements/corrupted_blade_adv.json"
+        ]
+      },
+      "path": "~/Gridworld"
+    },
+    {
+      "name": "LookAtGridPortal",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "look_at_grid_portal",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/royalrealms/procedures/LookAtGridPortalProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Gridworld"
+    },
+    {
+      "name": "GridOverlay",
+      "type": "overlay",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grid_overlay",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/royalrealms/client/screens/GridOverlayOverlay.java"
+        ]
+      },
+      "path": "~/Gridworld"
+    },
+    {
+      "name": "CorruptedLiquid",
+      "type": "fluid",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupted_liquid",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/royalrealms/fluid/types/CorruptedLiquidFluidType.java",
+          "src/main/java/net/mcreator/royalrealms/fluid/CorruptedLiquidFluid.java",
+          "src/main/java/net/mcreator/royalrealms/block/CorruptedLiquidBlock.java",
+          "src/main/resources/assets/royalrealms/models/item/corrupted_liquid_bucket.json",
+          "src/main/resources/assets/royalrealms/blockstates/corrupted_liquid.json",
+          "src/main/java/net/mcreator/royalrealms/item/CorruptedLiquidItem.java",
+          "src/main/resources/assets/royalrealms/models/block/corrupted_liquid.json"
+        ]
+      },
+      "path": "~/Gridworld"
+    },
+    {
+      "name": "Iris",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iris",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Paintings"
+    },
+    {
+      "name": "GridworldMobSpawn",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gridworld_mob_spawn",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/royalrealms/procedures/GridworldMobSpawnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Gridworld"
+    },
+    {
+      "name": "TelosteelOreFeatureAdditionalGenerationCondition",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "telosteel_ore_feature_additional_generation_condition",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/royalrealms/procedures/TelosteelOreFeatureAdditionalGenerationConditionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Ores/Telosteel"
+    },
+    {
+      "name": "TelosteelOreFeature",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "telosteel_ore_feature",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/royalrealms/worldgen/configured_feature/telosteel_ore_feature.json",
+          "src/main/resources/data/royalrealms/worldgen/placed_feature/telosteel_ore_feature.json",
+          "src/main/resources/data/royalrealms/forge/biome_modifier/telosteel_ore_feature_biome_modifier.json",
+          "src/main/java/net/mcreator/royalrealms/world/features/TelosteelOreFeatureFeature.java"
+        ]
+      },
+      "path": "~/Ores/Telosteel"
     }
   ],
   "variable_elements": [
@@ -4904,6 +5598,12 @@
       "type": "number",
       "scope": "player_persistent",
       "value": "0"
+    },
+    {
+      "name": "cloakCooldown",
+      "type": "logic",
+      "scope": "player_lifetime",
+      "value": "false"
     }
   ],
   "sound_elements": [
@@ -5185,6 +5885,7 @@
       "CUSTOM:MusicDiscTortoiseBeetle"
     ],
     "BLOCKS:minecraft:replaceable": [
+      "~CUSTOM:CorruptedLiquid",
       "~CUSTOM:FixHole"
     ],
     "BLOCKS:minecraft:valid_spawn": [],
@@ -5276,6 +5977,9 @@
     "BIOMES:minecraft:is_overworld": [
       "CUSTOM:Olympia"
     ],
+    "BLOCKS:minecraft:overworld_carver_replaceables": [
+      "~Blocks.AIR"
+    ],
     "ITEMS:minecraft:artifacts": [
       "CUSTOM:BlackKnife",
       "CUSTOM:AngelShot"
@@ -5312,6 +6016,26 @@
       "~CUSTOM:TelosteelBlock",
       "~CUSTOM:TelosteelOre"
     ],
+    "ITEMS:minecraft:glass": [
+      "Blocks.GLASS",
+      "Blocks.TINTED_GLASS",
+      "Blocks.STAINED_GLASS#0",
+      "Blocks.STAINED_GLASS#1",
+      "Blocks.STAINED_GLASS#2",
+      "Blocks.STAINED_GLASS#3",
+      "Blocks.STAINED_GLASS#4",
+      "Blocks.STAINED_GLASS#5",
+      "Blocks.STAINED_GLASS#6",
+      "Blocks.STAINED_GLASS#7",
+      "Blocks.STAINED_GLASS#8",
+      "Blocks.STAINED_GLASS#9",
+      "Blocks.STAINED_GLASS#10",
+      "Blocks.STAINED_GLASS#11",
+      "Blocks.STAINED_GLASS#12",
+      "Blocks.STAINED_GLASS#13",
+      "Blocks.STAINED_GLASS#14",
+      "Blocks.STAINED_GLASS#15"
+    ],
     "ITEMS:minecraft:shovels": [
       "~CUSTOM:TelosteelShovel"
     ],
@@ -5323,24 +6047,43 @@
       "Blocks.TORCH"
     ]
   },
-  "tab_element_order": {},
+  "tab_element_order": {
+    "CUSTOM:GridworldTab": [
+      "Gridstone",
+      "GridstoneTiles",
+      "GridstoneBlock",
+      "GridlightTiles",
+      "GridlightBlock",
+      "GridstoneSlab",
+      "GridstoneStairs",
+      "GridstoneTilesSlab",
+      "GridstoneTilesStairs",
+      "GridglassBlock",
+      "Gridglass",
+      "GridglassTiles",
+      "Gridportal",
+      "GridstoneBlockTile",
+      "CorruptedBlade",
+      "CorruptedLiquid"
+    ]
+  },
   "language_map": {
     "en_us": {
       "block.royalrealms.gridstone": "Gridstone",
       "painting.royalrealms.ice_cube.author": "Lilypad",
       "advancements.neural_augment.descr": "Install Enderlink",
       "painting.royalrealms.ice_cube.title": "Ice Cube",
-      "block.royalrealms.fix_hole": "Fix Hole",
-      "subtitles.record_tv_time": "",
       "item.royalrealms.black_knife": "Black Knife",
+      "subtitles.record_tv_time": "",
+      "block.royalrealms.fix_hole": "Fix Hole",
       "fluid.royalrealms.fix_hole": "Fix Hole",
       "enchantment.royalrealms.replanter": "Replanter",
       "item.royalrealms.music_disc_black_knife": "Music Disc",
       "block.royalrealms.brightcore_block": "Block of Brightcore",
       "item.royalrealms.music_disc_weevil": "§2Music Disc",
       "item.royalrealms.music_disc_core.desc": "toby fox - CORE",
-      "death.attack.enderlink_damage.item": "%1$s was killed by %2$s using %3$s",
       "block.royalrealms.obsidian_glass": "Obsidian Glass",
+      "death.attack.enderlink_damage.item": "%1$s was killed by %2$s using %3$s",
       "painting.royalrealms.lcl.title": "Near the LCL Sea",
       "block.royalrealms.rainbow": "Rainbow",
       "item.royalrealms.music_disc_spiny_spider.desc": "camiidae - spiny spider",
@@ -5353,9 +6096,11 @@
       "item.royalrealms.music_disc_tortoise_beetle": "§2Music Disc",
       "item.royalrealms.music_disc_uwah_so_temperate.desc": "Toby Fox - Uwa!! So Temperate♫",
       "item.royalrealms.fluorite_necklace": "Fluorite Necklace",
+      "gui.royalrealms.dev_gui.button_survival": "Survival",
       "item.royalrealms.music_disc_bumblebee": "§2Music Disc",
       "gui.royalrealms.lore_gui.CustomName": "Sign with custom name?",
       "painting.royalrealms.mist.title": "Mist",
+      "advancements.gridworld_adv.title": "Gridworld",
       "advancements.black_knife_adv_10.descr": "Swoon 10 enemies",
       "item.royalrealms.music_disc_born": "Music Disc",
       "death.attack.skull_curse_damage.player": "%1$s died whilst trying to escape %2$s",
@@ -5372,17 +6117,20 @@
       "painting.royalrealms.monochrome.title": "Monochrome",
       "painting.royalrealms.deer.author": "EvaKrusader",
       "gui.royalrealms.lore_gui.Lore": "Add lore",
+      "item.royalrealms.corrupted_liquid_bucket": "Corrupted Liquid Bucket",
       "block.royalrealms.olympian_stone": "Olympian Stone",
       "item.royalrealms.fall_breaker_charm": "Fall Breaker Charm",
-      "subtitles.record_healing": "",
       "block.royalrealms.vantablack": "Vantablack",
+      "subtitles.record_healing": "",
       "item.royalrealms.music_disc_7l_011.desc": "Asutenki - 7L011",
       "item.royalrealms.biryllium": "Biryllium",
       "subtitles.record_butterfly": "",
       "item.royalrealms.telosteel_axe": "Telosteel Axe",
       "item.royalrealms.experience_amulet": "Experience Amulet",
       "death.attack.adrenaline_damage.player": "%1$s died whilst trying to escape %2$s",
+      "item.royalrealms.gridworld": "Gridworld Portal Igniter",
       "item.royalrealms.hole_switch": "Hole Switch",
+      "block.royalrealms.gridglass": "Gridglass",
       "item.royalrealms.tungsten": "Tungsten Ingot",
       "death.attack.skull_curse_damage": "%1$s died",
       "subtitles.record_world": "",
@@ -5411,24 +6159,32 @@
       "painting.royalrealms.nefarious.author": "EvaKrusader",
       "painting.royalrealms.morning.author": "Lilypad",
       "item.royalrealms.biryllium_axe": "Pure Biryllium Axe",
+      "advancements.corrupted_blade_adv.title": "Corrupted Blade",
+      "item.royalrealms.invisible_ink": "Invisible Ink",
       "item.royalrealms.raw_tungsten": "Raw Tungsten",
       "item.royalrealms.music_disc_healing.desc": "Secamuno - Healing (Album)",
       "item.royalrealms.music_disc_isopod.desc": "camiidae - isopod",
       "advancements.royal_realms.descr": "Be cool enough to own one of the four copies of this mod",
       "advancements.make_history.descr": "Add lore to an item",
       "block.royalrealms.fluorite_block": "Block of Fluorite",
+      "block.royalrealms.gridstone_block_tile": "Gridstone Block",
       "painting.royalrealms.morning.title": "Morning",
       "death.attack.divine": "%1$s died",
+      "block.royalrealms.gridglass_block": "Gridglass Block",
       "block.royalrealms.gridstone_tiles_stairs": "Gridstone Tiles Stairs",
       "painting.royalrealms.monochrome.author": "Lilypad",
+      "advancements.microgrid_adv.title": "Microgrid",
       "advancements.artifact.descr": "Obtain an artifact",
       "advancements.freedom.descr": "Remove your Enderlink",
       "painting.royalrealms.confused.title": "Confused",
       "advancements.adrenaline_hard_adv.title": "Adrenaline",
+      "gui.royalrealms.grid_overlay.label_not_touch": "not touch unknown things",
       "trim_material.royalrealms.brightcore_trim_material": "Brightcore",
       "subtitles.record_tortoise_beetle": "",
       "trim_pattern.royalrealms.lustar_trim": "Lust Armor Trim",
+      "gui.royalrealms.dev_gui.button_creative": "Creative",
       "item.royalrealms.fix_hole_bucket": "Fix Hole Bucket",
+      "advancements.tilelands_adv.descr": "Discover the Tilelands",
       "item.royalrealms.telosteel_armor_boots": "Telosteel Boots",
       "item.royalrealms.music_disc_core": "§4Music Disc",
       "painting.royalrealms.neon.author": "Lilypad",
@@ -5443,7 +6199,10 @@
       "advancements.entomologist.descr": "Get all the music discs from the \"music for bugs\" series",
       "item.royalrealms.music_disc_isopod": "§2Music Disc",
       "item.royalrealms.wishing_star": "Wishing Star",
+      "gui.royalrealms.dev_gui.button_spectator": "Spectator",
+      "block.royalrealms.gridglass_tiles": "Gridglass Tiles",
       "block.royalrealms.gridstone_slab": "Gridstone Slab",
+      "painting.royalrealms.iris.author": "EvaKrusader",
       "item.royalrealms.music_disc_moth": "§2Music Disc",
       "subtitles.enderlink_msg_rare": "Enderlink notification",
       "block.royalrealms.gridstone_stairs": "Gridstone Stairs",
@@ -5460,14 +6219,19 @@
       "item.royalrealms.enderlink": "Enderlink",
       "item.royalrealms.starlite_dust": "Starlite",
       "painting.royalrealms.hq.author": "Linkstar",
+      "gui.royalrealms.grid_overlay.label_without_emptying": "without emptying",
       "item.royalrealms.telosteel_shovel": "Telosteel Shovel",
       "advancements.paper_printer.title": "It doesn\u0027t grow on trees...",
       "item.royalrealms.music_disc_butterfly.desc": "camiidae - butterfly",
       "item.royalrealms.music_disc_born.desc": "Secamuno - Born (Album)",
+      "advancements.gridworld_adv.descr": "Enter the Gridworld",
       "item.royalrealms.music_disc_glowing_snow.desc": "Toby Fox - Glowing Snow",
+      "advancements.tilelands_adv.title": "Tilelands",
       "block.royalrealms.gridlight_tiles": "Gridlight Tiles",
       "trim_material.royalrealms.fluorite_trim_material": "Fluorite",
       "death.attack.swoon.player": "%1$s died whilst trying to escape %2$s",
+      "biome.royalrealms.tilelands": "Tilelands",
+      "advancements.corrupted_blade_adv.descr": "Open a Gridworld portal",
       "advancements.all_bark.descr": "Strip 50 logs",
       "painting.royalrealms.midnight_sky.author": "Lilypad",
       "painting.royalrealms.breeze.author": "Lilypad",
@@ -5476,12 +6240,14 @@
       "painting.royalrealms.eva_freaky_link.author": "ItzLinkstar_",
       "item.royalrealms.weird_trim_item": "Smithing Template",
       "item.royalrealms.brightcore": "Brightcore",
+      "gui.royalrealms.grid_overlay.label_empty": "You should",
       "painting.royalrealms.eva_freaky_bread.title": "Freaky Eva",
       "painting.royalrealms.nefarious.title": "Nefarious Creature",
       "item.royalrealms.player_item": "Player Item",
       "subtitles.record_treehopper": "",
       "painting.royalrealms.overlook.author": "Lilypad",
       "trim_material.royalrealms.biryllium_material": "Biryllium",
+      "block.royalrealms.corrupted_liquid": "Corrupted Liquid",
       "death.attack.divine.player": "%1$s died whilst trying to escape %2$s",
       "item.royalrealms.lust_trim_item": "Smithing Template",
       "item.royalrealms.music_disc_moth.desc": "camiidae - moth",
@@ -5490,6 +6256,7 @@
       "painting.royalrealms.deer.title": "Deer",
       "effect.royalrealms.skull_curse_effect": "Skull Curse",
       "item.royalrealms.angel_shot": "Angel Shot",
+      "item.royalrealms.corrupted_blade": "§5Corrupted Blade",
       "item.royalrealms.music_disc_healing": "Music Disc",
       "death.attack.swoon.item": "%1$s was killed by %2$s using %3$s",
       "advancements.adrenaline_adv.descr": "Persist through your depleting adrenaline",
@@ -5501,6 +6268,7 @@
       "block.royalrealms.telosteel_block": "Block of Telosteel",
       "painting.royalrealms.bioluminescence.author": "Lilypad",
       "gui.royalrealms.lore_gui.SignUsername": "Sign with username?",
+      "key.royalrealms.sparkle": "Sparkle",
       "item.royalrealms.telosteel_ingot": "Telosteel",
       "subtitles.record_7l011": "",
       "painting.royalrealms.eva_freaky_bread.author": "BreadFiend",
@@ -5510,12 +6278,15 @@
       "painting.royalrealms.glitch.author": "Lilypad",
       "painting.royalrealms.house.author": "Lilypad",
       "item.royalrealms.phasing_can": "Phasing Can",
+      "gui.royalrealms.grid_overlay.label_your_pockets_first": "your pockets first",
       "painting.royalrealms.glitch.title": "Glitch",
       "item.royalrealms.biryllium_armor_boots": "Biryllium Boots",
       "item.royalrealms.music_disc_bumblebee.desc": "camiidae - bumblebee",
       "subtitles.disc_sunlight_blocked": "",
       "enchantment.royalrealms.magnet": "Magnet",
+      "item_group.royalrealms.gridworld_tab": "Gridworld",
       "advancements.freedom.title": "Freedom",
+      "fluid.royalrealms.corrupted_liquid": "Corrupted Liquid",
       "painting.royalrealms.iron_doors.author": "Lilypad",
       "gui.royalrealms.lore_gui.button_engrave": "Engrave",
       "block.royalrealms.fluorite_ore": "Fluorite Ore",
@@ -5524,23 +6295,26 @@
       "item.royalrealms.paper_copy_patent": "Sapling Patent",
       "painting.royalrealms.eva_freaky_link.title": "Freaky Eva",
       "biome.royalrealms.olympia": "Olympia",
+      "advancements.microgrid_adv.descr": "Discover the Microgrid",
       "advancements.black_knife_adv_10.title": "Roaring",
       "block.royalrealms.starlite_block": "Block of Starlite",
       "item.royalrealms.chastity_cage_black": "Chastity Cage Black",
       "subtitles.record_born": "",
       "painting.royalrealms.hq.title": "HQ",
       "painting.royalrealms.mist.author": "Lilypad",
+      "biome.royalrealms.microgrid": "Microgrid",
       "subtitles.swoon": "",
       "block.royalrealms.tungsten_block": "Block of Tungsten",
       "item.royalrealms.music_disc_treehopper": "§2Music Disc",
       "advancements.neural_augment.title": "Neural Augmentation",
       "block.royalrealms.brightcore_ore": "Brightcore Ore",
+      "block.royalrealms.gridportal": "Gridportal",
       "enchantment.royalrealms.hot_touch": "Hot Touch",
-      "item.royalrealms.esoteric_knowledge": "Esoteric Knowledge",
       "painting.royalrealms.lactose.author": "Linkstar_",
       "painting.royalrealms.vitrail.title": "Vitrail",
       "painting.royalrealms.whore.title": "Whore",
       "item.royalrealms.telosteel_armor_helmet": "Telosteel Helmet",
+      "item.royalrealms.invisible_cloak": "Invisible Cloak",
       "subtitles.crystal_break": "",
       "subtitles.record_moth": "",
       "item.royalrealms.music_disc_glowing_snow": "Music Disc",
@@ -5566,6 +6340,7 @@
       "painting.royalrealms.lexactose.author": "EvaKrusader",
       "advancements.black_knife_adv.title": "Black Knife",
       "item.royalrealms.music_disc_butterfly": "§2Music Disc",
+      "item_group.royalrealms.baubles": "Baubles",
       "painting.royalrealms.midnight_sky.title": "Midnight Sky",
       "advancements.life_experience.title": "Life Experience",
       "item.royalrealms.cursed_skull": "Cursed Skull",
@@ -5598,6 +6373,7 @@
       "painting.royalrealms.confused.author": "Linkstar",
       "subtitles.record_dissolving_dark_clouds": "",
       "subtitles.record_uwah_so_temperate": "",
+      "painting.royalrealms.iris.title": "Iris",
       "subtitles.record_weevil": "",
       "block.royalrealms.neonium_block": "Block of Neonium",
       "painting.royalrealms.jinx_friend.title": "Egg Friend",
@@ -5634,6 +6410,10 @@
           {
             "name": "Knowledge",
             "children": []
+          },
+          {
+            "name": "Shadow Cloak",
+            "children": []
           }
         ]
       },
@@ -5668,7 +6448,12 @@
       },
       {
         "name": "Dev",
-        "children": []
+        "children": [
+          {
+            "name": "DevGui",
+            "children": []
+          }
+        ]
       },
       {
         "name": "Effects",
@@ -5762,10 +6547,6 @@
           {
             "name": "SpectralBlocks",
             "children": []
-          },
-          {
-            "name": "Gridstone",
-            "children": []
           }
         ]
       },
@@ -5826,6 +6607,15 @@
           },
           {
             "name": "Brightcore",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Gridworld",
+        "children": [
+          {
+            "name": "Gridstone",
             "children": []
           }
         ]
